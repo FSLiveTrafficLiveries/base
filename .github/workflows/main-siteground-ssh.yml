@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: main siteground ssh publish CI
+name: main siteground only ssh publish CI
 
 # Controls when the workflow will run
 on:
