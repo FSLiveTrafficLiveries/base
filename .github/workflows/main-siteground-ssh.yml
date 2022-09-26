@@ -29,7 +29,7 @@ jobs:
 
       - name: Run FBW Simulations Fragmenter
         run: |
-          npm install --save @flybywiresim/fragmenter@0.7.0-alpha.20
+          npm install --save @flybywiresim/fragmenter@0.7.0
           node scripts/fragment.js
       
       - name: Build releases.yaml file
