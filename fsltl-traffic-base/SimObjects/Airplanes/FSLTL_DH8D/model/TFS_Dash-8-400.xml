@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{f407b5e8-6f64-49c4-adb0-bf30cda3415b}" version="1.1">
+  <LODS>
+    <LOD minSize="20" ModelFile="TFS_Dash-8-400_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="TFS_Dash-8-400_LOD1.gltf"/>
+    <LOD minSize="3" ModelFile="TFS_Dash-8-400_LOD2.gltf"/>
+    <LOD minSize="1" ModelFile="TFS_Dash-8-400_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="TFS_Dash-8-400_LOD4.gltf"/>
+
+  </LODS>
+  <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="120" type="Sim" typeParam="AutoPlay" />
+  <Animation name="c_tire_blurred_key" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" typeParam2="c_tire_blurred_key" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" typeparam2="l_gear" typeparam="AutoPlay" length="125" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="l_tire_blurred_key" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop_anim" guid="528339be-18a4-40a0-9ea5-2e47af4419da" length="100" type="Sim" typeParam2="prop_anim" typeParam="AutoPlay" />
+  <Animation name="prop0_blurred" guid="a30d1108-0e02-4e78-a41a-4c072a815e90" typeParam2="prop0_blurred" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop0_slow" guid="b964023e-998f-40bf-9875-19f21c3b8031" typeParam2="prop0_slow" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop0_still" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" typeParam2="prop0_still" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop1_blurred" guid="f97a46e1-0994-476f-939b-cffed355a4e8" typeParam2="prop1_blurred" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop1_slow" guid="044d8822-f2f7-4906-b60b-435d977b4b59" typeParam2="prop1_slow" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="prop1_still" guid="b32f1e35-0f79-463f-84a3-896ccfa33ad7" typeParam2="prop1_still" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="90" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_tire_blurred_key" guid="aa67f522-28c5-4d09-a246-2823d34a686b" typeParam2="r_tire_blurred_key" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" length="100" type="Sim" typeParam2="tire_anim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>c_gear</Name>
+    <AnimLength>120</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:0</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>l_gear</Name>
+    <Copy>c_gear</Copy>
+    <AnimLength>125</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:1</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>r_gear</Name>
+    <Copy>c_gear</Copy>
+    <AnimLength>90</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:2</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop_anim</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Bias>0</Bias>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop0_still</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop0_slow</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+            (A:PROP MAX RPM PERCENT:1, percent) 6.25 &gt;
+            if{
+            (A:PROP MAX RPM PERCENT:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+                    } els{ 0 }
+                </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop0_blurred</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+            (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+                </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop1_still</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop1_slow</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &gt;
+          if{
+          (A:PROP MAX RPM PERCENT:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
+          } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>prop1_blurred</Name>
+    <Copy>prop_anim</Copy>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_00" guid="f5d81e0e-0238-43a6-b169-2a7df682295a" typeParam2="custom_anim_SPOILERS_LEFT_POSITION_00" length="100" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_SPOILERS_LEFT_POSITION_00</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+	    <Code>
+           	(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 100 } } els{ 0 }
+        </Code>
+		<Lag>0.5</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_01" guid="f5d81e0e-0238-43a6-b169-2a7df682294a" typeParam2="custom_anim_SPOILERS_RIGHT_POSITION_01" length="100" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_SPOILERS_RIGHT_POSITION_01</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+	    <Code>
+           	(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 100 } } els{ 0 }
+        </Code>
+		<Lag>0.5</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RADIO_HEIGHT_02" guid="fb9393db-cdac-4d40-bb2f-ad4b4eee1066" typeParam2="custom_anim_RADIO_HEIGHT_02" length="100" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RADIO_HEIGHT_02</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+            (A:RADIO HEIGHT,feet) 2400 &gt; if{ 1 (&gt;G:Var1) } (A:LIGHT BEACON,bool) if{ (G:Var1) 0 == if{ 43 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT,percent) } } els{ 0 (&gt;G:Var1) }
+      </Code>
+        <Lag>10</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Behaviors>
+		<Include ModelBehaviorFile="Asobo\Common.xml"/>
+		<Include Path="Asobo\Exterior.xml"/>
+    <Include ModelBehaviorFile="Asobo\Common.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Wheels">
+      <!--<UseTemplate Name="FSLTL_Steering">
+        <ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_09</ANIM_NAME>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEGACY_PARAM_1>4.5</LEGACY_PARAM_1>
+        <LEGACY_PARAM_2>5</LEGACY_PARAM_2>
+      </UseTemplate>!-->
+      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        <ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.5</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>74.77</DISTANCE>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        <ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>20.52</DISTANCE>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        <ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>-20.52</DISTANCE>
+      </UseTemplate>
+      </Component>
+  </Behaviors>
+  </ModelInfo>

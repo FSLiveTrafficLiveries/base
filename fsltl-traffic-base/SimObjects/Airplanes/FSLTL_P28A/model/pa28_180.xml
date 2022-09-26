@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{0b2c6e38-4d93-40e6-a563-45e2714459cd}" version="1.1">
+  <LODS>
+    <LOD minSize="50" ModelFile="pa28_180_LOD0.gltf"/>
+    <LOD minSize="25" ModelFile="pa28_180_LOD1.gltf"/>
+    <LOD minSize="5" ModelFile="pa28_180_LOD2.gltf"/>
+    <LOD minSize="1" ModelFile="pa28_180_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="pa28_180_LOD4.gltf"/>
+  </LODS>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:0</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_CENTER_STEER_ANGLE_03" guid="bc935f16-43cd-4046-8ef3-06e44a5940ab" length="200" type="Sim" typeParam2="custom_anim_GEAR_CENTER_STEER_ANGLE_03" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_CENTER_STEER_ANGLE_03</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+		(A:SIM ON GROUND, bool) 0 == if{ 200 }
+		if{ (A:VELOCITY BODY Z, knots) 0 &lt;= { 200 }
+		els{ (A:ROTATION VELOCITY BODY Y, Feet) 15 * 200 + }
+        	</Code>
+        <Lag>500</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_EXIT_OPEN_0_04" guid="9b5ed86c-b114-4924-b5c9-163a99042f2f" length="100" type="Sim" typeParam2="custom_anim_EXIT_OPEN_0_04" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_EXIT_OPEN_0_04</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>EXIT OPEN:0</Variable>
+          <Units>percent</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_ELEVATOR_DEFLECTION_05" guid="22dbdd8d-9dba-4ec5-8bd9-02274fec98f7" length="100" type="Sim" typeParam2="custom_anim_ELEVATOR_DEFLECTION_05" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_ELEVATOR_DEFLECTION_05</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>ELEVATOR DEFLECTION</Variable>
+          <Units>grads</Units>
+          <Scale>1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_AILERON_LEFT_DEFLECTION_06" guid="622f7859-7c22-462c-b763-4ba2cd8096e7" length="100" type="Sim" typeParam2="custom_anim_AILERON_LEFT_DEFLECTION_06" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_AILERON_LEFT_DEFLECTION_06</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>AILERON LEFT DEFLECTION</Variable>
+          <Units>grads</Units>
+          <Scale>-1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_07" guid="db029e5c-1a48-42d5-8290-ef098dfabb4f" length="100" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_07" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_07</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 25 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 20 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 90 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+        </Code>
+        <Lag>10</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_08" guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="100" type="Sim" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_08" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_08</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_09" guid="b964023e-998f-40bf-9875-19f21c3b8031" length="100" type="Sim" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_09" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_09</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_10" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="100" type="Sim" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_10" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_10</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_AILERON_RIGHT_DEFLECTION_11" guid="0fdc9871-c378-4889-9feb-294083d5e7ed" length="100" type="Sim" typeParam2="custom_anim_AILERON_RIGHT_DEFLECTION_11" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_AILERON_RIGHT_DEFLECTION_11</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>AILERON RIGHT DEFLECTION</Variable>
+          <Units>grads</Units>
+          <Scale>-1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_12" guid="3849e47f-9088-4699-8959-ec0c54df8015" length="100" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_12" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_12</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+           	(A:TRAILING EDGE FLAPS RIGHT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 25 &lt; if{ (A:TRAILING EDGE FLAPS RIGHT PERCENT, percent) 20 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1000 &lt; if{ (A:TRAILING EDGE FLAPS RIGHT PERCENT, percent) 90 } els{ (A:TRAILING EDGE FLAPS RIGHT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:TRAILING EDGE FLAPS RIGHT PERCENT, percent) } }
+        </Code>
+        <Lag>10</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_13" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_13" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_2_13</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:2</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_RUDDER_DEFLECTION_14" guid="fdd4f357-47a2-4d4a-80db-846a5b1729ba" length="100" type="Sim" typeParam2="custom_anim_RUDDER_DEFLECTION_14" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_RUDDER_DEFLECTION_14</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>RUDDER DEFLECTION</Variable>
+          <Units>grads</Units>
+          <Scale>1</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_ELEVATOR_TRIM_PCT_15" guid="e682662a-3af5-4afe-a99b-a26d45560d67" length="100" type="Sim" typeParam2="custom_anim_ELEVATOR_TRIM_PCT_15" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_ELEVATOR_TRIM_PCT_15</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>ELEVATOR TRIM PCT</Variable>
+          <Units>percent</Units>
+          <Scale>0.5</Scale>
+          <Bias>50</Bias>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Behaviors>
+
+  </Behaviors>
+</ModelInfo>

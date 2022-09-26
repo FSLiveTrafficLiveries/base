@@ -1,0 +1,15 @@
+{
+  "name": "fsltl-fragmentor",
+  "version": "1.1.1",
+  "description": "Installer scripts",
+  "main": "fragment.js",
+  "bin": "fragment.js",
+  "scripts": {
+    "build": "node scripts.js"
+  },
+  "author": "FSLTL Dev Team",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@flybywiresim/fragmenter": "^0.7.0-alpha.20"
+  }
+}

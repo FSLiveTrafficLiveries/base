@@ -1,0 +1,945 @@
+
+<!-- ####################################################################### -->
+<!-- ######################### FX Templates ######################## -->
+<!-- ####################################################################### -->
+
+
+<ModelBehaviors>
+	<!--
+		Base FX Template ---------- MODIFIED FOR FSLTL AI TRAFFIC -------------
+		Must be used in a component that specifies a Node.
+
+		Required parameter:
+			FX_GUID
+			FX_CODE
+	-->
+	<Template Name = "FSLTL_ASOBO_GT_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID></FX_GUID>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_OFFSET_X>0.0</FX_OFFSET_X>
+			<FX_OFFSET_Y>0.0</FX_OFFSET_Y>
+			<FX_OFFSET_Z>0.0</FX_OFFSET_Z>
+			<FX_ROTATION_OFFSET_P>0.0</FX_ROTATION_OFFSET_P>
+			<FX_ROTATION_OFFSET_B>0.0</FX_ROTATION_OFFSET_B>
+			<FX_ROTATION_OFFSET_H>0.0</FX_ROTATION_OFFSET_H>
+			<FX_MIN_EMISSION_TIME>-1</FX_MIN_EMISSION_TIME>
+		</DefaultTemplateParameters>
+		<EditableTemplateParameters>
+			<FX_GUID></FX_GUID>
+			<FX_CONTACT_POINT_ID></FX_CONTACT_POINT_ID>
+			<FX_CODE></FX_CODE>
+			<FX_OFFSET_X gizmo-node-relpos-x=""></FX_OFFSET_X>
+			<FX_OFFSET_Y gizmo-node-relpos-y=""></FX_OFFSET_Y>
+			<FX_OFFSET_Z gizmo-node-relpos-z=""></FX_OFFSET_Z>
+			<FX_ROTATION_OFFSET_P gizmo-node-relrot-p=""></FX_ROTATION_OFFSET_P>
+			<FX_ROTATION_OFFSET_B gizmo-node-relrot-b=""></FX_ROTATION_OFFSET_B>
+			<FX_ROTATION_OFFSET_H gizmo-node-relrot-h=""></FX_ROTATION_OFFSET_H>
+		</EditableTemplateParameters>
+
+		<Condition>
+			<Test>
+				<Arg Valid="FX_GUID" />
+			</Test>
+			<True>
+				<FX GUID="#FX_GUID#">
+					<Offset>
+						<X>#FX_OFFSET_X#</X>
+						<Y>#FX_OFFSET_Y#</Y>
+						<Z>#FX_OFFSET_Z#</Z>
+						<P>#FX_ROTATION_OFFSET_P#</P>
+						<B>#FX_ROTATION_OFFSET_B#</B>
+						<H>#FX_ROTATION_OFFSET_H#</H>
+					</Offset>
+					<ContactPoint>#FX_CONTACT_POINT_ID#</ContactPoint>
+					<Code>#FX_CODE#</Code>
+					<MinEmissionTime>#FX_MIN_EMISSION_TIME#</MinEmissionTime>
+					<EnableEntries>
+						<Loop>
+							<Setup>
+								<Param>ID</Param>
+								<From>0</From>
+								<Inc>1</Inc>
+								<While>
+									<Arg NotEmpty="ENABLE_SURFACE_TYPE_#ID#"/>
+								</While>
+							</Setup>
+							<Do>
+								<Parameters Type="Override">
+									<SURFACE_TYPE_LABEL Process="Param">ENABLE_SURFACE_TYPE_#ID#</SURFACE_TYPE_LABEL>
+								</Parameters>
+								<SurfaceTypeEntry SurfaceType="#SURFACE_TYPE_LABEL#"/>
+							</Do>
+						</Loop>
+					</EnableEntries>
+					<DisableEntries>
+						<Loop>
+							<Setup>
+								<Param>ID</Param>
+								<From>0</From>
+								<Inc>1</Inc>
+								<While>
+									<Arg NotEmpty="DISABLE_SURFACE_TYPE_#ID#"/>
+								</While>
+							</Setup>
+							<Do>
+								<Parameters Type="Override">
+									<SURFACE_TYPE_LABEL Process="Param">DISABLE_SURFACE_TYPE_#ID#</SURFACE_TYPE_LABEL>
+								</Parameters>
+								<SurfaceTypeEntry SurfaceType="#SURFACE_TYPE_LABEL#"/>
+							</Do>
+						</Loop>
+					</DisableEntries>
+					<OverrideEntries>
+						<Loop>
+							<Setup>
+								<Param>ID</Param>
+								<From>0</From>
+								<Inc>1</Inc>
+								<While>
+									<And>
+										<Arg NotEmpty="OVERRIDE_SURFACE_TYPE_#ID#"/>
+										<Arg NotEmpty="OVERRIDE_FX_SURFACE_TYPE_GUID_#ID#"/>
+									</And>
+								</While>
+							</Setup>
+							<Do>
+								<Parameters Type="Override">
+									<SURFACE_TYPE_LABEL Process="Param">OVERRIDE_SURFACE_TYPE_#ID#</SURFACE_TYPE_LABEL>
+									<SURFACE_TYPE_FX_GUID Process="Param">OVERRIDE_FX_SURFACE_TYPE_GUID_#ID#</SURFACE_TYPE_FX_GUID>
+								</Parameters>
+								<SurfaceTypeFXEntry SurfaceType="#SURFACE_TYPE_LABEL#" FXGuid="#SURFACE_TYPE_FX_GUID#"/>
+							</Do>
+						</Loop>
+					</OverrideEntries>
+					<GraphParameters>
+						<Loop>
+							<Setup>
+								<Param>ID</Param>
+								<From>0</From>
+								<Inc>1</Inc>
+								<While>
+									<Arg NotEmpty="FX_GRAPH_PARAM_#ID#"/>
+								</While>
+							</Setup>
+							<Do>
+								<Parameters Type="Override">
+									<GRAPH_PARAM_LABEL Process="Param">FX_GRAPH_PARAM_#ID#</GRAPH_PARAM_LABEL>
+								</Parameters>
+								<GraphParam>#GRAPH_PARAM_LABEL#</GraphParam>
+							</Do>
+						</Loop>
+					</GraphParameters>
+				</FX>
+			</True>
+		</Condition>
+	</Template>
+	
+	<!-- Gear-based triggers -->
+	<!-- Only to be used with aircraft where the contact point numbers in flight_model.cfg match the STANDARD_GEAR enum -->
+	<!-- i.e. 0 = center, 1 = left, 2 = right -->
+	<!-- in all other cases, use CP-based triggers below -->
+	
+	<Template Name = "FSLTL_WET_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B2C7B9A6-8F3D-49CE-8418-64086E23C5CB}</FX_GUID>
+			<FX_NAME>LANDING_GR_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "FSLTL_WET_MD_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{25736E7E-6F36-4046-91BC-9AFFCE737F28}</FX_GUID>
+			<FX_NAME>LANDING_GR_MD_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_MD_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "FSLTL_WET_LG_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{0915D0C5-F0B3-4EAD-8D96-08FF2F6F0057}</FX_GUID>
+			<FX_NAME>LANDING_GR_LG_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_LG_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "FSLTL_SMOKE_GR_LANDING_FX">
+		<DefaultTemplateParameters> 
+			<FX_GUID>{7E68323C-E75D-4F5B-988E-65DD4956F6BA}</FX_GUID>
+			<FX_NAME>LANDING_GR_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_SMOKE_MD_GR_LANDING_FX">
+		<DefaultTemplateParameters> 
+			<FX_GUID>{38428600-D14A-41A8-9FED-A7C815F89AEE}</FX_GUID>
+			<FX_NAME>LANDING_GR_MD_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_MD_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_SMOKE_LG_GR_LANDING_FX">
+		<DefaultTemplateParameters> 
+			<FX_GUID>{C9747EAE-5970-477A-81D7-2FC96CE0C3EA}</FX_GUID>
+			<FX_NAME>LANDING_GR_LG_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_LG_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_ASOBO_DUST_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B563B75A-F2F0-4F09-8617-BE9F173BC8FB}</FX_GUID>
+			<FX_NAME>LANDING_GR_DUST</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>SAND</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>DIRT</ENABLE_SURFACE_TYPE_1>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0. &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "FSLTL_ASOBO_GRASS_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{F3BD2906-EF27-406B-BB55-02FF0BBCEF01}</FX_GUID>
+			<FX_NAME>LANDING_GR_GRASS</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>GRASS</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_GRASS_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0.1 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_ASOBO_SNOW_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B9EEB6C8-D2F1-45C3-951D-033D973E18C8}</FX_GUID>
+			<FX_NAME>LANDING_GR_SNOW</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>SNOW</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_ASOBO_SNOW_LG_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{883A007E-4DEE-4D3D-8081-55CC462986CA}</FX_GUID>
+			<FX_NAME>LANDING_GR_LG_SNOW</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>SNOW</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_LG_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "FSLTL_ASOBO_WATER_GR_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{BA223A84-9E83-4A58-B7D7-0C9CBA4E1627}</FX_GUID>
+			<FX_NAME>LANDING_GR_WATER</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>RIVER</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>WASTE_WATER</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>WATER</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>POND</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>LAKE</ENABLE_SURFACE_TYPE_4>
+			<ENABLE_SURFACE_TYPE_5>OCEAN</ENABLE_SURFACE_TYPE_5>
+			<ENABLE_SURFACE_TYPE_6>WATER_FSX</ENABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FSLTL_FX_LANDING_GR_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GEAR WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+
+	<Template Name = "ASOBO_LANDING_FX">
+		<UseTemplate Name="ASOBO_WET_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+	</Template>
+
+	<Template Name = "ASOBO_LANDING_MD_FX">
+		<UseTemplate Name="ASOBO_WET_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_MD_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+	</Template>
+
+	<Template Name = "ASOBO_LANDING_LG_FX">
+		<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+		<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
+			<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+		</UseTemplate>		
+	</Template>
+	
+	<!-- CP-based triggers -->
+	
+	<Template Name = "ASOBO_WET_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B2C7B9A6-8F3D-49CE-8418-64086E23C5CB}</FX_GUID>
+			<FX_NAME>LANDING_CP_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_WET_MD_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{25736E7E-6F36-4046-91BC-9AFFCE737F28}</FX_GUID>
+			<FX_NAME>LANDING_CP_MD_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_MD_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_WET_LG_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{0915D0C5-F0B3-4EAD-8D96-08FF2F6F0057}</FX_GUID>
+			<FX_NAME>LANDING_CP_LG_WET</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<DISABLE_SURFACE_TYPE_0>RIVER</DISABLE_SURFACE_TYPE_0>
+			<DISABLE_SURFACE_TYPE_1>WASTE_WATER</DISABLE_SURFACE_TYPE_1>
+			<DISABLE_SURFACE_TYPE_2>WATER</DISABLE_SURFACE_TYPE_2>
+			<DISABLE_SURFACE_TYPE_3>POND</DISABLE_SURFACE_TYPE_3>
+			<DISABLE_SURFACE_TYPE_4>LAKE</DISABLE_SURFACE_TYPE_4>
+			<DISABLE_SURFACE_TYPE_5>OCEAN</DISABLE_SURFACE_TYPE_5>
+			<DISABLE_SURFACE_TYPE_6>WATER_FSX</DISABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_LG_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SMOKE_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{7E68323C-E75D-4F5B-988E-65DD4956F6BA}</FX_GUID>
+			<FX_NAME>LANDING_CP_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SMOKE_MD_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{38428600-D14A-41A8-9FED-A7C815F89AEE}</FX_GUID>
+			<FX_NAME>LANDING_CP_MD_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_MD_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SMOKE_LG_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{C9747EAE-5970-477A-81D7-2FC96CE0C3EA}</FX_GUID>
+			<FX_NAME>LANDING_CP_LG_SMOKE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_LG_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_DUST_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B563B75A-F2F0-4F09-8617-BE9F173BC8FB}</FX_GUID>
+			<FX_NAME>LANDING_CP_DUST</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>DUST</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>DIRT</ENABLE_SURFACE_TYPE_1>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:CONTACT POINT IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0.1 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_GRASS_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{F3BD2906-EF27-406B-BB55-02FF0BBCEF01}</FX_GUID>
+			<FX_NAME>LANDING_CP_GRASS</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>GRASS</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_GRASS_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:CONTACT POINT IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0.1 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SNOW_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B9EEB6C8-D2F1-45C3-951D-033D973E18C8}</FX_GUID>
+			<FX_NAME>LANDING_CP_SNOW</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>SNOW</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:CONTACT POINT IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SNOW_LG_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{883A007E-4DEE-4D3D-8081-55CC462986CA}</FX_GUID>
+			<FX_NAME>LANDING_CP_LG_SNOW</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>SNOW</ENABLE_SURFACE_TYPE_0>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_LG_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:CONTACT POINT IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_WATER_CP_LANDING_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{BA223A84-9E83-4A58-B7D7-0C9CBA4E1627}</FX_GUID>
+			<FX_NAME>LANDING_CP_WATER</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>RIVER</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>WASTE_WATER</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>WATER</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>POND</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>LAKE</ENABLE_SURFACE_TYPE_4>
+			<ENABLE_SURFACE_TYPE_5>OCEAN</ENABLE_SURFACE_TYPE_5>
+			<ENABLE_SURFACE_TYPE_6>WATER_FSX</ENABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LANDING_CP_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:CONTACT POINT WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	
+	<Template Name = "ASOBO_FX_EXHAUST_MD">
+		<DefaultTemplateParameters>
+			<FX_GUID>{35943419-2F02-41B4-BB27-37811ADC32CE}</FX_GUID>
+			<FX_NAME>FX_EXHAUST_MD</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_EXHAUST_MD_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GENERAL ENG STARTER ACTIVE:1, Bool) 0 &gt; (A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+
+	<Template Name = "ASOBO_FX_PRESSURETRAIL">
+		<DefaultTemplateParameters>
+			<FX_GUID>{E78D8109-DFFC-4DF1-9A72-94982EF10629}</FX_GUID>
+			<FX_NAME>FX_FX_PRESSURETRAIL</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_FX_PRESSURETRAIL_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SKY_ROOT_COCKPITPLASMA_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{055DF13A-3311-4E2C-BAD9-3B869C10F3DF}</FX_GUID>
+			<FX_NAME>FX_COCKPITPLASMA</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_COCKPITPLASMA_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:AIRSPEED MACH, mach) 7 &gt;</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_WATER_NODE_LOWALTWATER_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{422C6BE8-A423-48BA-835B-982E0C2FB32E}</FX_GUID>
+			<FX_NAME>FX_LOWALTWATER</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>RIVER</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>WASTE_WATER</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>WATER</ENABLE_SURFACE_TYPE_2>
+			<ENABLE_SURFACE_TYPE_3>POND</ENABLE_SURFACE_TYPE_3>
+			<ENABLE_SURFACE_TYPE_4>LAKE</ENABLE_SURFACE_TYPE_4>
+			<ENABLE_SURFACE_TYPE_5>OCEAN</ENABLE_SURFACE_TYPE_5>
+			<ENABLE_SURFACE_TYPE_6>WATER_FSX</ENABLE_SURFACE_TYPE_6>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LOWALTWATER_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_SKY_NODE_VAPOURCONE_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{8264917A-F2AB-4759-AF91-4E0C4BFBF849}</FX_GUID>
+			<FX_NAME>FX_VAPOURCONE</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_VAPOURCONE_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_FX_WINGVAPOUR">
+		<DefaultTemplateParameters>
+			<FX_GUID>{0C2D2FFE-536B-44F7-BF26-5F205A72E283}</FX_GUID>
+			<FX_NAME>FX_WINGVAPOUR</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_WINGVAPOUR_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_FX_DRAGTRAIL">
+		<DefaultTemplateParameters>
+			<FX_GUID>{F938513E-7D81-4D40-9057-762F8017EB1F}</FX_GUID>
+			<FX_NAME>FX_DRAGTRAIL</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_DRAGTRAIL_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_FX_LOW_ALTITUDE_DUST">
+		<DefaultTemplateParameters>
+			<FX_GUID>{C8FB3147-D775-4CD1-AC8F-AEB717924F86}</FX_GUID>
+			<FX_NAME>FX_LOW_ALTITUDE_DUST</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>DUST</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>SNOW</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>DIRT</ENABLE_SURFACE_TYPE_2>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LOW_ALTITUDE_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:PLANE ALT ABOVE GROUND, Feet) 100 &lt; (A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+
+	<Template Name = "ASOBO_GROUND_CP_LOWALTITUDEDUSTFX2_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{E0C80975-7057-4DFA-9DC1-18008B7E591C}</FX_GUID>
+			<FX_NAME>FX_LOW_ALTITUDE_DUST_FX2</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>DUST</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>SNOW</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>DIRT</ENABLE_SURFACE_TYPE_2>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LOW_ALTITUDE_DUST_FX2_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:PLANE ALT ABOVE GROUND, Feet) 400 &lt; (A:AIRSPEED INDICATED, knot) 120 &gt; and (A:PLANE PITCH DEGREES, degrees) -5 &lt; and (A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt; and</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_GROUND_CP_LOWALTITUDEDUST_SUPERSONIC_FX">
+		<DefaultTemplateParameters>
+			<FX_GUID>{B46DEBE7-86DD-4E13-91E7-9EB419697E56}</FX_GUID>
+			<FX_NAME>FX_LOW_ALTITUDE_DUST_FX2</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+			<ENABLE_SURFACE_TYPE_0>DUST</ENABLE_SURFACE_TYPE_0>
+			<ENABLE_SURFACE_TYPE_1>SNOW</ENABLE_SURFACE_TYPE_1>
+			<ENABLE_SURFACE_TYPE_2>DIRT</ENABLE_SURFACE_TYPE_2>
+		</DefaultTemplateParameters>
+		<Component ID="FX_LOW_ALTITUDE_DUST_FX2_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:AIRSPEED MACH, mach) 0.9 &gt;</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+
+	<Template Name = "ASOBO_FX_EXHAUST_HEAT">
+		<DefaultTemplateParameters>
+			<FX_GUID>{605EBB42-DA6B-4965-9199-9AE59BF7FD83}</FX_GUID>
+			<FX_NAME>FX_EXHAUST_HEAT</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</DefaultTemplateParameters>
+		<Component ID="FX_EXHAUST_HEAT_#FX_NODE#"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+				<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt;</FX_CODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_FX_AFTERBURNER">
+		<Parameters Type="Default">
+			<FX_GUID>{4586DE45-3381-448F-937A-DF0A70DA1CB1}</FX_GUID>
+			<FX_NAME>FX_AFTERBURNER</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</Parameters>
+		<Component ID="FX_AFTERBURNER"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name = "ASOBO_FX_AFTERBURNER_DARKSTAR">
+		<Parameters Type="Default">
+			<FX_GUID>{15F7D889-4962-4AC5-B47C-E6CC1153F3C0}</FX_GUID>
+			<FX_NAME>FX_AFTERBURNER_DARKSTAR</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</Parameters>
+		<Component ID="FX_AFTERBURNER_DARKSTAR"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "ASOBO_FX_AFTERBURNER2">
+		<Parameters Type="Default">
+			<FX_GUID>{76EB2C5C-0331-431D-86C0-E12A0CC39A5F}</FX_GUID>
+			<FX_NAME>FX_AFTERBURNER2</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</Parameters>
+		<Component ID="FX_AFTERBURNER"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+	
+	<Template Name = "ASOBO_FX_AFTERBURNER_HEAT">
+		<Parameters Type="Default">
+			<FX_GUID>{3F443329-D4EF-4CF5-B71D-BEA3E3EBF5BA}</FX_GUID>
+			<FX_NAME>FX_AFTERBURNER_HEAT</FX_NAME>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
+		</Parameters>
+		<Component ID="FX_AFTERBURNER_HEAT"  Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
+		</Component>
+	</Template>
+
+</ModelBehaviors>

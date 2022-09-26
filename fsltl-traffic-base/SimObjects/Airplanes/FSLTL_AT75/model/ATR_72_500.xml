@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{6e0e73cf-9d97-4bb5-b73f-d997680c1c74}" version="1.1">
+  <LODS>
+    <LOD minSize="5" ModelFile="ATR_72_500_LOD0.gltf"/>
+	<LOD minSize="0" ModelFile="ATR_72_500_LOD1.gltf"/>
+  </LODS>
+  <Animation name="custom_anim_SIM_ON_GROUND_08" guid="f8ee676d-e931-433e-8385-324c6d01946f" typeParam2="custom_anim_SIM_ON_GROUND_08" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_SIM_ON_GROUND_08</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+            (A:RADIO HEIGHT,feet) 2400 &gt; if{ 1 (&gt;G:Var1) } (A:LIGHT BEACON,bool) if{ (G:Var1) 0 == if{ 43 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT,percent) } } els{ 0 (&gt;G:Var1) }
+      </Code>
+        <Lag>10</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_00" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_00" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_00</Name>
+	<AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_01" guid="b32f1e35-0f79-463f-84a3-896ccfa33ad7" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_01" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_2_01</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_02" guid="a30d1108-0e02-4e78-a41a-4c072a815e90" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_02" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_02</Name>
+	<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_03" guid="b964023e-998f-40bf-9875-19f21c3b8031" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_03" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_1_03</Name>
+	<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 12.25 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:1</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_04" guid="f97a46e1-0994-476f-939b-cffed355a4e8" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_04" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_2_04</Name>
+	<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>  
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_05" guid="044d8822-f2f7-4906-b60b-435d977b4b59" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_05" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_PROP_ROTATION_ANGLE_2_05</Name>
+	<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 12.25 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>PROP ROTATION ANGLE:2</Variable>
+          <Units>percent</Units>
+          <Scale>0.1592</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_06" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_06" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_06</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:0</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+          <Units>radians</Units>
+          <Scale>15.91</Scale>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_09" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_09" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_1_09</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:1</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_10" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_10" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_2_10</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:2</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Behaviors>
+  </Behaviors>
+</ModelInfo>
