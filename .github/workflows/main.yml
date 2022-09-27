@@ -47,18 +47,6 @@ jobs:
           echo "releases:" >> ./fsltl-traffic-base-build/releases.yaml
           echo "  - name: $GITHUB_REF_NAME" >> ./fsltl-traffic-base-build/releases.yaml
           echo "    date: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> ./fsltl-traffic-base-build/releases.yaml
-
-      - name: Upload to SiteGround SSH (Backup Endpoint)
-        uses: burnett01/rsync-deployments@5.2.1
-        with:
-          switches: -avzr --delete
-          path: fsltl-traffic-base-build/
-          remote_path: /home/customer/www/packages.fslivetrafficliveries.com/public_html/installer/
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_port: ${{ secrets.SSH_PORT }}
-          remote_user: ${{ secrets.SSH_USER }}
-          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          remote_key_pass: ${{ secrets.SSH_DEPLOY_KEY }}
           
       - name: Upload Files to Release
         uses: xresloader/upload-to-github-release@v1
