@@ -21,4 +21,4 @@ The FSLTL Injector can run alongside MSFS traffic but to ensure the best experie
     - Ground Aircraft Density set to "0"
 
 ## For further support
-Please visit our [website](https://www.fslivetrafficliveries.com) or join our [Discord]
+Please visit our [website](https://www.fslivetrafficliveries.com) or join our [Discord](https://discord.com/channels/781587165989175386/1019701207876517978)
