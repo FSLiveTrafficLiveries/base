@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{88e8314c-8f45-4522-a3b1-e31e9f72961b}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A321S_CFM_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A321S_CFM_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A321S_CFM_LOD2.gltf"/>
-    <LOD minSize="2" ModelFile="FAIB_A321S_CFM_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_A321S_CFM_LOD4.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_A321S_CFM_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A321S_CFM_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_A321S_CFM_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>

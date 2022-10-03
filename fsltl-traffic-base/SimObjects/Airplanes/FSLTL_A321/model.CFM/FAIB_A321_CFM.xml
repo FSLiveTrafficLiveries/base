@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{bf39bdaa-e111-4f64-b151-02b5115c5af1}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A321_CFM_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A321_CFM_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A321_CFM_LOD2.gltf"/>
-    <LOD minSize="2" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_A321_CFM_LOD4.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_A321_CFM_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="200" type="Sim" typeParam="AutoPlay" />
   <Animation name="c_tire_still_key" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />

@@ -2,6 +2,7 @@
 <ModelInfo guid="{47a89929-4b94-4158-8b74-9fc9acb00728}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="FAIB7377W_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB7377W_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="FAIB7377W_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_SIM_ON_GROUND_00" guid="df2990c2-3ddc-4653-99c3-ea9904109004" length="1000" type="Sim" typeParam="AutoPlay" />

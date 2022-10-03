@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{94172fdd-1ef5-49cd-8120-865f21671e22}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FSPAI_A350900_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FSPAI_A350900_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FSPAI_A350900_LOD2.gltf"/>
+    <LOD minSize="5" ModelFile="FSPAI_A350900_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FSPAI_A350900_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FSPAI_A350900_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="FSPAI_A350900_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>

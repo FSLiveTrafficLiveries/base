@@ -2,6 +2,7 @@
 <ModelInfo guid="{91fcc22c-476c-4cf7-a558-c5941ecdbd86}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="TFS_A333F_RR_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="TFS_A333F_RR_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="TFS_A333F_RR_LOD1.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="120" type="Sim" typeParam="AutoPlay" />

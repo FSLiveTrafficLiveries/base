@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="30" ModelFile="FAIB7378SSN_LOD0.gltf"/>
-    <LOD minSize="15" ModelFile="FAIB7378SSN_LOD1.gltf"/>
-    <LOD minSize="7.5" ModelFile="FAIB7378SSN_LOD2.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB7378SSN_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FAIB7378SSN_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB7378SSN_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>

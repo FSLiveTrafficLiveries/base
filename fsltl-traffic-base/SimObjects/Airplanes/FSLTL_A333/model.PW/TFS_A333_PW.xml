@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{1007b596-9c0f-41a9-86cc-62b43aeab365}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="TFS_A333_PW_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="TFS_A333_PW_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="TFS_A333_PW_LOD2.gltf"/>
+    <LOD minSize="5" ModelFile="TFS_A333_PW_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="TFS_A333_PW_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="TFS_A333_PW_LOD3.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="120" type="Sim" typeParam="AutoPlay" />

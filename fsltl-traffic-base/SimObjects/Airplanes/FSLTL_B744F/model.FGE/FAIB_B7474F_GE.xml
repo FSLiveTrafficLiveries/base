@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{5edc27e0-0e48-4ead-a79b-a1f88c9f2fb4}" version="1.1">
   <LODS>
-    <LOD minSize="80" ModelFile="FAIB_B7474F_GE_LOD0.gltf"/>
-    <LOD minSize="40" ModelFile="FAIB_B7474F_GE_LOD1.gltf"/>
-    <LOD minSize="20" ModelFile="FAIB_B7474F_GE_LOD2.gltf"/>
-    <LOD minSize="10" ModelFile="FAIB_B7474F_GE_LOD3.gltf"/>
-    <LOD minSize="5" ModelFile="FAIB_B7474F_GE_LOD4.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_B7474F_GE_LOD5.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_B7474F_GE_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_B7474F_GE_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_B7474F_GE_LOD4.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
   <PartInfo>

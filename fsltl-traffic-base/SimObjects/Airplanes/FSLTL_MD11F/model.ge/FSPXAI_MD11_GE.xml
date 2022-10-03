@@ -2,6 +2,7 @@
 <ModelInfo guid="{9fffd6ac-26fe-4e60-9dca-32e21f9fbf41}" version="1.1">
   <LODS>
     <LOD minSize="8" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
     <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />

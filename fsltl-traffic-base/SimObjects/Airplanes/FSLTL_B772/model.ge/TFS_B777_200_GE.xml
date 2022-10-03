@@ -2,6 +2,7 @@
 <ModelInfo guid="{dcd17b07-e23f-40c4-98d9-8febb408bf4b}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="B772_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="B772_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="B772_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" guid="e4fca90f-95de-4536-b45b-0482de67fc92" length="200" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" typeParam="AutoPlay" />

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="TFS_B777-300ER_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="TFS_B777-300ER_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="TFS_B777-300ER_LOD2.gltf"/>
+    <LOD minSize="5" ModelFile="TFS_B777-300ER_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="TFS_B777-300ER_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="TFS_B777-300ER_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="TFS_B777-300ER_LOD3.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam="AutoPlay" length="125" type="Sim" typeParam="AutoPlay" />
   <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" typeparam="AutoPlay" length="140" type="Sim" typeParam="AutoPlay" />

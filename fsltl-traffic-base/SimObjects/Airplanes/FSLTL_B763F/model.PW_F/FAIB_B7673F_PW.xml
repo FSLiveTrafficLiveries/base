@@ -2,7 +2,8 @@
 <ModelInfo guid="{7dcca36c-7bbe-4459-984e-208b30088c43}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="FAIB_B7673F_PW_LOD0.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_B7673F_PW_LOD3.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_B7673F_PW_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_B7673F_PW_LOD4.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
