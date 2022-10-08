@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{94172fdd-1ef5-49cd-8120-865f21671e22}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FSPAI_A350900_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FSPAI_A350900_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FSPAI_A350900_LOD2.gltf"/>
-    <LOD minSize="1" ModelFile="FSPAI_A350900_LOD3.gltf"/>
+    <LOD minSize="5" ModelFile="FSPAI_A350900_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FSPAI_A350900_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FSPAI_A350900_LOD4.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
@@ -123,14 +121,14 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_11" guid="60ec42e9-efc4-4968-86b6-131c7123a222" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_11" guid="60ec42e9-efc4-4968-86b6-131c7123a222" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_11</Name>
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
        <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 25 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 50 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 55 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>4</Lag>
       </Parameter>

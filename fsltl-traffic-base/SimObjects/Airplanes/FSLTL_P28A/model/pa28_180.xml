@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{0b2c6e38-4d93-40e6-a563-45e2714459cd}" version="1.1">
   <LODS>
-    <LOD minSize="50" ModelFile="pa28_180_LOD0.gltf"/>
-    <LOD minSize="25" ModelFile="pa28_180_LOD1.gltf"/>
-    <LOD minSize="5" ModelFile="pa28_180_LOD2.gltf"/>
-    <LOD minSize="1" ModelFile="pa28_180_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="pa28_180_LOD4.gltf"/>
+    <LOD minSize="5" ModelFile="pa28_180_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="pa28_180_LOD2.gltf"/>
+    <LOD minSize="0" ModelFile="pa28_180_LOD2.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
   <PartInfo>

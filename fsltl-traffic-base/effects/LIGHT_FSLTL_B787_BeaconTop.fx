@@ -257,7 +257,7 @@ uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.7
+MinProjSize=0.75
 
 [LightAttributes.3]
 Type=Omni

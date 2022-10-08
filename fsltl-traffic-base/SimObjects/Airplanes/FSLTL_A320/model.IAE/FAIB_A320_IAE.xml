@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{b7b6e125-a10d-485b-bb91-491a8d0e4ca2}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A320_IAE_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A320_IAE_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A320_IAE_LOD2.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB_A320_IAE_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A320_IAE_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_A320_IAE_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="afd5cf18-7dd4-4965-9107-bb14d798fdc7" length="200" type="Sim" typeParam="AutoPlay" />

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{d44eb589-a310-4d6a-b8a5-85f047268b6d}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_B7673W_GEC_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_B7673W_GEC_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_B7673W_GEC_LOD2.gltf"/>
-    <LOD minSize="2" ModelFile="FAIB_B7673W_GEC_LOD3.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_B7673W_GEC_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_B7673W_GEC_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_B7673W_GEC_LOD4.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" length="200" type="Sim" typeParam="AutoPlay" />

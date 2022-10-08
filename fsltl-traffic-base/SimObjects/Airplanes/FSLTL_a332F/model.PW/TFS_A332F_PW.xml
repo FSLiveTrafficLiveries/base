@@ -2,7 +2,8 @@
 <ModelInfo guid="{c6f0a5a3-ff9d-4a42-9aa6-e5fdd8fabc4f}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="A332F_PW_LOD0.gltf"/>
-	<LOD minSize="0" ModelFile="A332F_PW_LOD1.gltf"/>
+    <LOD minSize="1" ModelFile="A332F_PW_LOD1.gltf"/>
+    <LOD minSize="0" ModelFile="A332F_PW_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" guid="06491955-d5f9-40f0-9418-6ed163ef92e5" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
