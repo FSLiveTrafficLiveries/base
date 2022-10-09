@@ -300,3 +300,15 @@ fsltl-traffic-injector/temp-plans/PLAN_WZZ9782.pln
 api.txt
 fsltl-traffic-injector/manifest.json
 fsltl-trafficinjector-config.json
+fsltl-traffic-injector/layout.json
+fsltl-traffic-injector/InGamePanels/fsltl-traffic-toolbar.spb
+fsltl-traffic-injector/html_ui/Textures/Menu/toolbar/FSLTL_ICON_TOOLBAR.svg
+fsltl-traffic-injector/html_ui/InGamePanels/FSLTLPanel/FSLTLPanel.js
+fsltl-traffic-injector/html_ui/InGamePanels/FSLTLPanel/FSLTLPanel.html
+fsltl-traffic-injector/html_ui/InGamePanels/FSLTLPanel/FSLTLPanel.css
+fsltl-traffic-injector/html_ui/InGamePanels/CustomPanel/CustomPanel.js
+fsltl-traffic-injector/html_ui/InGamePanels/CustomPanel/CustomPanel.html
+fsltl-traffic-injector/html_ui/InGamePanels/CustomPanel/CustomPanel.css
+fsltl-traffic-injector/html_ui/icons/toolbar/FSLTL_ICON_TOOLBAR.svg
+fsltl-traffic-injector/FSLTL_Rules.vmr
+fsltl-traffic-injector/build.py
