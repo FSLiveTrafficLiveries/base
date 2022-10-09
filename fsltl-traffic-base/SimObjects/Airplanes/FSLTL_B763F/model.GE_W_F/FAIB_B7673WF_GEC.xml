@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{b22f26af-3afe-4376-8461-391590d3febc}" version="1.1">
   <LODS>
-    <LOD minSize="5" ModelFile="FAIB_B7673WF_GEC_LOD0.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_B7673WF_GEC_LOD1.gltf"/>
     <LOD minSize="1" ModelFile="FAIB_B7673WF_GEC_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_B7673WF_GEC_LOD4.gltf"/>
   </LODS>
