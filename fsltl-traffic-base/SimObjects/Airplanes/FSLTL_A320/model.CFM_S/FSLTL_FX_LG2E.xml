@@ -1,36 +1,32 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
 	<Template Name="FSLTL_FX">
-	<Component ID="FSLTL_FX_CONTRAIL_RIBBON">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt;</FX_CODE>
+	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_L">
+		<OverrideTemplateParameters>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_OFFSET_X>-19.1</FX_OFFSET_X>
+				<FX_OFFSET_Y>-5.12</FX_OFFSET_Y>
+				<FX_OFFSET_Z>4.68</FX_OFFSET_Z>
 				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 			</OverrideTemplateParameters>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="fx_exhaust_left">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-			</UseTemplate>
-		</Component>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="fx_exhaust_right">
+		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="__NO_NODE__">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
 			</UseTemplate>
 		</Component>
 	</Component>
-		<Component ID="FSLTL_FX_CONTRAIL_QUAD">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 487 &lt;</FX_CODE>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{F42CE638-11EB-4FC8-B9B0-111A220D681F}</FX_GUID>
-				<FX_NAME>FX_CONTRAILS</FX_NAME>
+	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_R">
+		<OverrideTemplateParameters>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_OFFSET_X>19.1</FX_OFFSET_X>
+				<FX_OFFSET_Y>-5.12</FX_OFFSET_Y>
+				<FX_OFFSET_Z>4.68</FX_OFFSET_Z>
+				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 			</OverrideTemplateParameters>
-			<Component ID="FSLTL_FX_CONTRAIL_QUAD_LEFT_IN" Node="fx_exhaust_left">
-				<UseTemplate Name="FSLTL_ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FSLTL_FX_CONTRAIL_QUAD_LEFT_OUT" Node="fx_exhaust_right">
-				<UseTemplate Name="FSLTL_ASOBO_GT_FX"/>
-			</Component>
+		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_IN" Node="__NO_NODE__">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			</UseTemplate>
 		</Component>
+	</Component>
 		
 	  <Component ID="FSLTL_LANDING_FX">	 
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">

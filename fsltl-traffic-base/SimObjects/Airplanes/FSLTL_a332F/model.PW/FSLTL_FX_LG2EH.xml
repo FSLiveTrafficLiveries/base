@@ -1,16 +1,28 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
 	<Template Name="FSLTL_FX">
-	<Component ID="FSLTL_FX_CONTRAIL_RIBBON">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt;</FX_CODE>
+	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_L">
+		<OverrideTemplateParameters>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_OFFSET_X>-19.1</FX_OFFSET_X>
+				<FX_OFFSET_Y>-8.53</FX_OFFSET_Y>
+				<FX_OFFSET_Z>8.55</FX_OFFSET_Z>
 				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 			</OverrideTemplateParameters>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="fx_exhaust_left">
+		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="__NO_NODE__">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
 			</UseTemplate>
 		</Component>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="fx_exhaust_right">
+	</Component>
+	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_R">
+		<OverrideTemplateParameters>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_OFFSET_X>19.1</FX_OFFSET_X>
+				<FX_OFFSET_Y>-8.53</FX_OFFSET_Y>
+				<FX_OFFSET_Z>8.55</FX_OFFSET_Z>
+				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
+			</OverrideTemplateParameters>
+		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_IN" Node="__NO_NODE__">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
 			</UseTemplate>
 		</Component>
