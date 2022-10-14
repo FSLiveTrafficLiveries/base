@@ -110,20 +110,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="l_gear" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="l_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>l_gear</Name>
@@ -137,20 +124,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" guid="aa67f522-28c5-4d09-a246-2823d34a686b" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="r_gear" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="r_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>r_gear</Name>
@@ -164,20 +138,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_SIM_ON_GROUND_09" guid="c2f63812-c927-48d5-9951-edcf8c3cc1b6" typeParam2="custom_anim_SIM_ON_GROUND_09" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_09</Name>
