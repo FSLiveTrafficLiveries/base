@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (c) Asobo Studio, All rights reserved. www.asobostudio.com -->
+
+<SoundInfo Version="0.1">
+
+	<WwisePackages>
+		<MainPackage Name="MaVeCreations_A320CFM_AI"/>
+	</WwisePackages>
+
+  <EngineSoundPresets>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="350" WwiseData="true" EngineIndex="1" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="10" WwiseData="true" EngineIndex="2" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="300" WwiseData="true" EngineIndex="1" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="60" WwiseData="true" EngineIndex="2" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="180" WwiseData="true" EngineIndex="1" ContinuousStopDelay="4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False" FadeOutType="1" FadeOutTime="1"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="180" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False" FadeOutType="1" FadeOutTime="1"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="0" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="rumble" ConeHeading="180" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="340" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="20" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+  </EngineSoundPresets>
+
+
+  <GroundSounds>
+
+    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	</Sound> 
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >  
+	</Sound>
+    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	</Sound>
+  </GroundSounds>
+  
+</SoundInfo>

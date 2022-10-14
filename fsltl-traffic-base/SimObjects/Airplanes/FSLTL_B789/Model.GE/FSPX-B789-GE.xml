@@ -11,7 +11,6 @@
   <Animation name="l_tire_still_key" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" typeParam2="l_tire_still_key" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="200" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_tire_still_key" guid="6114e2ca-5fb8-4d20-a880-56945094247f" typeParam2="r_tire_still_key" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" length="100" type="Sim" typeParam2="tire_anim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>c_gear</Name>
     <AnimLength>200</AnimLength>

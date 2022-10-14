@@ -110,7 +110,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="l_tire_blurred_key" length="200" type="Sim" typeParam="AutoPlay" />
 
   <Animation name="l_gear" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="l_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
