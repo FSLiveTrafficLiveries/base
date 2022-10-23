@@ -172,7 +172,7 @@ els{ (A:ROTATION VELOCITY BODY Y, Feet) 50 * 100 + } }
   <Behaviors>
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="Asobo\Common.xml"/>
-	<Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">
