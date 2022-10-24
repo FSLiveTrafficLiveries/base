@@ -70,8 +70,8 @@ Size=0.06
 Range=1000
 Intensity=100
 Softness=0.0
-SpotInner=60
-SpotOuter=70
+SpotInner=40
+SpotOuter=45
 Volumetric=1
 ScatDir=0
 
