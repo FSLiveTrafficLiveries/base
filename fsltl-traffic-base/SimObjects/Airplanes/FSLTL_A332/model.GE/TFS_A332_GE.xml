@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo>
+<ModelInfo guid="{c6f0a5a3-ff9d-4a42-9aa6-e5fdd8fabc4f}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="A332_GE_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="A332_GE_LOD1.gltf"/>
@@ -86,17 +86,7 @@
   </PartInfo>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" guid="56991870-283c-4c66-9086-072c8b6bba32" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
-    <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06</Name>
-    <AnimLength>50</AnimLength>
-    <Animation>
-      <Parameter>
-		<Code>
-           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
-                </Code>				
-	        <Lag>6</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="c_gear" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" typeParam2="c_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>c_gear</Name>
@@ -161,7 +151,7 @@ els{ (A:ROTATION VELOCITY BODY Y, Feet) 50 * 100 + } }
   <Behaviors>
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="Asobo\Common.xml"/>
-	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
+	<Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">

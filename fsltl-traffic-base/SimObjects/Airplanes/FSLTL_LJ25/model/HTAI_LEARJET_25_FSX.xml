@@ -158,7 +158,7 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM2E.xml"/>
+    <Include RelativeFile="FSLTL_FX_SM2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 			<Component ID="FX">
 			<UseTemplate Name="FSLTL_FX" />
