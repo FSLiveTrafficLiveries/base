@@ -245,7 +245,7 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH.xml"/>
+    <Include RelativeFile="FSLTL_FX_LG3EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">

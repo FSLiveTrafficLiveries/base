@@ -140,7 +140,7 @@
   <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13" guid="65f0dc6c-140e-408a-b887-39f1135dd6c1" length="100" type="Sim" typeParam="AutoPlay" />
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
+    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
