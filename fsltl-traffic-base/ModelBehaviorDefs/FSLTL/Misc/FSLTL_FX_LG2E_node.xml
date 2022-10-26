@@ -5,8 +5,8 @@
 		<OverrideTemplateParameters>
 				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
 				<FX_OFFSET_X>-13.0</FX_OFFSET_X>
-				<FX_OFFSET_Y>-1.2</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
+				<FX_OFFSET_Y>-1.8</FX_OFFSET_Y>
+				<FX_OFFSET_Z>0.0</FX_OFFSET_Z>
 				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 			</OverrideTemplateParameters>
 		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="__NO_NODE__">
@@ -18,8 +18,8 @@
 		<OverrideTemplateParameters>
 				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
 				<FX_OFFSET_X>13.0</FX_OFFSET_X>
-				<FX_OFFSET_Y>-1.2</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
+				<FX_OFFSET_Y>-1.8</FX_OFFSET_Y>
+				<FX_OFFSET_Z>0.0</FX_OFFSET_Z>
 				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
 			</OverrideTemplateParameters>
 		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_IN" Node="__NO_NODE__">
