@@ -172,5 +172,8 @@
         <DISTANCE>-18.24</DISTANCE>
       </UseTemplate>
       </Component>
+	  <Component ID="FX">
+         <UseTemplate Name="FSLTL_FX" />
+      </Component>
   </Behaviors>
 </ModelInfo>
