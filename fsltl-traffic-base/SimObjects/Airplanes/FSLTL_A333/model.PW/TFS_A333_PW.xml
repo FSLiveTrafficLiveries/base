@@ -274,7 +274,7 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 					<UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
 				<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
