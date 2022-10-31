@@ -217,7 +217,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -236,7 +236,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_MD_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#" Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -593,7 +593,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FX_LANDING_CP_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -612,7 +612,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FX_LANDING_CP_MD_SMOKE_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -7 &lt; and</FX_CODE>
+				<FX_CODE>(A:SIM ON GROUND, bool) 0 == (A:PLANE ALT ABOVE GROUND MINUS CG, feet) 1 &lt; and (A:VERTICAL SPEED, feet per second) -5 &lt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
