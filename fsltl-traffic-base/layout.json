@@ -566,11 +566,6 @@
             "date": 133087795529370730
         },
         {
-            "path": "SimObjects/Airplanes/Asobo-aircraft-generic-airliner-twinengines/SimObjects/Airplanes/Asobo_Generic_Airliner_TwinEngines/aircraft.cfg",
-            "size": 8852,
-            "date": 133121293574135856
-        },
-        {
             "path": "SimObjects/Airplanes/Asobo_Generic_Airliner_QuadEngines/soundai/MaVeCreations_B747_AI.PC.pck",
             "size": 1628102,
             "date": 133119820959815938
@@ -579,6 +574,11 @@
             "path": "SimObjects/Airplanes/Asobo_Generic_Airliner_QuadEngines/soundai/soundai.xml",
             "size": 4225,
             "date": 133092137210052462
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_Generic_Airliner_TwinEngines/aircraft.cfg",
+            "size": 8852,
+            "date": 133121293574135856
         },
         {
             "path": "SimObjects/Airplanes/Asobo_Generic_PrivateJet/soundai/MaVeCreations_Pjet_AI.PC.pck",
