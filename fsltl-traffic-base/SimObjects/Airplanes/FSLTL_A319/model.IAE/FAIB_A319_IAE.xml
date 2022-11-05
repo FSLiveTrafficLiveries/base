@@ -102,7 +102,7 @@
   <Animation name="custom_anim_SPOILERS_LEFT_POSITION_09" guid="f5d81e0e-0238-43a6-b169-2a7df682295f" typeParam2="custom_anim_SPOILERS_LEFT_POSITION_09" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SPOILERS_LEFT_POSITION_09</Name>
-    <AnimLength>230</AnimLength>
+    <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
 	    <Code>

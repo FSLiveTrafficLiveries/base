@@ -26,9 +26,9 @@
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
-        <Code>
-                (A:SIM ON GROUND, bool) 1 == if{ (A:LIGHT BEACON, bool) 1 == if{ (G:var4) 2 == if{ (A:GROUND VELOCITY, knots) 70 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 70 &gt; if{ 0 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ 1 (&gt;G:var4) 100 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ (G:var4) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 2 (&gt;G:var4) } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ 2 (&gt;G:var4) } (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
-            	</Code>
+				       <Code>
+           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
         <Lag>6</Lag>
       </Parameter>
     </Animation>
@@ -67,8 +67,8 @@
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
-   <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 25 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 50 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 35 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>6</Lag>
       </Parameter>
@@ -80,9 +80,9 @@
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
-        <Code>
-                (A:SIM ON GROUND, bool) 1 == if{ (A:LIGHT BEACON, bool) 1 == if{ (G:var4) 2 == if{ (A:GROUND VELOCITY, knots) 70 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 70 &gt; if{ 0 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ 1 (&gt;G:var4) 100 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } } els{ (G:var4) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 2 (&gt;G:var4) } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2500 &gt; if{ 2 (&gt;G:var4) } (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
-            	</Code>
+				       <Code>
+           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
         <Lag>6</Lag>
       </Parameter>
     </Animation>
