@@ -566,6 +566,11 @@
             "date": 133087795529370730
         },
         {
+            "path": "SimObjects/Airplanes/Asobo_Generic_Airliner_QuadEngines/aircraft.cfg",
+            "size": 10779,
+            "date": 133121536397063060
+        },
+        {
             "path": "SimObjects/Airplanes/Asobo_Generic_Airliner_QuadEngines/soundai/MaVeCreations_B747_AI.PC.pck",
             "size": 1628102,
             "date": 133119820959815938
