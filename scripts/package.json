@@ -10,6 +10,6 @@
   "author": "FSLTL Dev Team",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@flybywiresim/fragmenter": "^0.7.0-alpha.20"
+    "@flybywiresim/fragmenter": "^0.71"
   }
 }
