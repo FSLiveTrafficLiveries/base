@@ -311,14 +311,64 @@
             "date": 133087795527095306
         },
         {
+            "path": "Effects/LIGHT_FSLTL_EMB190_BeaconBelly.fx",
+            "size": 4371,
+            "date": 133087759540000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_BeaconTop.fx",
+            "size": 4385,
+            "date": 133087759540000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_BeaconTopdown.fx",
+            "size": 1157,
+            "date": 133110223160000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_LandingLarge.fx",
+            "size": 4546,
+            "date": 133122190500000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_LogoLight.fx",
+            "size": 3457,
+            "date": 133122069760000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_NavigationGreen.fx",
+            "size": 3304,
+            "date": 133122185980000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_NavigationRed.fx",
+            "size": 3283,
+            "date": 133122186340000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_NavigationWhite.fx",
+            "size": 3639,
+            "date": 133122185540000000
+        },
+        {
             "path": "Effects/LIGHT_FSLTL_EMB190_StrobeSimple.fx",
-            "size": 3320,
-            "date": 133087795527120214
+            "size": 3317,
+            "date": 133122073560000000
         },
         {
             "path": "Effects/LIGHT_FSLTL_EMB190_StrobeSimpleBACK.fx",
-            "size": 3320,
-            "date": 133087795527130200
+            "size": 3317,
+            "date": 133122074140000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_TakeOff.fx",
+            "size": 4548,
+            "date": 133122190500000000
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_EMB190_Taxi.fx",
+            "size": 4536,
+            "date": 133122190500000000
         },
         {
             "path": "Effects/LIGHT_FSLTL_Landing.fx",
@@ -37583,72 +37633,72 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/ai.cfg",
             "size": 851,
-            "date": 133121267928053904
+            "date": 133121267940000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/aircraft.cfg",
             "size": 53031,
-            "date": 133122018936281104
+            "date": 133122018940000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/engines.cfg",
             "size": 10483,
-            "date": 133122232199342126
+            "date": 133122421812099534
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/flight_model.cfg",
             "size": 22271,
-            "date": 133121369577752656
+            "date": 133121369580000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/systems.cfg",
-            "size": 12568,
-            "date": 133116024395975584
+            "size": 12881,
+            "date": 133122183700000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/model/E190.bin",
             "size": 578280,
-            "date": 133121175407073958
+            "date": 133121175420000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/model/E190.gltf",
             "size": 119551,
-            "date": 133121175407083962
+            "date": 133121175420000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/model/emb_190 - Copy.xml",
             "size": 10162,
-            "date": 133116035073520368
+            "date": 133116035080000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/model/emb_190.xml",
             "size": 6577,
-            "date": 133121379584394186
+            "date": 133121379600000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/model/model.CFG",
             "size": 30,
-            "date": 133077472510000000
+            "date": 133077436520000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/panel/panel.cfg",
             "size": 2412,
-            "date": 132796522560000000
+            "date": 132796486560000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/panel/panel.xml",
             "size": 18924,
-            "date": 132796522560000000
+            "date": 132796486560000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/soundai/MaVeCreations_E190_AI.PC.pck",
             "size": 2013349,
-            "date": 133121074037995360
+            "date": 133121074040000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/soundai/soundai.xml",
             "size": 2514,
-            "date": 132934023006423908
+            "date": 132933987020000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/texture/E190.PNG.DDS",
