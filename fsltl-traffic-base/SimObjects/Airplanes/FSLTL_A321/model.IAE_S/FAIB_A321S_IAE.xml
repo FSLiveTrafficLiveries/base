@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{179e1dee-7ca0-45b8-9140-7608c429e70e}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="FAIB_A321S_IAE_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FAIB_A321S_IAE_LOD3.gltf"/>
@@ -146,6 +146,18 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node56</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node58</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>	
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_04</ANIM_NAME>
