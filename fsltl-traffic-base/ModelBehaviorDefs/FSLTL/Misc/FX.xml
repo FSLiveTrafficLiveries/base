@@ -156,7 +156,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 2 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -177,7 +177,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_MD_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 4 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -198,7 +198,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_LG_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 5 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -271,7 +271,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_DUST_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0. &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 2 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -286,7 +286,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_GRASS_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 0.1 &gt; and</FX_CODE>
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 1 &gt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -301,7 +301,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 8 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -316,7 +316,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_LG_SNOW_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
+				<FX_CODE>(A:GEAR IS ON GROUND:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 8 &gt; and (A:SURFACE CONDITION, enum) 1 != and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -337,7 +337,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_WATER_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GEAR WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 5 &gt; and</FX_CODE>
+				<FX_CODE>(A:GEAR WATER DEPTH:#FX_CONTACT_POINT_ID#, Keyframe) 0 &gt; (A:GROUND VELOCITY, knot) 8 &gt; and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -532,7 +532,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FX_LANDING_CP_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 2 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -553,7 +553,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FX_LANDING_CP_MD_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 4 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -574,7 +574,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FX_LANDING_CP_LG_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 1 &gt; } } </FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:AMBIENT PRECIP STATE, enum) 4 == if{ (A:GROUND VELOCITY, knot) 5 &gt; } } </FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>

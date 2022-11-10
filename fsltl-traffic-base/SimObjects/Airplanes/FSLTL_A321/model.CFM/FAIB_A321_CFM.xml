@@ -102,18 +102,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_06" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_06</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="0fdcd4a1-e9f9-46c4-9213-96ca132fd990" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="c71e7405-4354-4fb0-adba-7cb000ae6a9e" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_SIM_ON_GROUND_07" guid="df2990c2-3ddc-4653-99c3-ea9904109004" length="1000" type="Sim" typeParam="AutoPlay" />
   <Animation name="custom_anim_SIM_ON_GROUND_08" guid="b29d8ef7-3963-43aa-99ac-2c4e0dd8df23" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
