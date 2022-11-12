@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{47dc328c-8429-11eb-8dcd-0242ac130003}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="8" ModelFile="FAIB7378W_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FAIB7378W_LOD3.gltf"/>
@@ -115,24 +115,31 @@
   </PartInfo>
   <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
  
-  <Animation name="custom_anim_Var3_11" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_11</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="4cbe6f53-c14a-40eb-9354-e00c8e85db63" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="2c2bc286-6be2-4bf1-a05f-3198bf45f182" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
 
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node53</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node52</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <NODE_NAME>node1</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_01</ANIM_NAME>

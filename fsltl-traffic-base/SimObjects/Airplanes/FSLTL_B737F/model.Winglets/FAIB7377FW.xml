@@ -7,18 +7,9 @@
   </LODS>
   <Animation name="custom_anim_SIM_ON_GROUND_00" guid="df2990c2-3ddc-4653-99c3-ea9904109004" length="1000" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_Var3_01" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" typeParam2="custom_anim_Var3_01" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_01</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="18220889-32f0-4b47-81f2-b2b18a4256e1" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="05f9e325-51ff-4667-a273-e37502202022" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_SIM_on_GROUND_02" guid="9c15baf8-40ef-4ecf-842b-9a3ca9acd889" typeParam2="custom_anim_SIM_on_GROUND_02" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_on_GROUND_02</Name>
@@ -136,12 +127,12 @@
     <Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node53</NODE_NAME>
+        <NODE_NAME>node58</NODE_NAME>
         <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node52</NODE_NAME>
+        <NODE_NAME>node57</NODE_NAME>
         <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Static">

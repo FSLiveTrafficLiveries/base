@@ -6,7 +6,7 @@
     <LOD minSize="0" ModelFile="FAIB7378S_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
-    <Animation name="N1_blur_left" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
+    <Animation name="N1_blur_left" guid="0457c5ba-2fc9-4091-bf67-d5c2370105db" length="100" type="Sim" typeParam="AutoPlay" />
     <Animation name="N1_blur_right" guid="7cbbc948-4539-498c-b288-3adabf7f0e06" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
