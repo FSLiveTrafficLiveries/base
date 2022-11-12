@@ -3,7 +3,7 @@
 	<Template Name="FSLTL_FX">
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Lo">
 		<OverrideTemplateParameters>
-				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
 				<FX_OFFSET_X>-15.0</FX_OFFSET_X>
 				<FX_OFFSET_Y>-1.4</FX_OFFSET_Y>
 				<FX_OFFSET_Z>0</FX_OFFSET_Z>
@@ -16,7 +16,7 @@
 	</Component>
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Li">
 		<OverrideTemplateParameters>
-				<FX_CODE>(A:PLANE ALTITUDE, feet) 20000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+				<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
 				<FX_OFFSET_X>-7.0</FX_OFFSET_X>
 				<FX_OFFSET_Y>-2.0</FX_OFFSET_Y>
 				<FX_OFFSET_Z>0</FX_OFFSET_Z>
