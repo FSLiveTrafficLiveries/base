@@ -34,6 +34,7 @@ const execute = async () => {
         forceCacheBust: false,
         splitFileSize: 1_073_741_824,
         keepCompleteModulesAfterSplit: false,
+        forceFullInstallRatio: 50
       },
     });
     console.log(result);
