@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{91fcc22c-476c-4cf7-a558-c5941ecdbd86}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="TFS_A333F_RR_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="TFS_A333F_RR_LOD1.gltf"/>
@@ -11,8 +11,10 @@
   <Animation name="l_spoiler_key" guid="F5D81E0E-0238-43a6-B169-2A7DF682295F" typeParam2="l_spoiler_key" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="l_tire_blurred_key" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="prop_anim" guid="528339be-18a4-40a0-9ea5-2e47af4419da" length="100" type="Sim" typeParam2="prop_anim" typeParam="AutoPlay" />
-  <Animation name="N1_0_still" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" typeParam2="N1_0_still" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="N1_1_still" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" typeParam2="N1_1_still" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_left" guid="2c336608-4872-4f4a-929f-6a470b8a2319" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_right" guid="42535fa8-77be-47ee-a3d0-2c93af438475" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="120" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_spoiler_key" guid="1DAC9F00-4B37-417f-A463-8D6F2B72024D" typeParam2="r_spoiler_key" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_tire_blurred_key" guid="aa67f522-28c5-4d09-a246-2823d34a686b" typeParam2="r_tire_blurred_key" length="100" type="Sim" typeParam="AutoPlay" />
@@ -135,48 +137,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <PartInfo>
-    <Name>prop_anim</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Bias>0</Bias>
-          <Scale>0.1592</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <PartInfo>
-    <Name>N1_0_still</Name>
-    <Copy>prop_anim</Copy>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:ENG N1 RPM:1, percent) 0.01 &gt;
-           if{ (A:GENERAL ENG RPM:1,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 / }
-           els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <PartInfo>
-    <Name>N1_1_still</Name>
-    <Copy>prop_anim</Copy>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:ENG N1 RPM:2, percent) 0.01 &gt;
-           if{ (A:GENERAL ENG RPM:2,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 / }
-           els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_00" guid="06491955-d5f9-40f0-9418-6ed163ef92e5" length="100" type="Sim" typeParam2="custom_anim_00" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_00</Name>
@@ -260,26 +221,50 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_07" guid="eefdf432-70dd-43f0-97f0-d13cc6f60cbb" length="100" type="Sim" typeParam2="custom_anim_Var3_07" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_07</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           	    (G:Var3) 10 + 100 % d (&gt;G:Var3)
-        	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-					<UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
-				<ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
-				<NODE_ID_STILL>node136</NODE_ID_STILL>
-					</UseTemplate>
+    <Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node13</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node16</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right</ANIM_NAME>
+        <NODE_NAME>node19</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left</ANIM_NAME>
+        <NODE_NAME>node21</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      </Component>
+	  <Component ID="Wheels">
+       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        <ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.13</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>99.83</DISTANCE>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        <ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.37</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>19.94</DISTANCE>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        <ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
+        <WHEEL_RADIUS>1.37</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>-19.94</DISTANCE>
+      </UseTemplate>
+	  </Component>
       <Component ID="FX">
          <UseTemplate Name="FSLTL_FX" />
       </Component>

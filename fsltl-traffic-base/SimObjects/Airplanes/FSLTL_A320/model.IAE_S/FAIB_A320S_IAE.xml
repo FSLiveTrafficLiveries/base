@@ -137,12 +137,12 @@
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
         <NODE_NAME>node54</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
         <NODE_NAME>node56</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
     </Component>
     <Component ID="Wheels">
