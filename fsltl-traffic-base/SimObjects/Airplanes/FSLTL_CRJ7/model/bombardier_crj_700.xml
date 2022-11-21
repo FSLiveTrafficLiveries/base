@@ -5,102 +5,19 @@
 	<LOD minSize="1" ModelFile="bombardier_crj_700_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="bombardier_crj_700_LOD1.gltf"/>
   </LODS>
-  <Animation name="custom_anim_GENERAL_ENG_RPM_1_00" guid="e6d2414a-40a0-4d1d-8609-47aa5accbbb3" length="100" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_1_00" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GENERAL_ENG_RPM_1_00</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:GENERAL ENG RPM:1,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 /
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_GENERAL_ENG_RPM_1_01" guid="2289b5d7-e2f9-4c57-ae3b-8323ad5413c6" length="100" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_1_01" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GENERAL_ENG_RPM_1_01</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:GENERAL ENG RPM:1,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 /
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_1_02" guid="e0d9ac9a-dba6-41a5-9163-bf8bd41db4a2" length="100" type="Sim" typeParam2="custom_anim_ENG_N1_RPM_1_02" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_1_02</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:ENG N1 RPM:1, percent) 0.01 &gt;
-           if{ (A:GENERAL ENG RPM:1,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 / }
-           els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_GENERAL_ENG_RPM_2_03" guid="5a2a3e08-7e67-4522-a3a3-e48388f191b3" length="100" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_2_03" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GENERAL_ENG_RPM_2_03</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:GENERAL ENG RPM:2,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 /
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_GENERAL_ENG_RPM_2_04" guid="f8c7e48e-eb6f-438f-80fd-af9f6ea688ad" length="100" type="Sim" typeParam2="custom_anim_GENERAL_ENG_RPM_2_04" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GENERAL_ENG_RPM_2_04</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:GENERAL ENG RPM:2,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 /
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_2_05" guid="41c33b6f-e52a-45e9-bec1-3d722e69bbff" length="100" type="Sim" typeParam2="custom_anim_ENG_N1_RPM_2_05" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_2_05</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:ENG N1 RPM:2, percent) 0.01 &gt;
-           if{ (A:GENERAL ENG RPM:2,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 / }
-           els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_06" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_06" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_06</Name>
-    <AnimLength>200</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>GEAR ANIMATION POSITION:0</Variable>
-          <Units>keyframe</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="e6d2414a-40a0-4d1d-8609-47aa5accbbb3" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="e0d9ac9a-dba6-41a5-9163-bf8bd41db4a2" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_left" guid="5a2a3e08-7e67-4522-a3a3-e48388f191b3" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_right" guid="f8c7e48e-eb6f-438f-80fd-af9f6ea688ad" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_08" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_08" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_06" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_GEAR_CENTER_STEER_ANGLE_09" guid="bc935f16-43cd-4046-8ef3-06e44a5940ab" length="200" type="Sim" typeParam2="custom_anim_GEAR_CENTER_STEER_ANGLE_09" typeParam="AutoPlay" />
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_08" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_ELEVATOR_DEFLECTION_PCT_13" guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="custom_anim_ELEVATOR_DEFLECTION_PCT_13" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_CENTER_STEER_ANGLE_09" guid="bc935f16-43cd-4046-8ef3-06e44a5940ab" length="200" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_ELEVATOR_DEFLECTION_PCT_13" guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_ELEVATOR_DEFLECTION_PCT_13</Name>
     <AnimLength>100</AnimLength>
@@ -114,7 +31,7 @@
     </Animation>
   </PartInfo>
 
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_18" guid="db029e5c-1a48-42d5-8290-ef098dfabb4f" length="100" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_18" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_18" guid="db029e5c-1a48-42d5-8290-ef098dfabb4f" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_18</Name>
     <AnimLength>100</AnimLength>
@@ -127,7 +44,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_19" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_19" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_19" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_19</Name>
     <AnimLength>200</AnimLength>
@@ -140,7 +57,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEADING_EDGE_FLAPS_LEFT_PERCENT_20" guid="1b2c12b5-8539-439c-980c-a198647c9291" length="100" type="Sim" typeParam2="custom_anim_LEADING_EDGE_FLAPS_LEFT_PERCENT_20" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEADING_EDGE_FLAPS_LEFT_PERCENT_20" guid="1b2c12b5-8539-439c-980c-a198647c9291" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LEADING_EDGE_FLAPS_LEFT_PERCENT_20</Name>
     <AnimLength>100</AnimLength>
@@ -153,7 +70,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_21" guid="f5d81e0e-0238-43a6-b169-2a7df682295f" length="100" type="Sim" typeParam2="custom_anim_SPOILERS_LEFT_POSITION_21" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_21" guid="f5d81e0e-0238-43a6-b169-2a7df682295f" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SPOILERS_LEFT_POSITION_21</Name>
     <AnimLength>100</AnimLength>
@@ -166,11 +83,11 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_22" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" length="100" type="Sim" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_22" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_22" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_23" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_23" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_23" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_31" guid="3849e47f-9088-4699-8959-ec0c54df8015" length="100" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_31" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_31" guid="3849e47f-9088-4699-8959-ec0c54df8015" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_RIGHT_PERCENT_31</Name>
     <AnimLength>100</AnimLength>
@@ -183,7 +100,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_32" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_32" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_32" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_2_32</Name>
     <AnimLength>200</AnimLength>
@@ -196,7 +113,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEADING_EDGE_FLAPS_RIGHT_PERCENT_33" guid="d27f63c4-2260-4dbe-8973-9c920a3c8898" length="100" type="Sim" typeParam2="custom_anim_LEADING_EDGE_FLAPS_RIGHT_PERCENT_33" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEADING_EDGE_FLAPS_RIGHT_PERCENT_33" guid="d27f63c4-2260-4dbe-8973-9c920a3c8898" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LEADING_EDGE_FLAPS_RIGHT_PERCENT_33</Name>
     <AnimLength>100</AnimLength>
@@ -209,7 +126,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_34" guid="1dac9f00-4b37-417f-a463-8d6f2b72024d" length="100" type="Sim" typeParam2="custom_anim_SPOILERS_RIGHT_POSITION_34" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_34" guid="1dac9f00-4b37-417f-a463-8d6f2b72024d" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SPOILERS_RIGHT_POSITION_34</Name>
     <AnimLength>100</AnimLength>
@@ -222,11 +139,11 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_35" guid="aa67f522-28c5-4d09-a246-2823d34a686b" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_35" typeParam="AutoPlay" />
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_35" guid="aa67f522-28c5-4d09-a246-2823d34a686b" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_36" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_36" typeParam="AutoPlay" />
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_36" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_1_39" guid="18af77cb-6457-47d0-8a10-2ba619430ace" length="100" type="Sim" typeParam2="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_1_39" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_1_39" guid="18af77cb-6457-47d0-8a10-2ba619430ace" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_1_39</Name>
     <AnimLength>100</AnimLength>
@@ -239,7 +156,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_2_40" guid="2d50d1b9-ed30-4405-a77a-99aa338d1548" length="100" type="Sim" typeParam2="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_2_40" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_2_40" guid="2d50d1b9-ed30-4405-a77a-99aa338d1548" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TURB_ENG_REVERSE_NOZZLE_PERCENT_2_40</Name>
     <AnimLength>100</AnimLength>
@@ -253,238 +170,31 @@
     </Animation>
   </PartInfo>
   <Behaviors>
-    <Component ID="node2_Vis_custom_vis_ENG_N1_RPM_2_10" Node="node2">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node3_Vis_custom_vis_ENG_N1_RPM_2_11" Node="node3">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node4_Vis_custom_vis_ENG_N1_RPM_2_12" Node="node4">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-
-    <Component ID="node123_Vis_custom_vis_ENG_N1_RPM_1_04" Node="node123">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node124_Vis_custom_vis_ENG_N1_RPM_1_04" Node="node124">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node125_Vis_custom_vis_ENG_N1_RPM_1_04" Node="node125">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node126_Vis_custom_vis_ENG_N1_RPM_1_04" Node="node126">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node128_Vis_custom_vis_ENG_N1_RPM_1_07" Node="node128">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node129_Vis_custom_vis_ENG_N1_RPM_1_07" Node="node129">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node131_Vis_custom_vis_ENG_N1_RPM_1_08" Node="node131">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node132_Vis_custom_vis_ENG_N1_RPM_1_08" Node="node132">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-
-    <Component ID="node305_Vis_custom_vis_ENG_N1_RPM_1_07" Node="node305">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node306_Vis_custom_vis_ENG_N1_RPM_1_07" Node="node306">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node308_Vis_custom_vis_ENG_N1_RPM_1_08" Node="node308">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node309_Vis_custom_vis_ENG_N1_RPM_1_08" Node="node309">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:1, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node311_Vis_custom_vis_ENG_N1_RPM_2_10" Node="node311">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node312_Vis_custom_vis_ENG_N1_RPM_2_10" Node="node312">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node314_Vis_custom_vis_ENG_N1_RPM_2_11" Node="node314">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node315_Vis_custom_vis_ENG_N1_RPM_2_11" Node="node315">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &gt;
-                if{
-                (A:ENG N1 RPM:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node317_Vis_custom_vis_ENG_N1_RPM_2_12" Node="node317">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node318_Vis_custom_vis_ENG_N1_RPM_2_12" Node="node318">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:ENG N1 RPM:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-	
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_BK2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-	    <Component ID="Engines">
+	<Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node53</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+        <NODE_NAME>node2</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node52</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+        <NODE_NAME>node114</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
-      <UseTemplate Name="FSLTL_Engine_Static">
-        <NODE_NAME>node1</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+	  <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left</ANIM_NAME>
+        <NODE_NAME>node106</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
-    </Component>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right</ANIM_NAME>
+        <NODE_NAME>node3</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	</Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_GEAR_CENTER_STEER_ANGLE_09</ANIM_NAME>
