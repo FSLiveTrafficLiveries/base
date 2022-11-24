@@ -169,6 +169,19 @@
       </Parameter>
     </Animation>
   </PartInfo>
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_06" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
+  <PartInfo>
+    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_06</Name>
+    <AnimLength>200</AnimLength>
+    <Animation>
+      <Parameter>
+        <Sim>
+          <Variable>GEAR ANIMATION POSITION:0</Variable>
+          <Units>keyframe</Units>
+        </Sim>
+      </Parameter>
+    </Animation>
+  </PartInfo>
   <Behaviors>
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_BK2E.xml"/>
