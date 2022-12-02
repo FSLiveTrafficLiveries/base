@@ -19796,6 +19796,166 @@
             "date": 133092168061365996
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_A388/ai.cfg",
+            "size": 963,
+            "date": 133102499640887492
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/aircraft.cfg",
+            "size": 2829,
+            "date": 133144812341177366
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/engines.cfg",
+            "size": 10522,
+            "date": 133133194787936218
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/flight_model.cfg",
+            "size": 25848,
+            "date": 133140564771356314
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/systems.cfg",
+            "size": 11013,
+            "date": 133133201553007600
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/model.CFG",
+            "size": 36,
+            "date": 133132677420000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx.xml",
+            "size": 9314,
+            "date": 133144443269085324
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD0.bin",
+            "size": 3156836,
+            "date": 133144777808855776
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD0.gltf",
+            "size": 177958,
+            "date": 133144777808875794
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD1.bin",
+            "size": 1017754,
+            "date": 133132757647116100
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD1.gltf",
+            "size": 50408,
+            "date": 133132757647126110
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/panel/panel.cfg",
+            "size": 2412,
+            "date": 132420753040000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/panel/panel.xml",
+            "size": 18924,
+            "date": 132448024520000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/soundai/MaVeCreations_B747_AI.PC.pck",
+            "size": 1628102,
+            "date": 133119820959815938
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/soundai/soundai.xml",
+            "size": 4225,
+            "date": 133092159105063882
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
+            "size": 349680,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS.json",
+            "size": 119,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS",
+            "size": 1398256,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS.json",
+            "size": 119,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS",
+            "size": 87536,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS.json",
+            "size": 177,
+            "date": 133132674470000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_M.PNG.DDS",
+            "size": 699192,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_M.PNG.DDS.json",
+            "size": 166,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "size": 2796344,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "size": 102,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "size": 2796344,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "size": 102,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/texture.CFG",
+            "size": 33,
+            "date": 133132677960000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "size": 2796344,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "size": 102,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "size": 2796344,
+            "date": 133132674910000000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "size": 102,
+            "date": 133132674910000000
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_AT75/ai.cfg",
             "size": 853,
             "date": 133092151864900462
@@ -39398,12 +39558,12 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/model/E170.bin",
             "size": 556936,
-            "date": 133144890597985898
+            "date": 133144921115300582
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/model/E170.gltf",
-            "size": 118027,
-            "date": 133144890598005918
+            "size": 118077,
+            "date": 133144921115320608
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/model/emb_170.xml",
