@@ -71,6 +71,71 @@
             "date": 133087795526405206
         },
         {
+            "path": "Effects/LIGHT_FSLTL_A380_BeaconBelly.fx",
+            "size": 4616,
+            "date": 133140177179717850
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_BeaconTop.fx",
+            "size": 4630,
+            "date": 133140177179737838
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_BeaconTopdown.fx",
+            "size": 1224,
+            "date": 133140177179757800
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_LandingLarge.fx",
+            "size": 4849,
+            "date": 133145580374709446
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_LogoLightLarge.fx",
+            "size": 3669,
+            "date": 133145516754373350
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_NavigationGreen.fx",
+            "size": 3506,
+            "date": 133145579540719114
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_NavigationRed.fx",
+            "size": 3485,
+            "date": 133145579540899078
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_NavigationWhite.fx",
+            "size": 3864,
+            "date": 133145579540380030
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_StrobeDouble.fx",
+            "size": 7273,
+            "date": 133145603640953052
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_StrobeSimple.fx",
+            "size": 3501,
+            "date": 133145603640636262
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_TakeOff.fx",
+            "size": 4849,
+            "date": 133145580657080478
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_TaxiLarge.fx",
+            "size": 4840,
+            "date": 133145580948332770
+        },
+        {
+            "path": "Effects/LIGHT_FSLTL_A380_WingLarge.FX",
+            "size": 3883,
+            "date": 133145624329665370
+        },
+        {
             "path": "Effects/LIGHT_FSLTL_B737_BeaconBelly.fx",
             "size": 4371,
             "date": 133087795526425218
@@ -7177,8 +7242,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/flight_model.cfg",
-            "size": 21892,
-            "date": 133109160294973850
+            "size": 21891,
+            "date": 133145398657130110
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/systems.cfg",
@@ -14758,7 +14823,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_A321_TVJ/aircraft.cfg",
             "size": 971,
-            "date": 133143047724380508
+            "date": 133145420056827724
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A321_TVJ/model.TVJ/model.cfg",
@@ -19812,13 +19877,13 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/flight_model.cfg",
-            "size": 25848,
-            "date": 133140564771356314
+            "size": 25845,
+            "date": 133145634789786336
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/systems.cfg",
-            "size": 11013,
-            "date": 133133201553007600
+            "size": 13354,
+            "date": 133145629494280612
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/model.CFG",
@@ -19827,8 +19892,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx.xml",
-            "size": 9314,
-            "date": 133144443269085324
+            "size": 8896,
+            "date": 133145645557279444
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD0.bin",
