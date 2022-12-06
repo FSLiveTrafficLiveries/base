@@ -156,7 +156,48 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left_out</ANIM_NAME>
+        <NODE_NAME>node22</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left_in</ANIM_NAME>
+        <NODE_NAME>node26</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right_in</ANIM_NAME>
+        <NODE_NAME>node30</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:3,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right_out</ANIM_NAME>
+        <NODE_NAME>node34</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:4,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left_out</ANIM_NAME>
+        <NODE_NAME>node23</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left_in</ANIM_NAME>
+        <NODE_NAME>node27</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right_in</ANIM_NAME>
+        <NODE_NAME>node31</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:3,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right_out</ANIM_NAME>
+        <NODE_NAME>node35</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:4,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
       <Component ID="FX">
          <UseTemplate Name="FSLTL_FX" />
       </Component>   
