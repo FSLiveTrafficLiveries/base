@@ -19892,28 +19892,28 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx.xml",
-            "size": 10495,
-            "date": 133147379886957968
+            "size": 8329,
+            "date": 133150976038565102
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD0.bin",
-            "size": 3480708,
-            "date": 133148193925928000
+            "size": 5503808,
+            "date": 133150959615878438
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD0.gltf",
-            "size": 185618,
-            "date": 133148193925948020
+            "size": 238798,
+            "date": 133150959615908468
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD1.bin",
             "size": 684458,
-            "date": 133148193926298344
+            "date": 133150959616198728
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/model.RR/tfs_a380_rr_fsx_LOD1.gltf",
-            "size": 34180,
-            "date": 133148193926308348
+            "size": 33961,
+            "date": 133150959616208742
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388/panel/panel.cfg",
@@ -19976,49 +19976,29 @@
             "date": 133132674910000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
-            "size": 2796344,
-            "date": 133132674910000000
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
-            "size": 102,
-            "date": 133132674910000000
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
-            "size": 2796344,
-            "date": 133132674910000000
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A388/Texture/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
-            "size": 102,
-            "date": 133132674910000000
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/texture.CFG",
             "size": 33,
             "date": 133132677960000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
-            "size": 2796344,
-            "date": 133132674910000000
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK.PNG.DDS",
+            "size": 699192,
+            "date": 133124894350000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
-            "date": 133132674910000000
+            "date": 133124894350000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
-            "size": 2796344,
-            "date": 133132674910000000
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK.PNG.DDS",
+            "size": 699192,
+            "date": 133124894620000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388/texture.RR/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
-            "date": 133132674910000000
+            "date": 133124894620000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A388_AAR/aircraft.cfg",
@@ -20036,22 +20016,22 @@
             "date": 133147481824065258
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481817286342
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481817706720
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481823391892
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_AAR/texture.AAR/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481823692170
         },
@@ -20071,22 +20051,22 @@
             "date": 133147481838111524
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481830821402
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481831512034
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481837571034
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_BAW/texture.BAW/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481837881318
         },
@@ -20106,22 +20086,22 @@
             "date": 133147481857082650
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481847332510
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481847712860
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481856641400
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_NC/texture.DLH/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481856982634
         },
@@ -20141,22 +20121,22 @@
             "date": 133147481872609532
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481864997088
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481866338316
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481871941328
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_DLH_OC/texture.DLH/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481872429368
         },
@@ -20176,22 +20156,22 @@
             "date": 133147481886110432
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481879032450
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481879713070
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481885439822
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_KAL/texture.KAL/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481885970304
         },
@@ -20211,22 +20191,22 @@
             "date": 133147481900606316
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133148219054195612
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481893377044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481900135886
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QFA/texture.QFA/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481900456178
         },
@@ -20246,22 +20226,22 @@
             "date": 133147481919568758
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481910918346
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481911548922
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481918758018
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_QTR/texture.QTR/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481919198420
         },
@@ -20281,22 +20261,22 @@
             "date": 133147481938200894
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133148219066289428
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481931592180
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481937570314
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_SIA/texture.SIA/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481937990704
         },
@@ -20316,22 +20296,22 @@
             "date": 133147481955866360
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_A_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481945337388
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_A_PK_PNG-TFS_A380_RR_A_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_A_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481946751040
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_B_PK.PNG.DDS",
             "size": 5592560,
             "date": 133147481954773004
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_B_PK_PNG-TFS_A380_RR_B_PK.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A388_UAE/texture.UAE/TFS_A380_RR_B_PK.PNG.DDS.json",
             "size": 102,
             "date": 133147481955716224
         },
@@ -41782,8 +41762,8 @@
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FX.xml",
-            "size": 24106,
-            "date": 133146645957434668
+            "size": 24112,
+            "date": 133150873252392866
         },
         {
             "path": "AirTraffic/PlaneTypeICAO.spb",
