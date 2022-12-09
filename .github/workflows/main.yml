@@ -56,5 +56,5 @@ jobs:
           file: "./fsltl-traffic-base-build/*"
           tags: true
           draft: false
-          update_latest_release: true
+          update_latest_release: false
           overwrite: true
