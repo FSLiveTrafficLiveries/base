@@ -128,7 +128,7 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node10CP.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 	<Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Static">
