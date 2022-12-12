@@ -29,9 +29,9 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.1, 0.1
-Type=19
-X Scale=0.2, 0.2
-Y Scale=0.2, 0.2
+Type=25
+X Scale=0.4, 0.4
+Y Scale=0.4, 0.4
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -51,8 +51,8 @@ Face=1, 1, 1
 Blend Mode=2
 Texture=FSLTL-LIGHTnav
 Bounce=0.0
-Color Start=255, 1, 0, 255
-Color End=255, 1, 0, 255
+Color Start=255, 20, 0, 255
+Color End=255, 20, 0, 255
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0

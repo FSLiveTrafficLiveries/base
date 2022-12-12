@@ -29,9 +29,9 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.2, 0.2
-Type=19
-X Scale=0.15, 0.15
-Y Scale=0.15, 0.15
+Type=25
+X Scale=0.4, 0.4
+Y Scale=0.4, 0.4
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0

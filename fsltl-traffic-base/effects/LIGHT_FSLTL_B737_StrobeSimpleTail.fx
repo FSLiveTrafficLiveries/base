@@ -29,9 +29,9 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.05, 0.05
-Type=19
-X Scale=0.15, 0.15
-Y Scale=0.15, 0.15
+Type=25
+X Scale=0.4, 0.4
+Y Scale=0.4, 0.4
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -51,8 +51,8 @@ Face=1, 1, 1
 Blend Mode=2
 Texture=LIGHT
 Bounce=0.0
-Color Start=140, 150, 255, 255
-Color End=140, 150, 255, 255
+Color Start=255, 255, 255, 1
+Color End=255, 255, 255, 1
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.00, 0.00
@@ -95,7 +95,7 @@ Z Offset=0.0, 0.0
 
 [Particle.1]
 Lifetime=0.05, 0.05
-Type=19
+Type=25
 X Scale=2.0, 2.0
 Y Scale=1.5, 1.5
 Z Scale=0.0, 0.0
@@ -161,7 +161,7 @@ Z Offset=0.0, 0.0
 
 [Particle.2]
 Lifetime=0.05, 0.05
-Type=19
+Type=25
 X Scale=2.0, 2.0
 Y Scale=1.8, 1.8
 Z Scale=0.0, 0.0

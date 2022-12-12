@@ -29,7 +29,7 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.0, 0.0
-Type=19
+Type=25
 X Scale=0.4, 0.4
 Y Scale=0.4, 0.4
 Z Scale=0.0, 0.0
@@ -51,8 +51,8 @@ Face=1, 1, 1
 Blend Mode=2
 Texture=FSLTL-LIGHTLanding
 Bounce=0.0
-Color Start=255, 255, 255, 10
-Color End=255, 255, 255, 10
+Color Start=255, 255, 200, 10
+Color End=255, 255, 200, 10
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
@@ -70,8 +70,8 @@ Size=0.06
 Range=4000
 Intensity=500
 Softness=0.0
-SpotInner=15
-SpotOuter=30
+SpotInner=0
+SpotOuter=20
 Volumetric=1
 ScatDir=0.0
 
