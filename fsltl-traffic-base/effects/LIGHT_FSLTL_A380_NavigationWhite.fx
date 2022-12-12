@@ -209,7 +209,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.5
+MinProjSize=0.2
 
 [LightAttributes.2]
 Type=Omni	
