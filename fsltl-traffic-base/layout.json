@@ -43099,6 +43099,16 @@
             "path": "AirTraffic/PlaneTypeICAO.spb",
             "size": 993117,
             "date": 133146558329588748
+        },
+        {
+            "path": "VisualEffectLibs/contrail/VisualEffectLib/Ribbon.spb",
+            "size": 3261,
+            "date": 133147594467214716
+        },
+        {
+            "path": "VisualEffectLibs/contrail/VisualEffectLib/VisualEffectLibrary.xml",
+            "size": 97,
+            "date": 133147594467214716
         }
     ]
 }
