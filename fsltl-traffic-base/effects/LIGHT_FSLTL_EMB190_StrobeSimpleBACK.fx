@@ -59,13 +59,13 @@ uv1=0.00, 0.00
 uv2=1.00, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.1
+MinProjSize=0.2
 
 [LightAttributes.0]
 Type=spot
 Size=0.06
 Range=200.0
-Intensity=5
+Intensity=15
 Softness=0.0
 SpotInner=50.0
 SpotOuter=80.0
@@ -125,7 +125,7 @@ uv1=0.00, 0.00
 uv2=1.0, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.5
+MinProjSize=1
 
 [LightAttributes.1]
 Type=Omni
@@ -163,7 +163,7 @@ Z Offset=0.0, 0.0
 Lifetime=0.1, 0.1
 Type=19
 X Scale=2.0, 2.0
-Y Scale=1.8, 1.8
+Y Scale=1.6, 1.6
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -191,7 +191,7 @@ uv1=0.00, 0.00
 uv2=1.0, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.5
+MinProjSize=1
 
 [LightAttributes.2]
 Type=Omni

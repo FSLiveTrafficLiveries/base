@@ -6,7 +6,6 @@
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" typeparam2="l_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="l_spoiler_key" guid="F5D81E0E-0238-43a6-B169-2A7DF682295F" typeParam2="l_spoiler_key" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="prop_anim" guid="528339be-18a4-40a0-9ea5-2e47af4419da" length="100" type="Sim" typeParam2="prop_anim" typeParam="AutoPlay" />
   <Animation name="N1_0_still" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" typeParam2="N1_0_still" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="N1_1_still" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" typeParam2="N1_1_still" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
@@ -158,7 +157,7 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_SM2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 			<Component ID="FX">
 			<UseTemplate Name="FSLTL_FX" />

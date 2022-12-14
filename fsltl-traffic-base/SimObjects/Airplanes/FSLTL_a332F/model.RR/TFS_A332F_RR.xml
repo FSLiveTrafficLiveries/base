@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{140d70b4-e2ce-4355-8329-023affc34379}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="A332F_RR_LOD0.gltf"/>
-	<LOD minSize="0" ModelFile="A332F_RR_LOD1.gltf"/>
+    <LOD minSize="1" ModelFile="A332F_RR_LOD1.gltf"/>
+    <LOD minSize="0" ModelFile="A332F_RR_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" guid="06491955-d5f9-40f0-9418-6ed163ef92e5" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -30,14 +31,26 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_1_01" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" typeParam2="custom_anim_ENG_N1_RPM_1_01" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_1_01</Name>
+    <Name>N1_blur_left</Name>
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Code>
 	(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="N1_blur_right" guid="063194d1-96a5-48c6-91ca-bc019a3dc2a7" length="200" type="Sim" typeParam="AutoPlay" />
+   <PartInfo>
+    <Name>N1_blur_right</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+	(A:ENG N1 RPM:2, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:2, percent) 10 * * 100 % } els{ 0 }
         </Code>
       </Parameter>
     </Animation>
@@ -109,20 +122,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="l_gear" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="l_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>l_gear</Name>
@@ -136,20 +136,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" guid="aa67f522-28c5-4d09-a246-2823d34a686b" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="r_gear" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="r_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>r_gear</Name>
@@ -163,20 +150,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" guid="4e1cc3e5-5933-445d-80e0-b0dd693125f0" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_SIM_ON_GROUND_09" guid="c2f63812-c927-48d5-9951-edcf8c3cc1b6" typeParam2="custom_anim_SIM_ON_GROUND_09" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_09</Name>
@@ -210,7 +184,7 @@ els{ (A:ROTATION VELOCITY BODY Y, Feet) 50 * 100 + } }
   <Behaviors>
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="Asobo\Common.xml"/>
-	<Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">

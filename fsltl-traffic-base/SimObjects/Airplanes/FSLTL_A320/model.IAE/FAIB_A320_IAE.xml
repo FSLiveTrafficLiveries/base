@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{b7b6e125-a10d-485b-bb91-491a8d0e4ca2}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A320_IAE_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A320_IAE_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A320_IAE_LOD2.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB_A320_IAE_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A320_IAE_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_A320_IAE_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="afd5cf18-7dd4-4965-9107-bb14d798fdc7" length="200" type="Sim" typeParam="AutoPlay" />
@@ -73,18 +72,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_07" guid="8c58c81a-471e-4b78-962d-1c049663b0b8" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_07</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="8c58c81a-471e-4b78-962d-1c049663b0b8" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="eaff7d54-c55c-4de3-bbab-54f4fd3b29d4" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_08" guid="653709f3-115f-4154-98a4-f2d2c69d014f" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_08</Name>
@@ -141,8 +131,20 @@
   <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13" guid="59cef8f0-ae66-405d-a414-5cdf1506d7f4" length="100" type="Sim" typeParam="AutoPlay" />
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node54</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node56</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
 				<ANIM_NAME>custom_anim_SIM_ON_GROUND_04</ANIM_NAME>
@@ -156,12 +158,12 @@
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_10</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>13.33</DISTANCE>
+        <DISTANCE>2.0</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-13.33</DISTANCE>
+        <DISTANCE>-2.0</DISTANCE>
       </UseTemplate>
       </Component>
       <Component ID="FX">

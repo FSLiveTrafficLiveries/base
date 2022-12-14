@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{c6f0a5a3-ff9d-4a42-9aa6-e5fdd8fabc4f}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="A332_GE_LOD0.gltf"/>
-	<LOD minSize="0" ModelFile="A332_GE_LOD1.gltf"/>
+    <LOD minSize="1" ModelFile="A332_GE_LOD1.gltf"/>
+    <LOD minSize="0" ModelFile="A332_GE_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" guid="06491955-d5f9-40f0-9418-6ed163ef92e5" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -30,14 +31,26 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_1_07" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" typeParam2="custom_anim_ENG_N1_RPM_1_07" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_1_07</Name>
+    <Name>N1_blur_left</Name>
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Code>
 	(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="N1_blur_right" guid="063194d1-96a5-48c6-91ca-bc019a3dc2a7" length="200" type="Sim" typeParam="AutoPlay" />
+   <PartInfo>
+    <Name>N1_blur_right</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+	(A:ENG N1 RPM:2, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:2, percent) 10 * * 100 % } els{ 0 }
         </Code>
       </Parameter>
     </Animation>
@@ -83,9 +96,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" guid="56991870-283c-4c66-9086-072c8b6bba32" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_01" guid="56991870-283c-4c66-9086-072c8b6bba32" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_01" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
-    <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06</Name>
+    <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_01</Name>
     <AnimLength>50</AnimLength>
     <Animation>
       <Parameter>
@@ -109,7 +122,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_08" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_tire_blurred_key" guid="2c52a54a-9902-487a-a355-d00874ce7d0f" typeParam2="l_tire_blurred_key" length="200" type="Sim" typeParam="AutoPlay" />
 
   <Animation name="l_gear" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="l_gear" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -156,25 +169,11 @@ els{ (A:ROTATION VELOCITY BODY Y, Feet) 50 * 100 + } }
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_GROUND_VELOCITY_08" guid="39c60556-3e1f-4068-824b-031901dca9aa" length="200" type="Sim" typeParam2="custom_anim_GROUND_VELOCITY_08" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GROUND_VELOCITY_08</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code> 
-  (A:GROUND VELOCITY,knots) 0 != 
-  (A:LIGHT BEACON,bool) or 
-  if{ 100 } els{ 0 } 
-        </Code>
-        <Lag>20</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Behaviors>
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="Asobo\Common.xml"/>
-	<Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{9fffd6ac-26fe-4e60-9dca-32e21f9fbf41}" version="1.1">
   <LODS>
-    <LOD minSize="20" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FSPXAI_MD11_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FSPXAI_MD11_LOD2.gltf"/>
-    <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD4.gltf"/>
+    <LOD minSize="8" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
+    <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -182,8 +180,8 @@
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
-       <Code>
-           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 25 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 50 } els{(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
+		<Code>
+           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>6</Lag>
       </Parameter>
@@ -196,7 +194,7 @@
     <Animation>
       <Parameter>
        <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 25 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 50 } els{(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>6</Lag>
       </Parameter>
@@ -246,9 +244,8 @@
     </Animation>
   </PartInfo>
   <Behaviors>
-  		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
-		<Include ModelBehaviorFile="Asobo\Common.xml"/>
+    <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
@@ -279,88 +276,8 @@
         <DISTANCE>-26.54</DISTANCE>
       </UseTemplate>
       </Component>
-		<Component ID="FX_CONTRAIL_QUAD">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt; if{true}</FX_CODE>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{F42CE638-11EB-4FC8-B9B0-111A220D681F}</FX_GUID>
-				<FX_NAME>FX_CONTRAILS</FX_NAME>
-			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_IN" Node="fx_exhaust_left">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_OUT" Node="fx_exhaust_right">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-		</Component>
-		<Component ID="FX_CONTRAIL_RIBBON">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt; if{true}</FX_CODE>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
-				<FX_NAME>FX_CONTRAILS_RIBBON</FX_NAME>
-			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_RIBBON_LEFT_OUT" Node="fx_exhaust_left">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="fx_exhaust_right">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-		</Component>
-		<Component ID="FX_TIRE_CONTACT">
-			<DefaultTemplateParameters>
-				<FX_DURATION>5</FX_DURATION>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{7E68323C-E75D-4F5B-988E-65DD4956F6BA}</FX_GUID>
-				<FX_NAME>SMOKE_ON_TIRE_CONTACT</FX_NAME>
-				<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
-				<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
-				<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
-				<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
-				<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
-			</DefaultTemplateParameters>
-			<Component ID="FX_TIRE_CONTACT_left_in" Node="fx_tire_contactPoint_left_in">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:1, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-			<Component ID="FX_TIRE_CONTACT_left_out" Node="fx_tire_contactPoint_left_out">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:1, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-			<Component ID="FX_TIRE_CONTACT_right_in" Node="fx_tire_contactPoint_right_in">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:2, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-			<Component ID="FX_TIRE_CONTACT_right_out" Node="fx_tire_contactPoint_right_out">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:2, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-			<Component ID="FX_TIRE_CONTACT_center_left" Node="fx_tire_contactPoint_center_left">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:0, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-			<Component ID="FX_TIRE_CONTACT_center_right" Node="fx_tire_contactPoint_center_right">
-				<UseTemplate Name="ASOBO_GT_FX">
-					<FX_CODE>(A:GEAR SKIDDING FACTOR:0, Keyframe) 0 &gt;</FX_CODE>
-				</UseTemplate>
-			</Component>
-		</Component>
-		<Component ID="LANDING_DUST_FX">
-			<UseTemplate Name="ASOBO_DUST_LANDING_FX"/>
-		</Component>
-		<Component ID="LANDING_GRASS_FX">
-			<UseTemplate Name="ASOBO_GRASS_LANDING_FX"/>
-		</Component>
+      <Component ID="FX">
+         <UseTemplate Name="FSLTL_FX" />
+      </Component>
   </Behaviors>
 </ModelInfo>

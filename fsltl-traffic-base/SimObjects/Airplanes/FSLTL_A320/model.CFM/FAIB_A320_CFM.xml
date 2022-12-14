@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <ModelInfo guid="{8f95b9f6-7637-4de3-bc8f-1ee2e3467d34}" version="1.1">
+  <ModelInfo>
     <LODS>
-      <LOD minSize="20" ModelFile="FAIB_A320_CFM_LOD0.gltf"/>
-      <LOD minSize="8" ModelFile="FAIB_A320_CFM_LOD1.gltf"/>
-      <LOD minSize="3" ModelFile="FAIB_A320_CFM_LOD2.gltf"/>
+      <LOD minSize="8" ModelFile="FAIB_A320_CFM_LOD0.gltf"/>
+      <LOD minSize="1" ModelFile="FAIB_A320_CFM_LOD3.gltf"/>
       <LOD minSize="0" ModelFile="FAIB_A320_CFM_LOD3.gltf"/>
     </LODS>
   <Animation name="c_gear" guid="3d0bb0f4-84c8-11eb-8dcd-0242ac130003" length="200" type="Sim" typeParam="AutoPlay" />
@@ -137,18 +136,18 @@
   <Behaviors>
 
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node57</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+        <NODE_NAME>node55</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node55</NODE_NAME>
-        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+        <NODE_NAME>node57</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
     </Component>
     <Component ID="Wheels">
@@ -164,12 +163,12 @@
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_10</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>13.33</DISTANCE>
+        <DISTANCE>2.0</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-13.33</DISTANCE>
+        <DISTANCE>-2.0</DISTANCE>
       </UseTemplate>
       </Component>
       <Component ID="FX">

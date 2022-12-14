@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{bf39bdaa-e111-4f64-b151-02b5115c5af1}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A321_CFM_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A321_CFM_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A321_CFM_LOD2.gltf"/>
-    <LOD minSize="2" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_A321_CFM_LOD4.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_A321_CFM_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_A321_CFM_LOD3.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="200" type="Sim" typeParam="AutoPlay" />
   <Animation name="c_tire_still_key" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
@@ -104,18 +102,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_06" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_06</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="0fdcd4a1-e9f9-46c4-9213-96ca132fd990" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="c71e7405-4354-4fb0-adba-7cb000ae6a9e" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_SIM_ON_GROUND_07" guid="df2990c2-3ddc-4653-99c3-ea9904109004" length="1000" type="Sim" typeParam="AutoPlay" />
   <Animation name="custom_anim_SIM_ON_GROUND_08" guid="b29d8ef7-3963-43aa-99ac-2c4e0dd8df23" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -145,8 +134,20 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node58</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node60</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_07</ANIM_NAME>

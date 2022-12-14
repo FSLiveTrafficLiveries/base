@@ -2,6 +2,7 @@
 <ModelInfo guid="{00cb80c8-1979-4efb-a234-6e4a16a60d46}" version="1.1">
   <LODS>
     <LOD minSize="5" ModelFile="dh8c-lod0.gltf"/>
+    <LOD minSize="1" ModelFile="dh8c-lod1.gltf"/>
     <LOD minSize="0" ModelFile="dh8c-lod1.gltf"/>
   </LODS>
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="120" type="Sim" typeParam="AutoPlay" />

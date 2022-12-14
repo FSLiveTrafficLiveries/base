@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{dcd17b07-e23f-40c4-98d9-8febb408bf4b}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="B772_PW_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="B772_PW_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="B772_PW_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" guid="e4fca90f-95de-4536-b45b-0482de67fc92" length="200" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_06" typeParam="AutoPlay" />
@@ -30,20 +31,13 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_2_12" guid="41c33b6f-e52a-45e9-bec1-3d722e69bbff" length="200" type="Sim" typeParam2="custom_anim_ENG_N1_RPM_2_12aWa" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_2_12</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:ENG N1 RPM:2, percent) 0.01 &gt;
-           if{ (A:GENERAL ENG RPM:2,degrees per second) (E:ABSOLUTE TIME, second) * 360 % 3.6 / }
-           els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="custom_anim_SIM_ON_GROUND_01" guid="91b60e1b-89fd-4739-a673-21640d858896" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_tire_anim" guid="e5473b1b-0973-4d13-8a92-35568fc03256" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_tire_anim" guid="bfe582e6-b769-4a7b-b300-92ca3d5e55ed" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_left" guid="41c33b6f-e52a-45e9-bec1-3d722e69bbff" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_still_right" guid="9499f2d0-bb1c-41fd-bb5c-f712879def59" length="200" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_05" guid="0fc09b67-bda1-49b7-bcc8-db1ce129f668" length="200" type="Sim" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_05" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_05</Name>
@@ -114,7 +108,7 @@
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_10</Name>
     <Copy>custom_anim_GEAR_ANIMATION_POSITION_0_00</Copy>
-    <AnimLength>140</AnimLength>
+    <AnimLength>125</AnimLength>
     <Animation>
       <Parameter>
         <Sim>
@@ -139,8 +133,30 @@
   </PartInfo>
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node71</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node75</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right</ANIM_NAME>
+        <NODE_NAME>node70</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left</ANIM_NAME>
+        <NODE_NAME>node74</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_01</ANIM_NAME>

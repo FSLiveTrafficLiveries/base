@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{8f6daa1b-7e7b-41a3-9ebc-d1e9c35599ce}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_B7673_GEC_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_B7673_GEC_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_B7673_GEC_LOD2.gltf"/>
-    <LOD minSize="2" ModelFile="FAIB_B7673_GEC_LOD3.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_B7673_GEC_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_B7673_GEC_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_B7673_GEC_LOD4.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
@@ -76,18 +74,8 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_08" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam2="custom_anim_Var3_08" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_08</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_09" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_09" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_09</Name>
@@ -146,8 +134,20 @@
 
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node106</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node66</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_03</ANIM_NAME>

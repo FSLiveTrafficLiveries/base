@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A320S_PW_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A320S_PW_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A320S_PW_LOD2.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB_A320S_PW_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB_A320S_PW_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_A320S_PW_LOD3.gltf"/>
    </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="dda29cda-0c4c-4851-a14b-9adbd92c8479" length="200" type="Sim" typeParam="AutoPlay" />
@@ -141,7 +140,7 @@
   <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13" guid="65f0dc6c-140e-408a-b887-39f1135dd6c1" length="100" type="Sim" typeParam="AutoPlay" />
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
@@ -156,12 +155,12 @@
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_10</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>13.33</DISTANCE>
+        <DISTANCE>2.0</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
         <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-13.33</DISTANCE>
+        <DISTANCE>-2.0</DISTANCE>
       </UseTemplate>
       </Component>
       <Component ID="FX">

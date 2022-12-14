@@ -167,8 +167,8 @@ Z Offset=0.0, 0.0
 [Particle.2]
 Lifetime=0.05, 0.05
 Type=19
-X Scale=2, 2
-Y Scale=1.5, 1.5
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -202,7 +202,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.3
 
 [LightAttributes.2]
 Type=Omni
@@ -239,8 +239,8 @@ Z Offset=0.0, 0.0
 [Particle.3]
 Lifetime=0.05, 0.05
 Type=19
-X Scale=2, 2
-Y Scale=1.5, 1.5
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -268,7 +268,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.3
 
 [LightAttributes.3]
 Type=Omni
@@ -305,8 +305,8 @@ Z Offset=0.0, 0.0
 [Particle.4]
 Lifetime=0.05, 0.05
 Type=19
-X Scale=2, 2
-Y Scale=1.6, 1.6
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -340,7 +340,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.5
 
 [LightAttributes.4]
 Type=Omni
@@ -377,8 +377,8 @@ Z Offset=0.0, 0.0
 [Particle.5]
 Lifetime=0.05, 0.05
 Type=19
-X Scale=2, 2
-Y Scale=1.6, 1.6
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -406,7 +406,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.5
 
 [LightAttributes.5]
 Type=Omni

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{c6f0a5a3-ff9d-4a42-9aa6-e5fdd8fabc4f}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="A332F_PW_LOD0.gltf"/>
-	<LOD minSize="0" ModelFile="A332F_PW_LOD1.gltf"/>
+    <LOD minSize="1" ModelFile="A332F_PW_LOD1.gltf"/>
+    <LOD minSize="0" ModelFile="A332F_PW_LOD1.gltf"/>
   </LODS>
   <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" guid="06491955-d5f9-40f0-9418-6ed163ef92e5" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
@@ -30,14 +31,26 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_ENG_N1_RPM_1_02" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" typeParam2="custom_anim_ENG_N1_RPM_1_02" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="ddd4dec6-8dc9-44b3-8520-687da8644086" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
-    <Name>custom_anim_ENG_N1_RPM_1_02</Name>
+    <Name>N1_blur_left</Name>
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Code>
 	(A:ENG N1 RPM:1, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:1, percent) 10 * * 100 % } els{ 0 }
+        </Code>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <Animation name="N1_blur_right" guid="063194d1-96a5-48c6-91ca-bc019a3dc2a7" length="200" type="Sim" typeParam="AutoPlay" />
+   <PartInfo>
+    <Name>N1_blur_right</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+        <Code>
+	(A:ENG N1 RPM:2, percent) 6.55 &gt; if{ (E:Local time, seconds) (A:ENG N1 RPM:2, percent) 10 * * 100 % } els{ 0 }
         </Code>
       </Parameter>
     </Animation>
@@ -174,7 +187,7 @@ els{ (A:ROTATION VELOCITY BODY Y, Feet) 50 * 100 + } }
   <Behaviors>
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="Asobo\Common.xml"/>
-	<Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">

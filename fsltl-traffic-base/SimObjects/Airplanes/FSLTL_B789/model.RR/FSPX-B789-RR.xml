@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{538daf56-d5dd-4b49-89f5-49b0a18b734c}" version="1.1">
+<ModelInfo>
   <LODS>
-	<LOD minSize="20" ModelFile="FSPX-B789-RR-LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FSPX-B789-RR-LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FSPX-B789-RR-LOD2.gltf"/>
-    <LOD minSize="0" ModelFile="FSPX-B789-RR-LOD3.gltf"/>
+    <LOD minSize="5" ModelFile="FSPX-B789-RR-LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FSPX-B789-RR-LOD2.gltf"/>
+    <LOD minSize="0" ModelFile="FSPX-B789-RR-LOD2.gltf"/>
   </LODS>
-  <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="200" type="Sim" typeParam="AutoPlay" />
-  <Animation name="c_tire_still_key" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" typeParam2="c_tire_still_key" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" typeparam2="l_gear" typeparam="AutoPlay" length="200" type="Sim" typeParam="AutoPlay" />
-  <Animation name="l_tire_still_key" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" typeParam2="l_tire_still_key" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="200" type="Sim" typeParam="AutoPlay" />
-  <Animation name="r_tire_still_key" guid="6114e2ca-5fb8-4d20-a880-56945094247f" typeParam2="r_tire_still_key" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" length="100" type="Sim" typeParam2="tire_anim" typeParam="AutoPlay" />
+  <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="c_tire_still_key" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_tire_still_key" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_tire_still_key" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>c_gear</Name>
     <AnimLength>200</AnimLength>
@@ -63,30 +61,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_02" guid="432244f0-aff6-467d-82f4-19f1236f81ec" length="100" type="Sim" typeParam2="custom_anim_LIGHT_BEACON_02" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LIGHT_BEACON_02</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:LIGHT BEACON, bool) if{ (E:Local time, seconds) 750 * 100 % } els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_03" guid="f133812f-5dbf-4ba2-9bbf-7a84fd8663c8" length="100" type="Sim" typeParam2="custom_anim_LIGHT_BEACON_03" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LIGHT_BEACON_03</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:LIGHT BEACON, bool) if{ (E:Local time, seconds) 750 * 100 % } els{ 30 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_LIGHT_BEACON_04" guid="57a2af39-2c92-42ac-b406-46d70c4faf29" length="50" type="Sim" typeParam2="custom_anim_LIGHT_BEACON_04" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LIGHT_BEACON_04</Name>
@@ -100,30 +75,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Local_time_05" guid="28c429e8-c239-4207-8f0c-08f92c1d7784" length="100" type="Sim" typeParam2="custom_anim_Local_time_05" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Local_time_05</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (E:Local time, seconds) 1000 * 100 %
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_Local_time_06" guid="745ef0d8-e6a7-4b49-a3d4-7574f6ab8f96" length="100" type="Sim" typeParam2="custom_anim_Local_time_06" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Local_time_06</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (E:Local time, seconds) 1000 * 100 %
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_PLANE_ALT_ABOVE_GROUND_07" guid="096f6113-4868-401d-a43a-57c389bfcd3d" length="50" type="Sim" typeParam2="custom_anim_PLANE_ALT_ABOVE_GROUND_07" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PLANE_ALT_ABOVE_GROUND_07</Name>
@@ -182,8 +134,30 @@
   </PartInfo>
   	<Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node29</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node27</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_right</ANIM_NAME>
+        <NODE_NAME>node28</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>N1_still_left</ANIM_NAME>
+        <NODE_NAME>node26</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_10</ANIM_NAME>

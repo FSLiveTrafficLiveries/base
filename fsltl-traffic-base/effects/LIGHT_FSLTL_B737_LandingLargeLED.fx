@@ -29,7 +29,7 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.0, 0.0
-Type=19
+Type=25
 X Scale=0.4, 0.4
 Y Scale=0.4, 0.4
 Z Scale=0.0, 0.0

@@ -15,7 +15,7 @@
 				<ANIM_DELTA>0</ANIM_DELTA>
 				<ANIM_WRAP>0</ANIM_WRAP>
 				<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
-				<ANIM_LAG>600</ANIM_LAG>
+				<ANIM_LAG>650</ANIM_LAG>
 				</UseTemplate>
 	</Template>
 
@@ -54,8 +54,8 @@
 	<DefaultTemplateParameters>
 		<ANIM_NAME>EngineBlur</ANIM_NAME>
 		<NODE_NAME>Somenode</NODE_NAME>
-		<RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
-		<ANIM_LENGTH>50</ANIM_LENGTH>
+		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+		<ANIM_LENGTH>100</ANIM_LENGTH>
 	</DefaultTemplateParameters>
 	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
 	<UseTemplate Name = "ASOBO_GT_Visibility_Code" >
@@ -64,7 +64,7 @@
 		</VISIBILITY_CODE>
 	</UseTemplate>
 	<UseTemplate Name="ASOBO_GT_Anim_Code">
-		<ANIM_CODE>#RPM_VAR# (E:SIMULATION TIME, second) * 360 % 3.6 /</ANIM_CODE>
+		<ANIM_CODE>#RPM_VAR# 4 / (E:SIMULATION TIME, second) * 360 % 3.6 /</ANIM_CODE>
 		<ANIM_DELTA>1</ANIM_DELTA>
 		<ANIM_WRAP>1</ANIM_WRAP>
 		<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
@@ -74,14 +74,23 @@
 
 <Template Name="FSLTL_Engine_Static">
 	<DefaultTemplateParameters>
+		<ANIM_NAME>EngineStill</ANIM_NAME>
 		<NODE_NAME>Somenode</NODE_NAME>
-		<RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+		<ANIM_LENGTH>100</ANIM_LENGTH>
+		<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.0003 *</WIND_VAR>
 	</DefaultTemplateParameters>
-	<Component ID="#NODE_NAME#" Node="#NODE_NAME#">
+	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
 	<UseTemplate Name = "ASOBO_GT_Visibility_Code">
 		<VISIBILITY_CODE>
 				#RPM_VAR# 6.25 &lt; if{ 1 } els{ 0 }
 		</VISIBILITY_CODE>
+	</UseTemplate>
+	<UseTemplate Name="ASOBO_GT_Anim_Code">
+		<ANIM_CODE>#RPM_VAR# 4 / #WIND_VAR# + (E:SIMULATION TIME, second) * 360 % 3.6 / </ANIM_CODE>
+		<ANIM_DELTA>1</ANIM_DELTA>
+		<ANIM_WRAP>1</ANIM_WRAP>
+		<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
 	</UseTemplate>
 </Component>
 </Template>

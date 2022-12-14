@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{47dc328c-8429-11eb-8dcd-0242ac130003}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB7378W_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB7378W_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB7378W_LOD2.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB7378W_LOD0.gltf"/>
+    <LOD minSize="1" ModelFile="FAIB7378W_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB7378W_LOD3.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
@@ -41,7 +40,7 @@
     <Animation>
       <Parameter>
        <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>6</Lag>
       </Parameter>
@@ -82,7 +81,7 @@
 	    <Code>
            	(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 100 } } els{ 0 }
         </Code>
-		<Lag>220</Lag>
+		<Lag>230</Lag>
       </Parameter>
     </Animation>
   </PartInfo>
@@ -93,7 +92,7 @@
     <Animation>
       <Parameter>
         <Code>
-            	(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -30 &lt; if{ (A:SPOILERS HANDLE POSITION, percent) } }
+            	(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } }
 	  	</Code>
         <Lag>60</Lag>
       </Parameter>
@@ -108,7 +107,7 @@
     <Animation>
       <Parameter>
        <Code>
-           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 25 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 50 } els{(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
+           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
                 </Code>
         <Lag>6</Lag>
       </Parameter>
@@ -116,25 +115,31 @@
   </PartInfo>
   <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_10" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
  
-  <Animation name="custom_anim_Var3_11" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_11</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+  <Animation name="N1_blur_left" guid="4cbe6f53-c14a-40eb-9354-e00c8e85db63" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="2c2bc286-6be2-4bf1-a05f-3198bf45f182" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_12" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
 
   <Behaviors>
-  		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
-		<Include ModelBehaviorFile="Asobo\Common.xml"/>
-		<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node53</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node52</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Static">
+        <NODE_NAME>node1</NODE_NAME>
+        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_01</ANIM_NAME>
@@ -156,183 +161,8 @@
         <DISTANCE>-12.68</DISTANCE>
       </UseTemplate>
       </Component>
-		<Component ID="FX_CONTRAIL_QUAD">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt; if{true}</FX_CODE>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{F42CE638-11EB-4FC8-B9B0-111A220D681F}</FX_GUID>
-				<FX_NAME>FX_CONTRAILS</FX_NAME>
-			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_IN" Node="fx_exhaust_left">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FX_CONTRAIL_QUAD_LEFT_OUT" Node="fx_exhaust_right">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-		</Component>
-		<Component ID="FX_CONTRAIL_RIBBON">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:STANDARD ATM TEMPERATURE:0, rankine) 437 &lt; if{true}</FX_CODE>
-				<FX_OFFSET_X>0</FX_OFFSET_X>
-				<FX_OFFSET_Y>0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>0</FX_OFFSET_Z>
-				<FX_GUID>{904EC2CE-F8DD-4480-99E7-B33F7CF6E114}</FX_GUID>
-				<FX_NAME>FX_CONTRAILS_RIBBON</FX_NAME>
-			</OverrideTemplateParameters>
-			<Component ID="FX_CONTRAIL_RIBBON_LEFT_OUT" Node="fx_exhaust_left">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="fx_exhaust_right">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-		</Component>
-		<Component ID="LANDING_FX">
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WET_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SMOKE_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_DUST_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GRASS_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_SNOW_LG_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_center_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_left_out</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_in</FX_NODE>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_WATER_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-				<FX_NODE>fx_tire_contactPoint_right_out</FX_NODE>
-			</UseTemplate>
-		</Component>
+      <Component ID="FX">
+         <UseTemplate Name="FSLTL_FX" />
+      </Component>
   </Behaviors>
 </ModelInfo>

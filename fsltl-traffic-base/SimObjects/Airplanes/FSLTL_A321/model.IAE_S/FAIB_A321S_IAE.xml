@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{179e1dee-7ca0-45b8-9140-7608c429e70e}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="20" ModelFile="FAIB_A321S_IAE_LOD0.gltf"/>
-    <LOD minSize="8" ModelFile="FAIB_A321S_IAE_LOD1.gltf"/>
-    <LOD minSize="3" ModelFile="FAIB_A321S_IAE_LOD2.gltf"/>
+    <LOD minSize="5" ModelFile="FAIB_A321S_IAE_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FAIB_A321S_IAE_LOD3.gltf"/>
-    <LOD minSize="0" ModelFile="FAIB_A321S_IAE_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="FAIB_A321S_IAE_LOD3.gltf"/>
   </LODS>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
     <AnimLength>200</AnimLength>
@@ -20,9 +18,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_SIM_on_GROUND_02" guid="9c15baf8-40ef-4ecf-842b-9a3ca9acd889" typeParam2="custom_anim_SIM_on_GROUND_02" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_on_GROUND_02" guid="9c15baf8-40ef-4ecf-842b-9a3ca9acd889" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_on_GROUND_02</Name>
     <AnimLength>100</AnimLength>
@@ -35,7 +33,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SIM_ON_GROUND_03" guid="357a3427-b570-4de4-b104-b8b27054bbab" typeParam2="custom_anim_SIM_ON_GROUND_03" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_03" guid="357a3427-b570-4de4-b104-b8b27054bbab" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_03</Name>
     <AnimLength>100</AnimLength>
@@ -48,9 +46,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SIM_ON_GROUND_04" guid="df2990c2-3ddc-4653-99c3-ea9904109004" typeParam2="custom_anim_SIM_ON_GROUND_04" length="1000" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_04" guid="df2990c2-3ddc-4653-99c3-ea9904109004" length="1000" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_SIM_ON_GROUND_05" guid="b29d8ef7-3963-43aa-99ac-2c4e0dd8df23" typeParam2="custom_anim_SIM_ON_GROUND_05" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_05" guid="b29d8ef7-3963-43aa-99ac-2c4e0dd8df23" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_05</Name>
     <AnimLength>100</AnimLength>
@@ -63,7 +61,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SIM_ON_GROUND_06" guid="1dc0d71b-1bd1-456f-a598-98fc54c2ac04" typeParam2="custom_anim_SIM_ON_GROUND_06" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_06" guid="1dc0d71b-1bd1-456f-a598-98fc54c2ac04" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_06</Name>
     <AnimLength>100</AnimLength>
@@ -76,19 +74,10 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Var3_07" guid="eea74c78-abeb-47af-8ed3-7cc718f71be5" typeParam2="custom_anim_Var3_07" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Var3_07</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(G:Var3) 10 + 100 % d (&gt;G:Var3)
-	  	</Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_09" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_09" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_left" guid="af85b129-4b33-4896-8709-5815bb188385" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_blur_right" guid="7c38dcd8-3538-451d-9eee-b9ef3e8f5554" length="100" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_09" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_09</Name>
     <AnimLength>200</AnimLength>
@@ -101,7 +90,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_10" guid="f5d81e0e-0238-43a6-b169-2a7df682295f" typeParam2="custom_anim_SPOILERS_LEFT_POSITION_10" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_10" guid="f5d81e0e-0238-43a6-b169-2a7df682295f" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SPOILERS_LEFT_POSITION_10</Name>
     <AnimLength>100</AnimLength>
@@ -114,9 +103,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_11" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_11" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_11" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_12" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_12" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_12" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_2_12</Name>
     <AnimLength>200</AnimLength>
@@ -129,7 +118,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_13" guid="1dac9f00-4b37-417f-a463-8d6f2b72024d" typeParam2="custom_anim_SPOILERS_RIGHT_POSITION_13" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_13" guid="1dac9f00-4b37-417f-a463-8d6f2b72024d" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SPOILERS_RIGHT_POSITION_13</Name>
     <AnimLength>100</AnimLength>
@@ -142,12 +131,24 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_14" guid="6114e2ca-5fb8-4d20-a880-56945094247f" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_14" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_14" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
 
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include RelativeFile="FSLTL_FX_LG2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_right</ANIM_NAME>
+        <NODE_NAME>node56</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>N1_blur_left</ANIM_NAME>
+        <NODE_NAME>node58</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>	
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_04</ANIM_NAME>

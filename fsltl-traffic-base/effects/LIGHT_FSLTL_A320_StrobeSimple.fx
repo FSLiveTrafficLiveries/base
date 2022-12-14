@@ -96,8 +96,8 @@ Z Offset=0.0, 0.0
 [Particle.1]
 Lifetime=0.1, 0.1
 Type=19
-X Scale=2.0, 2.0
-Y Scale=1.5, 1.5
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -125,7 +125,7 @@ uv1=0.00, 0.00
 uv2=1.0, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.3
 
 [LightAttributes.1]
 Type=Omni
@@ -162,8 +162,8 @@ Z Offset=0.0, 0.0
 [Particle.2]
 Lifetime=0.1, 0.1
 Type=19
-X Scale=2.0, 2.0
-Y Scale=1.6, 1.6
+X Scale=2.5, 2.5
+Y Scale=2, 2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -191,7 +191,7 @@ uv1=0.00, 0.00
 uv2=1.0, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=1
+MinProjSize=0.5
 
 [LightAttributes.2]
 Type=Omni
