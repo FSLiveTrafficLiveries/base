@@ -32,9 +32,9 @@ const execute = async () => {
       packOptions: {
         useConsoleLog: true,
         forceCacheBust: false,
-        splitFileSize: 1_073_741_824,
+        splitFileSize: 536_870_912,
         keepCompleteModulesAfterSplit: false,
-        forceFullInstallRatio: 50
+        noBaseCopy: true,
       },
     });
     console.log(result);
