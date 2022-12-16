@@ -39227,8 +39227,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_CRJ7/flight_model.cfg",
-            "size": 26446,
-            "date": 133155502200431110
+            "size": 26444,
+            "date": 133156279110362544
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_CRJ7/systems.cfg",
@@ -39577,8 +39577,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_CRJ7_JIA/aircraft.cfg",
-            "size": 981,
-            "date": 133155502203468056
+            "size": 982,
+            "date": 133156269362914506
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_CRJ7_JIA/MODEL.JIA/model.CFG",
