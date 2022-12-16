@@ -39,7 +39,7 @@ jobs:
 
       - name: Run FBW Simulations Fragmenter
         run: |
-          npm install --save @flybywiresim/fragmenter
+          npm install https://github.com/FSLiveTrafficLiveries/fragmenter
           node scripts/fragment.js
           
       - name: Build releases.yaml file
