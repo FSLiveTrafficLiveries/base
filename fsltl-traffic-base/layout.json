@@ -757,8 +757,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_AZY/aircraft.cfg",
-            "size": 1426,
-            "date": 133158327646707866
+            "size": 1470,
+            "date": 133159430129362850
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_AZY/MODEL.AZY/model.CFG",
@@ -1981,14 +1981,9 @@
             "date": 132817281319298458
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX/TEXTURE/Thumbs.db",
-            "size": 29696,
-            "date": 132991973121410000
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/aircraft.cfg",
-            "size": 1534,
-            "date": 133158327254570748
+            "size": 1578,
+            "date": 133159430265456512
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/MODEL.CFS/model.CFG",
@@ -2072,8 +2067,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/TEXTURE.CFS/texture.CFG",
-            "size": 415,
-            "date": 133157851526281218
+            "size": 505,
+            "date": 133157825465355468
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/TEXTURE.CFS/thumbnail.JPG",
@@ -2086,14 +2081,9 @@
             "date": 132675744856783254
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/TEXTURE.CFS/Thumbs.db",
-            "size": 7680,
-            "date": 133158218068450000
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_KEN/aircraft.cfg",
-            "size": 1636,
-            "date": 133157847218846302
+            "size": 1680,
+            "date": 133159430401920504
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_KEN/MODEL.KEN/model.CFG",
@@ -2182,8 +2172,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FDY/aircraft.cfg",
-            "size": 1517,
-            "date": 133158328043977128
+            "size": 1561,
+            "date": 133159430510579234
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FDY/MODEL.FDY/model.CFG",
@@ -2282,8 +2272,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FEDEXFEEDER/aircraft.cfg",
-            "size": 1524,
-            "date": 133158422369544182
+            "size": 1651,
+            "date": 133159434768355066
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FEDEXFEEDER/MODEL.FEDEXFEEDER/model.CFG",
@@ -2342,8 +2332,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_GBA/aircraft.cfg",
-            "size": 1524,
-            "date": 133158328218014994
+            "size": 1568,
+            "date": 133159430680660932
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_GBA/MODEL.GBA/model.CFG",
@@ -2432,8 +2422,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_LRS/aircraft.cfg",
-            "size": 1539,
-            "date": 133158417858912204
+            "size": 1583,
+            "date": 133159430789489816
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_LRS/MODEL.Sansa/model.CFG",
@@ -2522,8 +2512,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_TheGrot/aircraft.cfg",
-            "size": 1499,
-            "date": 133158329225908184
+            "size": 1543,
+            "date": 133159430906996582
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_TheGrot/MODEL.THEGROT/model.CFG",
@@ -2622,8 +2612,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_TheGrotBlue/aircraft.cfg",
-            "size": 1522,
-            "date": 133158330149295346
+            "size": 1566,
+            "date": 133159431030158492
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_TheGrotBlue/MODEL.THEGROTBlue/model.CFG",
@@ -2722,8 +2712,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_WMA/aircraft.cfg",
-            "size": 1531,
-            "date": 133158328349364428
+            "size": 1575,
+            "date": 133159431150327680
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_WMA/MODEL.WMA/model.CFG",
@@ -25186,11 +25176,6 @@
             "date": 133157462617946008
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F/texture/Thumbs.db",
-            "size": 33280,
-            "date": 133157462618726708
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_B737F/texture.Winglets/FAIB_737_700_T.PNG.DDS",
             "size": 5592560,
             "date": 133157462599589324
@@ -35216,11 +35201,6 @@
             "date": 133157473150385804
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_CXA/texture.CXA/Thumbs.db",
-            "size": 25088,
-            "date": 133157473149765242
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_B763_DAL_NCGEW/aircraft.cfg",
             "size": 910,
             "date": 133157473151186532
@@ -41291,6 +41271,106 @@
             "date": 132664323427740386
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141390400652
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141390400652
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141390630860
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141390630860
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141390630860
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_ALBD.PNG.DDS",
+            "size": 174904,
+            "date": 133101141390640866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141390640866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_COMP.PNG.DDS",
+            "size": 174904,
+            "date": 133101141390640866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133101141390640866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141390890990
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_FUSELAGE_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141390890990
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_ALBD.PNG.DDS",
+            "size": 174904,
+            "date": 133101141390900996
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141390900996
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_COMP.PNG.DDS",
+            "size": 349700,
+            "date": 133101141390911006
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141390921014
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141390921014
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_EMIS.PNG.DDS",
+            "size": 174904,
+            "date": 133101141390921014
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_EMIS.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141390931032
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_NORM.PNG.DDS",
+            "size": 349680,
+            "date": 133101141390941040
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIGHTS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141390941040
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LIVERYCOLOR_ALBD.PNG.DDS",
             "size": 2872,
             "date": 133101141391001088
@@ -41311,9 +41391,829 @@
             "date": 133101141391001088
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LOD6_ALBD.PNG.DDS",
+            "size": 43832,
+            "date": 133101141405461500
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_LOD6_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141405461500
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_PROP_BLUR_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": 133101141391021108
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_PROP_BLUR_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141391021108
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": 133101141391031116
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141391031116
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": 133101141391031116
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141391041126
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_COMP.PNG.DDS",
+            "size": 349700,
+            "date": 133101141391041126
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141391041126
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141391041126
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_NORM.PNG.DDS",
+            "size": 349680,
+            "date": 133101141391061502
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_RIVETS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141391061502
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141391181256
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141391191260
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141391411462
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141391421474
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141391421474
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141391651680
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_STRUTS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141391661686
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141391761782
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141391762188
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141391991988
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141391991988
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141392002000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141392232206
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_TAILLANDING_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141392232206
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141392342310
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141392352318
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141392562508
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141392572520
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141392572520
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141392802730
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_BLURRED_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141392802730
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141392932846
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141392932846
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141393153046
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141393153046
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141393163054
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141393393262
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WHEEL_STATIC_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141393403270
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141393493354
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141393503364
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141393713556
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141393713556
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141393723564
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141393983800
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_AIRFRAME_WINGS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141393993806
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_COMPASS_LABEL_ALBD.PNG.DDS",
+            "size": 87528,
+            "date": 133101141393993806
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_COMPASS_LABEL_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141393993806
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_ALBD.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141394083890
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_ALBD.PNG.DDS.FLAGS",
+            "size": 18,
+            "date": 133101141394083890
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141394083890
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141394133934
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141394133934
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141394133934
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_EMIS.PNG.DDS",
+            "size": 1520,
+            "date": 133101141394133934
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_EMIS.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141394133934
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141394254044
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_DECAL_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141394254044
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_GAUGES_COMP.PNG.DDS",
+            "size": 516,
+            "date": 133101141394264054
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_GAUGES_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141394264054
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_GAUGES_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141394264054
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141394354138
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141394354138
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141394574338
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141394584346
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141394584346
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_EMIS.PNG.DDS",
+            "size": 349680,
+            "date": 133101141394594352
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_EMIS.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141394594352
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141394734482
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_INPUTS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141394744492
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141394794538
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141394804546
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141395014740
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141395024746
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141395024746
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141395194478
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_PANEL_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141395204490
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141395264544
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141395274550
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141395494752
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141395494752
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141395504760
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141395644888
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_AS1000_SHELL_P1_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141395654900
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GLASS_NORM.PNG.DDS",
+            "size": 349680,
+            "date": 133101141395664914
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GLASS_NORM.PNG.DDS.json",
+            "size": 177,
+            "date": 133101141395664914
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GRILLE_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": 133101141395674920
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GRILLE_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141395674920
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GRILLE_NORM.PNG.DDS",
+            "size": 349680,
+            "date": 133101141395684924
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_GRILLE_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141395684924
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141395775012
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141395775012
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141396015226
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141396015226
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141396015226
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_EMIS.PNG.DDS",
+            "size": 174904,
+            "date": 133101141396025238
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_EMIS.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141396025238
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141396205420
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_INPUTS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141396215422
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LEATHERDETAIL_NORM.PNG.DDS",
+            "size": 349680,
+            "date": 133101141396225436
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LEATHERDETAIL_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141396225436
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LIGHTBULBS_ALBD.PNG.DDS",
+            "size": 43832,
+            "date": 133101141396235444
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LIGHTBULBS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141396235444
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LIGHTBULBS_EMIS.PNG.DDS",
+            "size": 43832,
+            "date": 133101141396235444
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_LIGHTBULBS_EMIS.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141396235444
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141396350946
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141396350946
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141396570964
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141396580976
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141396580976
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141396795730
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL1_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141396795730
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141396866148
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141396875798
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141397088232
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141397098178
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141397098178
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141397250894
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PANEL2_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141397260902
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PEDAL_COMP.PNG.DDS",
+            "size": 349700,
+            "date": 133101141397280930
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PEDAL_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141397280930
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PEDAL_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141397280930
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PLACARDS_DECAL_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": 133101141397290926
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PLACARDS_DECAL_ALBD.PNG.DDS.FLAGS",
+            "size": 18,
+            "date": 133101141397290926
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_PLACARDS_DECAL_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 133101141397300938
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141397831416
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141397831416
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141398061628
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141398071640
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141398071640
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141398271816
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEATS_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141398271816
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141397401028
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141397411036
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_COMP.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141397531144
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133101141397531144
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141397761356
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SEAT_BELT_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141397761356
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141398341882
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141398341882
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141398552076
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141398562080
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141398562080
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141398712218
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_SHELL_P2_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141398722226
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_ALBD.PNG.DDS",
+            "size": 699192,
+            "date": 133101141398732236
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141398732236
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_COMP.PNG.DDS",
+            "size": 1398276,
+            "date": 133101141398792290
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141398792290
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141398792290
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_NORM.PNG.DDS",
+            "size": 1398256,
+            "date": 133101141398832330
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_TELEX_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141398832330
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_ALBD.PNG.DDS",
+            "size": 2796344,
+            "date": 133101141398912402
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141398912402
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": 133101141399112580
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_COMP.PNG.DDS.FLAGS",
+            "size": 21,
+            "date": 133101141399122592
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": 133101141399122592
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_NORM.PNG.DDS",
+            "size": 5592560,
+            "date": 133101141399322774
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_COCKPIT_YOKE_NORM.PNG.DDS.json",
+            "size": 160,
+            "date": 133101141399332780
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_GAUGE_BOUSSOLE_ALBD.PNG.DDS",
+            "size": 699192,
+            "date": 133101141399352804
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_GAUGE_BOUSSOLE_ALBD.PNG.DDS.FLAGS",
+            "size": 18,
+            "date": 133101141399352804
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/C172SP_GAUGE_BOUSSOLE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 133101141399352804
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/texture.CFG",
-            "size": 284,
-            "date": 133157557843526978
+            "size": 215,
+            "date": 133159455413224850
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000/TEXTURE/thumbnail.JPG",
@@ -41327,8 +42227,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Arista_Blue/aircraft.cfg",
-            "size": 1590,
-            "date": 133158671997724104
+            "size": 1634,
+            "date": 133159431627531270
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Arista_Blue/MODEL.BLUE/model.CFG",
@@ -41372,8 +42272,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-BLGO/aircraft.cfg",
-            "size": 2110,
-            "date": 133158672158199914
+            "size": 2154,
+            "date": 133159431748170884
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-BLGO/MODEL.BLGO/model.CFG",
@@ -41417,8 +42317,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-BLSL/aircraft.cfg",
-            "size": 2122,
-            "date": 133158672351395444
+            "size": 2166,
+            "date": 133159431864846900
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-BLSL/MODEL.BLSL/model.CFG",
@@ -41462,8 +42362,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Green_Gold/aircraft.cfg",
-            "size": 2116,
-            "date": 133158672476038706
+            "size": 2160,
+            "date": 133159431988829554
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Green_Gold/MODEL.GREEN/model.CFG",
@@ -41507,8 +42407,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-JADE/aircraft.cfg",
-            "size": 2087,
-            "date": 133158672648275194
+            "size": 2131,
+            "date": 133159432100621128
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-JADE/MODEL.JADE/model.CFG",
@@ -41552,8 +42452,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-MARD/aircraft.cfg",
-            "size": 2112,
-            "date": 133158672784909342
+            "size": 2156,
+            "date": 133159432216656558
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-MARD/MODEL.MARD/model.CFG",
@@ -41597,8 +42497,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Pine/aircraft.cfg",
-            "size": 2083,
-            "date": 133158672912435214
+            "size": 2127,
+            "date": 133159432358125100
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Pine/MODEL.PINE/model.CFG",
@@ -41642,8 +42542,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Red_Silver/aircraft.cfg",
-            "size": 2065,
-            "date": 133158673028510684
+            "size": 2109,
+            "date": 133159432459597296
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Red_Silver/MODEL.RED/model.CFG",
@@ -41686,14 +42586,9 @@
             "date": 132722354920000000
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Red_Silver/TEXTURE.RED/Thumbs.db",
-            "size": 14848,
-            "date": 133157571013520000
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-SeaFoam/aircraft.cfg",
-            "size": 2099,
-            "date": 133158673157868224
+            "size": 2143,
+            "date": 133159432559407986
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-SeaFoam/MODEL.BLGR/model.CFG",
@@ -41737,8 +42632,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Topaz/aircraft.cfg",
-            "size": 2107,
-            "date": 133158673273152974
+            "size": 2151,
+            "date": 133159432660299658
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_C172SP_AS1000-Topaz/MODEL.TOPAZ/model.CFG",
@@ -45774,11 +46669,6 @@
             "path": "SimObjects/Airplanes/FSLTL_MD11F_CXA/texture.CXA/texture.cfg",
             "size": 50,
             "date": 133157482268877940
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_CXA/texture.CXA/Thumbs.db",
-            "size": 23552,
-            "date": 133157482268547646
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_MD11F_FDX/aircraft.cfg",
