@@ -1,19 +1,7 @@
 <ModelBehaviors>
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
 	<Template Name="FSLTL_FX">
-	<Component ID="FSLTL_FX_CONTRAIL_RIBBON">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
-				<FX_GUID>{58ABDE15-2F5A-4DA8-9907-A40C495F45AD}</FX_GUID>
-			</OverrideTemplateParameters>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="fx_exhaust_left">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-			</UseTemplate>
-		</Component>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_RIGHT_OUT" Node="fx_exhaust_right">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-			</UseTemplate>
-		</Component>
+
 	</Component>
 		  <Component ID="FSLTL_LANDING_FX">	 
 			<UseTemplate Name="FSLTL_WET_GR_LANDING_FX">
