@@ -143,7 +143,7 @@
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node74</NODE_NAME>
+        <NODE_NAME>node74.001</NODE_NAME>
         <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Static">
