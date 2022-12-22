@@ -757,8 +757,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_AZY/aircraft.cfg",
-            "size": 1472,
-            "date": 133161542568861936
+            "size": 1478,
+            "date": 133161559426043884
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_AZY/MODEL.AZY/model.CFG",
@@ -1982,8 +1982,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/aircraft.cfg",
-            "size": 1578,
-            "date": 133161542582194888
+            "size": 1587,
+            "date": 133161559076089378
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_CFS/MODEL.CFS/model.CFG",
@@ -2082,8 +2082,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_KEN/aircraft.cfg",
-            "size": 1680,
-            "date": 133161542583373554
+            "size": 1689,
+            "date": 133161558960774676
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_EX_KEN/MODEL.KEN/model.CFG",
@@ -2172,8 +2172,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FDY/aircraft.cfg",
-            "size": 1561,
-            "date": 133161542585715678
+            "size": 1570,
+            "date": 133161558837762014
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FDY/MODEL.FDY/model.CFG",
@@ -2272,8 +2272,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FEDEXFEEDER/aircraft.cfg",
-            "size": 1651,
-            "date": 133161542590178090
+            "size": 1663,
+            "date": 133161558691681694
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_FEDEXFEEDER/MODEL.FEDEXFEEDER/model.CFG",
@@ -2332,8 +2332,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_GBA/aircraft.cfg",
-            "size": 1568,
-            "date": 133161542591563530
+            "size": 1577,
+            "date": 133161558503386658
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_GBA/MODEL.GBA/model.CFG",
@@ -2509,6 +2509,96 @@
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_LRS/TEXTURE.Sansa/Thumbnail_Small.jpg",
             "size": 99034,
             "date": 133161542597000042
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/aircraft.cfg",
+            "size": 1571,
+            "date": 133161558429351580
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/MODEL.SDA/model.CFG",
+            "size": 331,
+            "date": 133161542590188110
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_ALBD.PNG.DDS",
+            "size": 22369796,
+            "date": 132803633771341440
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 132803633771421458
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_DECAL_ALBD.PNG.DDS",
+            "size": 2097280,
+            "date": 132803633771571496
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_DECAL_ALBD.PNG.DDS.FLAGS",
+            "size": 17,
+            "date": 132803633771655860
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_DECAL_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 132803633771720698
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIVERY_ALBD.PNG.DDS",
+            "size": 516,
+            "date": 132803633771816682
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 132803633771881918
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": 132803633772132356
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 132803633772206238
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_COCKPIT_CABIN_SEATS_ALBD.PNG.DDS",
+            "size": 5592560,
+            "date": 132803633772439046
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_COCKPIT_CABIN_SEATS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": 132803633772505238
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_COCKPIT_SEAT_FRONT_ALBD.PNG.DDS",
+            "size": 5592560,
+            "date": 132803633772747362
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/CESSNA_208B_GRANDCARAVANEX_COCKPIT_SEAT_FRONT_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": 132803633772813232
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/texture.CFG",
+            "size": 507,
+            "date": 132803633772882886
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/thumbnail.JPG",
+            "size": 65455,
+            "date": 132803633772985782
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_SDA/TEXTURE.SDA/thumbnail_small.JPG",
+            "size": 38649,
+            "date": 132803633773090070
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_TheGrot/aircraft.cfg",
@@ -2712,8 +2802,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_WMA/aircraft.cfg",
-            "size": 1575,
-            "date": 133161542604229630
+            "size": 1584,
+            "date": 133161559679670102
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_208B_GRAND_CARAVAN_WMA/MODEL.WMA/model.CFG",
