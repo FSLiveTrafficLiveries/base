@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (c) Asobo Studio, All rights reserved. www.asobostudio.com -->
+
+<SoundInfo Version="0.1">
+
+	<WwisePackages>
+		<MainPackage Name="Asobo_CJ4_AI"/>
+	</WwisePackages>
+  
+  <EngineSoundPresets>
+    <Sound WwiseEvent="Combustion" ConeHeading="180" WwiseData="true" EngineIndex="1" RPMMin="1"/>
+    <Sound WwiseEvent="Combustion" ConeHeading="180" WwiseData="true" EngineIndex="2" RPMMin="1"/>
+    <Sound WwiseEvent="JetWhine" WwiseData="true" EngineIndex="1" RPMMin="1"/>
+    <Sound WwiseEvent="JetWhine" WwiseData="true" EngineIndex="2" RPMMin="1"/>
+  </EngineSoundPresets>
+  
+  <GroundSounds>
+    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" />
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" />  
+    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" />
+  </GroundSounds>
+
+</SoundInfo>
