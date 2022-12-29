@@ -167,7 +167,7 @@
       </UseTemplate>
       </Component>
       <Component ID="FX">
-         <UseTemplate Name="FSLTL_FX" />
+         <UseTemplate Name="FSLTL_FX"/>
       </Component>
   </Behaviors>
 </ModelInfo>
