@@ -78,7 +78,7 @@
 		<NODE_NAME>Somenode</NODE_NAME>
 		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
 		<ANIM_LENGTH>100</ANIM_LENGTH>
-		<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.0003 *</WIND_VAR>
+		<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00018 *</WIND_VAR>
 	</DefaultTemplateParameters>
 	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
 	<UseTemplate Name = "ASOBO_GT_Visibility_Code">

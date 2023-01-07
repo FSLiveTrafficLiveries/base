@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{6e0e73cf-9d97-4bb5-b73f-d997680c1c74}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="8" ModelFile="ATR_72_500_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="ATR_72_500_LOD1.gltf"/>
@@ -11,9 +11,9 @@
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
-        <Code>
-            (A:RADIO HEIGHT,feet) 2400 &gt; if{ 1 (&gt;G:Var1) } (A:LIGHT BEACON,bool) if{ (G:Var1) 0 == if{ 43 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT,percent) } } els{ 0 (&gt;G:Var1) }
-      </Code>
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 35 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
         <Lag>10</Lag>
       </Parameter>
     </Animation>
@@ -21,13 +21,20 @@
   <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_00" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_00" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_1_00</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
 	<AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
@@ -35,13 +42,20 @@
   <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_01" guid="b32f1e35-0f79-463f-84a3-896ccfa33ad7" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_01" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_2_01</Name>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
     <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:2</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
@@ -52,7 +66,7 @@
 	<Visibility>
       <Parameter>
         <Code>
-          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &gt; if{ 1 } els{ 0 }
+          (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
         </Code>
       </Parameter>
     </Visibility>
@@ -61,40 +75,20 @@
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_03" guid="b964023e-998f-40bf-9875-19f21c3b8031" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_03" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_1_03</Name>
-	<Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:1, percent) 12.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_04" guid="f97a46e1-0994-476f-939b-cffed355a4e8" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_04" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_2_04</Name>
 	<Visibility>
       <Parameter>
         <Code>
-          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &gt; if{ 1 } els{ 0 }
+          (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
         </Code>
       </Parameter>
     </Visibility>  
@@ -103,33 +97,13 @@
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:2</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_05" guid="044d8822-f2f7-4906-b60b-435d977b4b59" typeParam2="custom_anim_PROP_ROTATION_ANGLE_2_05" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_2_05</Name>
-	<Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:2, percent) 12.25 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:2</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_06" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_06" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_0_06</Name>
@@ -144,19 +118,7 @@
     </Animation>
   </PartInfo>
   <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_09" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_09" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_09</Name>
@@ -184,5 +146,17 @@
     </Animation>
   </PartInfo>
   <Behaviors>
+		<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG.xml"/>
+		<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Wheels">
+      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07</ANIM_NAME>
+        <WHEEL_RADIUS>0.83</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>0.5</DISTANCE>
+      </UseTemplate>
+      </Component>
+		<Component ID="FX">
+			<UseTemplate Name="FSLTL_FX"/>
+		</Component>
   </Behaviors>
 </ModelInfo>
