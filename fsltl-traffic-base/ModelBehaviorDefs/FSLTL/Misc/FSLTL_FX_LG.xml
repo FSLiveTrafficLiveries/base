@@ -6,30 +6,22 @@
 			<UseTemplate Name="FSLTL_WET_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
 			</UseTemplate>		
-			<UseTemplate Name="FSLTL_WET_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_WET_MD_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
 			</UseTemplate>
-			<UseTemplate Name="FSLTL_WET_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_WET_MD_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
 			</UseTemplate>
 			<UseTemplate Name="FSLTL_SMOKE_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
 			</UseTemplate>		
-			<UseTemplate Name="FSLTL_SMOKE_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_SMOKE_MD_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
 			</UseTemplate>	
-			<UseTemplate Name="FSLTL_SMOKE_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_SMOKE_MD_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
 			</UseTemplate>
-			<UseTemplate Name="FSLTL_SNOW_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
-			</UseTemplate>		
-			<UseTemplate Name="FSLTL_SNOW_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
-			</UseTemplate>
-			<UseTemplate Name="FSLTL_SNOW_GR_LANDING_FX">
-				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
-			</UseTemplate>
+
 			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
 			</UseTemplate>
