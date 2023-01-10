@@ -1,6 +1,11 @@
 {
     "content": [
         {
+            "path": "Effects/FX_ASOBO_HEAT_BIG.fx",
+            "size": 174,
+            "date": 132755172071849034
+        },
+        {
             "path": "Effects/LIGHT_FSLTL_A320_BeaconBelly.fx",
             "size": 4616,
             "date": 133157482534091878
@@ -763,17 +768,17 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/aircraft.cfg",
             "size": 14034,
-            "date": 133157435954488886
+            "date": 133172151685987718
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/engines.cfg",
-            "size": 10551,
-            "date": 133157435954629012
+            "size": 10451,
+            "date": 133170694010000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/flight_model.cfg",
-            "size": 24903,
-            "date": 133166353837140360
+            "size": 24578,
+            "date": 133170690920000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/systems.cfg",
@@ -3352,8 +3357,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A21N/flight_model.cfg",
-            "size": 23983,
-            "date": 133157439806869206
+            "size": 23631,
+            "date": 133170618060000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A21N/systems.cfg",
@@ -26827,8 +26832,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500.xml",
-            "size": 7099,
-            "date": 133157460457953410
+            "size": 7787,
+            "date": 133174196737778132
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD0.bin",
@@ -26992,8 +26997,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75F/model/ATR_72F_500.xml",
-            "size": 6984,
-            "date": 133157460538006146
+            "size": 7727,
+            "date": 133174197193581924
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75F/model/ATR_72F_500_LOD0.bin",
@@ -27517,8 +27522,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600.xml",
-            "size": 7099,
-            "date": 133157461024127840
+            "size": 7787,
+            "date": 133174197074163510
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD0.bin",
@@ -42953,7 +42958,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_B789/ai.cfg",
             "size": 961,
-            "date": 133157477160868580
+            "date": 133168592641587438
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B789/aircraft.cfg",
@@ -47437,13 +47442,13 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/engines.cfg",
-            "size": 10483,
-            "date": 133157480631797862
+            "size": 10353,
+            "date": 133172103841495406
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/flight_model.cfg",
             "size": 22289,
-            "date": 133157480631917974
+            "date": 133172154437111594
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170/systems.cfg",
@@ -47922,13 +47927,13 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/engines.cfg",
-            "size": 10483,
-            "date": 133157481117790750
+            "size": 10353,
+            "date": 133172103841495406
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/flight_model.cfg",
-            "size": 22271,
-            "date": 133157481117960904
+            "size": 22273,
+            "date": 133172200502472744
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E190/systems.cfg",
@@ -48838,17 +48843,17 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Generic_Medium/aircraft.cfg",
             "size": 1718,
-            "date": 133157482153560186
+            "date": 133172502563314922
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Generic_Medium/engines.cfg",
-            "size": 10551,
-            "date": 133157482153720336
+            "size": 10451,
+            "date": 133170694010000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Generic_Medium/flight_model.cfg",
-            "size": 24903,
-            "date": 133157482153870468
+            "size": 24578,
+            "date": 133170690920000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Generic_Medium/systems.cfg",
@@ -49541,6 +49546,11 @@
             "date": 133159527621673870
         },
         {
+            "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG.xml",
+            "size": 1312,
+            "date": 133174196351667618
+        },
+        {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG2E.xml",
             "size": 2425,
             "date": 133159527379918702
@@ -49548,17 +49558,17 @@
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG2EH.xml",
             "size": 2427,
-            "date": 133159527849753500
+            "date": 133167949735193940
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG2EH_node.xml",
-            "size": 6364,
-            "date": 133165385990219964
+            "size": 4524,
+            "date": 133172501912793924
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG2E_node.xml",
-            "size": 6368,
-            "date": 133167728125335138
+            "size": 4528,
+            "date": 133172298153302826
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG3EH.xml",
@@ -49597,13 +49607,8 @@
         },
         {
             "path": "VisualEffectLibs/contrail/VisualEffectLib/Ribbon.spb",
-            "size": 3599,
-            "date": 133167215504125236
-        },
-        {
-            "path": "VisualEffectLibs/contrail/VisualEffectLib/Ribbon3.spb",
-            "size": 3744,
-            "date": 133167089228432660
+            "size": 3745,
+            "date": 133172518721202516
         },
         {
             "path": "VisualEffectLibs/contrail/VisualEffectLib/VisualEffectLibrary.xml",
