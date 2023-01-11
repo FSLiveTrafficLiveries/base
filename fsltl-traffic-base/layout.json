@@ -3,7 +3,7 @@
         {
             "path": "Effects/FX_ASOBO_HEAT_BIG.fx",
             "size": 174,
-            "date": 132755172071849034
+            "date": 133174197899913134
         },
         {
             "path": "Effects/LIGHT_FSLTL_A320_BeaconBelly.fx",
@@ -26807,8 +26807,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/ai.cfg",
-            "size": 853,
-            "date": 133157460457412918
+            "size": 786,
+            "date": 133174294423407938
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/aircraft.cfg",
@@ -26822,8 +26822,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/flight_model.cfg",
-            "size": 15347,
-            "date": 133157460457803270
+            "size": 14411,
+            "date": 133174272644795878
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/systems.cfg",
@@ -26832,8 +26832,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500.xml",
-            "size": 7787,
-            "date": 133174196737778132
+            "size": 6642,
+            "date": 133174290593778836
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD0.bin",
@@ -26876,14 +26876,19 @@
             "date": 133157460485208172
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_AT75/soundai/prop_neg_far.wav",
+            "size": 455262,
+            "date": 131693945200000000
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_AT75/soundai/prop_neg_farX.wav",
             "size": 455266,
             "date": 133157460486179056
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/soundai/soundai.cfg",
-            "size": 2742,
-            "date": 133157460486649482
+            "size": 3057,
+            "date": 133174281078093824
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/soundai/soundai.xml",
@@ -26997,8 +27002,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75F/model/ATR_72F_500.xml",
-            "size": 7727,
-            "date": 133174197193581924
+            "size": 6640,
+            "date": 133174268174316662
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75F/model/ATR_72F_500_LOD0.bin",
@@ -27522,8 +27527,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600.xml",
-            "size": 7787,
-            "date": 133174197074163510
+            "size": 6640,
+            "date": 133174290650398784
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD0.bin",
@@ -45708,22 +45713,22 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/dh8c-lod0.bin",
             "size": 1935934,
-            "date": 133157479842133246
+            "date": 133179340859588584
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/dh8c-lod0.gltf",
-            "size": 88536,
-            "date": 133157479842383472
+            "size": 88478,
+            "date": 133179340859598596
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/dh8c-lod1.bin",
             "size": 5868,
-            "date": 133157479842513592
+            "date": 133179340859738722
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/dh8c-lod1.gltf",
-            "size": 2805,
-            "date": 133157479842593666
+            "size": 2806,
+            "date": 133179340859738722
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/model.CFG",
@@ -45732,8 +45737,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/model/TFS_Dash-8-300.xml",
-            "size": 10064,
-            "date": 133157479835697402
+            "size": 9995,
+            "date": 133179343370838932
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/panel/panel.cfg",
@@ -45778,92 +45783,72 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
             "size": 349680,
-            "date": 133157479857056806
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS.json",
             "size": 119,
-            "date": 133157479857236974
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS",
             "size": 1398256,
-            "date": 133157479858468094
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS.json",
             "size": 119,
-            "date": 133157479858598208
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS",
             "size": 87536,
-            "date": 133157479858758352
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS.json",
             "size": 177,
-            "date": 133157479858878462
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS",
             "size": 174904,
-            "date": 133157479859098664
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS.json",
             "size": 166,
-            "date": 133157479859248802
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_300_T.PNG.DDS",
-            "size": 2796344,
-            "date": 133157479862161440
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_300_T.PNG.DDS.json",
-            "size": 102,
-            "date": 133157479862481732
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q300_PROP.PNG.DDS",
             "size": 87536,
-            "date": 133157479863142336
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q300_PROP.PNG.DDS.json",
             "size": 119,
-            "date": 133157479863242426
+            "date": 133179321230000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q300_T.PNG.DDS",
             "size": 2796344,
-            "date": 133157479867316126
+            "date": 133179331200000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q300_T.PNG.DDS.json",
             "size": 102,
-            "date": 133157479867516310
+            "date": 133179331200000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q400_M.PNG.DDS",
-            "size": 1398276,
-            "date": 133157479869217866
+            "size": 699192,
+            "date": 133179331200000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q400_M.PNG.DDS.json",
             "size": 166,
-            "date": 133157479869398020
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q400_T.PNG.DDS",
-            "size": 5592560,
-            "date": 133157479877225132
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_DH8C/texture/TFS_DASH8_Q400_T.PNG.DDS.json",
-            "size": 119,
-            "date": 133157479877395282
+            "date": 133179331200000000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8C_AIE/aircraft.cfg",
@@ -46172,8 +46157,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8D/model/TFS_Dash-8-400.xml",
-            "size": 9810,
-            "date": 133157480048655812
+            "size": 9740,
+            "date": 133175149682936112
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_DH8D/model/TFS_Dash-8-400_LOD0.bin",
@@ -49292,8 +49277,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_MD11F_FDX_PW/model.FDX/model.cfg",
-            "size": 63,
-            "date": 133157482314626324
+            "size": 64,
+            "date": 133176553312869288
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_MD11F_FDX_PW/texture.FDX/FSPXAI_MD11PW_t.png.dds",
@@ -49547,8 +49532,8 @@
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG.xml",
-            "size": 1312,
-            "date": 133174196351667618
+            "size": 1297,
+            "date": 133174289829626114
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_LG2E.xml",
@@ -49587,8 +49572,8 @@
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_SM.xml",
-            "size": 1657,
-            "date": 133157608581896670
+            "size": 1642,
+            "date": 133174289858061932
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_SM2E.xml",
