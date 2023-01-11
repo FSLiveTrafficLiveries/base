@@ -254,18 +254,18 @@
       </UseTemplate>!-->
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
         <ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.5</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>74.77</DISTANCE>
+        <WHEEL_RADIUS>0.54</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>7.77</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>20.52</DISTANCE>
+        <WHEEL_RADIUS>1.0</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>2.52</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-20.52</DISTANCE>
+        <WHEEL_RADIUS>1.0</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>-2.52</DISTANCE>
       </UseTemplate>
       </Component>
 		<Component ID="FX">
