@@ -25736,31 +25736,6 @@
             "date": 133155500734209338
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ADO/aircraft.cfg",
-            "size": 998,
-            "date": 133155500734219242
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ADO/model.ADO/model.CFG",
-            "size": 229,
-            "date": 133155500734219242
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ADO/texture.ADO/FAIB_737_800_T.PNG.DDS",
-            "size": 22369776,
-            "date": 133156285522369470
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ADO/texture.ADO/FAIB_737_800_T.PNG.DDS.json",
-            "size": 119,
-            "date": 133155500735843418
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ADO/texture.ADO/texture.CFG",
-            "size": 47,
-            "date": 133155500735853502
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_B738_AEA/aircraft.cfg",
             "size": 1067,
             "date": 133155500735863490
