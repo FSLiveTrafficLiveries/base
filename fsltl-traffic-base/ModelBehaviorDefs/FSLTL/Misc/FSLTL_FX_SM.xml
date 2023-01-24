@@ -2,7 +2,6 @@
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
 	<Template Name="FSLTL_FX">
 
-	</Component>
 		  <Component ID="FSLTL_LANDING_FX">	 
 			<UseTemplate Name="FSLTL_WET_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>

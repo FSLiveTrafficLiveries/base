@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{00cb80c8-1979-4efb-a234-6e4a16a60d46}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="5" ModelFile="dh8c-lod0.gltf"/>
     <LOD minSize="1" ModelFile="dh8c-lod1.gltf"/>
@@ -243,10 +243,8 @@
     </Animation>
   </PartInfo>
   <Behaviors>
-		<Include ModelBehaviorFile="Asobo\Common.xml"/>
-		<Include Path="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="Asobo\Common.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG.xml"/>
     <Component ID="Wheels">
       <!--<UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_09</ANIM_NAME>
@@ -256,19 +254,22 @@
       </UseTemplate>!-->
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
         <ANIM_NAME>c_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.5</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>74.77</DISTANCE>
+        <WHEEL_RADIUS>0.54</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>7.77</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>l_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>20.52</DISTANCE>
+        <WHEEL_RADIUS>1.0</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>2.52</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>r_tire_blurred_key</ANIM_NAME>
-        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-20.52</DISTANCE>
+        <WHEEL_RADIUS>1.0</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>-2.52</DISTANCE>
       </UseTemplate>
       </Component>
+		<Component ID="FX">
+			<UseTemplate Name="FSLTL_FX"/>
+		</Component>
   </Behaviors>
 </ModelInfo>
