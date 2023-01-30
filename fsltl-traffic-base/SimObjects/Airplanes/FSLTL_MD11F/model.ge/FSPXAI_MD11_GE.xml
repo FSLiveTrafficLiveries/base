@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{9fffd6ac-26fe-4e60-9dca-32e21f9fbf41}" version="1.1">
+<ModelInfo>
   <LODS>
-    <LOD minSize="8" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
+    <LOD minSize="10" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
     <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
   </LODS>

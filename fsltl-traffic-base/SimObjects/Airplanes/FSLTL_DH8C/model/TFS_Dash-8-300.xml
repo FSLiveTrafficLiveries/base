@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="5" ModelFile="dh8c-lod0.gltf"/>
+    <LOD minSize="8" ModelFile="dh8c-lod0.gltf"/>
     <LOD minSize="1" ModelFile="dh8c-lod1.gltf"/>
     <LOD minSize="0" ModelFile="dh8c-lod1.gltf"/>
   </LODS>

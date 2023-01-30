@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="5" ModelFile="bombardier_crj_700_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="bombardier_crj_700_LOD0.gltf"/>
 	<LOD minSize="1" ModelFile="bombardier_crj_700_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="bombardier_crj_700_LOD1.gltf"/>
   </LODS>

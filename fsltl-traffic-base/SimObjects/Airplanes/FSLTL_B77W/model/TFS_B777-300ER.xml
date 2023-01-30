@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="5" ModelFile="TFS_B777-300ER_LOD0.gltf"/>
+    <LOD minSize="10" ModelFile="TFS_B777-300ER_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="TFS_B777-300ER_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="TFS_B777-300ER_LOD4.gltf"/>
   </LODS>
