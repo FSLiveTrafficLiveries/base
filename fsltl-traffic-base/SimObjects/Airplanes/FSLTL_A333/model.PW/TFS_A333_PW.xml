@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="10" ModelFile="TFS_A333_PW_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="TFS_A333_PW_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="TFS_A333_PW_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="TFS_A333_PW_LOD3.gltf"/>
   </LODS>

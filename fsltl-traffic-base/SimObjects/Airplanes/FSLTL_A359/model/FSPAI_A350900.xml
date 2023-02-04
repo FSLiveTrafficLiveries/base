@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="10" ModelFile="FSPAI_A350900_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="FSPAI_A350900_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FSPAI_A350900_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FSPAI_A350900_LOD4.gltf"/>
   </LODS>

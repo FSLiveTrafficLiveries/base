@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="10" ModelFile="B772_RR_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="B772_RR_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="B772_RR_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="B772_RR_LOD1.gltf"/>
   </LODS>

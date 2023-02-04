@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="10" ModelFile="FAIB_B7673F_RR_LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="FAIB_B7673F_RR_LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FAIB_B7673F_RR_LOD4.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_B7673F_RR_LOD4.gltf"/>
   </LODS>
