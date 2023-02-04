@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
   <LODS>
-    <LOD minSize="10" ModelFile="FSPX-B789-GE-LOD0.gltf"/>
+    <LOD minSize="8" ModelFile="FSPX-B789-GE-LOD0.gltf"/>
     <LOD minSize="1" ModelFile="FSPX-B789-GE-LOD2.gltf"/>
     <LOD minSize="0" ModelFile="FSPX-B789-GE-LOD2.gltf"/>
   </LODS>
