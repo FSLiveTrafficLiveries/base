@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="10" ModelFile="DA62_LOD03.gltf"/>
+		<LOD minSize="0" ModelFile="DA62_LOD06.gltf"/>
+	</LODS>
+  <Animation name="l_flap_percent_key" guid="fca73a03-23c2-4640-b79c-ab01f9983241" length="100" type="Sim" typeParam="AutoPlay" />	
+  <Animation name="r_flap_percent_key" guid="7863861f-2127-4493-bf7b-c236c6b41676" length="100" type="Sim" typeParam="AutoPlay" />	
+  <PartInfo>
+    <Name>l_flap_percent_key</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
+        <Lag>6</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+  <PartInfo>
+    <Name>r_flap_percent_key</Name>
+    <AnimLength>100</AnimLength>
+    <Animation>
+      <Parameter>
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 1000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
+        <Lag>6</Lag>
+      </Parameter>
+    </Animation>
+  </PartInfo>
+	<Behaviors>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM.xml"/>
+
+		<Component ID="GEARS">
+			<UseTemplate Name="ASOBO_GEAR_Center_Template"/>
+			<UseTemplate Name="ASOBO_GEAR_Left_Template"/>
+			<UseTemplate Name="ASOBO_GEAR_Right_Template"/>
+			<UseTemplate Name="ASOBO_GEAR_Steering_Template"/>
+			<UseTemplate Name="ASOBO_GT_Recursive_AnimEvents">
+				<ANIM_EVENT_ID>1</ANIM_EVENT_ID>
+				<ANIM_NAME>GEAR_Center</ANIM_NAME>
+				<ANIM_EVENT_EFFECT_NAME_1>CAM_LANDING</ANIM_EVENT_EFFECT_NAME_1>
+				<ANIM_EVENT_EFFECT_NAME_2>CAM_LANDING_Backward</ANIM_EVENT_EFFECT_NAME_2>
+				<NORMALIZED_TIME_1>0</NORMALIZED_TIME_1>
+				<NORMALIZED_TIME_2>50</NORMALIZED_TIME_2>
+				<DIRECTION_1>Forward</DIRECTION_1>
+				<DIRECTION_2>Backward</DIRECTION_2>
+			</UseTemplate>
+		</Component>
+		<Component ID="ENGINE">
+			<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+				<ID>1</ID>
+				<FROSTED_STILL_NODE_ID>ENGINE_Propeller_Still_1_Frost</FROSTED_STILL_NODE_ID>
+				<FROSTED_SLOW_NODE_ID>ENGINE_Propeller_Slow_1_Frost</FROSTED_SLOW_NODE_ID>
+				<FROSTED_BLURRED_NODE_ID>ENGINE_Propeller_Blurred_1_Cone_Frost</FROSTED_BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+				<ID>2</ID>
+				<FROSTED_STILL_NODE_ID>ENGINE_Propeller_Still_2_Frost</FROSTED_STILL_NODE_ID>
+				<FROSTED_SLOW_NODE_ID>ENGINE_Propeller_Slow_2_Frost</FROSTED_SLOW_NODE_ID>
+				<FROSTED_BLURRED_NODE_ID>ENGINE_Propeller_Blurred_2_Cone_Frost</FROSTED_BLURRED_NODE_ID>
+			</UseTemplate>
+		</Component>
+		<Component ID="WHEELS">
+			<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+				<ANIM_NAME>c_tire_anim</ANIM_NAME>
+				<WHEEL_RADIUS>0.2</WHEEL_RADIUS> <!-- in meters -->
+				<DISTANCE>5.0</DISTANCE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+				<ANIM_NAME>l_tire_anim</ANIM_NAME>
+				<WHEEL_RADIUS>0.3</WHEEL_RADIUS> <!-- in meters -->
+				<DISTANCE>1.0</DISTANCE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+				<ANIM_NAME>r_tire_anim</ANIM_NAME>
+				<WHEEL_RADIUS>0.3</WHEEL_RADIUS> <!-- in meters -->
+				<DISTANCE>-1.0</DISTANCE>
+			</UseTemplate>
+	
+		</Component>
+		<Component ID="FX">
+			<UseTemplate Name="FSLTL_FX"/>
+		</Component>
+	</Behaviors>
+</ModelInfo>
+
