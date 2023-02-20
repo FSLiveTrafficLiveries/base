@@ -5,135 +5,83 @@
     <LOD minSize="1" ModelFile="FAIB_A320S_PW_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB_A320S_PW_LOD3.gltf"/>
    </LODS>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="dda29cda-0c4c-4851-a14b-9adbd92c8479" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
-    <AnimLength>200</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>GEAR ANIMATION POSITION:0</Variable>
-          <Units>keyframe</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="1ca21298-15bc-456b-86f6-5f3a9978764c" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="custom_anim_SIM_ON_GROUND_02" guid="83fd1bf1-7a90-4069-8da1-e5a1ace47909" length="1000" type="Sim" typeParam="AutoPlay" />
-  <Animation name="custom_anim_SIM_ON_GROUND_03" guid="eba0e6b5-57da-45df-aabc-e6c2e264eacc" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SIM_ON_GROUND_03</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(A:SIM ON GROUND, bool) 1 == if{ (A:LIGHT BEACON, bool) 0 == if{ 100 } }
-	  	</Code>
-        <Lag>20</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_SIM_on_GROUND_04" guid="e7e481c8-54f5-4e36-993b-8d1cc42a3abb" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SIM_on_GROUND_04</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-            	(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } }
-	  	</Code>
-        <Lag>60</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_SIM_ON_GROUND_05" guid="47d59d68-08a4-449f-840b-0535fef8f5ea" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SIM_ON_GROUND_05</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-       <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 35 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
-                </Code>
-        <Lag>6</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_SIM_ON_GROUND_06" guid="45d82422-9385-4846-9d51-2416e90e4e85" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SIM_ON_GROUND_06</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-				       <Code>
-           	(A:LEADING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:LEADING EDGE FLAPS LEFT PERCENT, percent) } }
-                </Code>
-        <Lag>6</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="N1_blur_left" guid="66e2ef92-89f8-4038-9820-eaf2e6a8d72b" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="N1_blur_right" guid="9bf195ff-5c22-4f23-be39-4a7865f532d6" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_08" guid="29d7e8e2-efa3-45a4-a9ab-8512ab76aff4" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GEAR_ANIMATION_POSITION_1_08</Name>
-    <AnimLength>200</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>GEAR ANIMATION POSITION:1</Variable>
-          <Units>keyframe</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_SPOILERS_LEFT_POSITION_09" guid="13eb18de-cd1c-4239-9ebb-ea261553909d" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SPOILERS_LEFT_POSITION_09</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-	    <Code>
-           	(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 100 } } els{ 0 }
-        </Code>
-		<Lag>220</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_10" guid="eb14bea3-70e4-4de9-ba9a-268c5ecc2107" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_11" guid="29f9447a-4e4b-4722-a129-eec6e9b95d9d" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_GEAR_ANIMATION_POSITION_2_11</Name>
-    <AnimLength>210</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>GEAR ANIMATION POSITION:2</Variable>
-          <Units>keyframe</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_SPOILERS_RIGHT_POSITION_12" guid="74fb7025-fcbb-41c1-838a-12f7681d5648" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_SPOILERS_RIGHT_POSITION_12</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-	    <Code>
-           	(A:SIM ON GROUND, bool) 1 == if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ 100 } } els{ 0 }
-        </Code>
-		<Lag>240</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13" guid="65f0dc6c-140e-408a-b887-39f1135dd6c1" length="100" type="Sim" typeParam="AutoPlay" />
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
+	
+		<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SIM_ON_GROUND_05</ANIM_NAME>
+		<ANIM_CODE>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	<Component ID="Slats">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SIM_ON_GROUND_06</ANIM_NAME>
+		<ANIM_CODE>
+	   (A:LIGHT LANDING, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 50 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 130 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 220 &lt; and if{ 50 }
+	   els{ 0 } } } } } } } } }
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		<Component ID="GEARS">
+			<UseTemplate Name="ASOBO_GEAR_Center_Template">
+				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_00</ANIM_NAME>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Left_Template">
+				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_08</ANIM_NAME>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Right_Template">
+				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_11</ANIM_NAME>
+				<!-- ANIM EVENTS -->
+				<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
+				<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
+				<DIRECTION>Both</DIRECTION>
+			</UseTemplate>
+		</Component>
+		<Component ID="SpoilerL">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SPOILERS_LEFT_POSITION_09</ANIM_NAME>
+		<ANIM_CODE>
+			   (A:SPOILERS HANDLE POSITION, percent) 
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>120</ANIM_LAG>
+		</UseTemplate>
+		</Component>
+		<Component ID="SpoilerR">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SPOILERS_RIGHT_POSITION_12</ANIM_NAME>
+		<ANIM_CODE>
+	   	   (A:SPOILERS HANDLE POSITION, percent)
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>100</ANIM_LAG>
+		</UseTemplate>
+		</Component>
+		<Component ID="Reverser">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SIM_on_GROUND_04</ANIM_NAME>
+		<ANIM_CODE>
+			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } } 
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>60</ANIM_LAG>
+		</UseTemplate>
+		</Component>		
+	
 	<Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
@@ -154,17 +102,17 @@
     <UseTemplate Name="FSLTL_Wheel_Roll_Center">
       <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</ANIM_NAME>
       <WHEEL_RADIUS>0.77</WHEEL_RADIUS> <!-- in meters -->
-      <DISTANCE>37.505</DISTANCE>
+      <DISTANCE>12.6</DISTANCE>
     </UseTemplate>
     <UseTemplate Name="FSLTL_Wheel_Roll_Main">
       <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_10</ANIM_NAME>
       <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-      <DISTANCE>13.33</DISTANCE>
+      <DISTANCE>3.8</DISTANCE>
     </UseTemplate>
     <UseTemplate Name="FSLTL_Wheel_Roll_Main">
       <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
       <WHEEL_RADIUS>1.28</WHEEL_RADIUS> <!-- in meters -->
-      <DISTANCE>-13.33</DISTANCE>
+      <DISTANCE>-3.8</DISTANCE>
     </UseTemplate>
     </Component>
 	<Component ID="FX">
