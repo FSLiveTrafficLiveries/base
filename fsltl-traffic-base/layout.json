@@ -30492,8 +30492,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Scimitars/FAIB7377S_LOD0.gltf",
-            "size": 118768,
-            "date": 133207900828747972
+            "size": 118234,
+            "date": 133234683459108716
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Scimitars/FAIB7377S_LOD1.bin",
@@ -30502,8 +30502,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Scimitars/FAIB7377S_LOD1.gltf",
-            "size": 58385,
-            "date": 133207900829052634
+            "size": 57850,
+            "date": 133234683459118724
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Scimitars/model.CFG",
@@ -30522,8 +30522,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Winglets/FAIB7377W_LOD0.gltf",
-            "size": 120413,
-            "date": 133207900829451218
+            "size": 119879,
+            "date": 133234683459138706
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Winglets/FAIB7377W_LOD1.bin",
@@ -30532,8 +30532,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Winglets/FAIB7377W_LOD1.gltf",
-            "size": 58476,
-            "date": 133207900829613282
+            "size": 57942,
+            "date": 133234683459148716
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737/model.Winglets/model.CFG",
@@ -30677,8 +30677,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Scimitars/FAIB7377FS_LOD0.gltf",
-            "size": 105972,
-            "date": 133207900887366068
+            "size": 105422,
+            "date": 133234683459158726
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Scimitars/FAIB7377FS_LOD1.bin",
@@ -30687,8 +30687,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Scimitars/FAIB7377FS_LOD1.gltf",
-            "size": 58405,
-            "date": 133207900887406154
+            "size": 57851,
+            "date": 133234683459168728
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Scimitars/model.CFG",
@@ -30707,8 +30707,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Winglets/FAIB7377FW_LOD0.gltf",
-            "size": 107598,
-            "date": 133207900887923756
+            "size": 107067,
+            "date": 133234683459178736
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Winglets/FAIB7377FW_LOD1.bin",
@@ -30717,8 +30717,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Winglets/FAIB7377FW_LOD1.gltf",
-            "size": 58477,
-            "date": 133207900887968878
+            "size": 57944,
+            "date": 133234683459188826
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F/model.Winglets/model.CFG",
@@ -30787,8 +30787,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F_AWK/aircraft.cfg",
-            "size": 910,
-            "date": 133231236786647738
+            "size": 909,
+            "date": 133234683701480270
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F_AWK/model.AWK/model.cfg",
@@ -30797,13 +30797,13 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F_AWK/texture.AWK/FAIB_737_700_T.PNG.dds",
-            "size": 22369776,
-            "date": 133207900890647628
+            "size": 5592560,
+            "date": 133207900889023020
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F_AWK/texture.AWK/FAIB_737_700_T.PNG.dds.json",
-            "size": 104,
-            "date": 133207900890647628
+            "size": 119,
+            "date": 133207900889028074
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B737F_AWK/texture.AWK/texture.cfg",
@@ -32127,8 +32127,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars/FAIB7378S_LOD0.gltf",
-            "size": 120279,
-            "date": 133207900989424122
+            "size": 120036,
+            "date": 133234683459198828
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars/FAIB7378S_LOD3.bin",
@@ -32137,8 +32137,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars/FAIB7378S_LOD3.gltf",
-            "size": 58032,
-            "date": 133207900989499224
+            "size": 57788,
+            "date": 133234683459198828
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars/model.CFG",
@@ -32157,8 +32157,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars_SN/FAIB7378SSN_LOD0.gltf",
-            "size": 121530,
-            "date": 133207900989929364
+            "size": 121290,
+            "date": 133234683459218826
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars_SN/FAIB7378SSN_LOD3.bin",
@@ -32167,8 +32167,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars_SN/FAIB7378SSN_LOD3.gltf",
-            "size": 58040,
-            "date": 133207900990004510
+            "size": 57796,
+            "date": 133234683459218826
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.scimitars_SN/model.CFG",
@@ -32187,8 +32187,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets/FAIB7378W_LOD0.gltf",
-            "size": 121716,
-            "date": 133207900990548450
+            "size": 121457,
+            "date": 133234683459228808
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets/FAIB7378W_LOD3.bin",
@@ -32197,8 +32197,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets/FAIB7378W_LOD3.gltf",
-            "size": 58047,
-            "date": 133207900990633556
+            "size": 57784,
+            "date": 133234683459238828
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets/model.CFG",
@@ -32217,18 +32217,18 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets_SN/FAIB7378WSN_LOD0.gltf",
-            "size": 119570,
-            "date": 133207900991254244
+            "size": 119322,
+            "date": 133234683459248810
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets_SN/FAIB7378WSN_LOD3.bin",
-            "size": 2260360,
-            "date": 133207900991354464
+            "size": 2260216,
+            "date": 133234683459373882
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets_SN/FAIB7378WSN_LOD3.gltf",
-            "size": 57933,
-            "date": 133207900991364570
+            "size": 57792,
+            "date": 133234683459383886
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738/model.winglets_SN/model.CFG",
@@ -32372,8 +32372,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Scimitars/FAIB7378FS_LOD0.gltf",
-            "size": 104557,
-            "date": 133207900992083760
+            "size": 104317,
+            "date": 133234683459393880
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Scimitars/FAIB7378FS_LOD3.bin",
@@ -32382,8 +32382,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Scimitars/FAIB7378FS_LOD3.gltf",
-            "size": 58033,
-            "date": 133207900992163746
+            "size": 57789,
+            "date": 133234683459403890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Scimitars/model.CFG",
@@ -32402,8 +32402,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Winglets/FAIB7378FW_LOD0.gltf",
-            "size": 104598,
-            "date": 133207900992604892
+            "size": 104339,
+            "date": 133234683459413924
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Winglets/FAIB7378FW_LOD3.bin",
@@ -32412,8 +32412,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Winglets/FAIB7378FW_LOD3.gltf",
-            "size": 58048,
-            "date": 133207900992654860
+            "size": 57785,
+            "date": 133234683459423926
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F/model.Winglets/model.CFG",
@@ -37587,8 +37587,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars/FAIB7379S_LOD0.gltf",
-            "size": 123743,
-            "date": 133207901481013650
+            "size": 123500,
+            "date": 133234683459433926
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars/FAIB7379S_LOD3.bin",
@@ -37597,8 +37597,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars/FAIB7379S_LOD3.gltf",
-            "size": 57052,
-            "date": 133207901481098092
+            "size": 56807,
+            "date": 133234683459433926
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars/model.CFG",
@@ -37617,8 +37617,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars_SN/FAIB7379SSN_LOD0.gltf",
-            "size": 124415,
-            "date": 133207901481521782
+            "size": 124170,
+            "date": 133234683459443908
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars_SN/FAIB7379SSN_LOD3.bin",
@@ -37627,8 +37627,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars_SN/FAIB7379SSN_LOD3.gltf",
-            "size": 58014,
-            "date": 133207901481566828
+            "size": 57770,
+            "date": 133234683459453884
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.scimitars_SN/model.CFG",
@@ -37647,8 +37647,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets/FAIB7379W_LOD0.gltf",
-            "size": 124345,
-            "date": 133207901481908738
+            "size": 124100,
+            "date": 133234683459463930
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets/FAIB7379W_LOD3.bin",
@@ -37657,8 +37657,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets/FAIB7379W_LOD3.gltf",
-            "size": 58004,
-            "date": 133207901481948730
+            "size": 57761,
+            "date": 133234683459473928
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets/model.CFG",
@@ -37677,8 +37677,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets_SN/FAIB7379WSN_LOD0.gltf",
-            "size": 124472,
-            "date": 133207901482375722
+            "size": 124228,
+            "date": 133234683459483890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets_SN/FAIB7379WSN_LOD3.bin",
@@ -37687,8 +37687,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets_SN/FAIB7379WSN_LOD3.gltf",
-            "size": 58007,
-            "date": 133207901482415708
+            "size": 57763,
+            "date": 133234683459483890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B739/model.winglets_SN/model.CFG",
@@ -43262,8 +43262,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77L/model/B77L_LOD0.gltf",
-            "size": 195226,
-            "date": 133207901877704944
+            "size": 194676,
+            "date": 133234683459503890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77L/model/B77L_LOD1.bin",
@@ -43402,8 +43402,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77LF/model/B77L_cargo_LOD0.gltf",
-            "size": 169438,
-            "date": 133207901880650032
+            "size": 168913,
+            "date": 133234683459513898
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77LF/model/B77L_cargo_LOD1.bin",
@@ -44387,8 +44387,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77W/model/TFS_B777-300ER_LOD0.gltf",
-            "size": 177748,
-            "date": 133207902016460012
+            "size": 177406,
+            "date": 133234683459523894
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77W/model/TFS_B777-300ER_LOD4.bin",
@@ -44397,8 +44397,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77W/model/TFS_B777-300ER_LOD4.gltf",
-            "size": 89549,
-            "date": 133207902016838336
+            "size": 89207,
+            "date": 133234683459533882
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B77W/panel/panel.cfg",
