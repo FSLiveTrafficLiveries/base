@@ -6,7 +6,7 @@
 		<!-- default minSize is 0 -->
 		<LOD minSize="10" ModelFile="CJ4_LOD03.gltf"/>
 		<LOD minSize="2" ModelFile="CJ4_LOD04.gltf"/>
-		<LOD minSize="0" ModelFile="CJ4_LOD06.gltf"/>
+		<LOD minSize="0" ModelFile="CJ4_LOD04.gltf"/>
 	</LODS>
   <Animation name="l_flap_percent_key" guid="fca73a03-23c2-4640-b79c-ab01f9983241" length="100" type="Sim" typeParam="AutoPlay" />	
   <Animation name="r_flap_percent_key" guid="7863861f-2127-4493-bf7b-c236c6b41676" length="100" type="Sim" typeParam="AutoPlay" />	
