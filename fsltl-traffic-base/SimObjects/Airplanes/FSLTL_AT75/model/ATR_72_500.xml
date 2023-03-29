@@ -106,7 +106,42 @@
 			<ANIM_LAG>10</ANIM_LAG>
 		</UseTemplate>
 	</Component>
-
+    <Component ID="node51" Node="node51">
+      <Visibility>
+        <Parameter>
+          <Code>
+      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+    <Component ID="node54" Node="node54">
+      <Visibility>
+        <Parameter>
+          <Code>
+      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+    <Component ID="node57" Node="node57">
+      <Visibility>
+        <Parameter>
+          <Code>
+      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+    <Component ID="node60" Node="node60">
+      <Visibility>
+        <Parameter>
+          <Code>
+      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      </Code>
+        </Parameter>
+      </Visibility>
+    </Component>	
 		<Component ID="GEARS">
 			<UseTemplate Name="ASOBO_GEAR_Center_Template">
 				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_06</ANIM_NAME>
