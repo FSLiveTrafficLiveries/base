@@ -51,19 +51,6 @@
   </PartInfo>
 
   <PartInfo>
-    <Name>tire_anim</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <PartInfo>
     <Name>prop_anim</Name>
     <AnimLength>100</AnimLength>
     <Animation>
@@ -124,6 +111,13 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Wheels">
+      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        <ANIM_NAME>CENTER WHEEL ROTATION ANGLE</ANIM_NAME>
+        <WHEEL_RADIUS>1.04</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>26.3</DISTANCE>
+      </UseTemplate>
+    </Component>
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_RADIO_HEIGHT_00</ANIM_NAME>
