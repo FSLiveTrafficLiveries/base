@@ -23702,8 +23702,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949115066998
+            "size": 5592580,
+            "date": 133171875847760980
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_COMP.PNG.DDS.FLAGS",
@@ -23717,8 +23717,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_NORM.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949115126374
+            "size": 5592560,
+            "date": 133171875847909000
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_BODY_NORM.PNG.DDS.json",
@@ -23753,7 +23753,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_FUEL_COMP.PNG.DDS",
             "size": 349700,
-            "date": 133207906317806520
+            "date": 133171875847959198
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_FUEL_COMP.PNG.DDS.FLAGS",
@@ -23768,7 +23768,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_FUEL_NORM.PNG.DDS",
             "size": 349680,
-            "date": 133207906317851626
+            "date": 133171875847979214
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_FUEL_NORM.PNG.DDS.json",
@@ -23777,8 +23777,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_GLASSES_COMP.PNG.DDS",
-            "size": 349680,
-            "date": 133220949115146456
+            "size": 1398276,
+            "date": 133171875847999196
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_GLASSES_COMP.PNG.DDS.FLAGS",
@@ -23788,7 +23788,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_GLASSES_COMP.PNG.DDS.json",
             "size": 191,
-            "date": 133207906317903454
+            "date": 133171875848009210
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LANDING_ALBD.PNG.DDS",
@@ -23802,8 +23802,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LANDING_COMP.PNG.DDS",
-            "size": 349680,
-            "date": 133220949115176436
+            "size": 1398276,
+            "date": 133171875848091264
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LANDING_COMP.PNG.DDS.FLAGS",
@@ -23818,7 +23818,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LANDING_NORM.PNG.DDS",
             "size": 1398256,
-            "date": 133207906318193910
+            "date": 133171875848126386
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LANDING_NORM.PNG.DDS.json",
@@ -23847,8 +23847,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIGHT_COMP.PNG.DDS",
-            "size": 349680,
-            "date": 133220949115211598
+            "size": 5592580,
+            "date": 133171875848291524
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIGHT_COMP.PNG.DDS.FLAGS",
@@ -23863,7 +23863,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIGHT_NORM.PNG.DDS",
             "size": 5616,
-            "date": 133207906318559402
+            "date": 133171875848291524
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_LIGHT_NORM.PNG.DDS.json",
@@ -23892,8 +23892,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_PROPELLER_COMP.PNG.DDS",
-            "size": 349680,
-            "date": 133220949115236724
+            "size": 1398276,
+            "date": 133171875848481906
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_PROPELLER_COMP.PNG.DDS.FLAGS",
@@ -23908,7 +23908,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_PROPELLER_NORM.PNG.DDS",
             "size": 240,
-            "date": 133207906318694692
+            "date": 133171875848491926
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_PROPELLER_NORM.PNG.DDS.json",
@@ -23948,7 +23948,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_RIBBONS_COMP.PNG.DDS",
             "size": 5636,
-            "date": 133207906318841808
+            "date": 133171875848512316
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_RIBBONS_COMP.PNG.DDS.FLAGS",
@@ -23963,7 +23963,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_RIBBONS_NORM.PNG.DDS",
             "size": 1398256,
-            "date": 133207906318906896
+            "date": 133171875848542414
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_RIBBONS_NORM.PNG.DDS.json",
@@ -23982,8 +23982,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949115380640
+            "size": 5592580,
+            "date": 133171875848838534
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_COMP.PNG.DDS.FLAGS",
@@ -23997,8 +23997,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_NORM.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949115473810
+            "size": 5592560,
+            "date": 133171875848961536
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_208B/TEXTURE/CESSNA_208B_GRANDCARAVANEX_AIRFRAME_WING_NORM.PNG.DDS.json",
@@ -26432,8 +26432,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116122858
+            "size": 5592580,
+            "date": 133171903824905518
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_COMP.PNG.DDS.FLAGS",
@@ -26458,7 +26458,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_COMP.PNG.DDS",
             "size": 174904,
-            "date": 133207906349791324
+            "date": 133171903824935554
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_LOD4_COMP.PNG.DDS.json",
@@ -26467,8 +26467,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_NORM.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116203430
+            "size": 5592560,
+            "date": 133171903825161578
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_FUSELAGE_NORM.PNG.DDS.json",
@@ -26488,7 +26488,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_LIGHTS_COMP.PNG.DDS",
             "size": 349700,
-            "date": 133207906350181412
+            "date": 133171903825185152
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_LIGHTS_COMP.PNG.DDS.FLAGS",
@@ -26513,7 +26513,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_LIGHTS_NORM.PNG.DDS",
             "size": 349680,
-            "date": 133207906350221530
+            "date": 133171903825215148
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_LIGHTS_NORM.PNG.DDS.json",
@@ -26583,7 +26583,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_RIVETS_COMP.PNG.DDS",
             "size": 349700,
-            "date": 133207906350484424
+            "date": 133171903825321912
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_RIVETS_COMP.PNG.DDS.FLAGS",
@@ -26598,7 +26598,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_RIVETS_NORM.PNG.DDS",
             "size": 349680,
-            "date": 133207906350704002
+            "date": 133171903825336972
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_RIVETS_NORM.PNG.DDS.json",
@@ -26617,8 +26617,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_STRUTS_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116352728
+            "size": 5592580,
+            "date": 133171903825677406
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_STRUTS_COMP.PNG.DDS.FLAGS",
@@ -26652,8 +26652,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_TAILLANDING_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116480306
+            "size": 5592580,
+            "date": 133171903826197900
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_TAILLANDING_COMP.PNG.DDS.FLAGS",
@@ -26667,8 +26667,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_TAILLANDING_NORM.PNG.DDS",
-            "size": 349680,
-            "date": 133220949116500598
+            "size": 5592560,
+            "date": 133171903826413230
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_TAILLANDING_NORM.PNG.DDS.json",
@@ -26757,8 +26757,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_WINGS_COMP.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116766506
+            "size": 5592580,
+            "date": 133171903827749814
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_WINGS_COMP.PNG.DDS.FLAGS",
@@ -26772,8 +26772,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_WINGS_NORM.PNG.DDS",
-            "size": 1398256,
-            "date": 133220949116804226
+            "size": 5592560,
+            "date": 133171903827990102
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Asobo_C172SP/TEXTURE/C172SP_AIRFRAME_WINGS_NORM.PNG.DDS.json",
