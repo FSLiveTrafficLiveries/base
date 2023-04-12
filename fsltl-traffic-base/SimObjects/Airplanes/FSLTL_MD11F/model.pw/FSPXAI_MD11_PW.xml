@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{9fffd6ac-26fe-4e60-9dca-32e21f9fbf41}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="8" ModelFile="FSPXAI_MD11_LOD0.gltf"/>
-    <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
-    <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD5.gltf"/>
+    <LOD minSize="1" ModelFile="FSPXAI_MD11_LOD4.gltf"/>
+    <LOD minSize="0" ModelFile="FSPXAI_MD11_LOD4.gltf"/>
   </LODS>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_0_00</Name>
     <AnimLength>200</AnimLength>
@@ -18,83 +18,39 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" typeParam2="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01" guid="2788ac1a-4f88-402d-88fc-01a979ce48f8" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_LIGHT_BEACON_02" guid="432244f0-aff6-467d-82f4-19f1236f81ec" typeParam2="custom_anim_LIGHT_BEACON_02" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LIGHT_BEACON_02</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:LIGHT BEACON, bool) if{ (E:Local time, seconds) 750 * 100 % } els{ 0 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_03" guid="4f31852a-b62c-43c4-9a33-76238543fb2d" typeParam2="custom_anim_LIGHT_BEACON_03" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_LIGHT_BEACON_03</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (A:LIGHT BEACON, bool) if{ (E:Local time, seconds) 750 * 100 % } els{ 30 }
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_04" guid="d8035dbe-a56f-4de5-808e-b582fbbff331" typeParam2="custom_anim_LIGHT_BEACON_04" length="50" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LIGHT_BEACON_02" guid="432244f0-aff6-467d-82f4-19f1236f81ec" length="100" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_LIGHT_BEACON_03" guid="4f31852a-b62c-43c4-9a33-76238543fb2d" length="100" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_LIGHT_BEACON_04" guid="d8035dbe-a56f-4de5-808e-b582fbbff331" length="50" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LIGHT_BEACON_04</Name>
     <AnimLength>50</AnimLength>
     <Animation>
       <Parameter>
-        <Code>
-          (A:LIGHT BEACON, bool) if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt;
-                                       if{ (A:LIGHT STROBE, bool) 1 ==
-					    if{ 0 2250 (A:PLANE ALT ABOVE GROUND, feet) rng
-						if{ 35 }
-					       els{ 2250 3150 (A:PLANE ALT ABOVE GROUND, feet) rng
-							if{ 20 }
-						       els{ 0 }
-
-					   els{ (A:PLANE ALT ABOVE GROUND, feet) 4750 &lt;
-                                                if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) }
-                                               els{ 0 } } } } } }
-
-                                els{ 50 }
-        </Code>
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
         <Lag>20</Lag>
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_05" guid="19bf8d78-125e-49be-babe-d5404d26b4ca" typeParam2="custom_anim_LIGHT_BEACON_05" length="50" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LIGHT_BEACON_05" guid="19bf8d78-125e-49be-babe-d5404d26b4ca" length="50" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LIGHT_BEACON_05</Name>
     <AnimLength>50</AnimLength>
     <Animation>
       <Parameter>
-        <Code>
-          (A:LIGHT BEACON, bool) if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt;
-                                       if{ (A:LIGHT STROBE, bool) 1 ==
-					    if{ 0 2250 (A:PLANE ALT ABOVE GROUND, feet) rng
-						if{ 35 }
-					       els{ 2250 3150 (A:PLANE ALT ABOVE GROUND, feet) rng
-							if{ 20 }
-						       els{ 0 }
-
-					   els{ (A:PLANE ALT ABOVE GROUND, feet) 4750 &lt;
-                                                if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) }
-                                               els{ 0 } } } } } }
-
-                                els{ 10 }
-        </Code>
+       <Code>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 30 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+                </Code>
         <Lag>20</Lag>
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LIGHT_BEACON_06" guid="57a2af39-2c92-42ac-b406-46d70c4faf29" typeParam2="custom_anim_LIGHT_BEACON_06" length="50" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LIGHT_BEACON_06" guid="57a2af39-2c92-42ac-b406-46d70c4faf29" length="50" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_LIGHT_BEACON_06</Name>
     <AnimLength>50</AnimLength>
@@ -107,44 +63,11 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_Local_time_07" guid="28c429e8-c239-4207-8f0c-08f92c1d7784" typeParam2="custom_anim_Local_time_07" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Local_time_07</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (E:Local time, seconds) 1000 * 100 %
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_Local_time_08" guid="d20acfa2-135f-4b7f-b44a-ef2ec186e86d" typeParam2="custom_anim_Local_time_08" length="100" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_Local_time_08</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           (E:Local time, seconds) 1000 * 100 %
-        </Code>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_PLANE_ALT_ABOVE_GROUND_09" guid="a1dedbc9-3411-4a8d-8cd4-ca7bd5c10176" typeParam2="custom_anim_PLANE_ALT_ABOVE_GROUND_09" length="150" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PLANE_ALT_ABOVE_GROUND_09</Name>
-    <AnimLength>150</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-      (A:PLANE ALT ABOVE GROUND, feet) 8.256 - 90 +
-        </Code>
-        <Lag>400</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_PLANE_ALT_ABOVE_GROUND_10" guid="99e2a804-0c26-4d2e-9dbe-e7f66224b483" typeParam2="custom_anim_PLANE_ALT_ABOVE_GROUND_10" length="20" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_Local_time_07" guid="28c429e8-c239-4207-8f0c-08f92c1d7784" length="100" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_Local_time_08" guid="d20acfa2-135f-4b7f-b44a-ef2ec186e86d" length="100" type="Sim" typeParam="AutoPlay" />
+
+  <Animation name="custom_anim_PLANE_ALT_ABOVE_GROUND_10" guid="99e2a804-0c26-4d2e-9dbe-e7f66224b483" length="20" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PLANE_ALT_ABOVE_GROUND_10</Name>
     <AnimLength>20</AnimLength>
@@ -157,11 +80,11 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_ROTATION_VELOCITY_BODY_Y_12" guid="dd2bf687-ca81-4b72-8ad1-2946be13ad9b" typeParam2="custom_anim_ROTATION_VELOCITY_BODY_Y_12" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_ROTATION_VELOCITY_BODY_Y_12" guid="dd2bf687-ca81-4b72-8ad1-2946be13ad9b" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_ROTATION_VELOCITY_BODY_Y_13" guid="8ee4368d-a4e2-4e6f-96d5-e468b44ee8aa" typeParam2="custom_anim_ROTATION_VELOCITY_BODY_Y_13" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_ROTATION_VELOCITY_BODY_Y_13" guid="8ee4368d-a4e2-4e6f-96d5-e468b44ee8aa" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_SIM_ON_GROUND_14" guid="5f2535a9-62d1-40cc-bd2b-cba6e6424216" typeParam2="custom_anim_SIM_ON_GROUND_14" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_14" guid="5f2535a9-62d1-40cc-bd2b-cba6e6424216" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_14</Name>
     <AnimLength>100</AnimLength>
@@ -174,7 +97,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_15" guid="52b9f067-1cc5-46df-bcfb-b6cd58823cc0" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_15" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_15" guid="52b9f067-1cc5-46df-bcfb-b6cd58823cc0" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_15</Name>
     <AnimLength>100</AnimLength>
@@ -187,7 +110,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_16" guid="ee5776f5-58f9-4d28-9749-9ea957214787" typeParam2="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_16" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_16" guid="ee5776f5-58f9-4d28-9749-9ea957214787" length="100" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_16</Name>
     <AnimLength>100</AnimLength>
@@ -200,7 +123,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_18" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_1_18" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_1_18" guid="e6a307e6-d0d8-4ca0-8a8e-77b7ea22ffb9" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_1_18</Name>
     <AnimLength>200</AnimLength>
@@ -213,9 +136,9 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_19" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" typeParam2="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_19" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_LEFT_WHEEL_ROTATION_ANGLE_19" guid="33249ea2-f0e7-4e3f-9498-754697cf50bb" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_20" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_2_20" length="200" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_GEAR_ANIMATION_POSITION_2_20" guid="77c00b94-dda1-450a-b725-1e2b4adf6bc8" length="200" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_GEAR_ANIMATION_POSITION_2_20</Name>
     <AnimLength>200</AnimLength>
@@ -228,18 +151,18 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_21" guid="6114e2ca-5fb8-4d20-a880-56945094247f" typeParam2="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_21" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_21" guid="6114e2ca-5fb8-4d20-a880-56945094247f" length="100" type="Sim" typeParam="AutoPlay" />
 
-  <Animation name="custom_anim_SIM_ON_GROUND_22" guid="49f67d69-6e50-499a-a833-0171b8df252e" length="50" type="Sim" typeParam2="custom_anim_SIM_ON_GROUND_22" typeParam="AutoPlay" />
+  <Animation name="custom_anim_SIM_ON_GROUND_22" guid="49f67d69-6e50-499a-a833-0171b8df252e" length="50" type="Sim" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_SIM_ON_GROUND_22</Name>
     <AnimLength>50</AnimLength>
     <Animation>
       <Parameter>
         <Code>
-(A:SIM ON GROUND, bool) 0 &gt; if{ (A:SPOILERS LEFT POSITION, percent) } els{ 0 }
-</Code>
-        <Lag>25</Lag>
+            	(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } }
+	  	</Code>
+        <Lag>100</Lag>
       </Parameter>
     </Animation>
   </PartInfo>
@@ -247,6 +170,28 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Engines">
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>custom_anim_Local_time_08</ANIM_NAME>
+        <NODE_NAME>node64</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+      <UseTemplate Name="FSLTL_Engine_Blur">
+        <ANIM_NAME>custom_anim_Local_time_07</ANIM_NAME>
+        <NODE_NAME>node63</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>custom_anim_LIGHT_BEACON_03</ANIM_NAME>
+        <NODE_NAME>node60</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      </UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        <ANIM_NAME>custom_anim_LIGHT_BEACON_02</ANIM_NAME>
+        <NODE_NAME>node65</NODE_NAME>
+        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      </UseTemplate>
+    </Component>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_12</ANIM_NAME>
@@ -262,18 +207,18 @@
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
         <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</ANIM_NAME>
-        <WHEEL_RADIUS>1.6</WHEEL_RADIUS> <!-- in meters -->
+        <WHEEL_RADIUS>1.01</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>63.2</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_19</ANIM_NAME>
-        <WHEEL_RADIUS>2.1</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>26.54</DISTANCE>
+        <WHEEL_RADIUS>1.32</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>5.2</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_21</ANIM_NAME>
-        <WHEEL_RADIUS>2.1</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-26.54</DISTANCE>
+        <WHEEL_RADIUS>1.32</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>-5.2</DISTANCE>
       </UseTemplate>
       </Component>
       <Component ID="FX">

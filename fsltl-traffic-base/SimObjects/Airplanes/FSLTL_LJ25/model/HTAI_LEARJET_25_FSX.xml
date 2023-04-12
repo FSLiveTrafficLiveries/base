@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{659a1bd2-f670-4d15-900e-0b40db960110}" version="1.1">
+<ModelInfo>
   <LODS>
     <LOD minSize="1" ModelFile="HTAI_LEARJET_25_FSX.gltf"/>
   </LODS>
-  <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" typeparam2="c_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" typeparam2="l_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="l_spoiler_key" guid="F5D81E0E-0238-43a6-B169-2A7DF682295F" typeParam2="l_spoiler_key" length="100" type="Sim" typeParam="AutoPlay" />
+
   <Animation name="N1_0_still" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" typeParam2="N1_0_still" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="N1_1_still" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" typeParam2="N1_1_still" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" typeparam2="r_gear" typeparam="AutoPlay" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="r_spoiler_key" guid="1DAC9F00-4B37-417f-A463-8D6F2B72024D" typeParam2="r_spoiler_key" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" typeParam2="tire_anim" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeParam="AutoPlay" />
+  
   <PartInfo>
     <Name>c_gear</Name>
     <AnimLength>100</AnimLength>
@@ -49,43 +49,7 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <PartInfo>
-    <Name>l_spoiler_key</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>SPOILERS LEFT POSITION</Variable>
-          <Units>percent</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <PartInfo>
-    <Name>r_spoiler_key</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>SPOILERS RIGHT POSITION</Variable>
-          <Units>percent</Units>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <PartInfo>
-    <Name>tire_anim</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
-          <Units>radians</Units>
-          <Scale>15.91</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <PartInfo>
     <Name>prop_anim</Name>
     <AnimLength>100</AnimLength>
@@ -142,23 +106,50 @@
       </Parameter>
     </Animation>
   </PartInfo>
-  <Animation name="custom_anim_RADIO_HEIGHT_00" guid="fb9393db-cdac-4d40-bb2f-ad4b4eee1066" length="100" type="Sim" typeParam2="custom_anim_RADIO_HEIGHT_00" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_RADIO_HEIGHT_00</Name>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Code>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 25 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 20 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 90 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
-        </Code>
-        <Lag>10</Lag>
-      </Parameter>
-    </Animation>
-  </PartInfo>
+
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM2E.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+    <Component ID="Wheels">
+      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        <ANIM_NAME>CENTER WHEEL ROTATION ANGLE</ANIM_NAME>
+        <WHEEL_RADIUS>1.04</WHEEL_RADIUS> <!-- in meters -->
+        <DISTANCE>26.3</DISTANCE>
+      </UseTemplate>
+    </Component>
+	<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_RADIO_HEIGHT_00</ANIM_NAME>
+		<ANIM_CODE>
+            	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 25 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 20 } els{ (A:PLANE ALT ABOVE GROUND, feet) 1500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 90 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 3000 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>10</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+		<Component ID="SpoilerL">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>l_spoiler_key</ANIM_NAME>
+		<ANIM_CODE>
+			   (A:SPOILERS HANDLE POSITION, percent) 
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>150</ANIM_LAG>
+		</UseTemplate>
+		</Component>
+		<Component ID="SpoilerR">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>r_spoiler_key</ANIM_NAME>
+		<ANIM_CODE>
+			   (A:SPOILERS HANDLE POSITION, percent) 
+	   </ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>150</ANIM_LAG>
+		</UseTemplate>
+		</Component>
+
+		
 			<Component ID="FX">
 			<UseTemplate Name="FSLTL_FX" />
 			</Component>

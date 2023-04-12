@@ -28,11 +28,11 @@
 		</Component>
 	</Component>
 	  <Component ID="FSLTL_LANDING_FX">	 
-			<UseTemplate Name="FSLTL_WET_MD_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
 				<FX_NODE>fx_tire_contactPoint_center_left</FX_NODE>
 			</UseTemplate>		
-			<UseTemplate Name="FSLTL_WET_MD_GR_LANDING_FX">
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
 				<FX_NODE>fx_tire_contactPoint_center_right</FX_NODE>
 			</UseTemplate>
