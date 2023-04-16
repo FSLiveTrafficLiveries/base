@@ -4,7 +4,7 @@
 		<!-- Highest LOD -->
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
-		<LOD minSize="15" ModelFile="Cessna172SP_AS1000_interior_LOD04.gltf"/>
+		<LOD minSize="10" ModelFile="Cessna172SP_AS1000_interior_LOD04.gltf"/>
 		<LOD minSize="0" ModelFile="Cessna172SP_AS1000_interior_LOD06.gltf"/>
 	</LODS>
 
@@ -13,7 +13,7 @@
       <Visibility>
         <Parameter>
           <Code>
-                (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
+                (A:LIGHT BEACON, bool) if{ 0 } els{ 0 }
               </Code>
         </Parameter>
       </Visibility>
@@ -22,7 +22,7 @@
       <Visibility>
         <Parameter>
           <Code>
-                (A:LIGHT BEACON, bool) if{ 0 } els{ 0 }
+                (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
               </Code>
         </Parameter>
       </Visibility>

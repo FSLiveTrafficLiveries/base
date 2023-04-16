@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="10" ModelFile="DR400_cockpit_LYCOMING_LOD04.gltf"/>
+		<LOD minSize="0" ModelFile="DR400_cockpit_LYCOMING_LOD06.gltf"/>
+	</LODS>
+	<Behaviors>
+	    <Component ID="PILOT_1" Node="PILOT_1">
+ 	     <Visibility>
+ 	       <Parameter>
+ 	         <Code>
+  	              (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
+ 	             </Code>
+ 	       </Parameter>
+  	    </Visibility>
+  	  </Component>
+	</Behaviors>
+</ModelInfo>
