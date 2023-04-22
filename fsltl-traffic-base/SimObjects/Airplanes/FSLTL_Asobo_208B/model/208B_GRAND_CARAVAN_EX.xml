@@ -35,13 +35,9 @@
     </Animation>
   </PartInfo>
 	<Behaviors>
-		<!-- Includes ###################################### -->
-		<!-- <Include ModelBehaviorFile="Asobo\Common.xml"/> -->
 		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-		<!-- <Include ModelBehaviorFile="Asobo\Generic\FX.xml"/> -->
 		<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 		<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_SM.xml"/>
-		<!-- ###################################### -->
 
 		<Component ID="ENGINE">
 			<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">

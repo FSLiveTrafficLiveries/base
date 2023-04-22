@@ -1,0 +1,21 @@
+<ModelBehaviors>
+  <Include RelativeFile="TBM930_Templates.xml"/>
+
+  <Template Name="WT_TBM930_SplitScreen_Displays_Template">
+    <UseTemplate Name="WT_TBM930_Displays_Template">
+      <SPLIT_SCREENS>False</SPLIT_SCREENS>
+    </UseTemplate>
+  </Template>
+
+  <Template Name="WT_TBM930_SplitScreen_Course_Knobs_Template">
+    <UseTemplate Name="WT_TBM930_Course_Knobs_Template">
+      <SPLIT_SCREENS>False</SPLIT_SCREENS>
+    </UseTemplate>
+  </Template>
+
+  <Template Name="WT_TBM930_SplitScreen_Baro_Knobs_Template">
+    <UseTemplate Name="WT_TBM930_Baro_Knobs_Template">
+      <SPLIT_SCREENS>False</SPLIT_SCREENS>
+    </UseTemplate>
+  </Template>
+</ModelBehaviors>

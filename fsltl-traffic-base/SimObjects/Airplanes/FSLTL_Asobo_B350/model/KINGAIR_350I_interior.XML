@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModelInfo>
 	<LODS>
-		<LOD minSize="5" ModelFile="KINGAIR_350I_interior_LOD4.gltf"/>
+		<LOD minSize="10" ModelFile="KINGAIR_350I_interior_LOD4.gltf"/>
 		<LOD minSize="0" ModelFile="KINGAIR_350I_interior_LOD6.gltf"/>
 	</LODS>
 	<Behaviors>

@@ -1,0 +1,160 @@
+<ModelBehaviors>
+  <Include ModelBehaviorFile="Asobo\Common.xml"/>
+  <Include ModelBehaviorFile="Asobo\GlassCockpit\AS3000.xml"/>
+  <Include ModelBehaviorFile="WT\G3000\G3000.xml"/>
+  <Include ModelBehaviorFile="WT\G3000\GTC.xml"/>
+
+  <Template Name="WT_TBM930_Displays_Template">
+    <Parameters Type="Override">
+      <Switch Param="SPLIT_SCREENS">
+        <Case Value="True">
+          <HIDE_NODE_PREFIX>AS</HIDE_NODE_PREFIX>
+          <SHOW_NODE_PREFIX>WT</SHOW_NODE_PREFIX>
+          <RIGHT_PFD_KEY_PREFIX>AS3000_PFD_2</RIGHT_PFD_KEY_PREFIX>
+        </Case>
+        <Default>
+          <HIDE_NODE_PREFIX>WT</HIDE_NODE_PREFIX>
+          <SHOW_NODE_PREFIX>AS</SHOW_NODE_PREFIX>
+          <RIGHT_PFD_KEY_PREFIX>AS3000_PFD_1</RIGHT_PFD_KEY_PREFIX>
+        </Default>
+      </Switch>
+    </Parameters>
+
+    <!-- GDUs -->
+    <Component ID="AS3000_GDU">
+      <Component ID="AS3000_MFD">
+        <UseTemplate Name="ASOBO_AS3000_MFD">
+          <DONT_APPEND_ID>True</DONT_APPEND_ID>
+          <SCREEN_NODE_ID>WT_MFD</SCREEN_NODE_ID>
+          <CIRCUIT_ID>33</CIRCUIT_ID>
+        </UseTemplate>
+        <CameraTitle>MFD</CameraTitle>
+        <Component ID="WT_AS3000_MFD_Screen" Node="AS_MFD">
+          <UseTemplate Name="ASOBO_GT_Visibility_Code">
+            <VISIBILITY_CODE>0</VISIBILITY_CODE>
+          </UseTemplate>
+        </Component>
+      </Component>
+
+      <Component ID="AS3000_PFD">
+        <Parameters Type="Default">
+          <DONT_APPEND_ID>True</DONT_APPEND_ID>
+        </Parameters>
+        <UseTemplate Name="ASOBO_AS3000_PFD">
+          <ID>1</ID>
+          <SCREEN_NODE_ID>#SHOW_NODE_PREFIX#_PFD_L</SCREEN_NODE_ID>
+          <CIRCUIT_ID>31</CIRCUIT_ID>
+        </UseTemplate>
+        <Component ID="WT_AS3000_PFD_Screen_L" Node="#HIDE_NODE_PREFIX#_PFD_L">
+          <UseTemplate Name="ASOBO_GT_Visibility_Code">
+            <VISIBILITY_CODE>0</VISIBILITY_CODE>
+          </UseTemplate>
+        </Component>
+
+        <UseTemplate Name="ASOBO_AS3000_PFD">
+          <ID>2</ID>
+          <KEY_PREFIX>#RIGHT_PFD_KEY_PREFIX#</KEY_PREFIX>
+          <SCREEN_NODE_ID>#SHOW_NODE_PREFIX#_PFD_R</SCREEN_NODE_ID>
+          <CIRCUIT_ID>32</CIRCUIT_ID>
+        </UseTemplate>
+        <Component ID="WT_AS3000_PFD_Screen_R" Node="#HIDE_NODE_PREFIX#_PFD_R">
+          <UseTemplate Name="ASOBO_GT_Visibility_Code">
+            <VISIBILITY_CODE>0</VISIBILITY_CODE>
+          </UseTemplate>
+        </Component>
+        <CameraTitle>PFD</CameraTitle>
+      </Component>
+    </Component>
+
+    <!-- GTCs -->
+    <Component ID="AS3000_GTC">
+      <Parameters Type="Default">
+        <DONT_APPEND_ID>True</DONT_APPEND_ID>
+        <ORIENTATION>Horizontal</ORIENTATION>
+      </Parameters>
+      <UseTemplate Name="WT_G3000_GTC_Template">
+        <DISPLAY_POS>L</DISPLAY_POS>
+        <FRAME_NODE_ID>AS580_text</FRAME_NODE_ID>
+        <SCREEN_NODE_ID>WT_TSC_L</SCREEN_NODE_ID>
+        <ID>1</ID>
+        <FAILURE>(A:CIRCUIT ON:34, Bool)</FAILURE>
+      </UseTemplate>
+      <Component ID="WT_AS3000_TSC_Screen_L" Node="AS_TSC_L">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>0</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <UseTemplate Name="WT_G3000_GTC_Template">
+        <DISPLAY_POS>R</DISPLAY_POS>
+        <SCREEN_NODE_ID>WT_TSC_R</SCREEN_NODE_ID>
+        <ID>2</ID>
+        <FAILURE>(A:CIRCUIT ON:35, Bool)</FAILURE>
+      </UseTemplate>
+      <Component ID="WT_AS3000_TSC_Screen_R" Node="AS_TSC_R">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>0</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <CameraTitle>MFD</CameraTitle>
+    </Component>
+  </Template>
+
+  <Template Name="WT_TBM930_Course_Knobs_Template">
+    <Parameters Type="Override">
+      <Switch Param="SPLIT_SCREENS">
+        <Case Value="True">
+          <RIGHT_COURSE_KEY_ID>2</RIGHT_COURSE_KEY_ID>
+        </Case>
+        <Default>
+          <RIGHT_COURSE_KEY_ID>1</RIGHT_COURSE_KEY_ID>
+        </Default>
+      </Switch>
+    </Parameters>
+
+    <UseTemplate Name="WT_G3000_Knob_Course_Template">
+      <ID>1</ID>
+      <NODE_ID>knob_autopilot_CRS1</NODE_ID>
+      <ANIM_NAME>knob_autopilot_CRS1</ANIM_NAME>
+      <ANIM_NAME_PUSH>knob_autopilot_CRS1_push</ANIM_NAME_PUSH>
+    </UseTemplate>
+
+    <UseTemplate Name="WT_G3000_Knob_Course_Template">
+      <ID>2</ID>
+      <NODE_ID>knob_autopilot_CRS2</NODE_ID>
+      <ANIM_NAME>knob_autopilot_CRS2</ANIM_NAME>
+      <ANIM_NAME_PUSH>knob_autopilot_CRS2_push</ANIM_NAME_PUSH>
+      <COURSE_KEY_ID>#RIGHT_COURSE_KEY_ID#</COURSE_KEY_ID>
+    </UseTemplate>
+  </Template>
+
+  <Template Name="WT_TBM930_Baro_Knobs_Template">
+    <Parameters Type="Override">
+      <Switch Param="SPLIT_SCREENS">
+        <Case Value="True">
+          <RIGHT_BARO_KEY_ID>2</RIGHT_BARO_KEY_ID>
+          <RIGHT_BARO_TT_ID>2</RIGHT_BARO_TT_ID>
+        </Case>
+        <Default>
+          <RIGHT_BARO_KEY_ID>1</RIGHT_BARO_KEY_ID>
+          <RIGHT_BARO_TT_ID>1</RIGHT_BARO_TT_ID>
+        </Default>
+      </Switch>
+    </Parameters>
+
+    <UseTemplate Name="WT_G3000_Knob_Baro_Template">
+      <NODE_ID>KNOB_BARO_STD_1</NODE_ID>
+      <ANIM_NAME_KNOB>KNOB_BARO_STD_1</ANIM_NAME_KNOB>
+      <ANIM_NAME_PUSH>KNOB_BARO_STD_1_PUSH</ANIM_NAME_PUSH>
+      <ID>1</ID>
+    </UseTemplate>
+
+    <UseTemplate Name="WT_G3000_Knob_Baro_Template">
+      <NODE_ID>KNOB_BARO_STD_2</NODE_ID>
+      <ANIM_NAME_KNOB>KNOB_BARO_STD_2</ANIM_NAME_KNOB>
+      <ANIM_NAME_PUSH>KNOB_BARO_STD_2_PUSH</ANIM_NAME_PUSH>
+      <ID>2</ID>
+      <BARO_KEY_ID>#RIGHT_BARO_KEY_ID#</BARO_KEY_ID>
+      <BARO_TT_ID>#RIGHT_BARO_TT_ID#</BARO_TT_ID>
+    </UseTemplate>
+  </Template>
+</ModelBehaviors>

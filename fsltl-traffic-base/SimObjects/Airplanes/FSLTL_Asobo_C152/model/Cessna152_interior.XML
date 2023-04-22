@@ -13,7 +13,7 @@
       <Visibility>
         <Parameter>
           <Code>
-                (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
+                (A:LIGHT BEACON, bool) if{ 0 } els{ 0 }
               </Code>
         </Parameter>
       </Visibility>
@@ -22,7 +22,7 @@
       <Visibility>
         <Parameter>
           <Code>
-                (A:LIGHT BEACON, bool) if{ 0 } els{ 0 }
+                (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
               </Code>
         </Parameter>
       </Visibility>
