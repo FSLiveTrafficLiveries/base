@@ -94,7 +94,10 @@
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Steering">
         <ANIM_NAME>custom_anim_SIM_ON_GROUND_13</ANIM_NAME>
-        <ANIM_LENGTH>1000</ANIM_LENGTH>
+        <ANIM_LENGTH>200</ANIM_LENGTH>
+        <LEGACY_PARAM_1>-4.5</LEGACY_PARAM_1>
+		<LEGACY_PARAM_2>-5</LEGACY_PARAM_2>
+        <OFFSET>150</OFFSET>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
         <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_11</ANIM_NAME>
