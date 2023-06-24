@@ -6,8 +6,8 @@ name: main CI
 on:
   push:
     tags:
-      - '*.*.*'
-      
+      - "*.*.*"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -26,28 +26,28 @@ jobs:
         with:
           root-reserve-mb: 512
           swap-size-mb: 1024
-          remove-dotnet: 'true'
-          remove-android: 'true'
-          remove-haskell: 'true'
+          remove-dotnet: "true"
+          remove-android: "true"
+          remove-haskell: "true"
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      
+
       - name: Build VATSIM VMR file
-        run: | 
-          python scripts/vmr_rules_v2.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
+        run: |
+          python scripts/vmr_rules_v3.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
 
       - name: Run FBW Simulations Fragmenter
         run: |
           npm install https://github.com/FSLiveTrafficLiveries/fragmenter
           node scripts/fragment.js
-          
+
       - name: Build releases.yaml file
         run: |
           echo "releases:" >> ./fsltl-traffic-base-build/releases.yaml
           echo "  - name: $GITHUB_REF_NAME" >> ./fsltl-traffic-base-build/releases.yaml
           echo "    date: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> ./fsltl-traffic-base-build/releases.yaml
-          
+
       - name: Upload Files to Release
         uses: xresloader/upload-to-github-release@v1
         env:
