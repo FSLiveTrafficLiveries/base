@@ -452,6 +452,7 @@ for Airline in Airlines:
         AirlineModelClasses.append(AirlineModelsClass(icao_airline, ModelsToUse, airplane.TypeCode))
 
 vmr = open(outputFolder + '/FSLTL_Rules.vmr', 'w')
+print('Writing VMR : ' + outputFolder + '/FSLTL_Rules.vmr')
 vmr.write('<?xml version="1.0" encoding="utf-8"?> \n')
 vmr.write('<ModelMatchRuleSet> \n')
 
