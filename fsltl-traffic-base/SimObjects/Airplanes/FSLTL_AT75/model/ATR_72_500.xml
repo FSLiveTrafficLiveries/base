@@ -128,7 +128,7 @@
       <Visibility>
         <Parameter>
           <Code>
-      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
       </Code>
         </Parameter>
       </Visibility>
@@ -137,7 +137,7 @@
       <Visibility>
         <Parameter>
           <Code>
-      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+      (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
       </Code>
         </Parameter>
       </Visibility>

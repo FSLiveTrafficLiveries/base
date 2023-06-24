@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+	<LODS>
+		<LOD minSize="8" ModelFile="VL3_cockpit_lod4.gltf"/>
+		<LOD minSize="0" ModelFile="VL3_cockpit_lod6.gltf"/>
+	</LODS>
+	<Behaviors>
+    <Component ID="PILOT_0" Node="PILOT_0">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:LIGHT BEACON, bool) if{ 0 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+    <Component ID="PILOT_1" Node="PILOT_1">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:LIGHT BEACON, bool) if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>	
+
+	</Behaviors>
+</ModelInfo>
