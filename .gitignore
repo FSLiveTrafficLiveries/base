@@ -16,7 +16,7 @@ fsltl-traffic-injector/manifest.json
 fsltl-traffic-injector/module.json
 fsltl-traffic-injector/README - IMPORTANT.txt
 fsltl-traffic-injector/SimConnect.dll
-FSLTL_Rules.vmr
+#FSLTL_Rules.vmr
 flybywire-externaltools-simbridge/traybin/tray_windows_release.exe
 flybywire-externaltools-simbridge/terrain/terrain.map
 flybywire-externaltools-simbridge/SimConnect.dll

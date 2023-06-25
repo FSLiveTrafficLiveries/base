@@ -33,9 +33,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Build VATSIM VMR file
-        run: |
-          python scripts/vmr_rules_v3.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
+      # - name: Build VATSIM VMR file
+      #   run: |
+      #     python scripts/vmr_rules_v3.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
 
       - name: Run FBW Simulations Fragmenter
         run: |
