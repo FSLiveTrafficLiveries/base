@@ -8,7 +8,7 @@ Priority=0
 
 [Emitter.0]
 Lifetime=0.0, 0.0
-Delay=0.0, 0.0
+Delay=0.7, 0.7
 Bounce=0.0
 Light=1
 No Interpolate=1
@@ -65,7 +65,7 @@ MinProjSize=0.2
 Type=spot
 Size=0.06
 Range=200.0
-Intensity=5
+Intensity=10
 Softness=0.0
 SpotInner=50.0
 SpotOuter=80.0
