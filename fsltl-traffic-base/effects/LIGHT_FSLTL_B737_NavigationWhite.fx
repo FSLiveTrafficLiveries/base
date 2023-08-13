@@ -71,7 +71,7 @@ MinProjSize=0.2
 Type=spot	
 Size=0.0
 Range=40
-Intensity=1
+Intensity=2
 Softness=0.0
 SpotInner=40.0
 SpotOuter=70.0
@@ -147,7 +147,7 @@ Intensity=0.0
 Softness=0.0
 SpotInner=40.0
 SpotOuter=70.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
 
 [Emitter.2]
@@ -219,5 +219,5 @@ Intensity=0.0
 Softness=0.0
 SpotInner=40.0
 SpotOuter=70.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0

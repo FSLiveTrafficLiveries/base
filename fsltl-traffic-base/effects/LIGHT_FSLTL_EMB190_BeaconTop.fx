@@ -135,7 +135,7 @@ Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
 
 [Emitter.2]
@@ -201,7 +201,7 @@ Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
 
 [Emitter.3]
@@ -267,5 +267,5 @@ Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0

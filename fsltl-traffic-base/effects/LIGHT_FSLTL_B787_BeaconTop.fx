@@ -130,12 +130,12 @@ MinProjSize=0.5
 [LightAttributes.1]
 Type=Omni
 Size=0.1
-Range=100.0
+Range=80.0
 Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
 
 [Emitter.2]
@@ -196,12 +196,12 @@ MinProjSize=0.5
 [LightAttributes.2]
 Type=Omni
 Size=0.1
-Range=100.0
+Range=80.0
 Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
 
 [Emitter.3]
@@ -262,10 +262,10 @@ MinProjSize=0.5
 [LightAttributes.3]
 Type=Omni
 Size=0.1
-Range=100.0
+Range=80.0
 Intensity=0.0
 Softness=0.0
 SpotInner=80.0
 SpotOuter=90.0
-Volumetric=1
+Volumetric=0
 ScatDir=0.0
