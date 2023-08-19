@@ -49,7 +49,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.0]
 Blend Mode=2
-Texture=LIGHTLanding-L
+Texture=FSLTL-LIGHTLanding-L
 Bounce=0.0
 Color Start=140, 180, 255, 255
 Color End=140, 180, 255, 255
@@ -118,7 +118,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.1]
 Blend Mode=2
-Texture=TX-LIGHT
+Texture=FSLTL-LIGHT
 Bounce=0.0
 Color Start=173, 180, 255, 100
 Color End=173, 180, 255, 100
@@ -187,7 +187,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.2]
 Blend Mode=2
-Texture=TX-FLASH
+Texture=FSLTL-FLASH
 Bounce=0.0
 Color Start=100, 110, 180, 1
 Color End=100, 110, 180, 1
@@ -256,7 +256,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.3]
 Blend Mode=2
-Texture=TX-ALLO-2
+Texture=FSLTL-ALLO-2
 Bounce=0.0
 Color Start=10, 10, 30, 10
 Color End=10, 10, 30, 10

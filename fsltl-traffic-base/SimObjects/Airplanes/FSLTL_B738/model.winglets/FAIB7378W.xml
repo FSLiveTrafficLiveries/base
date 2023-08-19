@@ -5,7 +5,6 @@
     <LOD minSize="1" ModelFile="FAIB7378W_LOD3.gltf"/>
     <LOD minSize="0" ModelFile="FAIB7378W_LOD3.gltf"/>
   </LODS>
-
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
