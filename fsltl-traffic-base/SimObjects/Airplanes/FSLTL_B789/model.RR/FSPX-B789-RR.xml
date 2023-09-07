@@ -52,7 +52,7 @@
 			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } } 
 	   </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>60</ANIM_LAG>
+			<ANIM_LAG>30</ANIM_LAG>
 		</UseTemplate>
 		</Component>
 		
