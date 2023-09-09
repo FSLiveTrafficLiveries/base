@@ -62,7 +62,7 @@ NearFade= 1
 MinProjSize=0.2
 
 [LightAttributes.0]
-Type=spot
+Type=omni
 Size=0.06
 Range=80
 Intensity=10
