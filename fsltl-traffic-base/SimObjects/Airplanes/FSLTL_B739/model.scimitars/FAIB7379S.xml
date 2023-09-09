@@ -75,10 +75,10 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_SIM_on_GROUND_03</ANIM_NAME>
 		<ANIM_CODE>
-			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } } 
+			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
 	   </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>60</ANIM_LAG>
+			<ANIM_LAG>30</ANIM_LAG>
 		</UseTemplate>
 		</Component>	
 		

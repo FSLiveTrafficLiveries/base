@@ -49,7 +49,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_09</ANIM_NAME>
 		<ANIM_CODE>
-			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } } 
+			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
 	   </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>30</ANIM_LAG>
@@ -99,6 +99,11 @@
         <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_17</ANIM_NAME>
         <WHEEL_RADIUS>1.36</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>-4.6</DISTANCE>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Elevator_Droop">
+        <ANIM_NAME>custom_anim_LIGHT_BEACON_12</ANIM_NAME>
+		<perc_down>50</perc_down>
+        <ANIM_LENGTH>50</ANIM_LENGTH>
       </UseTemplate>
       </Component>
       <Component ID="FX">

@@ -11,7 +11,7 @@
 			<OFFSET>0</OFFSET>
 		</DefaultTemplateParameters>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:ROTATION VELOCITY BODY Y, Feet) #LEGACY_PARAM_1# * #LEGACY_PARAM_2# + 10 * #OFFSET# + }</ANIM_CODE>
+				<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:ROTATION VELOCITY BODY Y, Feet) #LEGACY_PARAM_1# * #LEGACY_PARAM_2# + 10 * #OFFSET# + }</ANIM_CODE>
 				<ANIM_DELTA>0</ANIM_DELTA>
 				<ANIM_WRAP>0</ANIM_WRAP>
 				<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
@@ -94,6 +94,37 @@
 	</UseTemplate>
 </Component>
 </Template>
-
+<Template Name="FSLTL_Elevator_Droop">
+	<DefaultTemplateParameters>
+		<ANIM_NAME>ElevatorDroop</ANIM_NAME>
+		<NODE_NAME>Somenode</NODE_NAME>
+		<Anim_Length>100</Anim_Length>
+		<Lag>20</Lag>
+		<perc_down>100</perc_down>
+	</DefaultTemplateParameters>
+	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 0 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
+			<ANIM_LAG>#Lag#</ANIM_LAG>
+		</UseTemplate>
+	</Component>		
+</Template>		
+<Template Name="FSLTL_Elevator_Up">
+	<DefaultTemplateParameters>
+		<ANIM_NAME>ElevatorUp</ANIM_NAME>
+		<NODE_NAME>Somenode</NODE_NAME>
+		<Anim_Length>100</Anim_Length>
+		<Lag>20</Lag>
+		<perc_down>100</perc_down>
+	</DefaultTemplateParameters>
+	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
+			<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
+			<ANIM_LAG>#Lag#</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+</Template>
 
 </ModelBehaviors>
