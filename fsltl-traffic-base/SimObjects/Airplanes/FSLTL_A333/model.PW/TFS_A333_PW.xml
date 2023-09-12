@@ -53,6 +53,15 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="takeoff" Node="takeoff">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_00</ANIM_NAME>

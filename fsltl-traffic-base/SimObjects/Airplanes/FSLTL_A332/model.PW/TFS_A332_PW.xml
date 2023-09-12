@@ -52,6 +52,15 @@
 	<Include Path="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="takeoff" Node="takeoff">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_00</ANIM_NAME>
@@ -104,19 +113,17 @@
 			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
 	   </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>30</ANIM_LAG>
+			<ANIM_LAG>40</ANIM_LAG>
 		</UseTemplate>
 		</Component>
     <Component ID="Engines">
-      <UseTemplate Name="FSLTL_Engine_Blur">
+      <UseTemplate Name="FSLTL_Engine_Static">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node33</NODE_NAME>
         <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
-      <UseTemplate Name="FSLTL_Engine_Blur">
+      <UseTemplate Name="FSLTL_Engine_Static">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node35</NODE_NAME>
-        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+         <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
     </Component>			
 		

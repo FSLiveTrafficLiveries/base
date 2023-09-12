@@ -53,6 +53,24 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="takeoff_L" Node="takeoff_L">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+	<Component ID="takeoff_R" Node="takeoff_R">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_03</ANIM_NAME>

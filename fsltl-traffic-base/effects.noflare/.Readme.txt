@@ -1,0 +1,7 @@
+FSLTL lighting - without flares and tweaked MaveCreations.
+
+- no flares at closeup
+- Lighting is tweaked to be as small as possible at a distance
+- strobes and beacon have individual timings
+
+If you want to use these light effects, rename the effects folder to 'effects.flare', and rename this folder to 'effects'.
