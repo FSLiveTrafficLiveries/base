@@ -10,7 +10,16 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-	<Component ID="takeoff" Node="takeoff">
+	<Component ID="takeoff_L" Node="takeoff_L">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+	<Component ID="takeoff_R" Node="takeoff_R">
       <Visibility>
         <Parameter>
           <Code>
