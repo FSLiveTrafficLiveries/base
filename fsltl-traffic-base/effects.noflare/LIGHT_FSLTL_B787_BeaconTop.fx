@@ -59,11 +59,11 @@ uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.18
+MinProjSize=0.2
 
 [LightAttributes.0]
 Type=omni
-Size=0.06
+Size=0.1
 Range=20
 Intensity=20
 Softness=0.0
@@ -96,8 +96,8 @@ Z Offset=0.0, 0.0
 [Particle.1]
 Lifetime=0.0, 0.0
 Type=19
-X Scale=0.2, 0.2
-Y Scale=0.2, 0.2
+X Scale=0.1, 0.1
+Y Scale=0.1, 0.1
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -117,20 +117,20 @@ Face=1, 1, 1
 Blend Mode=2
 Texture=FSLTL-LIGHTnav
 Bounce=0
-Color Start=255, 1, 0, 20
-Color End=255, 1, 0, 20
+Color Start=255, 1, 0, 10
+Color End=255, 1, 0, 10
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.12
+MinProjSize=0.2
 
 [LightAttributes.1]
 Type=omni
-Size=0.06
-Range=10
+Size=0.1
+Range=0.5
 Intensity=1
 Softness=0.0
 SpotInner=0.0
@@ -183,19 +183,19 @@ Face=1, 1, 1
 Blend Mode=2
 Texture=FSLTL-ALLO-2
 Bounce=0.0
-Color Start=15, 1, 0, 50
-Color End=15, 1, 0, 50
+Color Start=15, 1, 0, 100
+Color End=15, 1, 0, 100
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.18
+MinProjSize=0.1
 
 [LightAttributes.2]
 Type=Omni
-Size=0.06
+Size=0.1
 Range=0.0
 Intensity=0.0
 Softness=0.0
@@ -228,8 +228,8 @@ Z Offset=0.0, 0.0
 [Particle.3]
 Lifetime=0.0, 0.0
 Type=19
-X Scale=1.8, 1.8
-Y Scale=1.8, 1.8
+X Scale=2.2, 2.2
+Y Scale=2.2, 2.2
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -257,11 +257,11 @@ uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.12
+MinProjSize=0.1
 
 [LightAttributes.3]
 Type=Omni
-Size=0.06
+Size=0.1
 Range=0.0
 Intensity=0.0
 Softness=0.0

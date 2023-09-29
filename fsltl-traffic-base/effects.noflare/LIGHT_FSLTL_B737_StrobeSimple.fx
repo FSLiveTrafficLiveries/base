@@ -59,7 +59,7 @@ uv1=0.00, 0.00
 uv2=1.00, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.15
 
 [LightAttributes.0]
 Type=spot
@@ -125,7 +125,7 @@ uv1=0.00, 0.00
 uv2=1.0, 1.00
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.15
 
 [LightAttributes.1]
 Type=spot
