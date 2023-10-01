@@ -16,8 +16,8 @@
     <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="180" WwiseData="true" ApplyCockpitReverb="True" EngineIndex="2" FadeOutType="1" FadeOutTime="1" CancelConeHeadingWhenInside="False"/>
     <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="0" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
     <Sound WwiseEvent="JetWhine" CustomSuffix="rumble" ConeHeading="180" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="340" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="20" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="350" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="10" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
   </EngineSoundPresets>
 
   <GroundSounds>

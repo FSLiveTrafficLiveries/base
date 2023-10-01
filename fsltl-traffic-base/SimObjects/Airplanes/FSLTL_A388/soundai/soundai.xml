@@ -23,10 +23,10 @@
     <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="350" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
     <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="10" WwiseData="true" EngineIndex="3" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
     <Sound WwiseEvent="JetWhine" CustomSuffix="rumble" ConeHeading="180" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="310" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="330" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="30" WwiseData="true" EngineIndex="3" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
-    <Sound WwiseEvent="Shutdown" ConeHeading="50" WwiseData="true" EngineIndex="4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="350" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="355" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="5" WwiseData="true" EngineIndex="3" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="10" WwiseData="true" EngineIndex="4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
   </EngineSoundPresets>
 
 
