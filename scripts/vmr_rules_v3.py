@@ -3,8 +3,16 @@ import gc
 import os
 from fractions import Fraction
 from decimal import Decimal
-ModelsDirectories = ['']
 ExcludeStubs = True
+
+# As you can see, this is pretty much identical to your code
+from argparse import ArgumentParser
+parser = ArgumentParser()
+parser.add_argument("-f", "--folder", dest="aircraftFolder", help="Scan aircraft folder")
+parser.add_argument("-o", "--output", dest="outputFolder", help="VMR output folder")
+args = parser.parse_args()
+ModelsDirectories = [args.aircraftFolder]
+outputFolder = args.outputFolder
 
 class Airplane:
   def __init__(self, TypeCode, Size, Manufacturer, EngineType, WideBody, neoExists, neo, Family):
@@ -39,16 +47,6 @@ class AirlineModelsClass:
     self.Airline = Airline
     self.AirlineModels = AirlineModels
     self.TypeCode = TypeCode
-
-# As you can see, this is pretty much identical to your code
-from argparse import ArgumentParser
-parser = ArgumentParser()
-parser.add_argument("-f", "--folder", dest="aircraftFolder", help="Scan aircraft folder")
-parser.add_argument("-o", "--output", dest="outputFolder", help="VMR output folder")
-args = parser.parse_args()
-aircraftFolder = args.aircraftFolder + '/Airplanes'
-outputFolder = args.outputFolder
-
 
 A19N = Airplane('A19N', 125.208, 'Airbus', 'jet', False, True, True, 'A320')
 A20N = Airplane('A20N', 139.009, 'Airbus', 'jet', False, True, True, 'A320')
@@ -127,6 +125,7 @@ E195 = Airplane('E195', 105.901, 'Embraer', 'jet', False, False, False, 'EJet')
 
 F70 = Airplane('F70', 95.821, 'Fokker', 'jet', False, False, False, 'Fokker') 
 F100 = Airplane('F100', 110.143, 'Fokker', 'jet', False, False, False, 'Fokker') 
+F28 = Airplane('F28', 91.76, 'Fokker', 'jet', False, False, False, 'Fokker')
 
 MD11 = Airplane('MD11', 265.5721, 'McDonnell Douglas', 'jet', True, False, False, 'MD11') 
 MD82 = Airplane('MD82', 96.6492, 'McDonnell Douglas', 'jet', False, False, False, 'MD80') 
@@ -189,7 +188,7 @@ AnsettAustraliaGroup = AirlineGroup(['AAA', 'AN'])
 DHLGroup = AirlineGroup(['DHK', 'DHL'])
 LufthansaGroup = AirlineGroup(['DLH', 'CLH', 'LH'])
 AirCanadaGroup = AirlineGroup(['ACA', 'AC'])
-RegionalExpressGroup = AirlineGroup(['RXA', 'ZL'])
+RegionalExpressGroup = AirlineGroup(['RXA', 'REX', 'ZL'])
 SingaporeAirlinesGroup = AirlineGroup(['SIA', 'SQ'])
 EmiratesGroup = AirlineGroup(['UAE', 'EK'])
 QatarGroup = AirlineGroup(['QTR', 'QR'])
@@ -217,14 +216,14 @@ def CutDownString(String, RemoveString):
   String = String.strip()
   return String
 
-ModelsDirectory = os.path.dirname(os.path.realpath(aircraftFolder))
-ModelsDirectory = ModelsDirectory.replace('\\', '/')
-print(ModelsDirectory)
-ModelsDirectory = pathlib.Path(ModelsDirectory)
-if os.path.exists(ModelsDirectory):
+for ModelsDirectory in ModelsDirectories: #to find all models
+  if ModelsDirectory == '':
+    ModelsDirectory = os.path.dirname(os.path.realpath(__file__))
+  ModelsDirectory = ModelsDirectory.replace('\\', '/')
+  ModelsDirectory = pathlib.Path(ModelsDirectory)
+  if os.path.exists(ModelsDirectory):
     for folderpath in ModelsDirectory.iterdir():
       folderpath = folderpath.__str__()
-      print(folderpath)
       if os.path.exists(folderpath + '\\aircraft.cfg'):
         AircraftFile = open(folderpath + '\\aircraft.cfg', 'r')
         icao_airline = ''
@@ -269,7 +268,7 @@ if os.path.exists(ModelsDirectory):
                 TypeCode = 'B737'
             elif line.find('ICAO_AIRLINE') != -1:
               icao_airline = CutDownString(line, 'ICAO_AIRLINE')
-              if icao_airline == 'ZZZ' or '':
+              if icao_airline == 'ZZZ' or icao_airline == '':
                 icao_airline = 'ZZZZ'
               if icao_airline != 'ZZZZ':
                 icao_airline = icao_airline[:3]
@@ -339,12 +338,12 @@ for Airline in Airlines:
         if InAirlineGroup:
           for airlinegroup in AirlineGroups:
             if icao_airline in airlinegroup.List:
-              if model.icao_airline in airlinegroup.List:
-                AirlineModels.append(model)
+              if model.icao_airline in airlinegroup.List: #add all models in airline group
+                AirlineModels.append(model) 
         else:
-          if model.icao_airline == icao_airline:
+          if model.icao_airline == icao_airline: #add all models in airline
             AirlineModels.append(model)
-      if len(AirlineModels) == 0:
+      if len(AirlineModels) == 0: #if cant find any models for airline, use default models
         for model in Models:
           if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
             AirlineModels.append(model)
@@ -354,19 +353,23 @@ for Airline in Airlines:
         for TestModel in TestingModels:
           if TestModel.EngineType != airplane.EngineType:
             ModelsToUse.remove(TestModel)
+        if len(ModelsToUse) == 0: #if can't find any models with same engine type, use default models
+          for model in Models:
+            if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+              ModelsToUse.append(model)
           if len(ModelsToUse) == 0:
-            for model in Models:
-              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                ModelsToUse.append(model)
-          TestingModels = ResetTestingModels(ModelsToUse)
+            ModelsToUse = ResetModelsToUse(TestingModels)
+        TestingModels = ResetTestingModels(ModelsToUse)
         for TestModel in TestingModels:
           if TestModel.WideBody != airplane.WideBody:
             ModelsToUse.remove(TestModel)
+        if len(ModelsToUse) == 0: #if can't find any models that are the same widebody type, use default models
+          for model in Models:
+            if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+              ModelsToUse.append(model)
           if len(ModelsToUse) == 0:
-            for model in Models:
-              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                ModelsToUse.append(model)
-          TestingModels = ResetTestingModels(ModelsToUse)
+            ModelsToUse = ResetModelsToUse(TestingModels)
+        TestingModels = ResetTestingModels(ModelsToUse)
         for TestModel in TestingModels:
           if TestModel.TypeCode != airplane.TypeCode:
             ModelsToUse.remove(TestModel)
@@ -438,7 +441,7 @@ for Airline in Airlines:
         if len(ModelsToUse) > 1:
           TestingModels = ResetTestingModels(ModelsToUse)
           CargoModels = []
-          for TestModel in TestingModels:
+          for TestModel in TestingModels: #prioritise passenger models over cargo models
             if TestModel.title.find(TestModel.TypeCode + 'F') != -1:
               CargoModels.append(TestModel)
           if len(CargoModels) < len(TestingModels):
@@ -452,7 +455,6 @@ for Airline in Airlines:
         AirlineModelClasses.append(AirlineModelsClass(icao_airline, ModelsToUse, airplane.TypeCode))
 
 vmr = open(outputFolder + '/FSLTL_Rules.vmr', 'w')
-print('Writing VMR : ' + outputFolder + '/FSLTL_Rules.vmr')
 vmr.write('<?xml version="1.0" encoding="utf-8"?> \n')
 vmr.write('<ModelMatchRuleSet> \n')
 
@@ -478,14 +480,20 @@ def WriteModels(airlinemodelclass):
   else:
     TotalFraction = 0
     for ModelToUse in airlinemodelclass.AirlineModels:
-      TotalFraction = TotalFraction + ModelToUse.random 
+      TotalFraction = TotalFraction + ModelToUse.random
+    FractionNumerator = TotalFraction.numerator
+    FractionDenominator = TotalFraction.denominator
+    if TotalFraction.numerator < RandomAircraft: #if fraction simplyfies to an amount lower than the amount of random aircraft
+      CorrectFraction = RandomAircraft / TotalFraction.numerator
+      FractionNumerator = FractionNumerator * CorrectFraction
+      FractionDenominator = FractionDenominator * CorrectFraction
     for ModelToUse in airlinemodelclass.AirlineModels:
       AmountNeeded = 0
       if ModelToUse.random != 0:
-        AmountNeeded = TotalFraction.denominator / ModelToUse.random.denominator * ModelToUse.random.numerator
+        AmountNeeded = FractionDenominator / ModelToUse.random.denominator * ModelToUse.random.numerator
       Amount = 0
-      if AmountNeeded == 0:
-        AmountNeeded = TotalFraction.denominator - TotalFraction.numerator
+      if AmountNeeded == 0: #the amount needed for the aircraft without random
+        AmountNeeded = FractionDenominator - FractionNumerator
         AmountNeeded = AmountNeeded / AircraftWithoutRandom
       while Amount < AmountNeeded:
         Amount = Amount + 1
