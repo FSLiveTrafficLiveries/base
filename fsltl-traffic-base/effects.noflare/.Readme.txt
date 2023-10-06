@@ -1,5 +1,4 @@
-FSLTL lighting - without flares and tweaked MaveCreations.
-
+FSLTL lighting - without flares and tweaked further.
 - no flares at closeup
 - Lighting is tweaked to be as small as possible at a distance
 - strobes and beacon have individual timings

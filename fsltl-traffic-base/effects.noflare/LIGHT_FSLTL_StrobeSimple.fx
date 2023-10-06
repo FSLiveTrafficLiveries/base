@@ -65,10 +65,10 @@ MinProjSize=0.15
 Type=spot
 Size=0.06
 Range=100.0
-Intensity=10
+Intensity=40
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=1
 ScatDir=0.0
 
@@ -96,8 +96,8 @@ Z Offset=0.0, 0.0
 [Particle.1]
 Lifetime=0.06, 0.06
 Type=19
-X Scale=1.0, 1.0
-Y Scale=1.0, 1.0
+X Scale=2.0, 2.0
+Y Scale=2.0, 2.0
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -129,11 +129,11 @@ MinProjSize=0.15
 
 [LightAttributes.1]
 Type=spot
-Size=0.0
+Size=0.06
 Range=0.0
 Intensity=0
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=0
 ScatDir=0.0
