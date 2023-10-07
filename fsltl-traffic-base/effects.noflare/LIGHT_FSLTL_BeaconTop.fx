@@ -59,11 +59,11 @@ uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.16
+MinProjSize=0.18
 
 [LightAttributes.0]
 Type=omni
-Size=0.06
+Size=0.1
 Range=20
 Intensity=6
 Softness=0.0
@@ -125,11 +125,11 @@ uv1=0.0, 0.0
 uv2=1.0, 1.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.16
+MinProjSize=0.18
 
 [LightAttributes.1]
 Type=Omni
-Size=0.06
+Size=0.1
 Range=0.0
 Intensity=0.0
 Softness=0.0
