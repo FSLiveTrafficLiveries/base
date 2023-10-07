@@ -514,6 +514,40 @@
 		</UseTemplate>		
 	</Template>
 	
+	<Template Name="FSLTL_CONTRAIL_RIBBON_FX">
+		<Parameters Type="Default">
+			<FX_GUID>{58ABDE15-2F5A-4DA8-9907-A40C495F45AD}</FX_GUID>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_ENGINE_ID>0</FX_ENGINE_ID>
+			<FX_OFFSET_X>0</FX_OFFSET_X>
+			<FX_OFFSET_Y>0</FX_OFFSET_Y>
+			<FX_OFFSET_Z>0</FX_OFFSET_Z>
+		</Parameters>
+		<Parameters Type="Default">
+			<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+		</Parameters>
+		<Component ID="FX_CONTRAIL_RIBBON_#FX_NODE#" Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX" />
+		</Component>
+	</Template>
+
+	<Template Name="FSLTL_EXHAUST_FX">
+		<Parameters Type="Default">
+			<FX_GUID>{605EBB42-DA6B-4965-9199-9AE59BF7FD83}</FX_GUID>
+			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_ENGINE_ID>0</FX_ENGINE_ID>
+			<FX_OFFSET_X>0</FX_OFFSET_X>
+			<FX_OFFSET_Y>0</FX_OFFSET_Y>
+			<FX_OFFSET_Z>0</FX_OFFSET_Z>
+		</Parameters>
+		<Parameters Type="Default">
+			<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt; </FX_CODE>
+		</Parameters>
+		<Component ID="FX_EXHAUST_#FX_NODE#" Node="#FX_NODE#">
+			<UseTemplate Name="FSLTL_ASOBO_GT_FX" />
+		</Component>
+	</Template>
+
 	<Template Name = "ASOBO_FX_EXHAUST_MD">
 		<DefaultTemplateParameters>
 			<FX_GUID>{35943419-2F02-41B4-BB27-37811ADC32CE}</FX_GUID>
@@ -528,48 +562,6 @@
 		</Component>
 	</Template>
 
-	<Template Name = "ASOBO_FX_PRESSURETRAIL">
-		<DefaultTemplateParameters>
-			<FX_GUID>{E78D8109-DFFC-4DF1-9A72-94982EF10629}</FX_GUID>
-			<FX_NAME>FX_FX_PRESSURETRAIL</FX_NAME>
-			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
-			<FX_NODE>__NO_NODE__</FX_NODE>
-		</DefaultTemplateParameters>
-		<Component ID="FX_FX_PRESSURETRAIL_#FX_NODE#"  Node="#FX_NODE#">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name = "ASOBO_FX_WINGVAPOUR">
-		<DefaultTemplateParameters>
-			<FX_GUID>{0C2D2FFE-536B-44F7-BF26-5F205A72E283}</FX_GUID>
-			<FX_NAME>FX_WINGVAPOUR</FX_NAME>
-			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
-			<FX_NODE>__NO_NODE__</FX_NODE>
-		</DefaultTemplateParameters>
-		<Component ID="FX_WINGVAPOUR_#FX_NODE#"  Node="#FX_NODE#">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name = "ASOBO_FX_DRAGTRAIL">
-		<DefaultTemplateParameters>
-			<FX_GUID>{F938513E-7D81-4D40-9057-762F8017EB1F}</FX_GUID>
-			<FX_NAME>FX_DRAGTRAIL</FX_NAME>
-			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
-			<FX_NODE>__NO_NODE__</FX_NODE>
-		</DefaultTemplateParameters>
-		<Component ID="FX_DRAGTRAIL_#FX_NODE#"  Node="#FX_NODE#">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:GROUND VELOCITY, knot) 100 &gt; (A:G FORCE, GForce) 2 &gt; and</FX_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
 	<Template Name = "ASOBO_FX_EXHAUST_HEAT">
 		<DefaultTemplateParameters>
 			<FX_GUID>{605EBB42-DA6B-4965-9199-9AE59BF7FD83}</FX_GUID>
@@ -580,19 +572,6 @@
 		<Component ID="FX_EXHAUST_HEAT_#FX_NODE#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
 				<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt;</FX_CODE>
-			</UseTemplate>
-		</Component>
-	</Template>
-
-	<Template Name = "ASOBO_FX_AFTERBURNER">
-		<Parameters Type="Default">
-			<FX_GUID>{4586DE45-3381-448F-937A-DF0A70DA1CB1}</FX_GUID>
-			<FX_NAME>FX_AFTERBURNER</FX_NAME>
-			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
-			<FX_NODE>__NO_NODE__</FX_NODE>
-		</Parameters>
-		<Component ID="FX_AFTERBURNER"  Node="#FX_NODE#">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
 			</UseTemplate>
 		</Component>
 	</Template>
