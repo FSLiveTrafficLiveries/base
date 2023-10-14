@@ -74,7 +74,7 @@ Range=100.0
 Intensity=50.0
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=1
 ScatDir=0.0
 
@@ -139,7 +139,7 @@ Range=100.0
 Intensity=50.0
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=1
 ScatDir=0.0
 
@@ -211,7 +211,7 @@ Range=0.0
 Intensity=0
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=0
 ScatDir=0.0
 
@@ -277,6 +277,6 @@ Range=0.0
 Intensity=0
 Softness=0.0
 SpotInner=60.0
-SpotOuter=70.0
+SpotOuter=80.0
 Volumetric=0
 ScatDir=0.0
