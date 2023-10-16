@@ -65,7 +65,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.12
 
 [LightAttributes.0]
 Type=spot	
@@ -137,7 +137,8 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.01
+
 [LightAttributes.1]
 Type=Omni	
 Size=0.0
@@ -208,7 +209,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.01
 
 [LightAttributes.2]
 Type=Omni	

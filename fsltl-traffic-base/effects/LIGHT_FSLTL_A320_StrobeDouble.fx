@@ -65,7 +65,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.19
 
 [LightAttributes.0]
 Type=spot
@@ -130,7 +130,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.19
 
 [LightAttributes.1]
 Type=spot
@@ -202,7 +202,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.3
+MinProjSize=0.19
 
 [LightAttributes.2]
 Type=Omni
@@ -268,7 +268,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.3
+MinProjSize=0.19
 
 [LightAttributes.3]
 Type=Omni
@@ -340,7 +340,7 @@ Extrude Pitch Max=0.0
 Extrude Heading Max=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.5
+MinProjSize=0.19
 
 [LightAttributes.4]
 Type=Omni
@@ -406,7 +406,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.5
+MinProjSize=0.19
 
 [LightAttributes.5]
 Type=Omni

@@ -62,7 +62,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize= 0.2
+MinProjSize= 0.15
 
 [LightAttributes.0]
 Type=spot
@@ -131,7 +131,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize= 0.2
+MinProjSize= 0.15
 
 [LightAttributes.1]
 Type=spot
@@ -200,7 +200,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize= 0.2
+MinProjSize= 0.15
 
 [LightAttributes.2]
 Type=spot
@@ -269,7 +269,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize= 0.2
+MinProjSize= 0.15
 
 [LightAttributes.3]
 Type=spot
