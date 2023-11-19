@@ -10,6 +10,13 @@
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+		<Component ID="Fuselage-DimCabin" Node="cabinlights">
+			<UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+				<EMISSIVE_CODE>(A:LIGHT BEACON, bool) 1 != if{ 0.02 }
+				els{ (A:LIGHT LANDING, bool) 1 == if{ 0.4 }
+				els{ 1.0 } }</EMISSIVE_CODE>
+			</UseTemplate>
+		</Component>
 	<Component ID="takeoff" Node="takeoff">
       <Visibility>
         <Parameter>

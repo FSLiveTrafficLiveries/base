@@ -22,7 +22,7 @@
  
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 	<Component ID="takeoff_L" Node="takeoff_L">
       <Visibility>

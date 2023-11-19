@@ -43,7 +43,7 @@
 		</DefaultTemplateParameters>
 
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
-		<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:VELOCITY BODY Z,meters per second) 2 pi * #DISTANCE# 3.281 / * (A:ROTATION VELOCITY BODY Y,radians per second) * (A:GROUND VELOCITY,meters per second) / atg + (A:ANIMATION DELTA TIME, seconds) * 2 pi * #WHEEL_RADIUS# * / 100 * }</ANIM_CODE>
+		<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:VELOCITY BODY Z,meters per second) 2 pi * #DISTANCE# 3.281 / * (A:ROTATION VELOCITY BODY Y,radians per second) * (A:GROUND VELOCITY, knots) / atg + (A:ANIMATION DELTA TIME, seconds) * 2 pi * #WHEEL_RADIUS# * / 100 * }</ANIM_CODE>
 			<ANIM_DELTA>1</ANIM_DELTA>
 			<ANIM_WRAP>1</ANIM_WRAP>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
