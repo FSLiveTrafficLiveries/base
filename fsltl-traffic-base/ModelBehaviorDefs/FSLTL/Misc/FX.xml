@@ -515,17 +515,16 @@
 	</Template>
 	
 	<Template Name="FSLTL_CONTRAIL_RIBBON_FX">
-		<Parameters Type="Default">
+		<DefaultTemplateParameters>
 			<FX_GUID>{58ABDE15-2F5A-4DA8-9907-A40C495F45AD}</FX_GUID>
 			<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+			<FX_NODE>__NO_NODE__</FX_NODE>
 			<FX_ENGINE_ID>0</FX_ENGINE_ID>
 			<FX_OFFSET_X>0</FX_OFFSET_X>
 			<FX_OFFSET_Y>0</FX_OFFSET_Y>
 			<FX_OFFSET_Z>0</FX_OFFSET_Z>
-		</Parameters>
-		<Parameters Type="Default">
-			<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
-		</Parameters>
+			<FX_CODE>(A:PLANE ALTITUDE, feet) 15000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
+		</DefaultTemplateParameters>
 		<Component ID="FX_CONTRAIL_RIBBON_#FX_NODE#" Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX" />
 		</Component>
