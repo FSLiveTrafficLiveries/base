@@ -23,11 +23,11 @@
 
   <GroundSounds>
 
-    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" NodeName="fx_tire_contactPoint_center_left" >
 	</Sound> 
-	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >  
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" NodeName="fx_tire_contactPoint_left_out" >  
 	</Sound>
-    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" NodeName="fx_tire_contactPoint_right_out" >
 	</Sound>
   </GroundSounds>
   
