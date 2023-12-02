@@ -4,9 +4,9 @@
     <LOD minSize="1" ModelFile="HTAI_LEARJET_25_FSX.gltf"/>
   </LODS>
 
-  <Animation name="N1_0_still" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" typeParam2="N1_0_still" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="N1_1_still" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" typeParam2="N1_1_still" length="100" type="Sim" typeParam="AutoPlay" />
-  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" typeParam2="tire_anim" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_0_still" guid="E0D9AC9A-DBA6-41a5-9163-BF8BD41DB4A2" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="N1_1_still" guid="41C33B6F-E52A-45e9-BEC1-3D722E69BBFF" length="100" type="Sim" typeParam="AutoPlay" />
+  <Animation name="tire_anim" guid="d42f8553-3ec7-4bfc-a9ba-0d669b174ef4" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="c_gear" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="l_gear" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeParam="AutoPlay" />
   <Animation name="r_gear" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeParam="AutoPlay" />
@@ -113,7 +113,7 @@
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
-        <ANIM_NAME>CENTER WHEEL ROTATION ANGLE</ANIM_NAME>
+        <ANIM_NAME>tire_anim</ANIM_NAME>
         <WHEEL_RADIUS>1.04</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>26.3</DISTANCE>
       </UseTemplate>

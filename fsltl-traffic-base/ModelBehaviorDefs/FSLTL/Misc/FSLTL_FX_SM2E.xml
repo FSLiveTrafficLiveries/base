@@ -20,12 +20,12 @@
 			</UseTemplate>
 	</Component>
 		<Component ID="FSLTL_FX_HEAT_EXHAUST">
-			<UseTemplate Name="ASOBO_FX_EXHAUST_HEAT">
+			<UseTemplate Name="FSLTL_EXHAUST_FX">
 				<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
 				<FX_NODE>fx_exhaust_left</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
 			</UseTemplate>
-			<UseTemplate Name="ASOBO_FX_EXHAUST_HEAT">
+			<UseTemplate Name="FSLTL_EXHAUST_FX">
 				<FX_NAME>FX_EXHAUST_RIGHT</FX_NAME>
 				<FX_NODE>fx_exhaust_right</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>

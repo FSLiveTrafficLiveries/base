@@ -118,11 +118,11 @@
         <WHEEL_RADIUS>1.24</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>-4.6</DISTANCE>
       </UseTemplate>
-	  <UseTemplate Name="FSLTL_Elevator_Drool">
+	  <UseTemplate Name="FSLTL_Elevator_Droop">
         <ANIM_NAME>custom_anim_LIGHT_BEACON_04</ANIM_NAME>
 		<perc_down>50</perc_down>
       </UseTemplate>
-	  <UseTemplate Name="FSLTL_Elevator_Drool">
+	  <UseTemplate Name="FSLTL_Elevator_Droop">
         <ANIM_NAME>custom_anim_LIGHT_BEACON_05</ANIM_NAME>
 		<perc_down>50</perc_down>
       </UseTemplate>
