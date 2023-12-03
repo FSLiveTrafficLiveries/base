@@ -53,7 +53,7 @@ Texture=FSLTL-LIGHTnav
 Bounce=0.0
 Color Start=173, 180, 255, 255
 Color End=173, 180, 255, 255
-Jitter Distance=10.0
+Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
 uv2=1.0, 1.0
@@ -62,16 +62,16 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.1
 
 [LightAttributes.0]
 Type=spot
 Size=0.05
-Range=7
+Range=8
 Intensity=20
 Softness=0.0
-SpotInner=35
-SpotOuter=45
+SpotInner=20
+SpotOuter=30
 Volumetric=1
 ScatDir=0.0
 

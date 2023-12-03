@@ -29,7 +29,7 @@ Z Offset=0.0, 0.0
 
 [Particle.0]
 Lifetime=0.0, 0.0
-Type=25
+Type=19
 X Scale=0.1, 0.1
 Y Scale=0.1, 0.1
 Z Scale=0.0, 0.0
@@ -62,15 +62,15 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.1
 
 [LightAttributes.0]
 Type=spot
 Size=0.05
-Range=5
+Range=7
 Intensity=20
 Softness=0.0
-SpotInner=35
-SpotOuter=45
+SpotInner=20
+SpotOuter=30
 Volumetric=1
 ScatDir=0.0

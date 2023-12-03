@@ -62,7 +62,7 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.1
 
 [LightAttributes.0]
 Type=spot
@@ -71,6 +71,6 @@ Range=6
 Intensity=10
 Softness=0.0
 SpotInner=20
-SpotOuter=35
+SpotOuter=30
 Volumetric=1
 ScatDir=0.0

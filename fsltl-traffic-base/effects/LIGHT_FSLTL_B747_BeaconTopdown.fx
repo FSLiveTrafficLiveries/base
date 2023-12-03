@@ -8,11 +8,11 @@ Priority=0
 
 [Emitter.0]
 Lifetime=0.0, 0.0
-Delay=0.45, 0.45
+Delay=0.4, 0.4
 Bounce=0.0
 Light=1
 No Interpolate=1
-Rate=0.7, 0.7
+Rate=0.8, 0.8
 X Emitter Velocity=0.0, 0.0
 Y Emitter Velocity=0.0, 0.0
 Z Emitter Velocity=0.0, 0.0
@@ -49,7 +49,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.0]
 Blend Mode=2
-Texture=BeaconDown
+Texture=FSLTL-BeaconDown
 Bounce=0.0
 Color Start=255, 1, 0, 255
 Color End=255, 1, 0, 255
@@ -64,10 +64,10 @@ MinProjSize=0.2
 [LightAttributes.0]
 Type=spot
 Size=0.06
-Range=80
-Intensity=10
+Range=2
+Intensity=1
 Softness=0.0
-SpotInner=80.0
-SpotOuter=180.0
+SpotInner=0.0
+SpotOuter=359.0
 Volumetric=1
 ScatDir=0.0
