@@ -8,11 +8,11 @@ Priority=0
 
 [Emitter.0]
 Lifetime=0.0, 0.0
-Delay=0.5, 0.5
+Delay=0.45, 0.45
 Bounce=0.0
 Light=1
 No Interpolate=1
-Rate=1, 1
+Rate=0.75, 0.75
 X Emitter Velocity=0.0, 0.0
 Y Emitter Velocity=0.0, 0.0
 Z Emitter Velocity=0.0, 0.0
@@ -28,7 +28,7 @@ Y Offset=0.0, 0.0
 Z Offset=0.0, 0.0
 
 [Particle.0]
-Lifetime=0.1, 0.1
+Lifetime=0.05, 0.05
 Type=19
 X Scale=0.2, 0.2
 Y Scale=0.2, 0.2
@@ -64,10 +64,10 @@ MinProjSize=0.2
 [LightAttributes.0]
 Type=spot
 Size=0.06
-Range=200
-Intensity=20
+Range=2
+Intensity=1
 Softness=0.0
-SpotInner=80.0
-SpotOuter=180.0
+SpotInner=0.0
+SpotOuter=359.0
 Volumetric=1
 ScatDir=0.0

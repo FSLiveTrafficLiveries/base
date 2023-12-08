@@ -2,32 +2,35 @@
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
 	<Template Name="FSLTL_FX">
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_L">
-		<OverrideTemplateParameters>
-				<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
-				<FX_OFFSET_X>-11.0</FX_OFFSET_X>
-				<FX_OFFSET_Y>-1.0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>-7.0</FX_OFFSET_Z>
-				<FX_GUID>{58ABDE15-2F5A-4DA8-9907-A40C495F45AD}</FX_GUID>
-			</OverrideTemplateParameters>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_OUT" Node="__NO_NODE__">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
+				<FX_NAME>FSLTL_Contrail_L</FX_NAME>
+				<FX_NODE>fx_exhaust_left</FX_NODE>
+				<FX_ENGINE_ID>1</FX_ENGINE_ID>
+				<FX_OFFSET_X>4.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
 			</UseTemplate>
-		</Component>
-	</Component>
+	</Component>			
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_R">
-		<OverrideTemplateParameters>
-				<FX_CODE>(A:PLANE ALTITUDE, feet) 22000 &gt; (A:STANDARD ATM TEMPERATURE, rankine) 437 &lt; and</FX_CODE>
-				<FX_OFFSET_X>11.0</FX_OFFSET_X>
-				<FX_OFFSET_Y>-1.0</FX_OFFSET_Y>
-				<FX_OFFSET_Z>-7.0</FX_OFFSET_Z>
-				<FX_GUID>{58ABDE15-2F5A-4DA8-9907-A40C495F45AD}</FX_GUID>
-			</OverrideTemplateParameters>
-		<Component ID="FSLTL_FX_CONTRAIL_RIBBON_LEFT_IN" Node="__NO_NODE__">
-			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
+			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
+				<FX_NAME>FSLTL_Contrail_R</FX_NAME>
+				<FX_NODE>fx_exhaust_right</FX_NODE>
+				<FX_ENGINE_ID>2</FX_ENGINE_ID>
+				<FX_OFFSET_X>-4.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
 			</UseTemplate>
-		</Component>
 	</Component>
-		
+		<Component ID="FSLTL_FX_HEAT_EXHAUST">
+			<UseTemplate Name="FSLTL_EXHAUST_FX">
+				<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
+				<FX_NODE>fx_exhaust_left</FX_NODE>
+				<FX_ENGINE_ID>1</FX_ENGINE_ID>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_EXHAUST_FX">
+				<FX_NAME>FX_EXHAUST_RIGHT</FX_NAME>
+				<FX_NODE>fx_exhaust_right</FX_NODE>
+				<FX_ENGINE_ID>2</FX_ENGINE_ID>
+			</UseTemplate>
+		</Component>	
 	  <Component ID="FSLTL_LANDING_FX">	 
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>

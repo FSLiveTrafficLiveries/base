@@ -22,8 +22,26 @@
  
   <Behaviors>
     <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG3EH_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Component ID="takeoff_L" Node="takeoff_L">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
+	<Component ID="takeoff_R" Node="takeoff_R">
+      <Visibility>
+        <Parameter>
+          <Code>
+                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              </Code>
+        </Parameter>
+      </Visibility>
+    </Component>
 	<Component ID="Flaps1">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_LIGHT_BEACON_04</ANIM_NAME>
@@ -98,10 +116,10 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_SIM_ON_GROUND_22</ANIM_NAME>
 		<ANIM_CODE>
-			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -20 &lt; if{ 100 } } 
+			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
 	   </ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
-			<ANIM_LAG>60</ANIM_LAG>
+			<ANIM_LAG>30</ANIM_LAG>
 		</UseTemplate>
 		</Component>	
 		
@@ -154,6 +172,16 @@
         <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_21</ANIM_NAME>
         <WHEEL_RADIUS>1.32</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>-5.0</DISTANCE>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Elevator_Up">
+        <ANIM_NAME>custom_anim_LIGHT_BEACON_05</ANIM_NAME>
+		<perc_down>50</perc_down>
+        <ANIM_LENGTH>50</ANIM_LENGTH>
+      </UseTemplate>
+	  <UseTemplate Name="FSLTL_Elevator_Up">
+        <ANIM_NAME>custom_anim_LIGHT_BEACON_06</ANIM_NAME>
+		<perc_down>50</perc_down>
+        <ANIM_LENGTH>50</ANIM_LENGTH>
       </UseTemplate>
       </Component>
       <Component ID="FX">

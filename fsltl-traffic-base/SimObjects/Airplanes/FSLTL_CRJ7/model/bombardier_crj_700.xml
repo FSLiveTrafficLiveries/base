@@ -8,7 +8,7 @@
 
    <Behaviors>
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_BK2E.xml"/>
+    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_BK2E_node.xml"/>
     <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 	<Component ID="Flaps1">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
