@@ -9,7 +9,7 @@ Priority=0
 [Emitter.0]
 Lifetime=0.50, 0.50
 Delay=0.0, 0.0
-Bounce=1
+Bounce=0
 Light=1
 No Interpolate=1
 Rate=1.0, 1.0
@@ -50,7 +50,7 @@ Face=1, 1, 1
 [ParticleAttributes.0]
 Blend Mode=2
 Texture=FSLTL-LIGHTnav
-Bounce=1
+Bounce=0
 Color Start=173, 180, 255, 255
 Color End=173, 180, 255, 255
 Jitter Distance=0.0
