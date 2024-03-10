@@ -22,14 +22,18 @@
 
 
   <GroundSounds>
-    <Sound WwiseEvent="GROUND_ROLL" FadeOutType="2" FadeOutTime="0.5" ApplyCockpitReverb="True" WwiseData="true" >
+	<Sound WwiseEvent="CENTER_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
 	</Sound> 
-    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
 	</Sound> 
-	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >  
-	</Sound>
-    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
-	</Sound>
+	<Sound WwiseEvent="RIGHT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+	<Sound WwiseEvent="GROUND_ROLL" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
   </GroundSounds>
   
 </SoundInfo>

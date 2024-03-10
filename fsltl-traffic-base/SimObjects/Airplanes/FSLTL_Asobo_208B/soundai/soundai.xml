@@ -23,15 +23,15 @@
   </EngineSoundStates>
   
   <GroundSounds>
-    <Sound WwiseEvent="CENTER_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
-		<WwiseRTPC SimVar="WHEEL RPM" Units="RPM" Index="0" Derived="true" RTPCName="SIMVAR_WHEEL_RPM_DERIVED"/>
+	<Sound WwiseEvent="CENTER_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
 	</Sound> 
-	<Sound WwiseEvent="LEFT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >  
-		<WwiseRTPC SimVar="WHEEL RPM" Units="RPM" Index="1" Derived="true" RTPCName="SIMVAR_WHEEL_RPM_DERIVED"/>
-	</Sound>
-    <Sound WwiseEvent="RIGHT_TOUCHDOWN" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
-		<WwiseRTPC SimVar="WHEEL RPM" Units="RPM" Index="2" Derived="true" RTPCName="SIMVAR_WHEEL_RPM_DERIVED"/>
-	</Sound>
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+	<Sound WwiseEvent="RIGHT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
   </GroundSounds>
 
 </SoundInfo>
