@@ -34,9 +34,9 @@ jobs:
       - uses: actions/checkout@v3
 
       #Build VMR file
-      - name: Build VATSIM VMR file
-        run: |
-          python scripts/vmr_rules_v3.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
+      # - name: Build VATSIM VMR file
+      #   run: |
+      #     python scripts/vmr_rules_v3.py -f ./fsltl-traffic-base/SimObjects/Airplanes -o ./fsltl-traffic-base
 
       - name: Run FBW Simulations Fragmenter
         run: |
