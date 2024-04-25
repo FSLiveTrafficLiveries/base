@@ -7112,8 +7112,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/flight_model.cfg",
-            "size": 24420,
-            "date": 133572913771950880
+            "size": 24423,
+            "date": 133575845972635046
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/systems.cfg",
@@ -7122,18 +7122,18 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/A300B2-B4_GE_P3D.xml",
-            "size": 7087,
-            "date": 133571991577190346
+            "size": 5774,
+            "date": 133575845972684870
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/A300B2-B4_GE_P3D_LOD0.bin",
-            "size": 2790986,
-            "date": 133571991577354026
+            "size": 2877698,
+            "date": 133575845972892190
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/A300B2-B4_GE_P3D_LOD0.gltf",
-            "size": 133486,
-            "date": 133571991577363944
+            "size": 157262,
+            "date": 133575845972946756
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/A300B2-B4_GE_P3D_LOD1.bin",
@@ -7142,8 +7142,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/A300B2-B4_GE_P3D_LOD1.gltf",
-            "size": 28662,
-            "date": 133571991577413548
+            "size": 29771,
+            "date": 133575845972986632
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A30B/model.GE/model.CFG",
@@ -55504,31 +55504,6 @@
             "path": "SimObjects/Airplanes/FSLTL_B789_AFR/texture.AFR/texture.CFG",
             "size": 87,
             "date": 133571987576488348
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AHY/aircraft.cfg",
-            "size": 916,
-            "date": 133571987576493554
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AHY/model.AHY/model.cfg",
-            "size": 61,
-            "date": 133571987576498260
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AHY/texture.AHY/FSPXB787_9RR_T.png.dds",
-            "size": 22369776,
-            "date": 133571987577227556
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AHY/texture.AHY/FSPXB787_9RR_T.png.dds.json",
-            "size": 104,
-            "date": 133571987577257154
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AHY/texture.AHY/texture.cfg",
-            "size": 49,
-            "date": 133571987577267094
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B789_AMX/aircraft.cfg",
