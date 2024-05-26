@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{0b2c6e38-4d93-40e6-a563-45e2714459cd}" version="1.1">
   <LODS>
-    <LOD minSize="5" ModelFile="pa28_180_LOD0.gltf"/>
-    <LOD minSize="1" ModelFile="pa28_180_LOD2.gltf"/>
-    <LOD minSize="0" ModelFile="pa28_180_LOD2.gltf"/>
+    <LOD minSize="0" ModelFile="pa28_180_LOD0.gltf"/>
   </LODS>
   <Animation name="custom_anim_GEAR_ANIMATION_POSITION_0_00" guid="e2e339a6-fcbf-43a9-a780-3473e03ab54b" length="200" type="Sim" typeParam2="custom_anim_GEAR_ANIMATION_POSITION_0_00" typeParam="AutoPlay" />
   <PartInfo>
@@ -121,6 +119,13 @@
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_1_08</Name>
     <AnimLength>100</AnimLength>
+		<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
     <Animation>
       <Parameter>
         <Sim>
@@ -135,12 +140,20 @@
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_1_09</Name>
     <AnimLength>100</AnimLength>
+	<Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+    <AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
@@ -148,13 +161,20 @@
   <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_10" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="100" type="Sim" typeParam2="custom_anim_PROP_ROTATION_ANGLE_1_10" typeParam="AutoPlay" />
   <PartInfo>
     <Name>custom_anim_PROP_ROTATION_ANGLE_1_10</Name>
-    <AnimLength>100</AnimLength>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+	<AnimLength>100</AnimLength>
     <Animation>
       <Parameter>
         <Sim>
           <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>percent</Units>
-          <Scale>0.1592</Scale>
+          <Units>radians</Units>
+          <Scale>15.92</Scale>
         </Sim>
       </Parameter>
     </Animation>
