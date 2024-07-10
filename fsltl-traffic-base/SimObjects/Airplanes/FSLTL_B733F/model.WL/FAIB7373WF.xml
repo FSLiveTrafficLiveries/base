@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{f07d37cd-8a6b-4576-a1f5-d2aba97eaba7}" version="1.1">
 	<LODS>
-		<LOD minSize="8" ModelFile="FAIB_B733F_WL_LOD0.gltf"/>
-		<LOD minSize="1" ModelFile="FAIB_B733F_WL_LOD1.gltf"/>
-		<LOD minSize="0" ModelFile="FAIB_B733F_WL_LOD1.gltf"/>
+		<LOD minSize="8" ModelFile="FAIB7373WF_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="FAIB7373WF_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="FAIB7373WF_LOD1.gltf"/>
 	</LODS>
 
 <Behaviors>
@@ -95,12 +95,12 @@
     <Component ID="Engines">
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node58</NODE_NAME>
+        <NODE_NAME>node80</NODE_NAME>
         <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Blur">
         <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node57</NODE_NAME>
+        <NODE_NAME>node81</NODE_NAME>
         <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Engine_Static">
