@@ -37047,8 +37047,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B733F_AKT/aircraft.cfg",
-            "size": 925,
-            "date": 133695557777004778
+            "size": 924,
+            "date": 133695589265878024
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B733F_AKT/model.AKT/model.cfg",
@@ -40009,6 +40009,31 @@
             "path": "SimObjects/Airplanes/FSLTL_B738F_PLC/texture.PLC/texture.cfg",
             "size": 50,
             "date": 133571987137088510
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_B738F_SCX/aircraft.cfg",
+            "size": 949,
+            "date": 133697006449712384
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_B738F_SCX/model.SCX/model.cfg",
+            "size": 66,
+            "date": 133571987134548326
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_B738F_SCX/texture.SCX/FAIB_737_800_T.PNG.dds",
+            "size": 22369776,
+            "date": 133571987135296534
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_B738F_SCX/texture.SCX/FAIB_737_800_T.PNG.dds.json",
+            "size": 104,
+            "date": 133571987135311448
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_B738F_SCX/texture.SCX/texture.cfg",
+            "size": 50,
+            "date": 133571987135311448
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B738F_SWQ/aircraft.cfg",
@@ -48113,7 +48138,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_B744F_PLC/aircraft.cfg",
             "size": 940,
-            "date": 133654003494388926
+            "date": 133695874370506720
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B744F_PLC/model.PLC/model.cfg",
@@ -48338,7 +48363,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_B744F_VIR/aircraft.cfg",
             "size": 947,
-            "date": 133658356411571572
+            "date": 133695874562970512
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B744F_VIR/model.VIR/model.cfg",
