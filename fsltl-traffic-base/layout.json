@@ -828,7 +828,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/aircraft.cfg",
             "size": 17431,
-            "date": 133678727213231698
+            "date": 133705811909075670
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A20N/engines.cfg",
@@ -65031,9 +65031,394 @@
             "date": 133571987730019388
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/ai.cfg",
+            "size": 973,
+            "date": 133705547080908792
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/aircraft.cfg",
+            "size": 5021,
+            "date": 133705828353564044
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/engines.cfg",
+            "size": 10518,
+            "date": 133704901315272024
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/flight_model.cfg",
+            "size": 23109,
+            "date": 133705546629855194
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/systems.cfg",
+            "size": 7663,
+            "date": 133703302750592682
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/model/FSLTL_SU95.xml",
+            "size": 9512,
+            "date": 133705785735356908
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/model/FSLTL_SU95_LOD0.bin",
+            "size": 13446404,
+            "date": 133705713346528880
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/model/FSLTL_SU95_LOD0.gltf",
+            "size": 117446,
+            "date": 133705713346538796
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/model/model.CFG",
+            "size": 33,
+            "date": 133700650254503854
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/panel/panel.cfg",
+            "size": 222,
+            "date": 133571987682373046
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/soundai/MaVeCreations_E190_AI.PC.pck",
+            "size": 2555420,
+            "date": 133679893591822292
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/soundai/soundai.xml",
+            "size": 3197,
+            "date": 133571991609312694
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565632742
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705608565632742
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_COMP.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565602986
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133705608565602986
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_NORMAL.PNG.DDS",
+            "size": 22369776,
+            "date": 133705608565568262
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_DET_NORMAL.PNG.DDS.json",
+            "size": 160,
+            "date": 133705608565568262
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565478982
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705608565478982
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_COMP.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565459146
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133705608565459146
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_NORMAL.PNG.DDS",
+            "size": 22369776,
+            "date": 133705608565429378
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_ENGINE_NORMAL.PNG.DDS.json",
+            "size": 160,
+            "date": 133705608565429378
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705712229145324
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705712229145324
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_COMP.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565290498
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133705608565290498
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_NORMAL.PNG.DDS",
+            "size": 22369776,
+            "date": 133705712095983594
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_FUSE_NORMAL.PNG.DDS.json",
+            "size": 160,
+            "date": 133705712095983594
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_BASE_COLOR.PNG.DDS",
+            "size": 699192,
+            "date": 133705608565543470
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705608565543470
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_COMP.PNG.DDS",
+            "size": 699192,
+            "date": 133705608565543470
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133705608565543470
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_NORMAL.PNG.DDS",
+            "size": 1398256,
+            "date": 133705608565538496
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_GLASS_NORMAL.PNG.DDS.json",
+            "size": 160,
+            "date": 133705608565538496
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565533538
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705608565533538
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_COMP.PNG.DDS",
+            "size": 11184952,
+            "date": 133705608565513704
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_COMP.PNG.DDS.json",
+            "size": 166,
+            "date": 133705608565513704
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_NORMAL.PNG.DDS",
+            "size": 22369776,
+            "date": 133705608565493866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95/texture/FSLTL_SSJ_INTERIOR_NORMAL.PNG.DDS.json",
+            "size": 160,
+            "date": 133705608565493866
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/aircraft.cfg",
+            "size": 920,
+            "date": 133705807293141776
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/model.AZO/model.cfg",
+            "size": 56,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/texture.AZO/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133703147129071916
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/texture.AZO/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133703147129071916
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/texture.AZO/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705798799943140
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/texture.AZO/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705798799943140
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AZO/texture.AZO/texture.cfg",
+            "size": 49,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/aircraft.cfg",
+            "size": 911,
+            "date": 133705807514959988
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/model.GZP/model.cfg",
+            "size": 56,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/texture.GZP/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133703191179017764
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/texture.GZP/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133703191179017764
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/texture.GZP/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133703191178943364
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/texture.GZP/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133703191178943364
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_GZP/texture.GZP/texture.cfg",
+            "size": 49,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/aircraft.cfg",
+            "size": 901,
+            "date": 133705807757577370
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/model.LLM/model.cfg",
+            "size": 56,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/texture.LLM/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705560894439752
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/texture.LLM/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705560894439752
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/texture.LLM/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705801292726758
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/texture.LLM/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705801292726758
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_LLM/texture.LLM/texture.cfg",
+            "size": 49,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/aircraft.cfg",
+            "size": 911,
+            "date": 133705807951947682
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/model.RWZ/model.cfg",
+            "size": 56,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/texture.RWZ/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133703299230910774
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/texture.RWZ/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133703299230910774
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/texture.RWZ/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705803138375288
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/texture.RWZ/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705803138375288
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_RWZ/texture.RWZ/texture.cfg",
+            "size": 49,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/aircraft.cfg",
+            "size": 907,
+            "date": 133705808198466174
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/model.SDM/model.cfg",
+            "size": 56,
+            "date": 133703126102811056
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/texture.SDM/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705549871936616
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/texture.SDM/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705549871936616
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/texture.SDM/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "size": 11184952,
+            "date": 133705839101575994
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/texture.SDM/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "size": 102,
+            "date": 133705839101575994
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SU95_SDM/texture.SDM/texture.cfg",
+            "size": 49,
+            "date": 133703126102811056
+        },
+        {
             "path": "ModelBehaviorDefs/FSLTL/Misc/Aircraft.xml",
-            "size": 4734,
-            "date": 133655340235108058
+            "size": 5394,
+            "date": 133705479475734752
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_BK2E.xml",

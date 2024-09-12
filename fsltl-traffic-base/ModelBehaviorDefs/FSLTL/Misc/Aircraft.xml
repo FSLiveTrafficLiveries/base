@@ -19,6 +19,21 @@
 				</UseTemplate>
 	</Template>
 
+	<Template Name="FSLTL_Alt_Steering">
+		<DefaultTemplateParameters>
+			<ANIM_NAME>Wheel_Steering</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<STEER_SHARP>12</STEER_SHARP>
+			<STEER_START>0</STEER_START>
+		</DefaultTemplateParameters>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
+			<ANIM_CODE>
+				(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, Feet) 0 &lt; if{ (A:ROTATION VELOCITY BODY Y, Feet) #STEER_SHARP# * #STEER_START# + abs }
+					els{ (A:ROTATION VELOCITY BODY Y, Feet) #STEER_SHARP# * #STEER_START# + #ANIM_LENGTH# - abs } }
+			</ANIM_CODE>
+		</UseTemplate>
+	</Template>
 
 	<Template Name="FSLTL_Wheel_Roll_Center">
 		<DefaultTemplateParameters>
