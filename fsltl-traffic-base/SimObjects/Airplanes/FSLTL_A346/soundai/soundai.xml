@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (c) Asobo Studio, All rights reserved. www.asobostudio.com -->
+
+<SoundInfo Version="0.1">
+
+	<WwisePackages>
+		<MainPackage Name="MaVeCreations_A333_AI"/>
+	</WwisePackages>
+
+  <EngineSoundPresets>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="350" WwiseData="true" EngineIndex="1" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="355" WwiseData="true" EngineIndex="2" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="5" WwiseData="true" EngineIndex="3" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="intake" ConeHeading="10" WwiseData="true" EngineIndex="4" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="300" WwiseData="true" EngineIndex="1" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="320" WwiseData="true" EngineIndex="2" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="40" WwiseData="true" EngineIndex="3" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" ConeHeading="60" WwiseData="true" EngineIndex="4" FadeOutType="1" FadeOutTime="0.4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="190" WwiseData="true" EngineIndex="1" ContinuousStopDelay="13.0" FadeOutType="1" FadeOutTime="1.0" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="180" WwiseData="true" EngineIndex="2" ContinuousStopDelay="6.5" FadeOutType="1" FadeOutTime="1.0" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="180" WwiseData="true" EngineIndex="3" FadeOutType="1" FadeOutTime="1.0" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="backthrust" ConeHeading="170" WwiseData="true" EngineIndex="4" ContinuousStopDelay="19.5" FadeOutType="1" FadeOutTime="1.0" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="350" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="fan" ConeHeading="10" WwiseData="true" EngineIndex="3" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="JetWhine" CustomSuffix="rumble" ConeHeading="180" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="350" WwiseData="true" EngineIndex="1" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="355" WwiseData="true" EngineIndex="2" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="5" WwiseData="true" EngineIndex="3" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+    <Sound WwiseEvent="Shutdown" ConeHeading="10" WwiseData="true" EngineIndex="4" ApplyCockpitReverb="True" CancelConeHeadingWhenInside="False"/>
+  </EngineSoundPresets>
+
+  <GroundSounds>
+	<Sound WwiseEvent="CENTER_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+	<Sound WwiseEvent="LEFT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+	<Sound WwiseEvent="RIGHT_TOUCHDOWN" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+	<Sound WwiseEvent="GROUND_ROLL" SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" FadeOutType="2" FadeOutTime="0.5" WwiseData="true" >
+	<WwiseRTPC SimVar="GROUND VELOCITY" Units="KNOTS" Index="0" RTPCName="SIMVAR_GROUND_VELOCITY" />
+	</Sound> 
+  </GroundSounds>
+  
+</SoundInfo>
