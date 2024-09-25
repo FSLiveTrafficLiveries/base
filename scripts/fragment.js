@@ -7,6 +7,7 @@ const execute = async () => {
     const outputDir = "fsltl-traffic-base-build";
     const simObjectsBaseDir = baseDir + "/SimObjects/Airplanes";
     const simObjectsDir = "./SimObjects/Airplanes/";
+    const version = process.env.GITHUB_REF_NAME;
 
     let aircraftobjects = [];
 
@@ -26,6 +27,7 @@ const execute = async () => {
     aircraftobjects.push({ name: "MISC", sourceDir: "./ModelBehaviorDefs" });
 
     const result = await fragmenter.pack({
+      version: version,
       baseDir: baseDir,
       outDir: outputDir,
       modules: aircraftobjects,
