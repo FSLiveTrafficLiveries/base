@@ -4,37 +4,37 @@
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Lo">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_Lo</FX_NAME>
-				<FX_NODE>fx_exhaust_left_out</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-				<FX_OFFSET_X>4.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_OFFSET_X>6.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
 			</UseTemplate>
 	</Component>			
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Li">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_Li</FX_NAME>
-				<FX_NODE>fx_exhaust_left_in</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-				<FX_OFFSET_X>2.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_OFFSET_X>4.5</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
 			</UseTemplate>
 	</Component>		
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Ro">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_Ro</FX_NAME>
-				<FX_NODE>fx_exhaust_right_out</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>3</FX_ENGINE_ID>
-				<FX_OFFSET_X>-4.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_OFFSET_X>-6.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
 			</UseTemplate>
 	</Component>			
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_Ri">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_Ri</FX_NAME>
-				<FX_NODE>fx_exhaust_right_in</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>4</FX_ENGINE_ID>
-				<FX_OFFSET_X>-2.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_OFFSET_X>-4.5</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
 			</UseTemplate>
 	</Component>		
 	  <Component ID="FSLTL_LANDING_FX">	 

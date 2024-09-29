@@ -1,22 +1,28 @@
 <ModelBehaviors>
+<!-- <Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/> -->
 	<Include ModelBehaviorFile="FSLTL\Misc\FX.xml"/>
+<!-- 	<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/> -->
 	<Template Name="FSLTL_FX">
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_L">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_L</FX_NAME>
-				<FX_NODE>fx_exhaust_left</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
-				<FX_OFFSET_X>4.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_CONTACT_POINT_ID>11</FX_CONTACT_POINT_ID>
+				<FX_OFFSET_X>6.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
+				<FX_ROTATION_OFFSET_H>30.0</FX_ROTATION_OFFSET_H>
 			</UseTemplate>
 	</Component>			
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_R">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_R</FX_NAME>
-				<FX_NODE>fx_exhaust_right</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
-				<FX_OFFSET_X>-4.0</FX_OFFSET_X>
-				<FX_OFFSET_Z>-20.0</FX_OFFSET_Z>
+				<FX_CONTACT_POINT_ID>12</FX_CONTACT_POINT_ID>
+				<FX_OFFSET_X>-6.0</FX_OFFSET_X>
+				<FX_OFFSET_Z>-30.0</FX_OFFSET_Z>
+				<FX_ROTATION_OFFSET_H>-30.0</FX_ROTATION_OFFSET_H>
 			</UseTemplate>
 	</Component>
 		<Component ID="FSLTL_FX_HEAT_EXHAUST">
@@ -31,6 +37,7 @@
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
 			</UseTemplate>
 		</Component>	
+
 	  <Component ID="FSLTL_LANDING_FX">	 
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>

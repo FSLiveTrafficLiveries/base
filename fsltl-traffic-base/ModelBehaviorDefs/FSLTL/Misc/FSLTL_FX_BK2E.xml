@@ -4,7 +4,7 @@
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_L">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_L</FX_NAME>
-				<FX_NODE>fx_exhaust_left</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>1</FX_ENGINE_ID>
 				<FX_OFFSET_X>3.0</FX_OFFSET_X>
 				<FX_OFFSET_Z>-15.0</FX_OFFSET_Z>
@@ -13,7 +13,7 @@
 	<Component ID="FSLTL_FX_CONTRAIL_RIBBON_R">
 			<UseTemplate Name="FSLTL_CONTRAIL_RIBBON_FX">
 				<FX_NAME>FSLTL_Contrail_R</FX_NAME>
-				<FX_NODE>fx_exhaust_right</FX_NODE>
+				<FX_NODE>__NO_NODE__</FX_NODE>
 				<FX_ENGINE_ID>2</FX_ENGINE_ID>
 				<FX_OFFSET_X>-3.0</FX_OFFSET_X>
 				<FX_OFFSET_Z>-15.0</FX_OFFSET_Z>

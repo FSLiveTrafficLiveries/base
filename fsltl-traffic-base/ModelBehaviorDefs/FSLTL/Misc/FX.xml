@@ -156,7 +156,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 10 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 15 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -177,7 +177,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_MD_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 10 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 20 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
@@ -198,7 +198,7 @@
 		</DefaultTemplateParameters>
 		<Component ID="FSLTL_FX_LANDING_GR_LG_WET_#FX_NODE#_#FX_CONTACT_POINT_ID#"  Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX">
-				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 10 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
+				<FX_CODE>(A:SIM on GROUND, bool) 1 == (A:AMBIENT PRECIP STATE, enum) 3 &gt; and (A:GROUND VELOCITY, knot) 20 &gt; and (A:LIGHT BEACON, bool) 1 == and</FX_CODE>
 			</UseTemplate>
 		</Component>
 	</Template>
