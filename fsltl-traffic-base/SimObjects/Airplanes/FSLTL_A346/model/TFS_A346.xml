@@ -8,7 +8,7 @@
 
 <Behaviors>
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node10CP.xml"/>
 	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 	
 	<Component ID="taxi" Node="taxi">
@@ -48,7 +48,7 @@
 		</UseTemplate>
 	</Component>
 
-	<Component ID="GEARS">
+	<Component ID="Gear">
 		<UseTemplate Name="ASOBO_GEAR_Center_Template">
 			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_00</ANIM_NAME>
 			<ANIM_LENGTH>50</ANIM_LENGTH>
@@ -131,6 +131,33 @@
 		</UseTemplate>
 	</Component>
 
+	<Component ID="Heat_Exhaust">
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_LO</FX_NAME>
+			<FX_NODE>fx_exhaust_left_out</FX_NODE>
+			<FX_ENGINE_ID>1</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_LI</FX_NAME>
+			<FX_NODE>fx_exhaust_left_in</FX_NODE>
+			<FX_ENGINE_ID>2</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_RI</FX_NAME>
+			<FX_NODE>fx_exhaust_right_in</FX_NODE>
+			<FX_ENGINE_ID>3</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_RO</FX_NAME>
+			<FX_NODE>fx_exhaust_right_out</FX_NODE>
+			<FX_ENGINE_ID>4</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+	</Component>
+
 	<Component ID="Wheels">
 		<UseTemplate Name="FSLTL_Steering">
         		<ANIM_NAME>custom_anim_SIM_ON_GROUND_13</ANIM_NAME>
@@ -151,6 +178,7 @@
 
 	<Component ID="FX">
         	<UseTemplate Name="FSLTL_FX" />
+        	<UseTemplate Name="FSLTL_FX_Gear_CenterQuad" />
 	</Component>
 </Behaviors>
 
