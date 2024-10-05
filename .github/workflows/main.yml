@@ -43,12 +43,6 @@ jobs:
           npm install https://github.com/FSLiveTrafficLiveries/fragmenter
           node scripts/fragment.js
 
-      - name: Build releases.yaml file
-        run: |
-          echo "releases:" >> ./fsltl-traffic-base-build/releases.yaml
-          echo "  - name: $GITHUB_REF_NAME" >> ./fsltl-traffic-base-build/releases.yaml
-          echo "    date: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> ./fsltl-traffic-base-build/releases.yaml
-
       - name: Upload Files to Release
         uses: xresloader/upload-to-github-release@v1
         env:

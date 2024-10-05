@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{ba9fe6ea-49e9-4e21-aa13-a603e99ba732}" version="1.1">
+	<LODS>
+		<LOD minSize="0" ModelFile="TFS_A346_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="TFS_A346_LOD1.gltf"/>
+		<LOD minSize="8" ModelFile="TFS_A346_LOD1.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	
+	<Component ID="taxi" Node="taxi">
+		<Visibility>
+        		<Parameter>
+          			<Code>
+                			(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              			</Code>
+        		</Parameter>
+		</Visibility>
+	</Component>	
+	
+	<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_02</ANIM_NAME>
+			<ANIM_CODE>
+           			(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Slats">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_08</ANIM_NAME>
+			<ANIM_CODE>
+	   (A:LIGHT LANDING, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 50 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 130 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 220 &lt; and if{ 50 }
+	   els{ 0 } } } } } } } } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Gear">
+		<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_00</ANIM_NAME>
+			<ANIM_LENGTH>50</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_09</ANIM_NAME>
+			<ANIM_LENGTH>50</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_10</ANIM_NAME>
+			<ANIM_LENGTH>50</ANIM_LENGTH>
+			<!-- ANIM EVENTS -->
+			<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
+			<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
+			<DIRECTION>Both</DIRECTION>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Gear_Compression">
+		<UseTemplate Name="ASOBO_Contact_Point_Template">
+			<ID>0</ID>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_Contact_Point_Template">
+			<ID>1</ID>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_Contact_Point_Template">
+			<ID>2</ID>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_Contact_Point_Template">
+			<ID>3</ID>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Spoilers">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SPOILERS_RIGHT_POSITION_06</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SPOILERS HANDLE POSITION, percent) 
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>110</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Reverser">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>custom_anim_SIM_ON_GROUND_12</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>25</ANIM_LAG>
+		</UseTemplate>
+	</Component>	
+
+	<Component ID="Engines">
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>custom_anim_ENG_N1_RPM_1_11</ANIM_NAME>
+		        <NODE_NAME>node735</NODE_NAME>
+		        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>custom_anim_ENG_N1_RPM_1_11</ANIM_NAME>
+		        <NODE_NAME>node742</NODE_NAME>
+		        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>custom_anim_ENG_N1_RPM_1_11</ANIM_NAME>
+		        <NODE_NAME>node745</NODE_NAME>
+		        <RPM_VAR>(A:GENERAL ENG RPM:3,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>custom_anim_ENG_N1_RPM_1_11</ANIM_NAME>
+		        <NODE_NAME>node731</NODE_NAME>
+		        <RPM_VAR>(A:GENERAL ENG RPM:4,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Static">
+			<NODE_NAME>node1</NODE_NAME>
+		        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Heat_Exhaust">
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_LO</FX_NAME>
+			<FX_NODE>fx_exhaust_left_out</FX_NODE>
+			<FX_ENGINE_ID>1</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_LI</FX_NAME>
+			<FX_NODE>fx_exhaust_left_in</FX_NODE>
+			<FX_ENGINE_ID>2</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_RI</FX_NAME>
+			<FX_NODE>fx_exhaust_right_in</FX_NODE>
+			<FX_ENGINE_ID>3</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_EXHAUST_FX">
+			<FX_NAME>FX_EXHAUST_RO</FX_NAME>
+			<FX_NODE>fx_exhaust_right_out</FX_NODE>
+			<FX_ENGINE_ID>4</FX_ENGINE_ID>
+			<FX_OFFSET_Z>-5.0</FX_OFFSET_Z>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Steering">
+        		<ANIM_NAME>custom_anim_SIM_ON_GROUND_13</ANIM_NAME>
+        		<ANIM_LENGTH>2401</ANIM_LENGTH>
+			<LEGACY_PARAM_1>90</LEGACY_PARAM_1>
+			<LEGACY_PARAM_2>0</LEGACY_PARAM_2>
+			<OFFSET>1200</OFFSET>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        		<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_14</ANIM_NAME>
+        		<WHEEL_RADIUS>1.143</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        		<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</ANIM_NAME>
+        		<WHEEL_RADIUS>1.3716</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+	</Component>
+
+	<Component ID="FX">
+        	<UseTemplate Name="FSLTL_FX_CONTRAIL_QUAD" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_FRONT" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_REAR_QUAD" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_REARCENTER_QUAD" />
+	</Component>
+</Behaviors>
+
+</ModelInfo>

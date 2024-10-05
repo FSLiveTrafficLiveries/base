@@ -68,6 +68,7 @@ A359 = Airplane('A359', 374.748, 'Airbus', 'jet', True, False, False, 'A350')
 A35K = Airplane('A35K', 413.9619, 'Airbus', 'jet', True, False, False, 'A350')
 A388 = Airplane('A388', 960.68, 'Airbus', 'jet', True, False, False, 'A380')
 A300 = Airplane('A300', 285.5424, 'Airbus', 'jet', True, False, False, 'A300')
+A30B = Airplane('A30B', 242.3172, 'Airbus', 'jet', True, False, False, 'A300')
 A306 = Airplane('A306', 285.648, 'Airbus', 'jet', True, False, False, 'A300')
 A3ST = Airplane('A3ST', 285.648, 'Airbus', 'jet', True, False, False, 'A300')
 A310 = Airplane('A310', 246.3648, 'Airbus', 'jet', True, False, False, 'A310')
@@ -120,8 +121,12 @@ DH8C = Airplane('DH8C', 64.507, 'de Havilland Canada', 'prop', False, False, Fal
 DH8D = Airplane('DH8D', 82.328, 'de Havilland Canada', 'prop', False, False, False, 'DHC8') 
 
 E170 = Airplane('E170', 81.926, 'Embraer', 'jet', False, False, False, 'EJet') 
+E75S = Airplane('E75S', 86.7758, 'Embraer', 'jet', False, False, False, 'EJet') 
+E75L = Airplane('E75L', 86.7758, 'Embraer', 'jet', False, False, False, 'EJet') 
 E190 = Airplane('E190', 99.2976, 'Embraer', 'jet', False, False, False, 'EJet') 
 E195 = Airplane('E195', 105.901, 'Embraer', 'jet', False, False, False, 'EJet') 
+E290 = Airplane('E290', 99.325, 'Embraer', 'jet', False, False, False, 'EJet') 
+E295 = Airplane('E295', 113.7374, 'Embraer', 'jet', False, False, False, 'EJet') 
 
 F70 = Airplane('F70', 95.821, 'Fokker', 'jet', False, False, False, 'Fokker') 
 F100 = Airplane('F100', 110.143, 'Fokker', 'jet', False, False, False, 'Fokker') 
@@ -133,6 +138,8 @@ MD83 = Airplane('MD83', 96.6492, 'McDonnell Douglas', 'jet', False, False, False
 MD88 = Airplane('MD88', 96.6492, 'McDonnell Douglas', 'jet', False, False, False, 'MD80') 
 
 SF34 = Airplane('SF34', 43.406, 'Saab', 'prop', False, False, False, 'SF34') 
+
+SU95 = Airplane('SU95', 97.0056, 'Sukhoi', 'jet', False, False, False, 'SU95')
 
 A225 = Airplane('A225', 1075.2, 'Antonov', 'jet', True, False, False, 'A225') 
 

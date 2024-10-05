@@ -130,8 +130,8 @@ MinProjSize=0.18
 [LightAttributes.1]
 Type=spot
 Size=0.06
-Range=0.0
-Intensity=0
+Range=100.0
+Intensity=40
 Softness=0.0
 SpotInner=60.0
 SpotOuter=80.0
