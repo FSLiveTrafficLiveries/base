@@ -8,7 +8,7 @@
 
 <Behaviors>
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node10CP.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG4EH_node.xml"/>
 	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 	
 	<Component ID="taxi" Node="taxi">
@@ -177,8 +177,10 @@
 	</Component>
 
 	<Component ID="FX">
-        	<UseTemplate Name="FSLTL_FX" />
-        	<UseTemplate Name="FSLTL_FX_Gear_CenterQuad" />
+        	<UseTemplate Name="FSLTL_FX_CONTRAIL_QUAD" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_FRONT" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_REAR_QUAD" />
+        	<UseTemplate Name="FSLTL_FX_GEAR_REARCENTER_QUAD" />
 	</Component>
 </Behaviors>
 
