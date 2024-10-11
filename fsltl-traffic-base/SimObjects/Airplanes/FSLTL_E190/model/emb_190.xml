@@ -113,18 +113,16 @@
     <Component ID="Wheels">
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
         <ANIM_NAME>c_tire_anim</ANIM_NAME>
-        <WHEEL_RADIUS>0.654</WHEEL_RADIUS> <!-- in meters -->
+        <WHEEL_RADIUS>0.3048</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>12.0</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>l_tire_anim</ANIM_NAME>
-        <WHEEL_RADIUS>1.07</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>2.8</DISTANCE>
+        <WHEEL_RADIUS>0.5207</WHEEL_RADIUS> <!-- in meters -->
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
         <ANIM_NAME>r_tire_anim</ANIM_NAME>
-        <WHEEL_RADIUS>1.07</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-2.8</DISTANCE>
+        <WHEEL_RADIUS>0.5207</WHEEL_RADIUS> <!-- in meters -->
       </UseTemplate>
       </Component>
     <Component ID="FX">
