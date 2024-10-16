@@ -60826,6 +60826,126 @@
             "date": 133571987624270328
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/ai.cfg",
+            "size": 1037,
+            "date": 133734456423487044
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/aircraft.cfg",
+            "size": 1264,
+            "date": 133734457987103458
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/engines.cfg",
+            "size": 20743,
+            "date": 133734484873255632
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/flight_model.cfg",
+            "size": 24707,
+            "date": 133735260990147136
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/systems.cfg",
+            "size": 11720,
+            "date": 133735371234233068
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/model.CFG",
+            "size": 32,
+            "date": 133734451127545376
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/SBAI_BCS1.xml",
+            "size": 5767,
+            "date": 133735269756519120
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/SBAI_BCS1_LOD0.bin",
+            "size": 5567036,
+            "date": 133735230549994822
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/SBAI_BCS1_LOD0.gltf",
+            "size": 199020,
+            "date": 133735230550014660
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/SBAI_BCS1_LOD3.bin",
+            "size": 4177432,
+            "date": 133735230550644710
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/model/SBAI_BCS1_LOD3.gltf",
+            "size": 150854,
+            "date": 133735230550659590
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/panel/panel.cfg",
+            "size": 215,
+            "date": 133726508490813200
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/soundai/MaVeCreations_E190_AI.PC.pck",
+            "size": 2555444,
+            "date": 133726508491016564
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/soundai/soundai.xml",
+            "size": 3158,
+            "date": 133726508491026478
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
+            "size": 349680,
+            "date": 133734448919477944
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS.json",
+            "size": 119,
+            "date": 133734448919477944
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS",
+            "size": 1398256,
+            "date": 133734448919473240
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS.json",
+            "size": 119,
+            "date": 133734448919473240
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS",
+            "size": 87536,
+            "date": 133734448919473240
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS.json",
+            "size": 177,
+            "date": 133734448919473240
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/SBAI_BCS1_M.PNG.DDS",
+            "size": 11184952,
+            "date": 133734448919458106
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/SBAI_BCS1_M.PNG.DDS.json",
+            "size": 166,
+            "date": 133734448919458106
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/SBAI_BCS1_T.PNG.DDS",
+            "size": 11184952,
+            "date": 133734449286803902
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_BCS1/texture/SBAI_BCS1_T.PNG.DDS.json",
+            "size": 102,
+            "date": 133734449286803902
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_BCS3/ai.cfg",
             "size": 1072,
             "date": 133571987624275016
