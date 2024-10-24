@@ -95,6 +95,7 @@
 		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
 		<ANIM_LENGTH>100</ANIM_LENGTH>
 		<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00018 *</WIND_VAR>
+		<MOD_VAR>200</MOD_VAR>
 	</DefaultTemplateParameters>
 	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
 	<UseTemplate Name = "ASOBO_GT_Visibility_Code">
@@ -103,13 +104,14 @@
 		</VISIBILITY_CODE>
 	</UseTemplate>
 	<UseTemplate Name="ASOBO_GT_Anim_Code">
-		<ANIM_CODE>#RPM_VAR# 200 / #WIND_VAR# + (E:SIMULATION TIME, second) * 360 % 3.6 / </ANIM_CODE>
+		<ANIM_CODE>#RPM_VAR# #MOD_VAR# / #WIND_VAR# + (E:SIMULATION TIME, second) * 360 % 3.6 / </ANIM_CODE>
 		<ANIM_DELTA>1</ANIM_DELTA>
 		<ANIM_WRAP>1</ANIM_WRAP>
 		<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
 	</UseTemplate>
-</Component>
+	</Component>
 </Template>
+
 <Template Name="FSLTL_Elevator_Droop">
 	<DefaultTemplateParameters>
 		<ANIM_NAME>ElevatorDroop</ANIM_NAME>
