@@ -34472,8 +34472,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/aircraft.cfg",
-            "size": 27863,
-            "date": 133726218684524412
+            "size": 27088,
+            "date": 133744269588261796
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/engines.cfg",
@@ -34492,28 +34492,28 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500.xml",
-            "size": 6153,
-            "date": 133571986921974394
+            "size": 4171,
+            "date": 133744021643376434
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD0.bin",
-            "size": 184466,
-            "date": 133612183243864412
+            "size": 6322654,
+            "date": 133743995726555810
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD0.gltf",
-            "size": 77838,
-            "date": 133612183243869330
+            "size": 115688,
+            "date": 133743995726570692
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD1.bin",
-            "size": 24760,
-            "date": 133612183243884232
+            "size": 2440768,
+            "date": 133743995726937736
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/ATR_72_500_LOD1.gltf",
-            "size": 12675,
-            "date": 133612183243888910
+            "size": 29687,
+            "date": 133743995726947650
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT75/model/model.CFG",
@@ -35887,8 +35887,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/aircraft.cfg",
-            "size": 19793,
-            "date": 133726218684479774
+            "size": 19238,
+            "date": 133744269364141782
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/engines.cfg",
@@ -35907,28 +35907,28 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600.xml",
-            "size": 6155,
-            "date": 133571986958528810
+            "size": 4171,
+            "date": 133744267716130938
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD0.bin",
-            "size": 184466,
-            "date": 133612183243913970
+            "size": 6322654,
+            "date": 133744302922989296
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD0.gltf",
-            "size": 77839,
-            "date": 133612183243918658
+            "size": 115688,
+            "date": 133744302923004180
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD1.bin",
-            "size": 24760,
-            "date": 133612183243923896
+            "size": 2440768,
+            "date": 133744302923361302
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/ATR_72_600_LOD1.gltf",
-            "size": 12675,
-            "date": 133612183243923896
+            "size": 29687,
+            "date": 133744302923366258
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_AT76/model/model.CFG",
@@ -67341,6 +67341,121 @@
             "date": 133726507439447398
         },
         {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/ai.cfg",
+            "size": 1060,
+            "date": 133741875975074510
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/aircraft.cfg",
+            "size": 1244,
+            "date": 133742125361671856
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/engines.cfg",
+            "size": 8327,
+            "date": 133740410834414014
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/flight_model.cfg",
+            "size": 17685,
+            "date": 133741947711146790
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/systems.cfg",
+            "size": 5165,
+            "date": 133741947318587000
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/model/FSLTL_SF34F.xml",
+            "size": 4654,
+            "date": 133742139756351168
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/model/FSLTL_SF34F_LOD0.bin",
+            "size": 983190,
+            "date": 133742130242503542
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/model/FSLTL_SF34F_LOD0.gltf",
+            "size": 178341,
+            "date": 133742130242523380
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/model/model.CFG",
+            "size": 34,
+            "date": 133742154768968710
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/panel/panel.cfg",
+            "size": 215,
+            "date": 133726508528943728
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/Asobo_Generic_Turbo_MultiEngines_AI.PC.PCK",
+            "size": 8464084,
+            "date": 133726508529585994
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/backthrustX.wav",
+            "size": 504528,
+            "date": 133726508529650716
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/prop_neg_farX.wav",
+            "size": 455198,
+            "date": 133726508529700072
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/soundai.cfg",
+            "size": 3860,
+            "date": 133726508529709990
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/soundai.xml",
+            "size": 2559,
+            "date": 133726508529714954
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/turbine_closeX.wav",
+            "size": 522550,
+            "date": 133726508529759590
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/soundai/WhineX.wav",
+            "size": 177316,
+            "date": 133726508529606084
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_M.PNG.DDS",
+            "size": 11184952,
+            "date": 133742128221772512
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_M.PNG.DDS.json",
+            "size": 166,
+            "date": 133742128221772512
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_PROP.PNG.DDS",
+            "size": 22000,
+            "date": 133742128221787390
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_PROP.PNG.DDS.json",
+            "size": 119,
+            "date": 133742128221787390
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_T.PNG.DDS",
+            "size": 11184952,
+            "date": 133742128221782432
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_SF34F/texture/FSLTL_SF34F_T.PNG.DDS.json",
+            "size": 102,
+            "date": 133742128221782432
+        },
+        {
             "path": "SimObjects/Airplanes/FSLTL_SU95/ai.cfg",
             "size": 973,
             "date": 133705547080908792
@@ -67752,8 +67867,8 @@
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/Aircraft.xml",
-            "size": 5317,
-            "date": 133739549847285378
+            "size": 5579,
+            "date": 133744011960967024
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_BK2E.xml",

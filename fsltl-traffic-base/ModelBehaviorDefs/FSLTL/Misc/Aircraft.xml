@@ -2,6 +2,7 @@
 	<Include ModelBehaviorFile="Asobo\Generic.xml"/>
 	<Include ModelBehaviorFile="Asobo\Misc\GroundVehicles.xml"/>
 	<Include ModelBehaviorFile="Asobo\Generic\Visibility.xml"/>
+
 	<Template Name="FSLTL_Steering">
 		<DefaultTemplateParameters>
 			<ANIM_NAME>Wheel_Steering</ANIM_NAME>
@@ -11,13 +12,13 @@
 			<OFFSET>0</OFFSET>
 			<ANIM_LAG>650</ANIM_LAG>
 		</DefaultTemplateParameters>
-			<UseTemplate Name="ASOBO_GT_Anim_Code">
-				<ANIM_CODE>(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, Feet) #LEGACY_PARAM_1# * #LEGACY_PARAM_2# + 10 * #OFFSET# + }</ANIM_CODE>
-				<ANIM_DELTA>0</ANIM_DELTA>
-				<ANIM_WRAP>0</ANIM_WRAP>
-				<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
-				<ANIM_LAG>#ANIM_LAG#</ANIM_LAG>
-				</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_CODE>(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, Feet) #LEGACY_PARAM_1# * #LEGACY_PARAM_2# + 10 * #OFFSET# + }</ANIM_CODE>
+			<ANIM_DELTA>0</ANIM_DELTA>
+			<ANIM_WRAP>0</ANIM_WRAP>
+			<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
+			<ANIM_LAG>#ANIM_LAG#</ANIM_LAG>
+		</UseTemplate>
 	</Template>
 
 	<Template Name="FSLTL_Alt_Steering">
@@ -30,8 +31,8 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
 			<ANIM_CODE>
-				(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, Feet) 0 &lt; if{ (A:ROTATION VELOCITY BODY Y, Feet) #STEER_SHARP# * #STEER_START# + abs }
-					els{ (A:ROTATION VELOCITY BODY Y, Feet) #STEER_SHARP# * #STEER_START# + #ANIM_LENGTH# - abs } }
+				(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, feet) 0 &lt; if{ (A:ROTATION VELOCITY BODY Y, feet) #STEER_SHARP# * #STEER_START# + abs }
+					els{ (A:ROTATION VELOCITY BODY Y, feet) #STEER_SHARP# * #STEER_START# + #ANIM_LENGTH# - abs } }
 			</ANIM_CODE>
 		</UseTemplate>
 	</Template>
@@ -41,23 +42,20 @@
 			<ANIM_NAME>Wheel_Rotation_Center</ANIM_NAME>
 			<WHEEL_RADIUS>0.7</WHEEL_RADIUS>
 		</DefaultTemplateParameters>
-
-
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
-			<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:VELOCITY BODY Z,meters per second) (A:ANIMATION DELTA TIME, seconds) * 2 pi * #WHEEL_RADIUS# * / 100 *  }</ANIM_CODE>
+			<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:VELOCITY BODY Z,meters per second) (A:ANIMATION DELTA TIME, seconds) * 2 pi * #WHEEL_RADIUS# * / 100 * }</ANIM_CODE>
 			<ANIM_DELTA>1</ANIM_DELTA>
 			<ANIM_WRAP>1</ANIM_WRAP>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 		</UseTemplate>
-
 	</Template>
+
 	<Template Name="FSLTL_Wheel_Roll_Main">
 		<DefaultTemplateParameters>
 			<ANIM_NAME>Wheel_Rotation_Main</ANIM_NAME>
 			<WHEEL_RADIUS>0.7</WHEEL_RADIUS>
 			<DISTANCE>0</DISTANCE>
 		</DefaultTemplateParameters>
-
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 		<ANIM_CODE>(A:SIM on GROUND, bool) 1 == if{ (A:VELOCITY BODY Z,meters per second) 2 pi * #DISTANCE# 3.281 / * (A:ROTATION VELOCITY BODY Y,radians per second) * (A:GROUND VELOCITY, knots) / atg + (A:ANIMATION DELTA TIME, seconds) * 2 pi * #WHEEL_RADIUS# * / 100 * }</ANIM_CODE>
 			<ANIM_DELTA>1</ANIM_DELTA>
@@ -66,83 +64,87 @@
 		</UseTemplate>
 
 	</Template>
-<Template Name="FSLTL_Engine_Blur">
-	<DefaultTemplateParameters>
-		<ANIM_NAME>EngineBlur</ANIM_NAME>
-		<NODE_NAME>Somenode</NODE_NAME>
-		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
-		<ANIM_LENGTH>100</ANIM_LENGTH>
-	</DefaultTemplateParameters>
-	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
-	<UseTemplate Name = "ASOBO_GT_Visibility_Code" >
-		<VISIBILITY_CODE>
-				#RPM_VAR# 14.9 &gt; if{ 1 } els{ 0 }
-		</VISIBILITY_CODE>
-	</UseTemplate>
-	<UseTemplate Name="ASOBO_GT_Anim_Code">
-		<ANIM_CODE>#RPM_VAR# 100 / (E:SIMULATION TIME, second) * 360 % 3.6 /</ANIM_CODE>
-		<ANIM_DELTA>1</ANIM_DELTA>
-		<ANIM_WRAP>1</ANIM_WRAP>
-		<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
-	</UseTemplate>
-</Component>
-</Template>
 
-<Template Name="FSLTL_Engine_Static">
-	<DefaultTemplateParameters>
-		<ANIM_NAME>EngineStill</ANIM_NAME>
-		<NODE_NAME>Somenode</NODE_NAME>
-		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
-		<ANIM_LENGTH>100</ANIM_LENGTH>
-		<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00018 *</WIND_VAR>
-		<MOD_VAR>200</MOD_VAR>
-	</DefaultTemplateParameters>
-	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
-	<UseTemplate Name = "ASOBO_GT_Visibility_Code">
-		<VISIBILITY_CODE>
-				#RPM_VAR# 15 &lt; if{ 1 } els{ 0 }
-		</VISIBILITY_CODE>
-	</UseTemplate>
-	<UseTemplate Name="ASOBO_GT_Anim_Code">
-		<ANIM_CODE>#RPM_VAR# #MOD_VAR# / #WIND_VAR# + (E:SIMULATION TIME, second) * 360 % 3.6 / </ANIM_CODE>
-		<ANIM_DELTA>1</ANIM_DELTA>
-		<ANIM_WRAP>1</ANIM_WRAP>
-		<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
-	</UseTemplate>
-	</Component>
-</Template>
+	<Template Name="FSLTL_Engine_Blur">
+		<DefaultTemplateParameters>
+			<ANIM_NAME>EngineBlur</ANIM_NAME>
+			<NODE_NAME>Somenode</NODE_NAME>
+			<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+		</DefaultTemplateParameters>
+		<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+			<UseTemplate Name = "ASOBO_GT_Visibility_Code" >
+				<VISIBILITY_CODE>
+					#RPM_VAR# 14.9 &gt; if{ 1 } els{ 0 }
+				</VISIBILITY_CODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_CODE>#RPM_VAR# 100 / (E:SIMULATION TIME, second) * 360 % 3.6 /</ANIM_CODE>
+				<ANIM_DELTA>1</ANIM_DELTA>
+				<ANIM_WRAP>1</ANIM_WRAP>
+				<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
+			</UseTemplate>
+		</Component>
+	</Template>
 
-<Template Name="FSLTL_Elevator_Droop">
-	<DefaultTemplateParameters>
-		<ANIM_NAME>ElevatorDroop</ANIM_NAME>
-		<NODE_NAME>Somenode</NODE_NAME>
-		<Anim_Length>100</Anim_Length>
-		<Lag>20</Lag>
-		<perc_down>100</perc_down>
-	</DefaultTemplateParameters>
-	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
-			<ANIM_CODE>(A:LIGHT BEACON, bool) 0 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
-			<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
-			<ANIM_LAG>#Lag#</ANIM_LAG>
-		</UseTemplate>
-	</Component>		
-</Template>		
-<Template Name="FSLTL_Elevator_Up">
-	<DefaultTemplateParameters>
-		<ANIM_NAME>ElevatorUp</ANIM_NAME>
-		<NODE_NAME>Somenode</NODE_NAME>
-		<Anim_Length>100</Anim_Length>
-		<Lag>20</Lag>
-		<perc_down>100</perc_down>
-	</DefaultTemplateParameters>
-	<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
-		<UseTemplate Name="ASOBO_GT_Anim_Code">
-			<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
-			<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
-			<ANIM_LAG>#Lag#</ANIM_LAG>
-		</UseTemplate>
-	</Component>
-</Template>
+	<Template Name="FSLTL_Engine_Static">
+		<DefaultTemplateParameters>
+			<ANIM_NAME>EngineStill</ANIM_NAME>
+			<NODE_NAME>Somenode</NODE_NAME>
+			<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+<!--			<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00018 *</WIND_VAR> -->
+			<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 4 / </WIND_VAR>
+			<MOD_VAR>200</MOD_VAR>
+		</DefaultTemplateParameters>
+		<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+			<UseTemplate Name = "ASOBO_GT_Visibility_Code">
+				<VISIBILITY_CODE>
+					#RPM_VAR# 15 &lt; if{ 1 } els{ 0 }
+				</VISIBILITY_CODE>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+<!--				<ANIM_CODE>#RPM_VAR# #MOD_VAR# / #WIND_VAR# + (E:SIMULATION TIME, second) * 360 % 3.6 / </ANIM_CODE> -->
+				<ANIM_CODE>#RPM_VAR# #MOD_VAR# * #WIND_VAR# + (E:SIMULATION DELTA TIME, second) * </ANIM_CODE>
+				<ANIM_DELTA>1</ANIM_DELTA>
+				<ANIM_WRAP>1</ANIM_WRAP>
+				<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name="FSLTL_Elevator_Droop">
+		<DefaultTemplateParameters>
+			<ANIM_NAME>ElevatorDroop</ANIM_NAME>
+			<NODE_NAME>Somenode</NODE_NAME>
+			<Anim_Length>100</Anim_Length>
+			<Lag>20</Lag>
+			<perc_down>100</perc_down>
+		</DefaultTemplateParameters>
+		<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_CODE>(A:LIGHT BEACON, bool) 0 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
+				<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
+				<ANIM_LAG>#Lag#</ANIM_LAG>
+			</UseTemplate>
+		</Component>		
+	</Template>
+
+	<Template Name="FSLTL_Elevator_Up">
+		<DefaultTemplateParameters>
+			<ANIM_NAME>ElevatorUp</ANIM_NAME>
+			<NODE_NAME>Somenode</NODE_NAME>
+			<Anim_Length>100</Anim_Length>
+			<Lag>20</Lag>
+			<perc_down>100</perc_down>
+		</DefaultTemplateParameters>
+		<Component ID="#ANIM_NAME#" Node="#NODE_NAME#">
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_CODE>(A:LIGHT BEACON, bool) 1 == if{ #perc_down# } els{ 0 }</ANIM_CODE>
+				<ANIM_LENGTH>#PERC_DOWN#</ANIM_LENGTH>
+				<ANIM_LAG>#Lag#</ANIM_LAG>
+			</UseTemplate>
+		</Component>
+	</Template>
 
 </ModelBehaviors>
