@@ -3,15 +3,41 @@ import gc
 import os
 from fractions import Fraction
 from decimal import Decimal
-
 from argparse import ArgumentParser
 parser = ArgumentParser()
-parser.add_argument("-f", "--folder", dest="aircraftFolder", help="Path to SimObjects\\Airplanes folder")
-args = parser.parse_args()
-ModelsDirectories = [args.aircraftFolder]
-#ModelsDirectories = ['']
-#ModelsDirectories = [r'C:\Users\User\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\Packages\Community\fsltl-traffic-base\SimObjects\Airplanes', r'C:\Flight Simulator\AIG_AIManager_1.1\aig-aitraffic-oci-beta\SimObjects\Airplanes']
-#ModelsDirectories = ['C:/Users/User/AppData/Local/Packages/Microsoft.FlightSimulator_8wekyb3d8bbwe/LocalCache/Packages/Community/fsltl-traffic-base/SimObjects/Airplanes', 'C:/Flight Simulator/AIG_AIManager_1.1/aig-aitraffic-oci-beta/SimObjects/Airplanes']
+#parser.add_argument("-f", "--folder", dest="aircraftFolder", help="Path to SimObjects\\Airplanes folder")
+#args = parser.parse_args()
+
+def findCommunity():
+    global communityPath
+    usecomm = True
+    print("\nRun VMR Generator against your Community folder? (y/n)")
+    usecomm=(input().lower()=="y")
+    if (usecomm):
+     try:
+         communityPath=str(os.environ.get("LOCALAPPDATA")+"\\Packages\\Microsoft.FlightSimulator_8wekyb3d8bbwe\\LocalCache\\UserCfg.opt")
+         print("Community folder found: "+communityPath)
+     except:
+         try:
+             communityPath=str(os.environ.get("APPDATA")+"\\Microsoft Flight Simulator\\UserCfg.opt")
+             print("Community folder found: "+communityPath)
+         except:
+             print("Community wasn't located, aborting")
+             input("Press Enter to exit")
+     with open(communityPath,"r") as fi:
+             id = []
+             for ln in fi:
+                 if ln.startswith("InstalledPackagesPath"):
+                     id.append(ln[22:])
+             communityPath=(id[0]).replace('"', '').replace("\n", "")+"\\Community\\fsltl-traffic-base\\SimObjects\\Airplanes"
+    else:
+        print("\nEnter full path to 'Airplanes' folder to process: ")
+        communityPath=input()
+    return communityPath
+
+ModelsDirectories = [findCommunity()]
+#ModelsDirectories = [args.aircraftFolder]
+
 ExcludeStubs = True
 SameFamily = True
 SameType = False
