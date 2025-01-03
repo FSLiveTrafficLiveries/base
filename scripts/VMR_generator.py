@@ -159,6 +159,7 @@ E295 = Airplane('E295', 113.7374, 'Embraer', 'jet', False, False, False, 'EJet')
 F70 = Airplane('F70', 95.821, 'Fokker', 'jet', False, False, False, 'Fokker') 
 F100 = Airplane('F100', 110.143, 'Fokker', 'jet', False, False, False, 'Fokker') 
 F28 = Airplane('F28', 91.76, 'Fokker', 'jet', False, False, False, 'Fokker')
+F27 = Airplane('F27', 62.65, 'Fokker', 'prop', False, False, False, 'Fokker')
 
 MD11 = Airplane('MD11', 265.5721, 'McDonnell Douglas', 'jet', True, False, False, 'MD11') 
 MD82 = Airplane('MD82', 96.6492, 'McDonnell Douglas', 'jet', False, False, False, 'MD80') 
