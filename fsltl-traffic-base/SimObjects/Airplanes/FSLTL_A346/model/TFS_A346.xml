@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInfo guid="{ba9fe6ea-49e9-4e21-aa13-a603e99ba732}" version="1.1">
 	<LODS>
-		<LOD minSize="0" ModelFile="TFS_A346_LOD0.gltf"/>
+		<LOD minSize="8" ModelFile="TFS_A346_LOD0.gltf"/>
 		<LOD minSize="1" ModelFile="TFS_A346_LOD1.gltf"/>
-		<LOD minSize="8" ModelFile="TFS_A346_LOD1.gltf"/>
+		<LOD minSize="0" ModelFile="TFS_A346_LOD1.gltf"/>
 	</LODS>
 
 <Behaviors>

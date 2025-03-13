@@ -37,6 +37,7 @@
 	</Template>
 
 	<Template Name="FSLTL_FX_GEAR_FRONT">
+	<!-- Dual tires on front gear -->
 	  	<Component ID="FSLTL_LANDING_FX_FRONT">	 
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>0</FX_CONTACT_POINT_ID>
@@ -68,6 +69,7 @@
 	</Template>
 
 	<Template Name="FSLTL_FX_GEAR_REAR_QUAD">
+	<!-- Quad tires on left/right rear gear -->
 	  	<Component ID="FSLTL_LANDING_FX_REAR">	 
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
@@ -171,7 +173,8 @@
 	</Template>
 
 	<Template Name="FSLTL_FX_GEAR_REARCENTER_QUAD">
-	  	<Component ID="FSLTL_LANDING_FX_REARCENTER">		
+	<!-- Quad tires on center rear gear such as A346 -->
+	  	<Component ID="FSLTL_LANDING_FX_REARCENTER_QUAD">		
 			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
 				<FX_NODE>fx_tire_contactPoint_rearcenter_lf</FX_NODE>
@@ -221,6 +224,38 @@
 			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
 				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
 				<FX_NODE>fx_tire_contactPoint_rearcenter_rr</FX_NODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
+	<Template Name="FSLTL_FX_GEAR_REARCENTER_DUAL">
+	<!-- Dual tires on center rear gear such as A343 -->
+	  	<Component ID="FSLTL_LANDING_FX_REARCENTER_DUAL">		
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_lf</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_rf</FX_NODE>
+			</UseTemplate>
+
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_lf</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_rf</FX_NODE>
+			</UseTemplate>
+
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_lf</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_rearcenter_rf</FX_NODE>
 			</UseTemplate>
 		</Component>
 	</Template>

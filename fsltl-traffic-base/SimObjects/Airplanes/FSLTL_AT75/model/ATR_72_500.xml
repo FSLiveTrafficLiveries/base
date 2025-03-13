@@ -5,168 +5,103 @@
     <LOD minSize="1" ModelFile="ATR_72_500_LOD1.gltf"/>
     <LOD minSize="0" ModelFile="ATR_72_500_LOD1.gltf"/>
   </LODS>
-
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_00" guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_1_00</Name>
-    <Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-	<AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>radians</Units>
-          <Scale>15.92</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_01" guid="b32f1e35-0f79-463f-84a3-896ccfa33ad7" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_2_01</Name>
-    <Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:2</Variable>
-          <Units>radians</Units>
-          <Scale>15.92</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_1_02" guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_1_02</Name>
-	<Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:1</Variable>
-          <Units>radians</Units>
-          <Scale>15.92</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-
-  <Animation name="custom_anim_PROP_ROTATION_ANGLE_2_04" guid="f97a46e1-0994-476f-939b-cffed355a4e8" length="200" type="Sim" typeParam="AutoPlay" />
-  <PartInfo>
-    <Name>custom_anim_PROP_ROTATION_ANGLE_2_04</Name>
-	<Visibility>
-      <Parameter>
-        <Code>
-          (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>  
-    <AnimLength>100</AnimLength>
-    <Animation>
-      <Parameter>
-        <Sim>
-          <Variable>PROP ROTATION ANGLE:2</Variable>
-          <Units>radians</Units>
-          <Scale>15.92</Scale>
-        </Sim>
-      </Parameter>
-    </Animation>
-  </PartInfo>
-
+  
   <Behaviors>
-		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-		<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG.xml"/>
-		<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
-		<Component ID="Flaps">
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+
+	<Component ID="LOD1_prop_left" Node="node9">
+		<Visibility>
+			<Parameter>
+          		<Code>
+	                	(A:ENG N1 RPM:1,degrees per second) 15 &lt; if{ 1 } els{ 0 }
+			</Code>
+        		</Parameter>
+      		</Visibility>
+	</Component>
+	<Component ID="LOD1_prop_right" Node="node11">
+		<Visibility>
+			<Parameter>
+          		<Code>
+	                	(A:ENG N1 RPM:2,degrees per second) 15 &lt; if{ 1 } els{ 0 }
+			</Code>
+        		</Parameter>
+      		</Visibility>
+	</Component>
+
+	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_SIM_ON_GROUND_08</ANIM_NAME>
-		<ANIM_CODE>
+			<ANIM_CODE>
             	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 35 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
-	   </ANIM_CODE>
+			</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>10</ANIM_LAG>
 		</UseTemplate>
 	</Component>
-    <Component ID="node51" Node="node51">
-      <Visibility>
-        <Parameter>
-          <Code>
-      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-      </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node54" Node="node54">
-      <Visibility>
-        <Parameter>
-          <Code>
-      (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-      </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node57" Node="node57">
-      <Visibility>
-        <Parameter>
-          <Code>
-      (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-      </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
-    <Component ID="node60" Node="node60">
-      <Visibility>
-        <Parameter>
-          <Code>
-      (A:PROP MAX RPM PERCENT:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-      </Code>
-        </Parameter>
-      </Visibility>
-    </Component>	
-		<Component ID="GEARS">
-			<UseTemplate Name="ASOBO_GEAR_Center_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_06</ANIM_NAME>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GEAR_Left_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_09</ANIM_NAME>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GEAR_Right_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_10</ANIM_NAME>
-				<!-- ANIM EVENTS -->
-				<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
-				<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
-				<DIRECTION>Both</DIRECTION>
-			</UseTemplate>
-		</Component>
-		
-    <Component ID="Wheels">
-      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
-        <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07</ANIM_NAME>
-        <WHEEL_RADIUS>0.83</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>0.5</DISTANCE>
-      </UseTemplate>
-      </Component>
-		<Component ID="FX">
-			<UseTemplate Name="FSLTL_FX"/>
-		</Component>
+
+	<Component ID="GEARS">
+		<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_06</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_09</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_10</ANIM_NAME>
+			<!-- ANIM EVENTS -->
+			<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
+			<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
+			<DIRECTION>Both</DIRECTION>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Turboprops">
+      		<UseTemplate Name="FSLTL_Engine_Static">
+			<ANIM_NAME>custom_anim_PROP_ROTATION_ANGLE_1_00</ANIM_NAME>
+        		<NODE_NAME>node10</NODE_NAME>
+			<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 6 / </WIND_VAR>
+			<MOD_VAR>73</MOD_VAR>
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Engine_Static">
+			<ANIM_NAME>custom_anim_PROP_ROTATION_ANGLE_2_01</ANIM_NAME>
+        		<NODE_NAME>node12</NODE_NAME>
+			<WIND_VAR>0</WIND_VAR>
+			<MOD_VAR>73</MOD_VAR>
+      		</UseTemplate>
+
+		<UseTemplate Name="FSLTL_Engine_Blur">
+        		<ANIM_NAME>custom_anim_PROP_ROTATION_ANGLE_1_02</ANIM_NAME>
+        		<NODE_NAME>node52</NODE_NAME>
+      		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+        		<ANIM_NAME>custom_anim_PROP_ROTATION_ANGLE_2_04</ANIM_NAME>
+        		<NODE_NAME>node58</NODE_NAME>
+      		</UseTemplate>
+    	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Alt_Steering">
+        		<ANIM_NAME>center_gear_steer</ANIM_NAME>
+        		<ANIM_LENGTH>100</ANIM_LENGTH>
+        		<STEER_SHARP>12</STEER_SHARP>
+        		<STEER_START>100</STEER_START>
+		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        		<ANIM_NAME>center_tire_roll</ANIM_NAME>
+        		<WHEEL_RADIUS>0.225</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+			<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_07</ANIM_NAME>
+        		<WHEEL_RADIUS>0.4318</WHEEL_RADIUS> <!-- in meters -->
+        		<DISTANCE>0.5</DISTANCE>
+      		</UseTemplate>
+	</Component>
+
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX"/>
+	</Component>
+
   </Behaviors>
 </ModelInfo>
