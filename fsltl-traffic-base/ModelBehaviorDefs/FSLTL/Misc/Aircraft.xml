@@ -3,6 +3,18 @@
 	<Include ModelBehaviorFile="Asobo\Misc\GroundVehicles.xml"/>
 	<Include ModelBehaviorFile="Asobo\Generic\Visibility.xml"/>
 
+	<Template Name="FSLTL_CompGear_Template">
+		<Parameters Type="Default">
+			<ID>0</ID>
+		</Parameters>
+		<UseTemplate Name="ASOBO_GT_Anim">
+			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } 
+					els{ (A:VERTICAL SPEED, feet per second) 2 &gt; 1 251 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng and if{ #ANIM_LENGTH# 2 / }
+					els{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } }
+			</ANIM_CODE>
+		</UseTemplate>
+	</Template>
+
 	<Template Name="FSLTL_Steering">
 		<DefaultTemplateParameters>
 			<ANIM_NAME>Wheel_Steering</ANIM_NAME>
@@ -31,7 +43,7 @@
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_LENGTH>#ANIM_LENGTH#</ANIM_LENGTH>
 			<ANIM_CODE>
-				(A:GEAR POSITION:0, Enum) 0 != if{ (A:ROTATION VELOCITY BODY Y, feet) 0 &lt; if{ (A:ROTATION VELOCITY BODY Y, feet) #STEER_SHARP# * #STEER_START# + abs }
+				(A:SIM ON GROUND, bool) 0 != if{ (A:ROTATION VELOCITY BODY Y, feet) 0 &lt; if{ (A:ROTATION VELOCITY BODY Y, feet) #STEER_SHARP# * #STEER_START# + abs }
 					els{ (A:ROTATION VELOCITY BODY Y, feet) #STEER_SHARP# * #STEER_START# + #ANIM_LENGTH# - abs } }
 			</ANIM_CODE>
 		</UseTemplate>
