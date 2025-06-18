@@ -34,6 +34,7 @@
 	</Template>
 
 	<Template Name="FSLTL_Alt_Steering">
+	<!-- Gear animation setup in Blender with a 360 degree counter-clockwise spin -->
 		<DefaultTemplateParameters>
 			<ANIM_NAME>Wheel_Steering</ANIM_NAME>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
