@@ -6,129 +6,144 @@
     <LOD minSize="0" ModelFile="FSPAI_A350900_LOD4.gltf"/>
   </LODS>
 
-  <Behaviors>
-    <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2EH.xml"/>
-    <Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+<Behaviors>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_ModNode.xml"/>
+    	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	
 	<Component ID="takeoff_L" Node="takeoff_L">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
+      		<Visibility>
+        	<Parameter>
+          		<Code>
+                		(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              		</Code>
+        	</Parameter>
+      		</Visibility>
+    	</Component>
 	<Component ID="takeoff_R" Node="takeoff_R">
-      <Visibility>
-        <Parameter>
-          <Code>
-                (A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
-              </Code>
-        </Parameter>
-      </Visibility>
-    </Component>
+      		<Visibility>
+        	<Parameter>
+          		<Code>
+                		(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+              		</Code>
+        	</Parameter>
+      		</Visibility>
+    	</Component>
+
 	<Component ID="Flaps">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_11</ANIM_NAME>
-		<ANIM_CODE>
-           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
-	   </ANIM_CODE>
+			<ANIM_CODE>
+           			(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>5</ANIM_LAG>
 		</UseTemplate>
 	</Component>
-		<Component ID="GEARS">
-			<UseTemplate Name="ASOBO_GEAR_Center_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_00</ANIM_NAME>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GEAR_Left_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_12</ANIM_NAME>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_GEAR_Right_Template">
-				<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_14</ANIM_NAME>
-				<!-- ANIM EVENTS -->
-				<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
-				<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
-				<DIRECTION>Both</DIRECTION>
-			</UseTemplate>
-		</Component>
-		<Component ID="Spoiler">
+
+	<Component ID="GEARS">
+		<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_0_00</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_1_12</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			<ANIM_NAME>custom_anim_GEAR_ANIMATION_POSITION_2_14</ANIM_NAME>
+			<!-- ANIM EVENTS -->
+			<ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
+			<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
+			<DIRECTION>Both</DIRECTION>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Spoiler">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_SIM_ON_GROUND_09</ANIM_NAME>
-		<ANIM_CODE>
-			   (A:SPOILERS HANDLE POSITION, percent) 
-	   </ANIM_CODE>
+			<ANIM_CODE>
+				(A:SPOILERS HANDLE POSITION, percent) 
+			</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>150</ANIM_LAG>
 		</UseTemplate>
-		</Component>
-		<Component ID="Reverser">
+	</Component>
+
+	<Component ID="Reverser">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>custom_anim_TRAILING_EDGE_FLAPS_LEFT_PERCENT_10</ANIM_NAME>
-		<ANIM_CODE>
-			   (A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
-	   </ANIM_CODE>
+			<ANIM_CODE>
+				(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
+			</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>30</ANIM_LAG>
 		</UseTemplate>
-		</Component>	
+	</Component>	
 		
 	<Component ID="Engines">
-      <UseTemplate Name="FSLTL_Engine_Blur">
-        <ANIM_NAME>N1_blur_right</ANIM_NAME>
-        <NODE_NAME>node34</NODE_NAME>
-        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
-      </UseTemplate>
-      <UseTemplate Name="FSLTL_Engine_Blur">
-        <ANIM_NAME>N1_blur_left</ANIM_NAME>
-        <NODE_NAME>node33</NODE_NAME>
-        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
-      </UseTemplate>
-	  <UseTemplate Name="FSLTL_Engine_Static">
-        <ANIM_NAME>N1_still_left</ANIM_NAME>
-        <NODE_NAME>node36</NODE_NAME>
-        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
-      </UseTemplate>
+      		<UseTemplate Name="FSLTL_Engine_Blur">
+        		<ANIM_NAME>N1_blur_right</ANIM_NAME>
+        		<NODE_NAME>node34</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Engine_Blur">
+        		<ANIM_NAME>N1_blur_left</ANIM_NAME>
+        		<NODE_NAME>node33</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      		</UseTemplate>
 	  	<UseTemplate Name="FSLTL_Engine_Static">
-        <ANIM_NAME>N1_still_right</ANIM_NAME>
-        <NODE_NAME>node35</NODE_NAME>
-        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
-      </UseTemplate>
+        		<ANIM_NAME>N1_still_left</ANIM_NAME>
+        		<NODE_NAME>node36</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        		<ANIM_NAME>N1_still_right</ANIM_NAME>
+        		<NODE_NAME>node35</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      		</UseTemplate>
 	</Component>
-    <Component ID="Wheels">
-      <UseTemplate Name="FSLTL_Steering">
-        <ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_08</ANIM_NAME>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-        <LEGACY_PARAM_1>4.5</LEGACY_PARAM_1>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Steering">
+        		<ANIM_NAME>custom_anim_ROTATION_VELOCITY_BODY_Y_08</ANIM_NAME>
+        		<ANIM_LENGTH>100</ANIM_LENGTH>
+        		<LEGACY_PARAM_1>3</LEGACY_PARAM_1>
   			<LEGACY_PARAM_2>5</LEGACY_PARAM_2>
-      </UseTemplate>
-      <UseTemplate Name="FSLTL_Wheel_Roll_Center">
-        <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</ANIM_NAME>
-        <WHEEL_RADIUS>1.04</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>28.8</DISTANCE>
-      </UseTemplate>
-      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
-        <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
-        <WHEEL_RADIUS>1.24</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>4.6</DISTANCE>
-      </UseTemplate>
-      <UseTemplate Name="FSLTL_Wheel_Roll_Main">
-        <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_15</ANIM_NAME>
-        <WHEEL_RADIUS>1.24</WHEEL_RADIUS> <!-- in meters -->
-        <DISTANCE>-4.6</DISTANCE>
-      </UseTemplate>
-	  <UseTemplate Name="FSLTL_Elevator_Droop">
-        <ANIM_NAME>custom_anim_LIGHT_BEACON_04</ANIM_NAME>
-		<perc_down>50</perc_down>
-      </UseTemplate>
-	  <UseTemplate Name="FSLTL_Elevator_Droop">
-        <ANIM_NAME>custom_anim_LIGHT_BEACON_05</ANIM_NAME>
-		<perc_down>50</perc_down>
-      </UseTemplate>
-      </Component>
-      <Component ID="FX">
-         <UseTemplate Name="FSLTL_FX" />
-      </Component>
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        		<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_01</ANIM_NAME>
+        		<WHEEL_RADIUS>0.5461</WHEEL_RADIUS> <!-- in meters -->
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        		<ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_13</ANIM_NAME>
+        		<WHEEL_RADIUS>0.6604</WHEEL_RADIUS> <!-- in meters -->
+       		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        		<ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_15</ANIM_NAME>
+        		<WHEEL_RADIUS>0.6604</WHEEL_RADIUS> <!-- in meters -->
+      		</UseTemplate>
+	</Component>
+
+	<Component ID="Elevators">
+		<UseTemplate Name="FSLTL_Elevator_Droop">
+        		<ANIM_NAME>custom_anim_LIGHT_BEACON_04</ANIM_NAME>
+			<perc_down>50</perc_down>
+      		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Elevator_Droop">
+        		<ANIM_NAME>custom_anim_LIGHT_BEACON_05</ANIM_NAME>
+			<perc_down>50</perc_down>
+      		</UseTemplate>
+	</Component>
+
+	<Component ID="Acft_Lights">
+	        <UseTemplate Name="FSLTL_FX_LIGHT_CONTROL" />
+	</Component>
+
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX_CONTRAIL_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_EXHAUST_HEAT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_FRONT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_REAR_DUAL"/>
+	</Component>
+
   </Behaviors>
 </ModelInfo>
