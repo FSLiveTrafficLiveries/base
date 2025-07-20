@@ -6,7 +6,7 @@
 
 <ModelBehaviors>
 	<!--
-		Base FX Template ---------- MODIFIED FOR FSLTL AI TRAFFIC -------------
+		Base FX Template - MODIFIED FOR FSLTL AI TRAFFIC -s
 		Must be used in a component that specifies a Node.
 
 		Required parameter:
