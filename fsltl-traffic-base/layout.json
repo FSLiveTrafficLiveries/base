@@ -11107,28 +11107,28 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/FAIB_A320_CFM.xml",
-            "size": 5818,
-            "date": 133571986317099726
+            "size": 5570,
+            "date": 133997199954712382
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/FAIB_A320_CFM_LOD0.bin",
-            "size": 594104,
-            "date": 133612183241102206
+            "size": 706632,
+            "date": 133997504250418828
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/FAIB_A320_CFM_LOD0.gltf",
-            "size": 148588,
-            "date": 133612183241117116
+            "size": 151061,
+            "date": 133997504250438852
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/FAIB_A320_CFM_LOD3.bin",
-            "size": 118304,
-            "date": 133612183241181558
+            "size": 166076,
+            "date": 133997504250679036
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/FAIB_A320_CFM_LOD3.gltf",
-            "size": 64923,
-            "date": 133612183241191490
+            "size": 64584,
+            "date": 133997504250689032
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM/model.CFG",
@@ -11137,28 +11137,28 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/FAIB_A320S_CFM.xml",
-            "size": 5683,
-            "date": 133571986317491798
+            "size": 5964,
+            "date": 133997969628477966
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/FAIB_A320S_CFM_LOD0.bin",
-            "size": 354376,
-            "date": 133612183241320482
+            "size": 477780,
+            "date": 133997954966637778
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/FAIB_A320S_CFM_LOD0.gltf",
-            "size": 149283,
-            "date": 133612183241335322
+            "size": 155800,
+            "date": 133997954966647790
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/FAIB_A320S_CFM_LOD3.bin",
-            "size": 81464,
-            "date": 133612183241340042
+            "size": 128804,
+            "date": 133997954966832798
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/FAIB_A320S_CFM_LOD3.gltf",
-            "size": 65333,
-            "date": 133612183241345002
+            "size": 64787,
+            "date": 133997954966837818
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.CFM_S/model.CFG",
@@ -11167,93 +11167,63 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/FAIB_A320_IAE.xml",
-            "size": 5660,
-            "date": 133571986317738290
+            "size": 5519,
+            "date": 133998338882908980
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/FAIB_A320_IAE_LOD0.bin",
-            "size": 329208,
-            "date": 133612183241478928
+            "size": 425660,
+            "date": 133997137588342142
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/FAIB_A320_IAE_LOD0.gltf",
-            "size": 135298,
-            "date": 133612183241489196
+            "size": 137053,
+            "date": 133997137588357142
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/FAIB_A320_IAE_LOD3.bin",
-            "size": 72988,
-            "date": 133612183241498918
+            "size": 112044,
+            "date": 133997137588517178
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/FAIB_A320_IAE_LOD3.gltf",
-            "size": 52932,
-            "date": 133612183241503992
+            "size": 52441,
+            "date": 133997137588522138
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE/model.CFG",
-            "size": 201,
-            "date": 133571986318313648
+            "size": 36,
+            "date": 133997023703943288
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/FAIB_A320S_IAE.xml",
-            "size": 5703,
-            "date": 133571986318318614
+            "size": 5977,
+            "date": 133998378920152956
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/FAIB_A320S_IAE_LOD0.bin",
-            "size": 338696,
-            "date": 133612183241513644
+            "size": 445380,
+            "date": 133998378428224914
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/FAIB_A320S_IAE_LOD0.gltf",
-            "size": 143880,
-            "date": 133612183241523846
+            "size": 149233,
+            "date": 133998378428239918
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/FAIB_A320S_IAE_LOD3.bin",
-            "size": 74236,
-            "date": 133612183241528522
+            "size": 113292,
+            "date": 133998378428399900
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/FAIB_A320S_IAE_LOD3.gltf",
-            "size": 52947,
-            "date": 133612183241533486
+            "size": 52478,
+            "date": 133998378428404896
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/model.IAE_S/model.CFG",
             "size": 202,
             "date": 133571986318571570
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/FAIB_A320S_PW.xml",
-            "size": 4948,
-            "date": 133571986318576530
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/FAIB_A320S_PW_LOD0.bin",
-            "size": 365496,
-            "date": 133612183241548724
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/FAIB_A320S_PW_LOD0.gltf",
-            "size": 141114,
-            "date": 133612183241553324
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/FAIB_A320S_PW_LOD3.bin",
-            "size": 72640,
-            "date": 133612183241558282
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/FAIB_A320S_PW_LOD3.gltf",
-            "size": 53230,
-            "date": 133612183241563254
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/model.PW_S/model.CFG",
-            "size": 201,
-            "date": 133571986318908846
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/panel/panel.cfg",
@@ -11292,33 +11262,33 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_CFM_T.PNG.DDS",
-            "size": 699192,
-            "date": 133571986315938248
+            "size": 22369796,
+            "date": 133996188661986196
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_CFM_T.PNG.DDS.json",
-            "size": 102,
-            "date": 133571986315942924
+            "size": 104,
+            "date": 133996188635877890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_IAE_M.PNG.DDS",
-            "size": 22369776,
-            "date": 133571986316825796
+            "size": 11184952,
+            "date": 133996218029125330
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_IAE_M.PNG.DDS.json",
             "size": 166,
-            "date": 133571986316845626
+            "date": 133996218029125330
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_IAE_T.PNG.DDS",
-            "size": 2796344,
-            "date": 133571986316989468
+            "size": 22369796,
+            "date": 133996221820644606
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/FAIB_A320_IAE_T.PNG.DDS.json",
-            "size": 102,
-            "date": 133571986316989468
+            "size": 104,
+            "date": 133996221800875232
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
@@ -11361,24 +11331,14 @@
             "date": 133571986317079892
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE.CFM/FAIB_A320_CFM_M.PNG.DDS",
-            "size": 22369776,
-            "date": 133571986314916204
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE.CFM/FAIB_A320_CFM_M.PNG.DDS.json",
-            "size": 191,
-            "date": 133571986314936078
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE.CFM/FAIB_A320_CFM_T.PNG.DDS",
-            "size": 5592560,
-            "date": 133571986315169160
+            "size": 22369796,
+            "date": 133996188661986196
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE.CFM/FAIB_A320_CFM_T.PNG.DDS.json",
-            "size": 119,
-            "date": 133571986315169160
+            "size": 104,
+            "date": 133996188635877890
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320/TEXTURE.CFM/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
@@ -74656,27 +74616,27 @@
             "date": 133571987637945684
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_BCS3_QJE/aircraft.cfg",
-            "size": 921,
-            "date": 133630711469755860
+            "path": "SimObjects/Airplanes/FSLTL_BCS3_QLK/aircraft.cfg",
+            "size": 925,
+            "date": 133953854720550458
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_BCS3_QJE/model.QJE/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_BCS3_QLK/model.QLK/model.cfg",
             "size": 56,
             "date": 133571987637950642
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_BCS3_QJE/texture.QJE/SBAI_CS300_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_BCS3_QLK/texture.QLK/SBAI_CS300_T.PNG.dds",
             "size": 22369796,
             "date": 133571987638446862
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_BCS3_QJE/texture.QJE/SBAI_CS300_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_BCS3_QLK/texture.QLK/SBAI_CS300_T.PNG.dds.json",
             "size": 104,
             "date": 133571987638461766
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_BCS3_QJE/texture.QJE/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_BCS3_QLK/texture.QLK/texture.cfg",
             "size": 49,
             "date": 133571987638461766
         },
@@ -81982,8 +81942,8 @@
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/Aircraft.xml",
-            "size": 6130,
-            "date": 133974394139707474
+            "size": 6246,
+            "date": 133998351364890562
         },
         {
             "path": "ModelBehaviorDefs/FSLTL/Misc/FSLTL_FX_BK2E.xml",

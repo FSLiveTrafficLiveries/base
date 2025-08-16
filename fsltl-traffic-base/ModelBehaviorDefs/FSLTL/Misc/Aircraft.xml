@@ -5,11 +5,14 @@
 
 	<Template Name="FSLTL_CompGear_Template">
 		<Parameters Type="Default">
+			<ANIM_NAME>AnimName_LandingGear</ANIM_NAME>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
 			<ID>0</ID>
+			<GEAR_ALT>251</GEAR_ALT>
 		</Parameters>
 		<UseTemplate Name="ASOBO_GT_Anim">
 			<ANIM_CODE>(A:SIM ON GROUND, bool) 1 == if{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } 
-					els{ (A:VERTICAL SPEED, feet per second) 2 &gt; 1 251 (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng and if{ #ANIM_LENGTH# 2 / }
+					els{ (A:VERTICAL SPEED, feet per second) 2 &gt; 1 #GEAR_ALT# (A:PLANE ALT ABOVE GROUND MINUS CG, feet) rng and if{ #ANIM_LENGTH# 2 / }
 					els{ (A:GEAR ANIMATION POSITION:#ID#, keyframe) } }
 			</ANIM_CODE>
 		</UseTemplate>
