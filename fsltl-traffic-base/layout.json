@@ -75178,22 +75178,22 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/model/UTT_B78X_LOD0.bin",
             "size": 595442,
-            "date": 134030671528675538
+            "date": 134034206836698498
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/model/UTT_B78X_LOD0.gltf",
-            "size": 174560,
-            "date": 134030671528700540
+            "size": 175223,
+            "date": 134034206836723496
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/model/UTT_B78X_LOD3.bin",
             "size": 13980,
-            "date": 134030671528830680
+            "date": 134034206836848514
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/model/UTT_B78X_LOD3.gltf",
-            "size": 8912,
-            "date": 134030671528835678
+            "size": 8914,
+            "date": 134034206836853504
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/panel/panel.cfg",
@@ -75213,62 +75213,62 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
             "size": 349680,
-            "date": 134030670145116232
+            "date": 134034206313622076
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS.json",
             "size": 119,
-            "date": 134030670145116232
+            "date": 134034206313622076
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS",
             "size": 1398256,
-            "date": 134030670145111238
+            "date": 134034206313612068
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS.json",
             "size": 119,
-            "date": 134030670145111238
+            "date": 134034206313612068
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS",
             "size": 87536,
-            "date": 134030670145111238
+            "date": 134034206313617068
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS.json",
             "size": 177,
-            "date": 134030670145111238
+            "date": 134034206313617068
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS",
             "size": 174904,
-            "date": 134030670145116232
+            "date": 134034206313622076
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS.json",
             "size": 166,
-            "date": 134030670145116232
+            "date": 134034206313622076
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/UTT_B78X_M.PNG.DDS",
             "size": 11184952,
-            "date": 134030670145728438
+            "date": 134034206314347082
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/UTT_B78X_M.PNG.DDS.json",
             "size": 166,
-            "date": 134030670145728438
+            "date": 134034206314347082
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/UTT_B78X_T.PNG.DDS",
-            "size": 22369776,
-            "date": 134030670145743412
+            "size": 11184952,
+            "date": 134034233937095130
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X/texture/UTT_B78X_T.PNG.DDS.json",
-            "size": 119,
-            "date": 134030670145743412
+            "size": 102,
+            "date": 134034233937095130
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B78X_ANA/aircraft.cfg",
