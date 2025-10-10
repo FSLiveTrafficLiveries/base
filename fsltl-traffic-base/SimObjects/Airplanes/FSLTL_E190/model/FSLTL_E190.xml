@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+	<LODS>
+		<LOD minSize="0" ModelFile="FSLTL_E190_LOD0.gltf"/>
+	</LODS> 
+  	<Animation name="main_gear_c" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeParam="AutoPlay" /> 
+  	<Animation name="main_gear_l" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54C" length="100" type="Sim" typeParam="AutoPlay" />
+  	<Animation name="main_gear_r" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54D" length="100" type="Sim" typeParam="AutoPlay" />
+
+	<PartInfo>
+    		<Name>main_gear_c</Name>
+    		<AnimLength>100</AnimLength>
+    		<Animation>
+      			<Parameter>
+        			<Sim>
+          				<Variable>GEAR ANIMATION POSITION:0</Variable>
+          				<Units>keyframe</Units>
+        			</Sim>
+      			</Parameter>
+    		</Animation>
+  	</PartInfo>
+  	<PartInfo>
+    		<Name>main_gear_l</Name>
+    		<Copy>main_gear_c</Copy>
+    		<AnimLength>100</AnimLength>
+    		<Animation>
+      			<Parameter>
+        			<Sim>
+          				<Variable>GEAR ANIMATION POSITION:1</Variable>
+          				<Units>keyframe</Units>
+        			</Sim>
+      			</Parameter>
+    		</Animation>
+  	</PartInfo>
+  	<PartInfo>
+    		<Name>main_gear_r</Name>
+    		<Copy>main_gear_c</Copy>
+    		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+       				<Sim>
+          				<Variable>GEAR ANIMATION POSITION:2</Variable>
+				        <Units>keyframe</Units>
+        			</Sim>
+      			</Parameter>
+    		</Animation>
+  	</PartInfo>
+
+<Behaviors>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+
+	<Component ID="taxi_light" Node="taxi_light">
+      		<Visibility>
+        		<Parameter>
+        			<Code>
+               				(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+        			</Code>
+        		</Parameter>
+      		</Visibility>
+    	</Component>
+
+	<Component ID="FlapsL">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>edge_flap_left</ANIM_NAME>
+			<ANIM_CODE>
+        		   	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	<Component ID="FlapsR">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>edge_flap_right</ANIM_NAME>
+			<ANIM_CODE>
+           			(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	
+	<Component ID="Spoiler">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>spoilers</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SPOILERS HANDLE POSITION, percent) 
+	   		</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>120</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Reverser">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>engine_rev</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } }
+	   		</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>60</ANIM_LAG>
+		</UseTemplate>
+	</Component>	
+		
+	<Component ID="Engines">
+		<UseTemplate Name="FSLTL_Engine_Static">
+        		<ANIM_NAME>N1_still_right</ANIM_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Engine_Static">
+        		<ANIM_NAME>N1_still_left</ANIM_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Steering">
+        		<ANIM_NAME>front_gear_steer</ANIM_NAME>
+        		<ANIM_LENGTH>100</ANIM_LENGTH>
+        		<LEGACY_PARAM_1>3.5</LEGACY_PARAM_1>
+        		<LEGACY_PARAM_2>5</LEGACY_PARAM_2>
+		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+        		<ANIM_NAME>c_tire_anim</ANIM_NAME>
+        		<WHEEL_RADIUS>0.3048</WHEEL_RADIUS> <!-- in meters -->
+        		<DISTANCE>12.0</DISTANCE>
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        		<ANIM_NAME>l_tire_anim</ANIM_NAME>
+        		<WHEEL_RADIUS>0.5207</WHEEL_RADIUS> <!-- in meters -->
+      		</UseTemplate>
+      		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+        		<ANIM_NAME>r_tire_anim</ANIM_NAME>
+        		<WHEEL_RADIUS>0.5207</WHEEL_RADIUS> <!-- in meters -->
+      		</UseTemplate>
+	</Component>
+
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX" />
+	</Component>	  
+</Behaviors>
+
+</ModelInfo>

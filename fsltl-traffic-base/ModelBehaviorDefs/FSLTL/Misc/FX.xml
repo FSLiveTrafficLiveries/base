@@ -6,7 +6,7 @@
 
 <ModelBehaviors>
 	<!--
-		Base FX Template ---------- MODIFIED FOR FSLTL AI TRAFFIC -------------
+		Base FX Template - MODIFIED FOR FSLTL AI TRAFFIC -s
 		Must be used in a component that specifies a Node.
 
 		Required parameter:
@@ -541,6 +541,32 @@
 		<Component ID="FX_EXHAUST_#FX_NODE#" Node="#FX_NODE#">
 			<UseTemplate Name="FSLTL_ASOBO_GT_FX" />
 		</Component>
+	</Template>
+
+	<Template Name="FSLTL_FX_LIGHT_CONTROL">
+		<!-- Taxi Lights -->
+	        <UseTemplate Name="ASOBO_GT_Update">
+       			<FREQUENCY>360</FREQUENCY>
+       			<UPDATE_CODE>
+				(A:SIM ON GROUND, bool) 1 == (A:ENG COMBUSTION:1, bool) and (A:LIGHT LANDING, bool) 0 == and (&gt;K:2:TAXI_LIGHTS_SET)
+            		</UPDATE_CODE>
+	        </UseTemplate>
+
+		<!-- RwyTurnoff Lights -->
+	        <UseTemplate Name="ASOBO_GT_Update">
+       			<FREQUENCY>360</FREQUENCY>
+       			<UPDATE_CODE>
+				(A:SIM ON GROUND, bool) 1 == (A:LIGHT TAXI, bool) 1 == and (E:TIME OF DAY, number) 1 != (A:AMBIENT PRECIP STATE, enum) 4 >= or and (&gt;K:2:WING_LIGHTS_SET)
+            		</UPDATE_CODE>
+	        </UseTemplate>
+	</Template>
+	<Template Name="FSLTL_FX_LIGHT_CONTROL_InAir_Strobe">
+	        <UseTemplate Name="ASOBO_GT_Update">
+       			<FREQUENCY>360</FREQUENCY>
+       			<UPDATE_CODE>
+				(A:SIM ON GROUND, bool) 0 == (A:ENG COMBUSTION:1, bool) and (A:LIGHT LANDING, bool) 1 == and (&gt;K:2:STROBES_SET)
+            		</UPDATE_CODE>
+	        </UseTemplate>
 	</Template>
 	
 </ModelBehaviors>

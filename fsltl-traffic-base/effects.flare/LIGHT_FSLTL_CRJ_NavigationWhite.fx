@@ -69,12 +69,12 @@ MinProjSize=0.12
 
 [LightAttributes.0]
 Type=spot	
-Size=0.0
-Range=50
-Intensity=2
+Size=0.05
+Range=10
+Intensity=1
 Softness=0.0
-SpotInner=40.0
-SpotOuter=70.0
+SpotInner=0.0
+SpotOuter=90.0
 Volumetric=1
 ScatDir=0.0
 
@@ -212,12 +212,12 @@ NearFade= 1
 MinProjSize=0.01
 
 [LightAttributes.2]
-Type=Omni	
-Size=0.0
+Type=spot
+Size=0.05
 Range=20
-Intensity=0.0
+Intensity=1.0
 Softness=0.0
-SpotInner=40.0
-SpotOuter=70.0
-Volumetric=1
+SpotInner=0.0
+SpotOuter=90.0
+Volumetric=0
 ScatDir=0.0

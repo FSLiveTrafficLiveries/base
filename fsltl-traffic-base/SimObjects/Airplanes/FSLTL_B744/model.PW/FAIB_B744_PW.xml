@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+<LODS>
+	<LOD minSize="8" ModelFile="FAIB_B744_PW_LOD0.gltf"/>
+	<LOD minSize="1" ModelFile="FAIB_B744_PW_LOD2.gltf"/>
+	<LOD minSize="0" ModelFile="FAIB_B744_PW_LOD2.gltf"/>
+</LODS>
+ 
+<Behaviors>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_ModNode.xml"/>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>FLAPS_left</ANIM_NAME>
+			<ANIM_CODE>
+        		   	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>FLAPS_right</ANIM_NAME>
+			<ANIM_CODE>
+        		   	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Slats">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>SLATS_left</ANIM_NAME>
+			<ANIM_CODE>
+				(A:LIGHT LANDING, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 50 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 130 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 220 &lt; and if{ 50 }
+	   els{ 0 } } } } } } } } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>SLATS_right</ANIM_NAME>
+			<ANIM_CODE>
+				(A:LIGHT LANDING, bool) 1 ==
+	   if{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 == and if{ 50 }
+	   els{ (A:SIM ON GROUND, bool) 1 == (A:SPOILERS HANDLE POSITION, percent) 0 &gt; and if{ 100 } 
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 130 &lt; and if{ 100 }
+	   els{ (A:SIM ON GROUND, bool) 0 == (A:AIRSPEED INDICATED, knots) 220 &lt; and if{ 50 }
+	   els{ 0 } } } } } } } } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="GEARS">
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>GEAR_center</ANIM_NAME>
+			<ID>0</ID>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>GEAR_left</ANIM_NAME>
+			<ID>1</ID>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>GEAR_right</ANIM_NAME>
+			<ID>2</ID>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Spoilers">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>SPOILERS_left</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SPOILERS HANDLE POSITION, percent) 
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>110</ANIM_LAG>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>SPOILERS_right</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SPOILERS HANDLE POSITION, percent)
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>100</ANIM_LAG>
+		</UseTemplate>
+	</Component>	
+
+	<Component ID="Reversers">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>REVERSERS</ANIM_NAME>
+			<ANIM_CODE>
+				(A:SIM on GROUND, bool) 1 == if{ (A:TURB ENG JET THRUST:1, pounds) -1 &lt; if{ 100 } } 
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>30</ANIM_LAG>
+		</UseTemplate>
+	</Component>	
+		
+	<Component ID="Engines">
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>ENG_SPIN_BLUR_1</ANIM_NAME>
+			<NODE_NAME>eng_blur_1</NODE_NAME>
+			<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+        		<ANIM_NAME>ENG_SPIN_BLUR_2</ANIM_NAME>
+        		<NODE_NAME>eng_blur_2</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>ENG_SPIN_BLUR_3</ANIM_NAME>
+			<NODE_NAME>eng_blur_3</NODE_NAME>
+			<RPM_VAR>(A:ENG N1 RPM:3,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+			<ANIM_NAME>ENG_SPIN_BLUR_4</ANIM_NAME>
+			<NODE_NAME>eng_blur_4</NODE_NAME>
+			<RPM_VAR>(A:ENG N1 RPM:4,degrees per second)</RPM_VAR>
+		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        		<ANIM_NAME>ENG_SPIN_SLOW_1</ANIM_NAME>
+        		<NODE_NAME>eng_fan_blades_1</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+		        <ANIM_NAME>ENG_SPIN_SLOW_2</ANIM_NAME>
+		        <NODE_NAME>eng_fan_blades_2</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+        		<ANIM_NAME>ENG_SPIN_SLOW_3</ANIM_NAME>
+        		<NODE_NAME>eng_fan_blades_3</NODE_NAME>
+        		<RPM_VAR>(A:ENG N1 RPM:3,degrees per second)</RPM_VAR>
+      		</UseTemplate>
+	  	<UseTemplate Name="FSLTL_Engine_Static">
+		        <ANIM_NAME>ENG_SPIN_SLOW_4</ANIM_NAME>
+		        <NODE_NAME>eng_fan_blades_4</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:4,degrees per second)</RPM_VAR>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Steering">
+        		<ANIM_NAME>GEAR_STEER</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+        		<LEGACY_PARAM_1>4.5</LEGACY_PARAM_1>
+        		<LEGACY_PARAM_2>5</LEGACY_PARAM_2>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+			<ANIM_NAME>WHEEL_ROLL_center</ANIM_NAME>
+			<WHEEL_RADIUS>0.6223</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+			<ANIM_NAME>WHEEL_ROLL_left</ANIM_NAME>
+			<WHEEL_RADIUS>0.6223</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+			<ANIM_NAME>WHEEL_ROLL_right</ANIM_NAME>
+			<WHEEL_RADIUS>0.6223</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Elevators">
+		<UseTemplate Name="FSLTL_Elevator_Droop">
+        		<ANIM_NAME>ELEVATOR</ANIM_NAME>
+			<perc_down>100</perc_down>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Acft_Lights">
+	        <UseTemplate Name="FSLTL_FX_LIGHT_CONTROL" />
+	</Component>
+
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX_CONTRAIL_QUAD"/>
+		<UseTemplate Name="FSLTL_FX_EXHAUST_HEAT_QUAD"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_FRONT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_REAR_QUAD"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_DUALREARCENTER_QUAD"/>
+	</Component>
+
+</Behaviors>
+</ModelInfo>
