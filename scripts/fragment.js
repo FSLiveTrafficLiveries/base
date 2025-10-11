@@ -11,15 +11,47 @@ const execute = async () => {
 
     let aircraftobjects = [];
 
+    // const dir = fs.opendirSync(simObjectsBaseDir);
+    // let dirent;
+    // while ((dirent = dir.readSync()) !== null) {
+    //   aircraftobjects.push({
+    //     name: `${dirent.name.replace("FSLTL_", "")}`,
+    //     sourceDir: `${simObjectsDir}${dirent.name}`,
+    //   });
+    // }
+    // dir.closeSync();
+
+    // Testing adding all liveries together, hoping the splitfileSize will handle it
+    // aircraftobjects.push({
+    //   name: "Liveries",
+    //   sourceDir: simObjectsBaseDir,
+    // });
+
+    // Pair up directories that start with the same first 10 characters
+    
     const dir = fs.opendirSync(simObjectsBaseDir);
     let dirent;
+    const dirGroups = {};
+
     while ((dirent = dir.readSync()) !== null) {
-      aircraftobjects.push({
-        name: `${dirent.name.replace("FSLTL_", "")}`,
-        sourceDir: `${simObjectsDir}${dirent.name}`,
-      });
+      if (dirent.isDirectory()) {
+        const prefix = dirent.name.substring(0, 10);
+        if (!dirGroups[prefix]) {
+          dirGroups[prefix] = [];
+        }
+        dirGroups[prefix].push(dirent.name);
+      }
     }
     dir.closeSync();
+
+    // Push all groups to aircraftobjects, even if length is 1
+    Object.values(dirGroups).forEach(group => {
+      aircraftobjects.push({
+        name: `${prefix}_GROUP`,
+        sourceDir: group.map(name => `${simObjectsDir}${name}`),
+      });
+    });
+
     aircraftobjects.push({
       name: "FLIGHTAWARE-FIX",
       sourceDir: "./AirTraffic",
@@ -47,3 +79,5 @@ const execute = async () => {
 };
 
 execute();
+
+
