@@ -11,15 +11,22 @@ const execute = async () => {
 
     let aircraftobjects = [];
 
-    const dir = fs.opendirSync(simObjectsBaseDir);
-    let dirent;
-    while ((dirent = dir.readSync()) !== null) {
-      aircraftobjects.push({
-        name: `${dirent.name.replace("FSLTL_", "")}`,
-        sourceDir: `${simObjectsDir}${dirent.name}`,
-      });
-    }
-    dir.closeSync();
+    // const dir = fs.opendirSync(simObjectsBaseDir);
+    // let dirent;
+    // while ((dirent = dir.readSync()) !== null) {
+    //   aircraftobjects.push({
+    //     name: `${dirent.name.replace("FSLTL_", "")}`,
+    //     sourceDir: `${simObjectsDir}${dirent.name}`,
+    //   });
+    // }
+    // dir.closeSync();
+
+    // Liveries all in one assset
+    aircraftobjects.push({
+      name: "Liveries",
+      sourceDir: simObjectsDir,
+    });
+
     aircraftobjects.push({
       name: "FLIGHTAWARE-FIX",
       sourceDir: "./AirTraffic",
