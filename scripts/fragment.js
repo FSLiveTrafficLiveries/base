@@ -87,22 +87,20 @@ const execute = async () => {
       console.log(`Aircraft Object ${idx + 1}:`, obj);
     });
 
-    // Comment out the actual packing for now
-    //
-    // const result = await fragmenter.pack({
-    //   version: version,
-    //   baseDir: baseDir,
-    //   outDir: outputDir,
-    //   modules: aircraftobjects,
-    //   packOptions: {
-    //     useConsoleLog: true,
-    //     forceCacheBust: false,
-    //     splitFileSize: 536_870_912,
-    //     keepCompleteModulesAfterSplit: false,
-    //     noBaseCopy: true,
-    //   },
-    // });
-    // console.log(result);
+    const result = await fragmenter.pack({
+      version: version,
+      baseDir: baseDir,
+      outDir: outputDir,
+      modules: aircraftobjects,
+      packOptions: {
+        useConsoleLog: true,
+        forceCacheBust: false,
+        splitFileSize: 536_870_912,
+        keepCompleteModulesAfterSplit: false,
+        noBaseCopy: true,
+      },
+    });
+    console.log(result);
   } catch (e) {
     console.error(e);
     process.exit(1);
