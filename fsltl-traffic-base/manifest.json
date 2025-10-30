@@ -4,7 +4,7 @@
     "title": "FSLTL Traffic Base",
     "manufacturer": "FSLTL",
     "creator": "FSLTL",
-    "package_version": "1.6.1",
+    "package_version": "1.6.0",
     "minimum_game_version": "1.18.6",
     "release_notes": {
         "neutral": {
@@ -12,5 +12,5 @@
             "OlderHistory": ""
         }
     },
-    "total_package_size": "00000000051292341842"
+    "total_package_size": "00000000052211099520"
 }
