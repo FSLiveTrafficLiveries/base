@@ -3,61 +3,19 @@
 	<LODS>
 		<LOD minSize="0" ModelFile="FSLTL_E190_LOD0.gltf"/>
 	</LODS> 
-  	<Animation name="main_gear_c" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeParam="AutoPlay" /> 
-  	<Animation name="main_gear_l" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54C" length="100" type="Sim" typeParam="AutoPlay" />
-  	<Animation name="main_gear_r" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54D" length="100" type="Sim" typeParam="AutoPlay" />
-
-	<PartInfo>
-    		<Name>main_gear_c</Name>
-    		<AnimLength>100</AnimLength>
-    		<Animation>
-      			<Parameter>
-        			<Sim>
-          				<Variable>GEAR ANIMATION POSITION:0</Variable>
-          				<Units>keyframe</Units>
-        			</Sim>
-      			</Parameter>
-    		</Animation>
-  	</PartInfo>
-  	<PartInfo>
-    		<Name>main_gear_l</Name>
-    		<Copy>main_gear_c</Copy>
-    		<AnimLength>100</AnimLength>
-    		<Animation>
-      			<Parameter>
-        			<Sim>
-          				<Variable>GEAR ANIMATION POSITION:1</Variable>
-          				<Units>keyframe</Units>
-        			</Sim>
-      			</Parameter>
-    		</Animation>
-  	</PartInfo>
-  	<PartInfo>
-    		<Name>main_gear_r</Name>
-    		<Copy>main_gear_c</Copy>
-    		<AnimLength>100</AnimLength>
-		<Animation>
-			<Parameter>
-       				<Sim>
-          				<Variable>GEAR ANIMATION POSITION:2</Variable>
-				        <Units>keyframe</Units>
-        			</Sim>
-      			</Parameter>
-    		</Animation>
-  	</PartInfo>
 
 <Behaviors>
 	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_LG2E_node.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_ModNode.xml"/>
 	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
 
 	<Component ID="taxi_light" Node="taxi_light">
       		<Visibility>
-        		<Parameter>
-        			<Code>
-               				(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
-        			</Code>
-        		</Parameter>
+        	<Parameter>
+        	<Code>
+        		(A:GEAR POSITION:0, Enum) 1 == if{ 1 } els{ 0 }
+        	</Code>
+        	</Parameter>
       		</Visibility>
     	</Component>
 
@@ -71,6 +29,7 @@
 			<ANIM_LAG>6</ANIM_LAG>
 		</UseTemplate>
 	</Component>
+
 	<Component ID="FlapsR">
 		<UseTemplate Name="ASOBO_GT_Anim_Code">
 			<ANIM_NAME>edge_flap_right</ANIM_NAME>
@@ -79,6 +38,27 @@
 			</ANIM_CODE>
 			<ANIM_LENGTH>100</ANIM_LENGTH>
 			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="GEARS">
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>main_gear_c</ANIM_NAME>
+			<ID>0</ID>
+			<GEAR_ALT>200</GEAR_ALT>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>main_gear_l</ANIM_NAME>
+			<ID>1</ID>
+			<GEAR_ALT>200</GEAR_ALT>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_CompGear_Template">
+			<ANIM_NAME>main_gear_r</ANIM_NAME>
+			<ID>2</ID>
+			<GEAR_ALT>200</GEAR_ALT>
+			<ANIM_LENGTH>200</ANIM_LENGTH>
 		</UseTemplate>
 	</Component>
 	
@@ -115,17 +95,17 @@
       		</UseTemplate>
 	</Component>
 
-	<Component ID="Wheels">
-		<UseTemplate Name="FSLTL_Steering">
-        		<ANIM_NAME>front_gear_steer</ANIM_NAME>
-        		<ANIM_LENGTH>100</ANIM_LENGTH>
-        		<LEGACY_PARAM_1>3.5</LEGACY_PARAM_1>
-        		<LEGACY_PARAM_2>5</LEGACY_PARAM_2>
+	<Component ID="Steering">
+		<UseTemplate Name="FSLTL_Alt_Steering">
+			<ANIM_NAME>front_gear_steer</ANIM_NAME>
+			<STEER_SHARP>12</STEER_SHARP>
 		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
       		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
         		<ANIM_NAME>c_tire_anim</ANIM_NAME>
         		<WHEEL_RADIUS>0.3048</WHEEL_RADIUS> <!-- in meters -->
-        		<DISTANCE>12.0</DISTANCE>
       		</UseTemplate>
       		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
         		<ANIM_NAME>l_tire_anim</ANIM_NAME>
@@ -137,9 +117,16 @@
       		</UseTemplate>
 	</Component>
 
-	<Component ID="FX">
-		<UseTemplate Name="FSLTL_FX" />
-	</Component>	  
-</Behaviors>
+	<Component ID="Acft_Lights">
+	        <UseTemplate Name="FSLTL_FX_LIGHT_CONTROL" />
+	</Component>
 
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX_CONTRAIL_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_EXHAUST_HEAT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_FRONT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_REAR_DUAL"/>
+	</Component>
+
+</Behaviors>
 </ModelInfo>
