@@ -8,6 +8,11 @@ parser = ArgumentParser()
 #parser.add_argument("-f", "--folder", dest="aircraftFolder", help="Path to SimObjects\\Airplanes folder")
 #args = parser.parse_args()
 
+# Release Notes
+# v1.2 (Nov 22, 2025): Added checking atc_parking_codes in addition to icao_airline to find airline ICAo codes for models
+#                      If airline/model has no random setting, deduplicate titles when creating lines in VMR
+
+
 def findCommunity():
     global communityPath
     usecomm = True
@@ -236,6 +241,20 @@ BritishAirwaysGroup = AirlineGroup(['BAW', 'BA', 'SHT'])
 CathayPacificGroup = AirlineGroup(['CPA', 'CX'])
 #AirFranceGroup = AirlineGroup(['AFR', 'AF'])
 
+CargoFlights = [
+  ('ANA', 'B763', '7000-9999'),
+  ('ASA', 'B737', '7000-9999'),
+  ('ASA', 'B738', '7000-9999'),
+  ('QFA', 'A321', '7000-9999'),
+  ('QFA', 'A332', '7000-9999'),
+  ('MAS', 'A332', '6000-6699'),
+  ('THY', 'A332', '6000-6699'),
+  ('ETH', 'B738', '3000-3999'),
+  ('ETH', 'B77L', '3000-3999'),
+  ('SCX', 'B738', '3000-3999'),
+  ('UAE', 'B77L', '9000-9999'),
+]
+
 for Object in gc.get_objects():
   if isinstance(Object, AirlineGroup):
     AirlineGroups.append(Object)
@@ -264,6 +283,7 @@ for ModelsDirectory in ModelsDirectories: #to find all models
       if os.path.exists(folderpath + '\\aircraft.cfg'):
         AircraftFile = open(folderpath + '\\aircraft.cfg', 'r')
         icao_airline = ''
+        atc_parking_codes = []
         TypeCode = ''
         title = ''
         Size = 0
@@ -278,16 +298,26 @@ for ModelsDirectory in ModelsDirectories: #to find all models
           if line.find('title') != -1:
             if title != '':
               if not exclude:
-                for airplane in Airplanes:
-                  if airplane.TypeCode == TypeCode:
-                    Size = airplane.Size
-                    Manufacturer = airplane.Manufacturer
-                    EngineType = airplane.EngineType
-                    WideBody = airplane.WideBody
-                    neo = airplane.neo
-                    Family = airplane.Family
-                Models.append(Model(TypeCode, icao_airline, title, Size, Manufacturer, EngineType, WideBody, neo, random, Family))
+                # Combine icao_airline and atc_parking_codes, deduplicate
+                all_airline_codes = []
+                if icao_airline:
+                  all_airline_codes.append(icao_airline)
+                for code in atc_parking_codes:
+                  if code not in all_airline_codes:
+                    all_airline_codes.append(code)
+                # Create a model for each airline code
+                for airline_code in all_airline_codes:
+                  for airplane in Airplanes:
+                    if airplane.TypeCode == TypeCode:
+                      Size = airplane.Size
+                      Manufacturer = airplane.Manufacturer
+                      EngineType = airplane.EngineType
+                      WideBody = airplane.WideBody
+                      neo = airplane.neo
+                      Family = airplane.Family
+                  Models.append(Model(TypeCode, airline_code, title, Size, Manufacturer, EngineType, WideBody, neo, random, Family))
               icao_airline = ''
+              atc_parking_codes = []
               title = ''
               random = 0
               Family = ''
@@ -311,6 +341,21 @@ for ModelsDirectory in ModelsDirectories: #to find all models
                 icao_airline = icao_airline[:3]
               if icao_airline not in Airlines:
                 Airlines.append(icao_airline)
+            elif line.find('ATC_PARKING_CODES') != -1:
+              atc_code_string = CutDownString(line, 'ATC_PARKING_CODES')
+              # Split by comma and process each code
+              for code in atc_code_string.split(','):
+                code = code.strip()
+                if code:
+                  # Normalize: ZZZ becomes ZZZZ, others become 3 chars
+                  if code == 'ZZZ' or code == '':
+                    code = 'ZZZZ'
+                  else:
+                    code = code[:3]
+                  if code not in atc_parking_codes:
+                    atc_parking_codes.append(code)
+                  if code not in Airlines:
+                    Airlines.append(code)
             elif line.find('RANDOM') != -1:
               random = CutDownString(line, 'RANDOM')
               Numerator = ''
@@ -341,7 +386,16 @@ for ModelsDirectory in ModelsDirectories: #to find all models
               WideBody = airplane.WideBody
               neo = airplane.neo
               Family = airplane.Family
-              Models.append(Model(TypeCode, icao_airline, title, Size, Manufacturer, EngineType, WideBody, neo, random, Family))
+          # Combine icao_airline and atc_parking_codes, deduplicate
+          all_airline_codes = []
+          if icao_airline:
+            all_airline_codes.append(icao_airline)
+          for code in atc_parking_codes:
+            if code not in all_airline_codes:
+              all_airline_codes.append(code)
+          # Create a model for each airline code
+          for airline_code in all_airline_codes:
+            Models.append(Model(TypeCode, airline_code, title, Size, Manufacturer, EngineType, WideBody, neo, random, Family))
 
 def ResetModelsToUse(TestingModels):
   ModelsToUse = []
@@ -531,11 +585,20 @@ vmr.write('<?xml version="1.0" encoding="utf-8"?> \n')
 vmr.write('<ModelMatchRuleSet> \n')
 
 def WriteModels(airlinemodelclass):
+  Modelstr = ''
+  ModelstrCargo = ''
   if airlinemodelclass.Airline == 'ZZZZ' or airlinemodelclass.Airline == 'ZZZ' or airlinemodelclass.Airline == '':
-    Modelstr = '<ModelMatchRule TypeCode = "' + airlinemodelclass.TypeCode + '" ModelName ="'
+    Modelstr = '<ModelMatchRule TypeCode="' + airlinemodelclass.TypeCode + '" ModelName="'
   else:
-    Modelstr = '<ModelMatchRule CallsignPrefix="' + airlinemodelclass.Airline + '" TypeCode = "' + airlinemodelclass.TypeCode + '" ModelName ="'
+    cargo_range = None
+    for airline, typecode, range_str in CargoFlights:
+      if airline == airlinemodelclass.Airline and typecode == airlinemodelclass.TypeCode:
+        cargo_range = range_str
+        ModelstrCargo = '<ModelMatchRule CallsignPrefix="' + airlinemodelclass.Airline + '" FlightNumberRange="' + cargo_range + '" TypeCode="' + airlinemodelclass.TypeCode + '" ModelName="'
+        break
+    Modelstr = '<ModelMatchRule CallsignPrefix="' + airlinemodelclass.Airline + '" TypeCode="' + airlinemodelclass.TypeCode + '" ModelName="'
   AddSlashes = False
+  AddSlashesCargo = False
   AircraftWithoutRandom = 0
   RandomAircraft = 0
   for ModelToUse in airlinemodelclass.AirlineModels:
@@ -544,11 +607,22 @@ def WriteModels(airlinemodelclass):
     else:
       AircraftWithoutRandom = AircraftWithoutRandom + 1
   if RandomAircraft == 0:
+    # Deduplicate titles while preserving order
+    unique_titles = []
     for ModelToUse in airlinemodelclass.AirlineModels:
-      if AddSlashes:
-        Modelstr = Modelstr + "//"
-      AddSlashes = True
-      Modelstr = Modelstr + ModelToUse.title
+      if ModelToUse.title not in unique_titles:
+        unique_titles.append(ModelToUse.title)
+    for title in unique_titles:
+      if ModelstrCargo and '_Cargo' in title:
+        if AddSlashesCargo:
+          ModelstrCargo = ModelstrCargo + "//"
+        AddSlashesCargo = True
+        ModelstrCargo = ModelstrCargo + title
+      else:
+        if AddSlashes:
+          Modelstr = Modelstr + "//"
+        AddSlashes = True
+        Modelstr = Modelstr + title
   else:
     TotalFraction = 0
     for ModelToUse in airlinemodelclass.AirlineModels:
@@ -569,12 +643,22 @@ def WriteModels(airlinemodelclass):
         AmountNeeded = AmountNeeded / AircraftWithoutRandom
       while Amount < AmountNeeded:
         Amount = Amount + 1
-        if AddSlashes:
-          Modelstr = Modelstr + '//'
-        AddSlashes = True
-        Modelstr = Modelstr + ModelToUse.title
+        if ModelstrCargo and '_Cargo' in ModelToUse.title:
+          if AddSlashesCargo:
+            ModelstrCargo = ModelstrCargo + '//'
+          AddSlashesCargo = True
+          ModelstrCargo = ModelstrCargo + ModelToUse.title
+        else:
+          if AddSlashes:
+            Modelstr = Modelstr + '//'
+          AddSlashes = True
+          Modelstr = Modelstr + ModelToUse.title
+  if ModelstrCargo and AddSlashesCargo:
+    ModelstrCargo = ModelstrCargo + '" /> \n'
+    vmr.write(ModelstrCargo)
   Modelstr = Modelstr + '" /> \n'
   vmr.write(Modelstr)
+
 
 for airlinemodelclass in AirlineModelClasses:
   if len(airlinemodelclass.Airline) != 2:

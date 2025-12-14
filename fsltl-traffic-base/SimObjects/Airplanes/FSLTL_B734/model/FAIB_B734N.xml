@@ -95,12 +95,12 @@
 		<UseTemplate Name="FSLTL_Engine_Blur">
 		        <ANIM_NAME>ENG_SPIN_BLUR_left</ANIM_NAME>
 		        <NODE_NAME>eng_blades_blur_1</NODE_NAME>
-		        <RPM_VAR>(A:GENERAL ENG RPM:1,degrees per second)</RPM_VAR>
+		        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
 		</UseTemplate>
 		<UseTemplate Name="FSLTL_Engine_Blur">
 	        	<ANIM_NAME>ENG_SPIN_BLUR_right</ANIM_NAME>
 	        	<NODE_NAME>eng_blades_blur_2</NODE_NAME>
-		        <RPM_VAR>(A:GENERAL ENG RPM:2,degrees per second)</RPM_VAR>
+		        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
 		</UseTemplate>
 		<UseTemplate Name="FSLTL_Engine_Static">
 		        <ANIM_NAME>ENG_SPIN_SLOW_left</ANIM_NAME>

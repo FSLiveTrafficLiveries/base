@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{4bb9ea61-0ebf-4ab6-b0c0-8bc451b2524c}" version="1.1">
+	<LODS>
+		<LOD minSize="8" ModelFile="FSLTL_DHC6_LOD0.gltf"/>
+		<LOD minSize="1" ModelFile="FSLTL_DHC6_LOD0.gltf"/>
+	</LODS>
+
+<Behaviors>
+	<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\FSLTL_FX_ModNode.xml"/>
+	<Include ModelBehaviorFile="FSLTL\Misc\Aircraft.xml"/>
+
+	<Component ID="Flaps">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>Flaps</ANIM_NAME>
+			<ANIM_CODE>
+           	(A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 1 &lt; if{ (A:LIGHT LANDING, bool) 1 == if{ (A:PLANE ALT ABOVE GROUND, feet) 2000 &lt; if{ (A:VERTICAL SPEED, feet per second) -0.1 &gt; if{ (A:SPOILERS HANDLE POSITION, percent) 1 &gt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 40 } } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 100 } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4000 &lt; if{ (A:VERTICAL SPEED, feet per second) 0.1 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 60 } els{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) 0 } } } } } els{ (A:PLANE ALT ABOVE GROUND, feet) 4500 &lt; if{ (A:TRAILING EDGE FLAPS LEFT PERCENT, percent) } }
+			</ANIM_CODE>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_LAG>6</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Elevator">
+		<UseTemplate Name="FSLTL_Elevator_Droop">
+			<ANIM_NAME>ElevatorDroop</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+		
+	<Component ID="Engines">
+		<UseTemplate Name="FSLTL_Engine_Blur">
+		        <ANIM_NAME>PropBlur_L</ANIM_NAME>
+			<NODE_NAME>PropSpin_L</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Blur">
+	        	<ANIM_NAME>PropBlur_R</ANIM_NAME>
+			<NODE_NAME>PropSpin_R</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Static">
+		        <ANIM_NAME>PropSlow_L</ANIM_NAME>
+			<NODE_NAME>Propellers_L</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:1,degrees per second)</RPM_VAR>
+			<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00003 *</WIND_VAR>
+			<MOD_VAR>90</MOD_VAR>
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Engine_Static">
+		        <ANIM_NAME>PropSlow_R</ANIM_NAME>
+			<NODE_NAME>Propellers_R</NODE_NAME>
+		        <RPM_VAR>(A:ENG N1 RPM:2,degrees per second)</RPM_VAR>
+			<WIND_VAR>(A:AMBIENT WIND VELOCITY, knot) 0.00003 *</WIND_VAR>
+			<MOD_VAR>90</MOD_VAR>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Steering">
+		<UseTemplate Name="FSLTL_Alt_Steering">
+			<ANIM_NAME>Steering</ANIM_NAME>
+			<STEER_SHARP>12</STEER_SHARP>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Wheels">
+		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
+		        <ANIM_NAME>Wheel_F_Roll</ANIM_NAME>
+		        <WHEEL_RADIUS>0.2883</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+		        <ANIM_NAME>Wheel_L_Roll</ANIM_NAME>
+		        <WHEEL_RADIUS>0.3747</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+		<UseTemplate Name="FSLTL_Wheel_Roll_Main">
+		        <ANIM_NAME>Wheel_R_Roll</ANIM_NAME>
+		        <WHEEL_RADIUS>0.3747</WHEEL_RADIUS> <!-- in meters -->
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Beacon_DHC6" Node="Beacon">
+    		<UseTemplate Name="ASOBO_GT_Anim_Code">
+        		<ANIM_NAME>Beacon_Rotate</ANIM_NAME>
+        		<ANIM_CODE>
+            			(A:LIGHT BEACON ON, bool) 1 == if{ (E:ABSOLUTE TIME, seconds) 140 * 100 % } els{ 0 }
+		        </ANIM_CODE>
+		        <ANIM_LENGTH>100</ANIM_LENGTH>
+		</UseTemplate>
+	</Component>
+
+	<Component ID="Acft_Lights">
+	        <UseTemplate Name="FSLTL_FX_LIGHT_CONTROL" />
+	</Component>
+
+	<Component ID="FX">
+		<UseTemplate Name="FSLTL_FX_EXHAUST_HEAT_DUAL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_FRONT_SINGLE_SMALL"/>
+		<UseTemplate Name="FSLTL_FX_GEAR_REAR_SINGLE_SMALL"/>
+	</Component>
+
+        <Component ID="Beacon_Emissive" Node="Beacon_Glass">
+		<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+			<!-- 0 = off, 1 = full bright -->
+			<EMISSIVE_CODE>(A:LIGHT BEACON, Bool)</EMISSIVE_CODE>
+		</UseTemplate>
+        </Component>
+        <Component ID="NavRed_Emissive" Node="Nav_Glass_Red">
+		<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+			<!-- 0 = off, 1 = full bright -->
+			<EMISSIVE_CODE>(A:LIGHT NAV, Bool)</EMISSIVE_CODE>
+		</UseTemplate>
+        </Component>
+        <Component ID="NavGreen_Emissive" Node="Nav_Glass_Green">
+		<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+			<!-- 0 = off, 1 = full bright -->
+			<EMISSIVE_CODE>(A:LIGHT NAV, Bool)</EMISSIVE_CODE>
+		</UseTemplate>
+        </Component>
+
+</Behaviors>
+</ModelInfo>

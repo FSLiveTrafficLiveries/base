@@ -67,8 +67,8 @@ Size=0.6
 Range=20
 Intensity=10
 Softness=0.0
-SpotInner=0.0
-SpotOuter=359.0
+SpotInner=90.0
+SpotOuter=95.0
 Volumetric=1
 ScatDir=0.0
 

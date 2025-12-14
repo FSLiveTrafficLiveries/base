@@ -68,7 +68,7 @@ Range=200
 Intensity=15
 Softness=0.0
 SpotInner=0
-SpotOuter=185
+SpotOuter=95
 Volumetric=1
 ScatDir=0.0
 
