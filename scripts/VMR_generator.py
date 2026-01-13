@@ -153,6 +153,7 @@ CONC = Airplane('CONC', 162.1658, 'Concorde', 'jet', False, False, False, 'CONC'
 DH8B = Airplane('DH8B', 56.07, 'de Havilland Canada', 'prop', False, False, False, 'DHC8') 
 DH8C = Airplane('DH8C', 64.507, 'de Havilland Canada', 'prop', False, False, False, 'DHC8') 
 DH8D = Airplane('DH8D', 82.328, 'de Havilland Canada', 'prop', False, False, False, 'DHC8') 
+DHC6 = Airplane('DHC6', 27.5975, 'de Havilland Canada', 'prop', False, False, False, 'DHC6')
 
 E170 = Airplane('E170', 81.926, 'Embraer', 'jet', False, False, False, 'EJet') 
 E75S = Airplane('E75S', 86.7758, 'Embraer', 'jet', False, False, False, 'EJet') 
