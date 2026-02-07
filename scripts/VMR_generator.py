@@ -46,7 +46,7 @@ ModelsDirectories = [findCommunity()]
 # Configuration options
 ExcludeStubs = True   #whether to exclude models with 'STUB' in the title
 SameFamily = False  #whether to only use models from the same family for fallback
-ExcludeTypeBlank = False  #whether to exclude entries using cross-family airline liveries when exact-type ZZZZ exists (only applies when SameFamily is False)
+ExcludeTypeBlank = True  #whether to exclude entries using cross-family airline liveries when exact-type ZZZZ exists (only applies when SameFamily is False)
 
 class Airplane:
   def __init__(self, TypeCode, Size, Manufacturer, EngineType, WideBody, neoExists, neo, Family):

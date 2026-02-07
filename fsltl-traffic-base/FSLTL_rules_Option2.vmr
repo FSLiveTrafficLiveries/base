@@ -18247,13 +18247,13 @@
 <ModelMatchRule CallsignPrefix="RSY" TypeCode="C510" ModelName="FSLTL_FAIB_A319_Russian_Sky_Historical" /> 
 <ModelMatchRule CallsignPrefix="RSY" TypeCode="SF50" ModelName="FSLTL_FAIB_A319_Russian_Sky_Historical" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A19N" ModelName="FSLTL A319 SAA South African_Historical" /> 
-<ModelMatchRule CallsignPrefix="SAA" TypeCode="A20N" ModelName="FSLTL A320 SAA South African" /> 
-<ModelMatchRule CallsignPrefix="SAA" TypeCode="A32N" ModelName="FSLTL A320 SAA South African" /> 
-<ModelMatchRule CallsignPrefix="SAA" TypeCode="A21N" ModelName="FSLTL A320 SAA South African" /> 
+<ModelMatchRule CallsignPrefix="SAA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_South-African-Airways" /> 
+<ModelMatchRule CallsignPrefix="SAA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_South-African-Airways" /> 
+<ModelMatchRule CallsignPrefix="SAA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_South-African-Airways" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A318" ModelName="FSLTL A319 SAA South African_Historical" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A319" ModelName="FSLTL A319 SAA South African_Historical" /> 
-<ModelMatchRule CallsignPrefix="SAA" TypeCode="A320" ModelName="FSLTL A320 SAA South African" /> 
-<ModelMatchRule CallsignPrefix="SAA" TypeCode="A321" ModelName="FSLTL A320 SAA South African" /> 
+<ModelMatchRule CallsignPrefix="SAA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_South-African-Airways" /> 
+<ModelMatchRule CallsignPrefix="SAA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_South-African-Airways" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A332" ModelName="FSLTL_TFS_A332_Springbok_Historical" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A333" ModelName="FSLTL_TFS_A333_Springbok" /> 
 <ModelMatchRule CallsignPrefix="SAA" TypeCode="A338" ModelName="FSLTL_TFS_A332_Springbok_Historical" /> 
@@ -27846,6 +27846,29 @@
 <ModelMatchRule CallsignPrefix="CVA" TypeCode="BE55" ModelName="FSLTL_SF34_Chatham" /> 
 <ModelMatchRule CallsignPrefix="CVA" TypeCode="SR22" ModelName="FSLTL_SF34_Chatham" /> 
 <ModelMatchRule CallsignPrefix="CVA" TypeCode="TBM9" ModelName="FSLTL_SF34_Chatham" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8B" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8C" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8D" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DHC6" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="F27" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="SF34" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="P28A" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="PA44" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="C208" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="C172" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="C152" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DA40" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="DA62" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="B350" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="BE36" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="BE55" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="SR22" ModelName="FSLTL_OSP_AT76_Green" /> 
+<ModelMatchRule CallsignPrefix="GWG" TypeCode="TBM9" ModelName="FSLTL_OSP_AT76_Green" /> 
 <ModelMatchRule CallsignPrefix="WON" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="WON" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="WON" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
@@ -29325,29 +29348,6 @@
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="SR22" ModelName="FSLTL_OSP_AT76_Eastern-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="SF50" ModelName="FSLTL_E190_Eastern-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="TBM9" ModelName="FSLTL_OSP_AT76_Eastern-Airways_Historical" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8B" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8C" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DH8D" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DHC6" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="F27" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="SF34" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="P28A" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="PA44" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="C208" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="C172" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="C152" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DA40" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="DA62" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="B350" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="BE36" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="BE55" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="SR22" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="GWG" TypeCode="TBM9" ModelName="FSLTL_OSP_AT76_Green" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
