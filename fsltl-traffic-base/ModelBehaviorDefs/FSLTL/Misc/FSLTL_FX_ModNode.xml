@@ -470,6 +470,158 @@
 		</Component>
 	</Template>
 
+	<Template Name="FSLTL_FX_GEAR_REAR_SIX">
+	<!-- Six tires on left/right rear gear -->
+	  	<Component ID="FSLTL_LANDING_FX_REAR">	 
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_WET_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_rear</FX_NODE>
+			</UseTemplate>
+
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_SMOKE_LG_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_rear</FX_NODE>
+			</UseTemplate>
+
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>1</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_left_out_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_in_rear</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_front</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_mid</FX_NODE>
+			</UseTemplate>
+			<UseTemplate Name="FSLTL_ASOBO_DUST_GR_LANDING_FX">
+				<FX_CONTACT_POINT_ID>2</FX_CONTACT_POINT_ID>
+				<FX_NODE>fx_tire_contactPoint_right_out_rear</FX_NODE>
+			</UseTemplate>
+		</Component>
+	</Template>
+
 	<Template Name="FSLTL_FX_GEAR_REARCENTER_DUAL">
 	<!-- Dual tires on center rear gear such as A343 & MD11 -->
 	  	<Component ID="FSLTL_LANDING_FX_REARCENTER_DUAL">		
