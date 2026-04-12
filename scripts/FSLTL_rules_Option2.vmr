@@ -2047,21 +2047,21 @@
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A319" ModelName="FSLTL_A320_CFM_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A320" ModelName="FSLTL_A320_CFM_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A321" ModelName="FSLTL_A321_CFM_ANA" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A332" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A333" ModelName="FSLTL_B789_RR_ANA" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A338" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A339" ModelName="FSLTL_B789_RR_ANA" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A342" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A343" ModelName="FSLTL_B789_RR_ANA" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A345" ModelName="FSLTL_B789_RR_ANA" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A332" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A333" ModelName="FSLTL_B789_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A338" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A339" ModelName="FSLTL_B789_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A342" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A343" ModelName="FSLTL_B789_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A345" ModelName="FSLTL_B789_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A346" ModelName="FSLTL_UTT_B78X_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A359" ModelName="FSLTL_UTT_B78X_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A35K" ModelName="FSLTL_B77W_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A388" ModelName="FSLTL_A388_ANA-All Nippon Kai//FSLTL_A388_ANA-All Nippon Lani" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A300" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A300" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A30B" ModelName="FSLTL_B763_GE_ANA_Cargo_JA601F//FSLTL_B763_GE_ANA_Cargo_JA602F//FSLTL_B763_GE_ANA_Cargo_JA603A//FSLTL_B763_GE_ANA_Cargo_JA604F//FSLTL_B763_GE_ANA_Cargo_JA8323//FSLTL_B763_GE_ANA_Cargo_JA8358//FSLTL_B763_GE_ANA_Cargo_JA8664//FSLTL_B763_GE_ANA_Cargo_JA8970//FSLTL_B763_GE_ANA_Cargo_JA605F//FSLTL_B763_GE_ANA//FSLTL_B763_GE_ANA_Winglets" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A306" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="A3ST" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A306" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="A3ST" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="A310" ModelName="FSLTL_B763_GE_ANA_Cargo_JA601F//FSLTL_B763_GE_ANA_Cargo_JA602F//FSLTL_B763_GE_ANA_Cargo_JA603A//FSLTL_B763_GE_ANA_Cargo_JA604F//FSLTL_B763_GE_ANA_Cargo_JA8323//FSLTL_B763_GE_ANA_Cargo_JA8358//FSLTL_B763_GE_ANA_Cargo_JA8664//FSLTL_B763_GE_ANA_Cargo_JA8970//FSLTL_B763_GE_ANA_Cargo_JA605F//FSLTL_B763_GE_ANA//FSLTL_B763_GE_ANA_Winglets" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B732" ModelName="FSLTL_B738_AKX old//FSLTL_B738_AKX//FSLTL_B738_ANA old//FSLTL_B738_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B733" ModelName="FSLTL_B738_AKX old//FSLTL_B738_AKX//FSLTL_B738_ANA old//FSLTL_B738_ANA" /> 
@@ -2087,8 +2087,8 @@
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B773" ModelName="FSLTL_B77W_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_ANA-All Nippon Airways_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B77W" ModelName="FSLTL_B77W_ANA" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_All_Nippon" /> 
-<ModelMatchRule CallsignPrefix="ANA" TypeCode="B789" ModelName="FSLTL_B789_RR_ANA" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_All-Nippon-Airways" /> 
+<ModelMatchRule CallsignPrefix="ANA" TypeCode="B789" ModelName="FSLTL_B789_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="B78X" ModelName="FSLTL_UTT_B78X_All-Nippon-Airways" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="AT45" ModelName="FSLTL_DH8D_ANA" /> 
 <ModelMatchRule CallsignPrefix="ANA" TypeCode="AT46" ModelName="FSLTL_DH8D_ANA" /> 
@@ -4226,22 +4226,22 @@
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A319" ModelName="FSLTL_FAIB_A319_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A320" ModelName="FSLTL_FAIB_A320_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A321" ModelName="FSLTL_FAIB_A321_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A332" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A332" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A333" ModelName="FSLTL_TFS_A333_China_Southern" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A338" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A338" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A339" ModelName="FSLTL_TFS_A333_China_Southern" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A342" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A342" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A343" ModelName="FSLTL_TFS_A333_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A345" ModelName="FSLTL_A359_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A346" ModelName="FSLTL_A359_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A359" ModelName="FSLTL_A359_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A35K" ModelName="FSLTL_A359_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="A388" ModelName="FSLTL_A359_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A300" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A30B" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A306" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A3ST" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="A310" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A300" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A30B" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A306" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A3ST" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="A310" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B732" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B733" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B734" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
@@ -4258,14 +4258,14 @@
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B748" ModelName="FSLTL_TFS_B77W_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B752" ModelName="FSLTL_FAIB_B738_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B753" ModelName="FSLTL_FAIB_B738_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="B762" ModelName="FSLTL_FSPXAI_B788_China_Southern" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="B763" ModelName="FSLTL_FSPXAI_B788_China_Southern" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="B764" ModelName="FSLTL_FSPXAI_B788_China_Southern" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="B762" ModelName="FSLTL_FSPXAI_B788_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="B763" ModelName="FSLTL_FSPXAI_B788_China-Southern-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="B764" ModelName="FSLTL_FSPXAI_B788_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B772" ModelName="FSLTL_TFS_B77L_CSN-China Southern Airlines_Cargo" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B773" ModelName="FSLTL_TFS_B77W_CSN-China Southern Airlines" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_CSN-China Southern Airlines_Cargo" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_CSN-China Southern Airlines" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_China_Southern" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_CSN-China Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_CSN-China Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="BCS1" ModelName="FSLTL_FAIB_A319_CSN-China Southern Airlines" /> 
@@ -4286,7 +4286,7 @@
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="F70" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="F100" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="F28" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
-<ModelMatchRule CallsignPrefix="CSN" TypeCode="MD11" ModelName="FSLTL_TFS_A332_CSN-China Southern Airlines" /> 
+<ModelMatchRule CallsignPrefix="CSN" TypeCode="MD11" ModelName="FSLTL_TFS_A332_CSN_China-Southern-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="MD82" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="MD83" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
 <ModelMatchRule CallsignPrefix="CSN" TypeCode="MD88" ModelName="FSLTL_FAIB_B737_China_Southern" /> 
@@ -12401,11 +12401,11 @@
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
-<ModelMatchRule CallsignPrefix="ASA" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
+<ModelMatchRule CallsignPrefix="ASA" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines_Historical//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A318" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A319" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_ASA_Alaska-Airlines_SL" /> 
-<ModelMatchRule CallsignPrefix="ASA" TypeCode="A321" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
+<ModelMatchRule CallsignPrefix="ASA" TypeCode="A321" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines_Historical//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A332" ModelName="FSLTL_TFS_A332_Alaska-Hawaiian-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A333" ModelName="FSLTL_TFS_A333_Alaska-Hawaiian-Airlines_AmazonPrime_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="A338" ModelName="FSLTL_TFS_A332_Alaska-Hawaiian-Airlines" /> 
@@ -12455,7 +12455,7 @@
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="CRJX" ModelName="FSLTL_E170_SKW_Alaska" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="CL60" ModelName="FSLTL_E170_SKW_Alaska" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="GLEX" ModelName="FSLTL_E170_SKW_Alaska" /> 
-<ModelMatchRule CallsignPrefix="ASA" TypeCode="CONC" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
+<ModelMatchRule CallsignPrefix="ASA" TypeCode="CONC" ModelName="FSLTL_FAIB_A21N_ASA_Alaska-Airlines_Historical//FSLTL_FAIB_A21N_Alaska-Hawaiian-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="E170" ModelName="FSLTL_E170_SKW_Alaska" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="E75S" ModelName="FSLTL_E170_SKW_Alaska" /> 
 <ModelMatchRule CallsignPrefix="ASA" TypeCode="E75L" ModelName="FSLTL_E170_SKW_Alaska" /> 
@@ -29369,6 +29369,57 @@
 <ModelMatchRule CallsignPrefix="BFY" TypeCode="C700" ModelName="FSLTL_E190_Bestfly" /> 
 <ModelMatchRule CallsignPrefix="BFY" TypeCode="C510" ModelName="FSLTL_E190_Bestfly" /> 
 <ModelMatchRule CallsignPrefix="BFY" TypeCode="SF50" ModelName="FSLTL_E190_Bestfly" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A19N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A20N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A32N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A21N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A318" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A319" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A320" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A321" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B732" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B733" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B734" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B735" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B736" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B737" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B738" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B739" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B38M" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B39M" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B712" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B752" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B753" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="BCS1" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="BCS3" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJ7" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJ9" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJX" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CL60" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="GLEX" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CONC" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E170" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E75S" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E75L" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E190" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E195" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E290" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E295" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F70" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F100" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F28" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD82" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD83" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD88" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="SU95" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B461" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B462" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B463" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="LJ25" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C25C" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C700" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C510" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
+<ModelMatchRule CallsignPrefix="EZZ" TypeCode="SF50" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
 <ModelMatchRule CallsignPrefix="AEZ" TypeCode="A19N" ModelName="FSLTL_FAIB_B737_Aeroitalia" /> 
 <ModelMatchRule CallsignPrefix="AEZ" TypeCode="A20N" ModelName="FSLTL_FAIB_B738_Aeroitalia" /> 
 <ModelMatchRule CallsignPrefix="AEZ" TypeCode="A32N" ModelName="FSLTL_FAIB_B738_Aeroitalia" /> 
@@ -36420,57 +36471,6 @@
 <ModelMatchRule CallsignPrefix="ESR" TypeCode="C700" ModelName="FSLTL_FAIB_B738_ESR-Eastar Jet" /> 
 <ModelMatchRule CallsignPrefix="ESR" TypeCode="C510" ModelName="FSLTL_FAIB_B738_ESR-Eastar Jet" /> 
 <ModelMatchRule CallsignPrefix="ESR" TypeCode="SF50" ModelName="FSLTL_FAIB_B738_ESR-Eastar Jet" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A19N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A20N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A32N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A21N" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A318" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A319" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A320" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="A321" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B732" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B733" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B734" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B735" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B736" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B737" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B738" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B739" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B38M" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B39M" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B712" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B752" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B753" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="BCS1" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="BCS3" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJ7" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJ9" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CRJX" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CL60" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="GLEX" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="CONC" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E170" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E75S" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E75L" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E190" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E195" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E290" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="E295" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F70" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F100" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="F28" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD82" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD83" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="MD88" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="SU95" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B461" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B462" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="B463" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="LJ25" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C25C" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C700" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="C510" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
-<ModelMatchRule CallsignPrefix="EZZ" TypeCode="SF50" ModelName="FSLTL_B738_EZZ-ETF Airways" /> 
 <ModelMatchRule CallsignPrefix="FDB" TypeCode="A19N" ModelName="FSLTL_B738_FlyDubai" /> 
 <ModelMatchRule CallsignPrefix="FDB" TypeCode="A20N" ModelName="FSLTL_B738_FlyDubai" /> 
 <ModelMatchRule CallsignPrefix="FDB" TypeCode="A32N" ModelName="FSLTL_B738_FlyDubai" /> 
@@ -40638,37 +40638,37 @@
 <ModelMatchRule CallsignPrefix="REU" TypeCode="C700" ModelName="FSLTL_BCS3_REU-Air Austral_OLAV//FSLTL_BCS3_REU-Air Austral_OMER//FSLTL_BCS3_REU-Air Austral_OTER" /> 
 <ModelMatchRule CallsignPrefix="REU" TypeCode="C510" ModelName="FSLTL_BCS3_REU-Air Austral_OLAV//FSLTL_BCS3_REU-Air Austral_OMER//FSLTL_BCS3_REU-Air Austral_OTER" /> 
 <ModelMatchRule CallsignPrefix="REU" TypeCode="SF50" ModelName="FSLTL_BCS3_REU-Air Austral_OLAV//FSLTL_BCS3_REU-Air Austral_OMER//FSLTL_BCS3_REU-Air Austral_OTER" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A332" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A333" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A338" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A339" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A342" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A343" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A345" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A346" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A359" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A35K" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A388" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A300" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A30B" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A306" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A3ST" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A310" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B742" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B744" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B748" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B762" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B763" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B764" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B772" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B773" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B77L" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B77W" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B789" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="MD11" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
-<ModelMatchRule CallsignPrefix="AJX" TypeCode="A225" ModelName="FSLTL_FSPXAI_B788_Air_Japan" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A332" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A333" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A338" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A339" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A342" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A343" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A345" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A346" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A359" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A35K" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A388" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A300" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A30B" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A306" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A3ST" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A310" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B742" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B744" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B748" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B762" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B763" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B764" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B772" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B773" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B77L" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B77W" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B789" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="MD11" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
+<ModelMatchRule CallsignPrefix="AJX" TypeCode="A225" ModelName="FSLTL_FSPXAI_B788_Air-Japan_Historical" /> 
 <ModelMatchRule CallsignPrefix="TZP" TypeCode="A332" ModelName="FSLTL_FSPXAI_B788_Zippy" /> 
 <ModelMatchRule CallsignPrefix="TZP" TypeCode="A333" ModelName="FSLTL_B789_GE_TZP_ZIPAIR_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TZP" TypeCode="A338" ModelName="FSLTL_FSPXAI_B788_Zippy" /> 
