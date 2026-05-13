@@ -45,12 +45,20 @@ ModelsDirectories = [findCommunity()]
 
 # Configuration options
 ExcludeStubs = True   #whether to exclude models with 'STUB' in the title
-SameFamily = False  #whether to only use models from the same family for fallback
-ExcludeTypeBlank = True  #whether to exclude entries using cross-family airline liveries when exact-type ZZZZ exists (only applies when SameFamily is False)
 
-# Option1 = SameFamily = True
-# Option2 = SameFamily = False, ExcludeTypeBlank = False
-# Option3 = SameFamily = False, ExcludeTypeBlank = True
+def selectOption():
+  print("\nSelect VMR generation option:")
+  print("  1 = Same family fallback only")
+  print("  2 = Cross-family fallback")
+  print("  3 = Cross-family fallback unless exact model ZZZZ exists")
+  print("  4 = Generate all three options")
+  while True:
+    choice = input("Enter option (1/2/3/4): ").strip()
+    if choice in ('1', '2', '3', '4'):
+      return int(choice)
+    print("Invalid option, please enter 1, 2, 3, or 4.")
+
+selectedOption = selectOption()
 
 class Airplane:
   def __init__(self, TypeCode, Size, Manufacturer, EngineType, WideBody, neoExists, neo, Family):
@@ -423,200 +431,6 @@ def ResetTestingModels(ModelsToUse):
     TestingModels.append(ModelToUse)
   return TestingModels
 
-AirlineModelClasses = []
-for Airline in Airlines:
-  icao_airlines = []
-  InAirlineGroup = False
-  AlreadyDoneAirline = False
-  for airlinegroup in AirlineGroups:
-    if Airline in airlinegroup.List:
-      InAirlineGroup = True
-      if airlinegroup.List.index(Airline) != 0:
-        AlreadyDoneAirline = True
-      icao_airlines = airlinegroup.List
-  if icao_airlines == []:
-    icao_airlines = [Airline]
-  if not AlreadyDoneAirline:
-    for icao_airline in icao_airlines:
-      AirlineModels = []
-      for model in Models:
-        if InAirlineGroup:
-          for airlinegroup in AirlineGroups:
-            if icao_airline in airlinegroup.List:
-              if model.icao_airline in airlinegroup.List: #add all models in airline group
-                AirlineModels.append(model) 
-        else:
-          if model.icao_airline == icao_airline: #add all models in airline
-            AirlineModels.append(model)
-      if len(AirlineModels) == 0: #if cant find any models for airline, use default models
-        if not SameFamily:  # Only load all generics if SameFamily is off
-          for model in Models:
-            if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-              AirlineModels.append(model)
-      for airplane in Airplanes:
-        ModelsToUse = ResetModelsToUse(AirlineModels)
-        TestingModels = ResetTestingModels(ModelsToUse)
-        # Only filter by family if SameFamily is True (but not for generic ZZZZ entries)
-        if SameFamily and icao_airline not in ['ZZZZ', 'ZZZ', '']:
-          for TestModel in TestingModels:
-            if TestModel.Family != airplane.Family:
-              ModelsToUse.remove(TestModel)
-        # After filtering by family (if enabled), if we have no models, load appropriate generics based on SameFamily
-        if len(ModelsToUse) == 0:
-          for model in Models:
-            if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-              if not SameFamily or model.Family == airplane.Family:
-                ModelsToUse.append(model)
-          TestingModels = ResetTestingModels(ModelsToUse)
-        if len(ModelsToUse) == 0:
-          if SameFamily:
-            for model in Models:
-              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                if model.Family == airplane.Family:
-                  ModelsToUse.append(model)
-            if len(ModelsToUse) == 0:
-              ModelsToUse = ResetModelsToUse(TestingModels)
-              for model in Models:
-                if model not in ModelsToUse:
-                  if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                    if not SameFamily or model.Family == airplane.Family:
-                      ModelsToUse.append(model)
-          else:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-        TestingModels = ResetTestingModels(ModelsToUse)
-        for TestModel in TestingModels:
-          if TestModel.TypeCode != airplane.TypeCode:
-            ModelsToUse.remove(TestModel)
-        if len(ModelsToUse) == 0:
-          ModelsToUse = ResetModelsToUse(TestingModels)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.Family != airplane.Family:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-          else:
-            TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.EngineType != airplane.EngineType:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0: #if can't find any models with same engine type, use default models
-            for model in Models:
-              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                if not SameFamily or model.Family == airplane.Family:
-                  ModelsToUse.append(model)
-            if len(ModelsToUse) == 0:
-              ModelsToUse = ResetModelsToUse(TestingModels)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.WideBody != airplane.WideBody:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0: #if can't find any models that are the same widebody type, use default models
-            for model in Models:
-              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
-                if not SameFamily or model.Family == airplane.Family:
-                  ModelsToUse.append(model)
-            if len(ModelsToUse) == 0:
-              ModelsToUse = ResetModelsToUse(TestingModels)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.EngineType != airplane.EngineType:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.WideBody != airplane.WideBody:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            SizeDifference = TestModel.Size - airplane.Size
-            SizeDifference = abs(SizeDifference)
-            if SizeDifference > (airplane.Size / 400 * 150):
-              ModelsToUse.remove(TestModel)
-          SmallestSizeDifference = 1000
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-            for TestModel in TestingModels:
-              SizeDifference = TestModel.Size - airplane.Size
-              SizeDifference = abs(SizeDifference)
-              if SizeDifference < SmallestSizeDifference:
-                SmallestSizeDifference = SizeDifference
-            for TestModel in TestingModels:
-              SizeDifference = TestModel.Size - airplane.Size
-              SizeDifference = abs(SizeDifference)
-              if SizeDifference - SmallestSizeDifference > (airplane.Size / 400 * 150):
-                ModelsToUse.remove(TestModel)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if TestModel.Manufacturer != airplane.Manufacturer:
-              ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-          else:
-            TestingModels = ResetTestingModels(ModelsToUse)
-          SmallestSizeDifference = 1000
-          for TestModel in TestingModels:
-            SizeDifference = TestModel.Size - airplane.Size
-            SizeDifference = abs(SizeDifference)
-            if SizeDifference < SmallestSizeDifference:
-              SmallestSizeDifference = SizeDifference
-          for TestModel in TestingModels:
-            SizeDifference = TestModel.Size - airplane.Size
-            SizeDifference = abs(SizeDifference)
-            if SizeDifference > SmallestSizeDifference:
-              ModelsToUse.remove(TestModel)
-          TestingModels = ResetTestingModels(ModelsToUse)
-          for TestModel in TestingModels:
-            if airplane.neoExists:
-              if TestModel.neo != airplane.neo:
-                ModelsToUse.remove(TestModel)
-          if len(ModelsToUse) == 0:
-            ModelsToUse = ResetModelsToUse(TestingModels)
-        TestingModels = ResetTestingModels(ModelsToUse)
-        for TestModel in TestingModels:
-          if TestModel.title.find(TestModel.TypeCode + 'F') != -1:
-            ModelsToUse.remove(TestModel)
-        if len(ModelsToUse) == 0:
-          ModelsToUse = ResetModelsToUse(TestingModels)
-        TestingModels = ResetTestingModels(ModelsToUse)
-        for TestModel in TestingModels:
-          if TestModel.title.find('B73X') != -1:
-            ModelsToUse.remove(TestModel)
-        if len(ModelsToUse) == 0:
-          ModelsToUse = ResetModelsToUse(TestingModels)
-        TestingModels = ResetTestingModels(ModelsToUse)
-        for TestModel in TestingModels:
-          if TestModel.icao_airline == 'ZZZZ' or TestModel.icao_airline == 'ZZZ' or TestModel.icao_airline == '':
-            ModelsToUse.remove(TestModel)
-        if len(ModelsToUse) == 0:
-          ModelsToUse = ResetModelsToUse(TestingModels)
-        # Only add if it's ZZZZ, or if it's a specific airline WITH actual airline models
-        # For airline groups, also accept if we have any models from the group (not generic ZZZZ)
-        if icao_airline in ['ZZZZ', 'ZZZ', ''] or any(m.icao_airline == icao_airline for m in ModelsToUse) or (InAirlineGroup and any(m.icao_airline in icao_airlines for m in ModelsToUse)):
-          # ExcludeTypeBlank check: if using cross-family airline liveries when exact-type ZZZZ exists, skip
-          ShouldExclude = False
-          if ExcludeTypeBlank and not SameFamily and icao_airline not in ['ZZZZ', 'ZZZ', '']:
-            # Check if ModelsToUse contains airline-specific (non-ZZZZ) models from different families
-            has_airline_models = any(m.icao_airline == icao_airline for m in ModelsToUse)
-            if has_airline_models:
-              # Check if any model in ModelsToUse is from a different family than current airplane
-              cross_family_fallback = any(m.Family != airplane.Family for m in ModelsToUse)
-              if cross_family_fallback:
-                # Check if exact-type ZZZZ or same-family ZZZZ exists
-                exact_type_zzzz_exists = any((m.TypeCode == airplane.TypeCode or m.Family == airplane.Family) and (m.icao_airline == 'ZZZZ' or m.icao_airline == 'ZZZ') for m in Models)
-                if exact_type_zzzz_exists:
-                  ShouldExclude = True
-          
-          if not ShouldExclude:
-            AirlineModelClasses.append(AirlineModelsClass(icao_airline, ModelsToUse, airplane.TypeCode))
-        
-vmr = open(os.path.dirname(os.path.realpath(__file__)) + '/FSLTL_rules.vmr', 'w')
-vmr.write('<?xml version="1.0" encoding="utf-8"?> \n')
-vmr.write('<ModelMatchRuleSet> \n')
-
 def WriteModels(airlinemodelclass):
   Modelstr = ''
   ModelstrCargo = ''
@@ -693,12 +507,219 @@ def WriteModels(airlinemodelclass):
     Modelstr = Modelstr + '" /> \n'
     vmr.write(Modelstr)
 
+def GenerateVMR(SameFamily, ExcludeTypeBlank, filename):
+  global vmr
+  AirlineModelClasses = []
+  for Airline in Airlines:
+    icao_airlines = []
+    InAirlineGroup = False
+    AlreadyDoneAirline = False
+    for airlinegroup in AirlineGroups:
+      if Airline in airlinegroup.List:
+        InAirlineGroup = True
+        if airlinegroup.List.index(Airline) != 0:
+          AlreadyDoneAirline = True
+        icao_airlines = airlinegroup.List
+    if icao_airlines == []:
+      icao_airlines = [Airline]
+    if not AlreadyDoneAirline:
+      for icao_airline in icao_airlines:
+        AirlineModels = []
+        for model in Models:
+          if InAirlineGroup:
+            for airlinegroup in AirlineGroups:
+              if icao_airline in airlinegroup.List:
+                if model.icao_airline in airlinegroup.List: #add all models in airline group
+                  AirlineModels.append(model)
+          else:
+            if model.icao_airline == icao_airline: #add all models in airline
+              AirlineModels.append(model)
+        if len(AirlineModels) == 0: #if cant find any models for airline, use default models
+          if not SameFamily:  # Only load all generics if SameFamily is off
+            for model in Models:
+              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                AirlineModels.append(model)
+        for airplane in Airplanes:
+          ModelsToUse = ResetModelsToUse(AirlineModels)
+          TestingModels = ResetTestingModels(ModelsToUse)
+          # Only filter by family if SameFamily is True (but not for generic ZZZZ entries)
+          if SameFamily and icao_airline not in ['ZZZZ', 'ZZZ', '']:
+            for TestModel in TestingModels:
+              if TestModel.Family != airplane.Family:
+                ModelsToUse.remove(TestModel)
+          # After filtering by family (if enabled), if we have no models, load appropriate generics based on SameFamily
+          if len(ModelsToUse) == 0:
+            for model in Models:
+              if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                if not SameFamily or model.Family == airplane.Family:
+                  ModelsToUse.append(model)
+            TestingModels = ResetTestingModels(ModelsToUse)
+          if len(ModelsToUse) == 0:
+            if SameFamily:
+              for model in Models:
+                if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                  if model.Family == airplane.Family:
+                    ModelsToUse.append(model)
+              if len(ModelsToUse) == 0:
+                ModelsToUse = ResetModelsToUse(TestingModels)
+                for model in Models:
+                  if model not in ModelsToUse:
+                    if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                      if not SameFamily or model.Family == airplane.Family:
+                        ModelsToUse.append(model)
+            else:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+          TestingModels = ResetTestingModels(ModelsToUse)
+          for TestModel in TestingModels:
+            if TestModel.TypeCode != airplane.TypeCode:
+              ModelsToUse.remove(TestModel)
+          if len(ModelsToUse) == 0:
+            ModelsToUse = ResetModelsToUse(TestingModels)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.Family != airplane.Family:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+            else:
+              TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.EngineType != airplane.EngineType:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0: #if can't find any models with same engine type, use default models
+              for model in Models:
+                if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                  if not SameFamily or model.Family == airplane.Family:
+                    ModelsToUse.append(model)
+              if len(ModelsToUse) == 0:
+                ModelsToUse = ResetModelsToUse(TestingModels)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.WideBody != airplane.WideBody:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0: #if can't find any models that are the same widebody type, use default models
+              for model in Models:
+                if model.icao_airline == 'ZZZZ' or model.icao_airline == 'ZZZ' or model.icao_airline == '':
+                  if not SameFamily or model.Family == airplane.Family:
+                    ModelsToUse.append(model)
+              if len(ModelsToUse) == 0:
+                ModelsToUse = ResetModelsToUse(TestingModels)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.EngineType != airplane.EngineType:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.WideBody != airplane.WideBody:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              SizeDifference = TestModel.Size - airplane.Size
+              SizeDifference = abs(SizeDifference)
+              if SizeDifference > (airplane.Size / 400 * 150):
+                ModelsToUse.remove(TestModel)
+            SmallestSizeDifference = 1000
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+              for TestModel in TestingModels:
+                SizeDifference = TestModel.Size - airplane.Size
+                SizeDifference = abs(SizeDifference)
+                if SizeDifference < SmallestSizeDifference:
+                  SmallestSizeDifference = SizeDifference
+              for TestModel in TestingModels:
+                SizeDifference = TestModel.Size - airplane.Size
+                SizeDifference = abs(SizeDifference)
+                if SizeDifference - SmallestSizeDifference > (airplane.Size / 400 * 150):
+                  ModelsToUse.remove(TestModel)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if TestModel.Manufacturer != airplane.Manufacturer:
+                ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+            else:
+              TestingModels = ResetTestingModels(ModelsToUse)
+            SmallestSizeDifference = 1000
+            for TestModel in TestingModels:
+              SizeDifference = TestModel.Size - airplane.Size
+              SizeDifference = abs(SizeDifference)
+              if SizeDifference < SmallestSizeDifference:
+                SmallestSizeDifference = SizeDifference
+            for TestModel in TestingModels:
+              SizeDifference = TestModel.Size - airplane.Size
+              SizeDifference = abs(SizeDifference)
+              if SizeDifference > SmallestSizeDifference:
+                ModelsToUse.remove(TestModel)
+            TestingModels = ResetTestingModels(ModelsToUse)
+            for TestModel in TestingModels:
+              if airplane.neoExists:
+                if TestModel.neo != airplane.neo:
+                  ModelsToUse.remove(TestModel)
+            if len(ModelsToUse) == 0:
+              ModelsToUse = ResetModelsToUse(TestingModels)
+          TestingModels = ResetTestingModels(ModelsToUse)
+          for TestModel in TestingModels:
+            if TestModel.title.find(TestModel.TypeCode + 'F') != -1:
+              ModelsToUse.remove(TestModel)
+          if len(ModelsToUse) == 0:
+            ModelsToUse = ResetModelsToUse(TestingModels)
+          TestingModels = ResetTestingModels(ModelsToUse)
+          for TestModel in TestingModels:
+            if TestModel.title.find('B73X') != -1:
+              ModelsToUse.remove(TestModel)
+          if len(ModelsToUse) == 0:
+            ModelsToUse = ResetModelsToUse(TestingModels)
+          TestingModels = ResetTestingModels(ModelsToUse)
+          for TestModel in TestingModels:
+            if TestModel.icao_airline == 'ZZZZ' or TestModel.icao_airline == 'ZZZ' or TestModel.icao_airline == '':
+              ModelsToUse.remove(TestModel)
+          if len(ModelsToUse) == 0:
+            ModelsToUse = ResetModelsToUse(TestingModels)
+          # Only add if it's ZZZZ, or if it's a specific airline WITH actual airline models
+          # For airline groups, also accept if we have any models from the group (not generic ZZZZ)
+          if icao_airline in ['ZZZZ', 'ZZZ', ''] or any(m.icao_airline == icao_airline for m in ModelsToUse) or (InAirlineGroup and any(m.icao_airline in icao_airlines for m in ModelsToUse)):
+            # ExcludeTypeBlank check: if using cross-family airline liveries when exact-type ZZZZ exists, skip
+            ShouldExclude = False
+            if ExcludeTypeBlank and not SameFamily and icao_airline not in ['ZZZZ', 'ZZZ', '']:
+              # Check if ModelsToUse contains airline-specific (non-ZZZZ) models from different families
+              has_airline_models = any(m.icao_airline == icao_airline for m in ModelsToUse)
+              if has_airline_models:
+                # Check if any model in ModelsToUse is from a different family than current airplane
+                cross_family_fallback = any(m.Family != airplane.Family for m in ModelsToUse)
+                if cross_family_fallback:
+                  # Check if exact-type ZZZZ or same-family ZZZZ exists
+                  exact_type_zzzz_exists = any((m.TypeCode == airplane.TypeCode or m.Family == airplane.Family) and (m.icao_airline == 'ZZZZ' or m.icao_airline == 'ZZZ') for m in Models)
+                  if exact_type_zzzz_exists:
+                    ShouldExclude = True
 
-for airlinemodelclass in AirlineModelClasses:
-  if len(airlinemodelclass.Airline) != 2:
-    WriteModels(airlinemodelclass)
-for airlinemodelclass in AirlineModelClasses:
-  if len(airlinemodelclass.Airline) == 2:
-    WriteModels(airlinemodelclass)
+            if not ShouldExclude:
+              AirlineModelClasses.append(AirlineModelsClass(icao_airline, ModelsToUse, airplane.TypeCode))
+  vmr = open(os.path.dirname(os.path.realpath(__file__)) + '/' + filename, 'w')
+  vmr.write('<?xml version="1.0" encoding="utf-8"?> \n')
+  vmr.write('<ModelMatchRuleSet> \n')
+  for airlinemodelclass in AirlineModelClasses:
+    if len(airlinemodelclass.Airline) != 2:
+      WriteModels(airlinemodelclass)
+  for airlinemodelclass in AirlineModelClasses:
+    if len(airlinemodelclass.Airline) == 2:
+      WriteModels(airlinemodelclass)
 
-vmr.write('</ModelMatchRuleSet>')
+  vmr.write('</ModelMatchRuleSet>')
+  print('Generated: ' + filename)
+
+if selectedOption == 4:
+  GenerateVMR(True, False, 'FSLTL_rules_Option1.vmr')
+  GenerateVMR(False, False, 'FSLTL_rules_Option2.vmr')
+  GenerateVMR(False, True, 'FSLTL_rules_Option3.vmr')
+else:
+  options = {
+    1: (True, False, 'FSLTL_rules_Option1.vmr'),
+    2: (False, False, 'FSLTL_rules_Option2.vmr'),
+    3: (False, True, 'FSLTL_rules_Option3.vmr'),
+  }
+  sf, etb, fname = options[selectedOption]
+  GenerateVMR(sf, etb, fname)
