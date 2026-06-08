@@ -1913,14 +1913,14 @@
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Lan_Chile" /> 
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_LAN-LATAM" /> 
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_LAN-LATAM" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A21N" ModelName="FSLTL_FAIB_A20N_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Nouvelair" /> 
-<ModelMatchRule CallsignPrefix="LBT" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Nouvelair" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Nouvelair-Tunisie//FSLTL_FAIB_A20N_Nouvelair-Tunisie_MASK" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Nouvelair-Tunisie//FSLTL_FAIB_A20N_Nouvelair-Tunisie_MASK" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Nouvelair-Tunisie//FSLTL_FAIB_A20N_Nouvelair-Tunisie_MASK" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A21N" ModelName="FSLTL_FAIB_A20N_Nouvelair-Tunisie//FSLTL_FAIB_A20N_Nouvelair-Tunisie_MASK" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Nouvelair-Tunisie" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Nouvelair-Tunisie" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Nouvelair-Tunisie" /> 
+<ModelMatchRule CallsignPrefix="LBT" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Nouvelair-Tunisie" /> 
 <ModelMatchRule CallsignPrefix="LHA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_LeipzigAir_Fictional" /> 
 <ModelMatchRule CallsignPrefix="LHA" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_LeipzigAir_Fictional" /> 
 <ModelMatchRule CallsignPrefix="LHA" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_LeipzigAir_Fictional" /> 
@@ -2642,6 +2642,10 @@
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Tunair" /> 
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A320" ModelName="FSLTL_FAIB_A320_TAR-Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A321" ModelName="FSLTL_FAIB_A320_TAR-Tunisair" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A332" ModelName="FSLTL_TFS_A332_Tunisair" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A333" ModelName="FSLTL_TFS_A332_Tunisair" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A338" ModelName="FSLTL_TFS_A332_Tunisair" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A339" ModelName="FSLTL_TFS_A332_Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_AerojetVA_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_AerojetVA_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_AerojetVA_Fictional" /> 
@@ -3329,12 +3333,12 @@
 <ModelMatchRule CallsignPrefix="ABQ" TypeCode="A319" ModelName="FSLTL_FAIB_A320_AirBlue" /> 
 <ModelMatchRule CallsignPrefix="ABQ" TypeCode="A320" ModelName="FSLTL_FAIB_A320_AirBlue" /> 
 <ModelMatchRule CallsignPrefix="ABQ" TypeCode="A321" ModelName="FSLTL_A321_CFM_S_ABQ-AirBlue" /> 
-<ModelMatchRule CallsignPrefix="ACA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
+<ModelMatchRule CallsignPrefix="ACA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Air-Canada" /> 
-<ModelMatchRule CallsignPrefix="ACA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
-<ModelMatchRule CallsignPrefix="ACA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
+<ModelMatchRule CallsignPrefix="ACA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
+<ModelMatchRule CallsignPrefix="ACA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A321" ModelName="FSLTL_FAIB_A321_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="ACA" TypeCode="A332" ModelName="FSLTL_TFS_A333_ACA-AirCanada" /> 
@@ -5015,14 +5019,22 @@
 <ModelMatchRule CallsignPrefix="SKS" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Skysuisse_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SKS" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Skysuisse_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SKS" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Skysuisse_Fictional" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Tibet" /> 
-<ModelMatchRule CallsignPrefix="TBA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Tibet" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A20N" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A32N" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A21N" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A320" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="SYA" TypeCode="A321" ModelName="FSLTL_FAIB_A319_Syphax-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Xizang-Airlines" /> 
+<ModelMatchRule CallsignPrefix="TBA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Xizang-Airlines" /> 
 <ModelMatchRule CallsignPrefix="TEF" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Terrafly_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEF" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Terrafly_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEF" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Terrafly_Fictional" /> 
@@ -9666,12 +9678,12 @@
 <ModelMatchRule CallsignPrefix="AA" TypeCode="E290" ModelName="FSLTL_E170_ENY_AmericanEagle//FSLTL_E170_RPA_AmericanEagle//FSLTL_E170_SKW_AmericanEagle" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="E295" ModelName="FSLTL_E170_ENY_AmericanEagle//FSLTL_E170_RPA_AmericanEagle//FSLTL_E170_SKW_AmericanEagle" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11_AAL-American_Historic" /> 
-<ModelMatchRule CallsignPrefix="AC" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
+<ModelMatchRule CallsignPrefix="AC" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Air-Canada" /> 
-<ModelMatchRule CallsignPrefix="AC" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
-<ModelMatchRule CallsignPrefix="AC" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Air_Canada" /> 
+<ModelMatchRule CallsignPrefix="AC" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
+<ModelMatchRule CallsignPrefix="AC" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Air-Canada_Historical" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A320" ModelName="FSLTL_FAIB_A320_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A321" ModelName="FSLTL_FAIB_A321_ACA-Air Canada_NC" /> 
 <ModelMatchRule CallsignPrefix="AC" TypeCode="A332" ModelName="FSLTL_TFS_A333_ACA-AirCanada" /> 
