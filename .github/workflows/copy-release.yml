@@ -1,0 +1,40 @@
+name: Copy Release to New Repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'The tag version to copy (e.g., v1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  copy-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open GitHub CLI
+        env:
+          # Your original token to read the source repo
+          GH_TOKEN: ${{ secrets.fsltl_PAT_UPLOAD }}
+          # The tag input from the manual trigger
+          TAG: ${{ github.event.inputs.tag_name }}
+        run: |
+          echo "Downloading assets from source repository..."
+          mkdir ./shared-assets
+          gh release download "$TAG" --dir ./shared-assets --repo "${{ github.repository }}"
+
+      - name: Upload to Destination Repo
+        env:
+          # Your NEW token with write access to the destination repo
+          GH_TOKEN: ${{ secrets.NEW_DESTINATION_PAT }}
+          TAG: ${{ github.event.inputs.tag_name }}
+          # CHANGE THIS to your actual target repo path (e.g., "my-org/my-new-repo")
+          DEST_REPO: "FSLiveTrafficLiveries/FSLTL_BaseModels_Releases"
+        run: |
+          echo "Checking if release $TAG exists in destination..."
+          # Creates the release in the new repo if it doesn't exist yet
+          gh release view "$TAG" --repo "$DEST_REPO" || \
+          gh release create "$TAG" --repo "$DEST_REPO" --title "Base Models $TAG" --notes "Copied from source repository"
+
+          echo "Uploading assets to destination repository..."
+          gh release upload "$TAG" ./shared-assets/* --repo "$DEST_REPO" --clobber
