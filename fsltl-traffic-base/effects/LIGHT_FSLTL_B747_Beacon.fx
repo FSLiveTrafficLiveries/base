@@ -49,7 +49,7 @@ Face=1, 1, 1
 
 [ParticleAttributes.0]
 Blend Mode=2
-Texture=FSLTL-BeaconDown
+Texture=FSLTL-LIGHTnav
 Bounce=0.1
 Color Start=255, 1, 0, 255
 Color End=255, 1, 0, 255
