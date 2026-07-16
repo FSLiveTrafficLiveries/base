@@ -8,11 +8,11 @@ Priority=0
 
 [Emitter.0]
 Lifetime=0.0, 0.0
-Delay=0.5, 0.5
+Delay=0.0, 0.0
 Bounce=0.0
 Light=1
 No Interpolate=1
-Rate=0.8, 0.8
+Rate=1.0, 1.0
 X Emitter Velocity=0.0, 0.0
 Y Emitter Velocity=0.0, 0.0
 Z Emitter Velocity=0.0, 0.0
@@ -20,7 +20,7 @@ Drag=0.0, 0.0
 X Particle Velocity=0.0, 0.0
 Y Particle Velocity=0.0, 0.0
 Z Particle Velocity=0.0, 0.0
-X Rotation=90.0, 90.0
+X Rotation=0.0, 0.0
 Y Rotation=0.0, 0.0
 Z Rotation=0.0, 0.0
 X Offset=0.0, 0.0
@@ -28,10 +28,10 @@ Y Offset=0.0, 0.0
 Z Offset=0.0, 0.0
 
 [Particle.0]
-Lifetime=0.05, 0.05
+Lifetime=0.0, 0.0
 Type=19
-X Scale=0.4, 0.4
-Y Scale=0.4, 0.4
+X Scale=0.1, 0.1
+Y Scale=0.1, 0.1
 Z Scale=0.0, 0.0
 X Scale Rate=0.0, 0.0
 Y Scale Rate=0.0, 0.0
@@ -49,25 +49,28 @@ Face=1, 1, 1
 
 [ParticleAttributes.0]
 Blend Mode=2
-Texture=FSLTL-BeaconDown
+Texture=FSLTL-LIGHTnav
 Bounce=0.0
-Color Start=255, 20, 0, 255
-Color End=255, 20, 0, 255
+Color Start=255, 236, 210, 190
+Color End=255, 236, 210, 190
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
 uv2=1.0, 1.0
+X Scale Goal=0.0
+Y Scale Goal=0.0
+Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.1
 
 [LightAttributes.0]
 Type=spot
-Size=0.06
-Range=1
-Intensity=1
-Softness=0.0
-SpotInner=0.0
-SpotOuter=359.0
+Size=0.05
+Range=6
+Intensity=5
+Softness=1
+SpotInner=0
+SpotOuter=35
 Volumetric=1
 ScatDir=0.0
