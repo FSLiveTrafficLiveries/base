@@ -14906,6 +14906,11 @@
 <ModelMatchRule CallsignPrefix="WON" TypeCode="PA44" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="WON" TypeCode="BE55" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="WON" TypeCode="SR22" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
+<ModelMatchRule CallsignPrefix="AEG" TypeCode="F27" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
+<ModelMatchRule CallsignPrefix="AEG" TypeCode="SF34" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
+<ModelMatchRule CallsignPrefix="AEG" TypeCode="PA44" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
+<ModelMatchRule CallsignPrefix="AEG" TypeCode="BE55" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
+<ModelMatchRule CallsignPrefix="AEG" TypeCode="SR22" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ABV" TypeCode="B732" ModelName="FSLTL_FAIB_B738_Cargoblue_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ABV" TypeCode="B733" ModelName="FSLTL_FAIB_B738_Cargoblue_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ABV" TypeCode="B734" ModelName="FSLTL_FAIB_B738_Cargoblue_Cargo" /> 
