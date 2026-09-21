@@ -7042,11 +7042,6 @@
 <ModelMatchRule CallsignPrefix="GWG" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Green" /> 
 <ModelMatchRule CallsignPrefix="GWG" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Green" /> 
 <ModelMatchRule CallsignPrefix="GWG" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Green" /> 
-<ModelMatchRule CallsignPrefix="WON" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
-<ModelMatchRule CallsignPrefix="WON" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
-<ModelMatchRule CallsignPrefix="WON" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
-<ModelMatchRule CallsignPrefix="WON" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
-<ModelMatchRule CallsignPrefix="WON" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="AEG" TypeCode="SF34" ModelName="FSLTL_SF34F_Airest_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ABV" TypeCode="B732" ModelName="FSLTL_FAIB_B738_Cargoblue_Cargo" /> 
 <ModelMatchRule CallsignPrefix="ABV" TypeCode="B733" ModelName="FSLTL_FAIB_B738_Cargoblue_Cargo" /> 
@@ -7169,6 +7164,11 @@
 <ModelMatchRule CallsignPrefix="BHA" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Buddha_Air" /> 
 <ModelMatchRule CallsignPrefix="BHA" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Buddha_Air" /> 
 <ModelMatchRule CallsignPrefix="BHA" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Buddha_Air" /> 
+<ModelMatchRule CallsignPrefix="BNE" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_AirBorneo" /> 
+<ModelMatchRule CallsignPrefix="BNE" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_AirBorneo" /> 
+<ModelMatchRule CallsignPrefix="BNE" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_AirBorneo" /> 
+<ModelMatchRule CallsignPrefix="BNE" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_AirBorneo" /> 
+<ModelMatchRule CallsignPrefix="BNE" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_AirBorneo" /> 
 <ModelMatchRule CallsignPrefix="BVT" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Berjaya-Air" /> 
 <ModelMatchRule CallsignPrefix="BVT" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Berjaya-Air" /> 
 <ModelMatchRule CallsignPrefix="BVT" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Berjaya-Air" /> 
@@ -7255,6 +7255,11 @@
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_VASCO" /> 
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_VASCO" /> 
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_VASCO" /> 
+<ModelMatchRule CallsignPrefix="WON" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Wings-Air//FSLTL_OSP_AT76_Wings_Abadi" /> 
+<ModelMatchRule CallsignPrefix="WON" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Wings-Air//FSLTL_OSP_AT76_Wings_Abadi" /> 
+<ModelMatchRule CallsignPrefix="WON" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Wings-Air//FSLTL_OSP_AT76_Wings_Abadi" /> 
+<ModelMatchRule CallsignPrefix="WON" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Wings-Air" /> 
+<ModelMatchRule CallsignPrefix="WON" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Wings_Abadi" /> 
 <ModelMatchRule CallsignPrefix="DTH" TypeCode="B732" ModelName="FSLTL_FAIB_B738_Tassili_Air" /> 
 <ModelMatchRule CallsignPrefix="DTH" TypeCode="B733" ModelName="FSLTL_FAIB_B738_Tassili_Air" /> 
 <ModelMatchRule CallsignPrefix="DTH" TypeCode="B734" ModelName="FSLTL_FAIB_B738_Tassili_Air" /> 
