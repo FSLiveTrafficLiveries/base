@@ -7127,6 +7127,11 @@
 <ModelMatchRule CallsignPrefix="AZD" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Zimex_Austria_Cargo" /> 
 <ModelMatchRule CallsignPrefix="AZD" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Zimex_Austria_Cargo" /> 
 <ModelMatchRule CallsignPrefix="AZD" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Zimex_Austria_Cargo" /> 
+<ModelMatchRule CallsignPrefix="FRF" TypeCode="AT45" ModelName="FSLTL_OSP_AT75F_Fleet-Air-International_Cargo" /> 
+<ModelMatchRule CallsignPrefix="FRF" TypeCode="AT46" ModelName="FSLTL_OSP_AT75F_Fleet-Air-International_Cargo" /> 
+<ModelMatchRule CallsignPrefix="FRF" TypeCode="AT72" ModelName="FSLTL_OSP_AT75F_Fleet-Air-International_Cargo" /> 
+<ModelMatchRule CallsignPrefix="FRF" TypeCode="AT75" ModelName="FSLTL_OSP_AT75F_Fleet-Air-International_Cargo" /> 
+<ModelMatchRule CallsignPrefix="FRF" TypeCode="AT76" ModelName="FSLTL_OSP_AT75F_Fleet-Air-International_Cargo" /> 
 <ModelMatchRule CallsignPrefix="MTL" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Mitavia_Cargo" /> 
 <ModelMatchRule CallsignPrefix="MTL" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Mitavia_Cargo" /> 
 <ModelMatchRule CallsignPrefix="MTL" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Mitavia_Cargo" /> 
@@ -7180,6 +7185,11 @@
 <ModelMatchRule CallsignPrefix="SRN" TypeCode="AT75" ModelName="FSLTL_OSP_AT75F_SprintAir_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SRN" TypeCode="AT76" ModelName="FSLTL_OSP_AT75F_SprintAir_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SRN" TypeCode="SF34" ModelName="FSLTL_SF34_Sprintair" /> 
+<ModelMatchRule CallsignPrefix="SUT" TypeCode="AT45" ModelName="FSLTL_OSP_AT75F_Summit-Air_Cargo" /> 
+<ModelMatchRule CallsignPrefix="SUT" TypeCode="AT46" ModelName="FSLTL_OSP_AT75F_Summit-Air_Cargo" /> 
+<ModelMatchRule CallsignPrefix="SUT" TypeCode="AT72" ModelName="FSLTL_OSP_AT75F_Summit-Air_Cargo" /> 
+<ModelMatchRule CallsignPrefix="SUT" TypeCode="AT75" ModelName="FSLTL_OSP_AT75F_Summit-Air_Cargo" /> 
+<ModelMatchRule CallsignPrefix="SUT" TypeCode="AT76" ModelName="FSLTL_OSP_AT75F_Summit-Air_Cargo" /> 
 <ModelMatchRule CallsignPrefix="TSU" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_IFL Group_Cargo" /> 
 <ModelMatchRule CallsignPrefix="TSU" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_IFL Group_Cargo" /> 
 <ModelMatchRule CallsignPrefix="TSU" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_IFL Group_Cargo" /> 
@@ -7274,6 +7284,11 @@
 <ModelMatchRule CallsignPrefix="IBB" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_IBB-Binter Canarias//FSLTL_OSP_AT76_IBB-Binter Canarias" /> 
 <ModelMatchRule CallsignPrefix="IBB" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_IBB-Binter Canarias" /> 
 <ModelMatchRule CallsignPrefix="IBB" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_IBB-Binter Canarias" /> 
+<ModelMatchRule CallsignPrefix="MGY" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Madagascar-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MGY" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Madagascar-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MGY" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Madagascar-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MGY" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Madagascar-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MGY" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Madagascar-Airlines" /> 
 <ModelMatchRule CallsignPrefix="MMD" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Mermaid" /> 
 <ModelMatchRule CallsignPrefix="MMD" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Mermaid" /> 
 <ModelMatchRule CallsignPrefix="MMD" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Mermaid" /> 
@@ -7314,6 +7329,11 @@
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Passaredo_Historical//FSLTL_OSP_AT76_Passaredo_Historical" /> 
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Passaredo_Historical" /> 
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Passaredo_Historical" /> 
+<ModelMatchRule CallsignPrefix="TDS" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
+<ModelMatchRule CallsignPrefix="TDS" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
+<ModelMatchRule CallsignPrefix="TDS" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
+<ModelMatchRule CallsignPrefix="TDS" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
+<ModelMatchRule CallsignPrefix="TDS" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_VASCO" /> 
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_VASCO" /> 
 <ModelMatchRule CallsignPrefix="VFC" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_VASCO" /> 
@@ -7388,6 +7408,11 @@
 <ModelMatchRule CallsignPrefix="AVN" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Air_Van" /> 
 <ModelMatchRule CallsignPrefix="AVN" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Air_Van" /> 
 <ModelMatchRule CallsignPrefix="AVN" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Air_Van" /> 
+<ModelMatchRule CallsignPrefix="AWA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Air-Astra" /> 
+<ModelMatchRule CallsignPrefix="AWA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Air-Astra" /> 
+<ModelMatchRule CallsignPrefix="AWA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Air-Astra" /> 
+<ModelMatchRule CallsignPrefix="AWA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Air-Astra" /> 
+<ModelMatchRule CallsignPrefix="AWA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Air-Astra" /> 
 <ModelMatchRule CallsignPrefix="BCV" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Morabest" /> 
 <ModelMatchRule CallsignPrefix="BCV" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Morabest" /> 
 <ModelMatchRule CallsignPrefix="BCV" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Morabest" /> 
@@ -7445,6 +7470,11 @@
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="E195" ModelName="FSLTL_E190_Eastern-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="E290" ModelName="FSLTL_E190_Eastern-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="EZE" TypeCode="E295" ModelName="FSLTL_E190_Eastern-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="GOA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Fly91" /> 
+<ModelMatchRule CallsignPrefix="GOA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Fly91" /> 
+<ModelMatchRule CallsignPrefix="GOA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Fly91" /> 
+<ModelMatchRule CallsignPrefix="GOA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Fly91" /> 
+<ModelMatchRule CallsignPrefix="GOA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Fly91" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
 <ModelMatchRule CallsignPrefix="HFA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_HFA_Air_Haifa" /> 
@@ -7470,6 +7500,11 @@
 <ModelMatchRule CallsignPrefix="MDO" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_MDO-Mel Air-Iberia Regional" /> 
 <ModelMatchRule CallsignPrefix="MDO" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_MDO-Mel Air-Iberia Regional" /> 
 <ModelMatchRule CallsignPrefix="MDO" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_MDO-Mel Air-Iberia Regional" /> 
+<ModelMatchRule CallsignPrefix="NTR" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Air-Moana" /> 
+<ModelMatchRule CallsignPrefix="NTR" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Air-Moana" /> 
+<ModelMatchRule CallsignPrefix="NTR" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Air-Moana" /> 
+<ModelMatchRule CallsignPrefix="NTR" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Air-Moana" /> 
+<ModelMatchRule CallsignPrefix="NTR" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Air-Moana" /> 
 <ModelMatchRule CallsignPrefix="RAM" TypeCode="B732" ModelName="FSLTL_FAIB_B738_RAM-Royal Air Maroc_NC" /> 
 <ModelMatchRule CallsignPrefix="RAM" TypeCode="B733" ModelName="FSLTL_FAIB_B738_RAM-Royal Air Maroc_NC" /> 
 <ModelMatchRule CallsignPrefix="RAM" TypeCode="B734" ModelName="FSLTL_FAIB_B738_RAM-Royal Air Maroc_NC" /> 
