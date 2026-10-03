@@ -1178,12 +1178,12 @@
 <ModelMatchRule CallsignPrefix="DKH" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_DKH-AIR JUNEYAO" /> 
 <ModelMatchRule CallsignPrefix="DKH" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_DKH-AIR JUNEYAO" /> 
 <ModelMatchRule CallsignPrefix="DKH" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_DKH-AIR JUNEYAO" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A20N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A32N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A320" ModelName="FSLTL A320 DLH Lufthansa//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZF//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZJ//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIUA//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZH//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZM//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZN" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A321" ModelName="FSLTL A321 DLH Lufthansa//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRM//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRP//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRT" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A332" ModelName="FSLTL_TFS_A333_DLH-Lufthansa//FSLTL_TFS_A333_DLH-Lufthansa_OC" /> 
@@ -1207,22 +1207,22 @@
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A20N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A32N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A320" ModelName="FSLTL A320 DLH Lufthansa//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZF//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZJ//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIUA//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZH//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZM//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZN" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A321" ModelName="FSLTL A321 DLH Lufthansa//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRM//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRP//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRT" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A332" ModelName="FSLTL_TFS_A333_DLH-Lufthansa//FSLTL_TFS_A333_DLH-Lufthansa_OC" /> 
@@ -1246,16 +1246,16 @@
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
 <ModelMatchRule CallsignPrefix="EAG" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Greenstone_Fictional" /> 
 <ModelMatchRule CallsignPrefix="EAG" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Greenstone_Fictional" /> 
 <ModelMatchRule CallsignPrefix="EAG" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Greenstone_Fictional" /> 
@@ -3283,10 +3283,10 @@
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A319" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A320" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Qatar_Historical" /> 
-<ModelMatchRule CallsignPrefix="QTR" TypeCode="A332" ModelName="FSLTL_TFS_A332_QTR-Qatar Airways" /> 
-<ModelMatchRule CallsignPrefix="QTR" TypeCode="A333" ModelName="FSLTL_TFS_A333_QTR-Qatar" /> 
-<ModelMatchRule CallsignPrefix="QTR" TypeCode="A338" ModelName="FSLTL_TFS_A332_QTR-Qatar Airways" /> 
-<ModelMatchRule CallsignPrefix="QTR" TypeCode="A339" ModelName="FSLTL_TFS_A333_QTR-Qatar" /> 
+<ModelMatchRule CallsignPrefix="QTR" TypeCode="A332" ModelName="FSLTL_TFS_A332_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QTR" TypeCode="A333" ModelName="FSLTL_TFS_A333_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QTR" TypeCode="A338" ModelName="FSLTL_TFS_A332_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QTR" TypeCode="A339" ModelName="FSLTL_TFS_A333_QTR_Qatar-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A342" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A343" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
 <ModelMatchRule CallsignPrefix="QTR" TypeCode="A345" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
@@ -4805,7 +4805,12 @@
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="A319" ModelName="FSLTL_FAIB_A319_CTN-Croatia Airlines" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="A320" ModelName="FSLTL_A320_CTN_Croatia-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="A321" ModelName="FSLTL_A320_CTN_Croatia-Airlines_Historical" /> 
-<ModelMatchRule CallsignPrefix="CTN" TypeCode="BCS1" ModelName="FSLTL_SBAI_BCS3_Croatia" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Croatia-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Croatia-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Croatia-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Croatia-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Croatia-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CTN" TypeCode="BCS1" ModelName="FSLTL_SBAI_BCS1_Croatia-Airlines" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="BCS3" ModelName="FSLTL_SBAI_BCS3_Croatia" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="DH8B" ModelName="FSLTL_DH8D_CTN-Croatia" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="DH8C" ModelName="FSLTL_DH8D_CTN-Croatia" /> 
@@ -6246,18 +6251,18 @@
 <ModelMatchRule CallsignPrefix="SWT" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Swift_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SWT" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Swift_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SWT" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Swift_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A19N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A20N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A32N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A21N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A318" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A319" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A320" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="A321" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="B772" ModelName="FSLTL_TFS_B77L_GEC-Lufthansa_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="B773" ModelName="FSLTL_TFS_B77L_GEC-Lufthansa_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_GEC-Lufthansa_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC" /> 
-<ModelMatchRule CallsignPrefix="GEC" TypeCode="B77W" ModelName="FSLTL_TFS_B77L_GEC-Lufthansa_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A19N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A20N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A32N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A21N" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A318" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A319" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A320" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="A321" ModelName="FSLTL_FAIB_A321F_Lufthansa-Cargo_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="B772" ModelName="FSLTL_TFS_B77L_GEC_Lufthansa-Cargo_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFA//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFD" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="B773" ModelName="FSLTL_TFS_B77L_GEC_Lufthansa-Cargo_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFA//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFD" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_GEC_Lufthansa-Cargo_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFA//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFD" /> 
+<ModelMatchRule CallsignPrefix="GEC" TypeCode="B77W" ModelName="FSLTL_TFS_B77L_GEC_Lufthansa-Cargo_Cargo//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFA//FSLTL_TFS_B77L_GEC-Lufthansa_Cargo_OC_D-ALFD" /> 
 <ModelMatchRule CallsignPrefix="GEC" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11_GEC-Lufthansa_Cargo" /> 
 <ModelMatchRule CallsignPrefix="AAG" TypeCode="A19N" ModelName="FSLTL_FAIB_A321_Apricot" /> 
 <ModelMatchRule CallsignPrefix="AAG" TypeCode="A20N" ModelName="FSLTL_FAIB_A321_Apricot" /> 
@@ -9847,12 +9852,12 @@
 <ModelMatchRule CallsignPrefix="BA" TypeCode="E195" ModelName="FSLTL_E190_Speedbird//FSLTL_E190_BA City Flyer" /> 
 <ModelMatchRule CallsignPrefix="BA" TypeCode="E290" ModelName="FSLTL_E190_Speedbird//FSLTL_E190_BA City Flyer" /> 
 <ModelMatchRule CallsignPrefix="BA" TypeCode="E295" ModelName="FSLTL_E190_Speedbird//FSLTL_E190_BA City Flyer" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A20N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A32N" ModelName="FSLTL A20N DLH Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Hansaline//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Lufthansa-Cityline_Historical//FSLTL A319 DLH Lufthansa//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBA//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBB//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AIBD//FSLTL_FAIB_A319_DLH-Lufthansa_OC_D-AILA" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A320" ModelName="FSLTL A320 DLH Lufthansa//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZF//FSLTL_FAIB_A320_DLH-Lufthansa_OC_D-AIZJ//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIUA//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZH//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZM//FSLTL_A320_DLH_Lufthansa_Star-Alliance_D-AIZN" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A321" ModelName="FSLTL A321 DLH Lufthansa//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRM//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRP//FSLTL_FAIB_A321_DLH-Lufthansa_OC_D-AIRT" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A332" ModelName="FSLTL_TFS_A333_DLH-Lufthansa//FSLTL_TFS_A333_DLH-Lufthansa_OC" /> 
@@ -9876,16 +9881,16 @@
 <ModelMatchRule CallsignPrefix="LH" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_DLH-Lufthansa" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa CityLine" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa CityLine//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="CRJX" ModelName="FSLTL_CRJ7_CLH-Lufthansa-CityLine_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E170" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E75S" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E75L" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E190" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E195" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E290" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="E295" ModelName="FSLTL_E190_Lufthansa-CityLine_Historical//FSLTL_E190_Lufthansa_Historical" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
@@ -9894,10 +9899,10 @@
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A319" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A320" ModelName="FSLTL_FAIB_A320_QTR-Qatar//FSLTL A320 QATAR SL" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Qatar_Historical" /> 
-<ModelMatchRule CallsignPrefix="QR" TypeCode="A332" ModelName="FSLTL_TFS_A332_QTR-Qatar Airways" /> 
-<ModelMatchRule CallsignPrefix="QR" TypeCode="A333" ModelName="FSLTL_TFS_A333_QTR-Qatar" /> 
-<ModelMatchRule CallsignPrefix="QR" TypeCode="A338" ModelName="FSLTL_TFS_A332_QTR-Qatar Airways" /> 
-<ModelMatchRule CallsignPrefix="QR" TypeCode="A339" ModelName="FSLTL_TFS_A333_QTR-Qatar" /> 
+<ModelMatchRule CallsignPrefix="QR" TypeCode="A332" ModelName="FSLTL_TFS_A332_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QR" TypeCode="A333" ModelName="FSLTL_TFS_A333_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QR" TypeCode="A338" ModelName="FSLTL_TFS_A332_QTR_Qatar-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="QR" TypeCode="A339" ModelName="FSLTL_TFS_A333_QTR_Qatar-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A342" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A343" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
 <ModelMatchRule CallsignPrefix="QR" TypeCode="A345" ModelName="FSLTL_TFS_A346_Qatar_Historical" /> 
