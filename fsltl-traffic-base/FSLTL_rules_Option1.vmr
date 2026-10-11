@@ -1796,7 +1796,7 @@
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_IBE-Iberia" /> 
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A20N" ModelName="FSLTL A20N IBE Iberia" /> 
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A32N" ModelName="FSLTL A20N IBE Iberia" /> 
-<ModelMatchRule CallsignPrefix="IBE" TypeCode="A21N" ModelName="FSLTL_FAIB_A321_IBE-Iberia" /> 
+<ModelMatchRule CallsignPrefix="IBE" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Iberia" /> 
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A318" ModelName="FSLTL_FAIB_A319_IBE-Iberia" /> 
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A319" ModelName="FSLTL_FAIB_A319_IBE-Iberia" /> 
 <ModelMatchRule CallsignPrefix="IBE" TypeCode="A320" ModelName="FSLTL A320 IBE Iberia" /> 
@@ -5964,6 +5964,14 @@
 <ModelMatchRule CallsignPrefix="NIA" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Nile" /> 
 <ModelMatchRule CallsignPrefix="NIA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Nile" /> 
 <ModelMatchRule CallsignPrefix="NIA" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Nile" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
+<ModelMatchRule CallsignPrefix="NMA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Nesma-Airlines_WL" /> 
 <ModelMatchRule CallsignPrefix="NWA" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Northwest_Airlines_Historic" /> 
 <ModelMatchRule CallsignPrefix="NWA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Northwest_Airlines_Historic" /> 
 <ModelMatchRule CallsignPrefix="NWA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Northwest_Airlines_Historic" /> 
@@ -6037,6 +6045,14 @@
 <ModelMatchRule CallsignPrefix="RYR" TypeCode="B739" ModelName="FSLTL_B738_RYR//FSLTL_FAIB_B738_Ryanair_SSW" /> 
 <ModelMatchRule CallsignPrefix="RYR" TypeCode="B38M" ModelName="FSLTL_B738_RYR//FSLTL_FAIB_B738_Ryanair_SSW" /> 
 <ModelMatchRule CallsignPrefix="RYR" TypeCode="B39M" ModelName="FSLTL_B738_RYR//FSLTL_FAIB_B738_Ryanair_SSW" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
+<ModelMatchRule CallsignPrefix="SIF" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Air-Sial" /> 
 <ModelMatchRule CallsignPrefix="SJV" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Super Air Jet" /> 
 <ModelMatchRule CallsignPrefix="SJV" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Super Air Jet" /> 
 <ModelMatchRule CallsignPrefix="SJV" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Super Air Jet" /> 
@@ -7732,6 +7748,16 @@
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B739" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B38M" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B39M" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B732" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B733" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B734" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B735" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B736" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B737" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B738" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B739" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B38M" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
+<ModelMatchRule CallsignPrefix="KLJ" TypeCode="B39M" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
 <ModelMatchRule CallsignPrefix="NIG" TypeCode="B732" ModelName="FSLTL_FAIB_B733_Aeroline" /> 
 <ModelMatchRule CallsignPrefix="NIG" TypeCode="B733" ModelName="FSLTL_FAIB_B733_Aeroline" /> 
 <ModelMatchRule CallsignPrefix="NIG" TypeCode="B734" ModelName="FSLTL_FAIB_B733_Aeroline" /> 
