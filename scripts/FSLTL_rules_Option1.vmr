@@ -5029,6 +5029,19 @@
 <ModelMatchRule CallsignPrefix="MLD" TypeCode="A319" ModelName="FSLTL_FAIB_A319_MLD-Air Moldova" /> 
 <ModelMatchRule CallsignPrefix="MLD" TypeCode="A320" ModelName="FSLTL_FAIB_A319_MLD-Air Moldova" /> 
 <ModelMatchRule CallsignPrefix="MLD" TypeCode="A321" ModelName="FSLTL_FAIB_A319_MLD-Air Moldova" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Myanmar-Airways-International//FSLTL_FAIB_A319_Myanmar-Airways-International_BlueYellow" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Myanmar-Airways-International//FSLTL_FAIB_A320_Myanmar-Airways-International_SL" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Myanmar-Airways-International//FSLTL_FAIB_A320_Myanmar-Airways-International_SL" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Myanmar-Airways-International//FSLTL_FAIB_A320_Myanmar-Airways-International_SL" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Myanmar-Airways-International//FSLTL_FAIB_A319_Myanmar-Airways-International_BlueYellow" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Myanmar-Airways-International//FSLTL_FAIB_A319_Myanmar-Airways-International_BlueYellow" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Myanmar-Airways-International//FSLTL_FAIB_A320_Myanmar-Airways-International_SL" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Myanmar-Airways-International//FSLTL_FAIB_A320_Myanmar-Airways-International_SL" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Polaris-Aviation_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Polaris-Aviation_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Polaris-Aviation_Fictional" /> 
@@ -7350,6 +7363,11 @@
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Passaredo_Historical//FSLTL_OSP_AT76_Passaredo_Historical" /> 
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Passaredo_Historical" /> 
 <ModelMatchRule CallsignPrefix="PTB" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Passaredo_Historical" /> 
+<ModelMatchRule CallsignPrefix="RTL" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Air-Thanlwin" /> 
+<ModelMatchRule CallsignPrefix="RTL" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Air-Thanlwin" /> 
+<ModelMatchRule CallsignPrefix="RTL" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Air-Thanlwin" /> 
+<ModelMatchRule CallsignPrefix="RTL" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Air-Thanlwin" /> 
+<ModelMatchRule CallsignPrefix="RTL" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_Air-Thanlwin" /> 
 <ModelMatchRule CallsignPrefix="TDS" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
 <ModelMatchRule CallsignPrefix="TDS" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
 <ModelMatchRule CallsignPrefix="TDS" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Tsaradia_Historical" /> 
@@ -7506,6 +7524,11 @@
 <ModelMatchRule CallsignPrefix="RSC" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_IBB-Binter Canarias//FSLTL_OSP_AT76_RSC-Canair" /> 
 <ModelMatchRule CallsignPrefix="RSC" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_IBB-Binter Canarias//FSLTL_OSP_AT76_RSC-Canair" /> 
 <ModelMatchRule CallsignPrefix="RSC" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_IBB-Binter Canarias//FSLTL_OSP_AT76_RSC-Canair" /> 
+<ModelMatchRule CallsignPrefix="KBZ" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Mingalar" /> 
+<ModelMatchRule CallsignPrefix="KBZ" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Mingalar" /> 
+<ModelMatchRule CallsignPrefix="KBZ" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Mingalar" /> 
+<ModelMatchRule CallsignPrefix="KBZ" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Mingalar" /> 
+<ModelMatchRule CallsignPrefix="KBZ" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Mingalar" /> 
 <ModelMatchRule CallsignPrefix="MAV" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Sea_Wing" /> 
 <ModelMatchRule CallsignPrefix="MAV" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Sea_Wing" /> 
 <ModelMatchRule CallsignPrefix="MAV" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Sea_Wing" /> 
@@ -7566,11 +7589,21 @@
 <ModelMatchRule CallsignPrefix="TUX" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_TUX-Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TUX" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_TUX-Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TUX" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_TUX-Tunisair" /> 
-<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Unionair" /> 
-<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Unionair" /> 
-<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Unionair" /> 
-<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Unionair" /> 
-<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Unionair" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B732" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B733" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B734" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B735" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B736" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B737" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B738" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B739" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Myanmar-National-Airlines" /> 
+<ModelMatchRule CallsignPrefix="UBA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Myanmar-National-Airlines" /> 
 <ModelMatchRule CallsignPrefix="UIA" TypeCode="AT45" ModelName="FSLTL_OSP_AT76_Glory" /> 
 <ModelMatchRule CallsignPrefix="UIA" TypeCode="AT46" ModelName="FSLTL_OSP_AT76_Glory" /> 
 <ModelMatchRule CallsignPrefix="UIA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Glory" /> 
