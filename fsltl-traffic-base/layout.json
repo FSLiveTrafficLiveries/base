@@ -1196,27 +1196,27 @@
             "date": 134046408935654626
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN_VA/aircraft.cfg",
             "size": 921,
             "date": 134046408933664638
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN/model.AAN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN_VA/model.AAN/model.cfg",
             "size": 68,
             "date": 134046408933659628
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN/texture.AAN/FAIB_A320_CFML_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN_VA/texture.AAN/FAIB_A320_CFML_T.PNG.DDS",
             "size": 5592560,
             "date": 134046408933649628
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN/texture.AAN/FAIB_A320_CFML_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN_VA/texture.AAN/FAIB_A320_CFML_T.PNG.DDS.json",
             "size": 104,
             "date": 134046408933144630
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN/texture.AAN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_AAN_VA/texture.AAN/texture.cfg",
             "size": 49,
             "date": 134046408933139644
         },
@@ -5146,27 +5146,27 @@
             "date": 134258788411549836
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN_VA/aircraft.cfg",
             "size": 919,
             "date": 134046408803624780
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN_VA/model.XSN/model.cfg",
             "size": 68,
             "date": 134046408803619778
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN/texture.XSN/FAIB_A320_CFML_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN_VA/texture.XSN/FAIB_A320_CFML_T.PNG.dds",
             "size": 4194432,
             "date": 134258788411739852
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN/texture.XSN/FAIB_A320_CFML_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN_VA/texture.XSN/FAIB_A320_CFML_T.PNG.dds.json",
             "size": 104,
             "date": 134046408803429794
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A20N_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046408803424800
         },
@@ -8906,27 +8906,27 @@
             "date": 134258788417214434
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN_VA/aircraft.cfg",
             "size": 925,
             "date": 134046408609221704
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN_VA/model.XSN/model.cfg",
             "size": 69,
             "date": 134046408609221704
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN/texture.XSN/FAIB_A321_CFML_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN_VA/texture.XSN/FAIB_A321_CFML_T.PNG.dds",
             "size": 4194432,
             "date": 134258788417434442
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN/texture.XSN/FAIB_A321_CFML_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN_VA/texture.XSN/FAIB_A321_CFML_T.PNG.dds.json",
             "size": 104,
             "date": 134046408607652182
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A21N_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046408607652182
         },
@@ -9596,27 +9596,27 @@
             "date": 134328542208145964
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A306_MON/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A306_MON_VTSM/aircraft.cfg",
             "size": 941,
             "date": 134046408604757674
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A306_MON/model.MON/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A306_MON_VTSM/model.MON/model.cfg",
             "size": 60,
             "date": 134046408604757674
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A306_MON/texture.MON/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A306_MON_VTSM/texture.MON/texture.cfg",
             "size": 49,
             "date": 134046408604749690
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A306_MON/texture.MON/TFS_A306_GE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A306_MON_VTSM/texture.MON/TFS_A306_GE_T.PNG.dds",
             "size": 22369796,
             "date": 134046408604734688
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A306_MON/texture.MON/TFS_A306_GE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A306_MON_VTSM/texture.MON/TFS_A306_GE_T.PNG.dds.json",
             "size": 104,
             "date": 134046408604102948
         },
@@ -12841,27 +12841,27 @@
             "date": 134046408451016830
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_TEF_VA/aircraft.cfg",
             "size": 947,
             "date": 134046408451011830
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_TEF_VA/model.TEF/model.cfg",
             "size": 63,
             "date": 134046408450971832
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_TEF/texture.TEF/FAIB_A319_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A319_TEF_VA/texture.TEF/FAIB_A319_CFM_T.PNG.dds",
             "size": 5592580,
             "date": 134046408450966832
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_TEF/texture.TEF/FAIB_A319_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A319_TEF_VA/texture.TEF/FAIB_A319_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408450436800
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046408450431784
         },
@@ -13241,27 +13241,27 @@
             "date": 134258788422799566
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_XSN_VA/aircraft.cfg",
             "size": 950,
             "date": 134046408427394654
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_XSN_VA/model.XSN/model.cfg",
             "size": 63,
             "date": 134046408427394654
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_XSN/texture.XSN/FAIB_A319_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A319_XSN_VA/texture.XSN/FAIB_A319_CFM_T.PNG.dds",
             "size": 4194432,
             "date": 134258788422954566
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_XSN/texture.XSN/FAIB_A319_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A319_XSN_VA/texture.XSN/FAIB_A319_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408426819242
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A319_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A319_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046408426814242
         },
@@ -14766,27 +14766,27 @@
             "date": 134046408368936878
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC/aircraft.cfg",
-            "size": 954,
-            "date": 134046408368926866
+            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC_VTSM/aircraft.cfg",
+            "size": 959,
+            "date": 134366026993017740
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC/model.AWE/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC_VTSM/model.AWE/model.cfg",
             "size": 63,
             "date": 134046408368866868
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC/texture.AWE/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC_VTSM/texture.AWE/FAIB_A320_CFM_T.PNG.dds",
             "size": 22369796,
             "date": 134046408368841894
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC/texture.AWE/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC_VTSM/texture.AWE/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408363515242
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC/texture.AWE/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AWE_OC_VTSM/texture.AWE/texture.cfg",
             "size": 49,
             "date": 134046408363515242
         },
@@ -14866,27 +14866,27 @@
             "date": 134046408361980020
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC/aircraft.cfg",
-            "size": 956,
-            "date": 134046408361970020
+            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC_VTSM/aircraft.cfg",
+            "size": 957,
+            "date": 134366031675306086
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC/model.AZA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC_VTSM/model.AZA/model.cfg",
             "size": 63,
             "date": 134046408361910012
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC/texture.AZA/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC_VTSM/texture.AZA/FAIB_A320_CFM_T.PNG.dds",
             "size": 5592560,
             "date": 134046408361905016
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC/texture.AZA/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC_VTSM/texture.AZA/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408361770026
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC/texture.AZA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_AZA_NC_VTSM/texture.AZA/texture.cfg",
             "size": 49,
             "date": 134046408361770026
         },
@@ -14966,31 +14966,6 @@
             "date": 134046408359381640
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BCC/aircraft.cfg",
-            "size": 958,
-            "date": 134046408359371652
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BCC/model.BCC/model.cfg",
-            "size": 63,
-            "date": 134046408359311604
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BCC/texture.BCC/FAIB_A320_CFM_T.PNG.dds",
-            "size": 5592560,
-            "date": 134046408359258380
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BCC/texture.BCC/FAIB_A320_CFM_T.PNG.dds.json",
-            "size": 104,
-            "date": 134046408358923382
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BCC/texture.BCC/texture.cfg",
-            "size": 49,
-            "date": 134046408358923382
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_A320_BEL/aircraft.cfg",
             "size": 958,
             "date": 134258788423270382
@@ -15041,27 +15016,27 @@
             "date": 134046408355198378
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BER/aircraft.cfg",
-            "size": 943,
-            "date": 134046408355188380
+            "path": "SimObjects/Airplanes/FSLTL_A320_BER_VTSM/aircraft.cfg",
+            "size": 950,
+            "date": 134366044092235404
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BER/model.BER/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BER_VTSM/model.BER/model.cfg",
             "size": 63,
             "date": 134046408355188380
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BER/texture.BER/FAIB_A320_CFM_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BER_VTSM/texture.BER/FAIB_A320_CFM_T.png.dds",
             "size": 5592560,
             "date": 134046408355183380
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BER/texture.BER/FAIB_A320_CFM_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BER_VTSM/texture.BER/FAIB_A320_CFM_T.png.dds.json",
             "size": 104,
             "date": 134046408354998382
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BER/texture.BER/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BER_VTSM/texture.BER/texture.cfg",
             "size": 49,
             "date": 134046408354993410
         },
@@ -15166,27 +15141,27 @@
             "date": 134046408349347148
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BMA/aircraft.cfg",
-            "size": 958,
-            "date": 134046408349337108
+            "path": "SimObjects/Airplanes/FSLTL_A320_BMA_VTSM/aircraft.cfg",
+            "size": 959,
+            "date": 134366036852954510
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BMA/model.BMA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BMA_VTSM/model.BMA/model.cfg",
             "size": 63,
             "date": 134046408349337108
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BMA/texture.BMA/FAIB_A320_IAE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BMA_VTSM/texture.BMA/FAIB_A320_IAE_T.PNG.dds",
             "size": 5592560,
             "date": 134046408349327128
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BMA/texture.BMA/FAIB_A320_IAE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BMA_VTSM/texture.BMA/FAIB_A320_IAE_T.PNG.dds.json",
             "size": 104,
             "date": 134046408349156746
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_BMA/texture.BMA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_BMA_VTSM/texture.BMA/texture.cfg",
             "size": 49,
             "date": 134046408349156746
         },
@@ -15689,6 +15664,31 @@
             "path": "SimObjects/Airplanes/FSLTL_A320_CHB/texture.CHB/texture.cfg",
             "size": 49,
             "date": 134046408319188118
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A320_CKT_VTSM/aircraft.cfg",
+            "size": 967,
+            "date": 134366034538177832
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A320_CKT_VTSM/model.CKT/model.cfg",
+            "size": 63,
+            "date": 134046408359311604
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A320_CKT_VTSM/texture.CKT/FAIB_A320_CFM_T.PNG.dds",
+            "size": 5592560,
+            "date": 134046408359258380
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A320_CKT_VTSM/texture.CKT/FAIB_A320_CFM_T.PNG.dds.json",
+            "size": 104,
+            "date": 134046408358923382
+        },
+        {
+            "path": "SimObjects/Airplanes/FSLTL_A320_CKT_VTSM/texture.CKT/texture.cfg",
+            "size": 49,
+            "date": 134046408358923382
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A320_CQH/aircraft.cfg",
@@ -18706,27 +18706,27 @@
             "date": 134046408198628874
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_LLC/aircraft.cfg",
-            "size": 976,
-            "date": 134046408198623878
+            "path": "SimObjects/Airplanes/FSLTL_A320_LLC_VTSM/aircraft.cfg",
+            "size": 977,
+            "date": 134366038100344608
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_LLC/model.LLC/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_LLC_VTSM/model.LLC/model.cfg",
             "size": 63,
             "date": 134046408198618880
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_LLC/texture.LLC/FAIB_A320_IAE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_LLC_VTSM/texture.LLC/FAIB_A320_IAE_T.PNG.dds",
             "size": 22369796,
             "date": 134046408198593870
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_LLC/texture.LLC/FAIB_A320_IAE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_LLC_VTSM/texture.LLC/FAIB_A320_IAE_T.PNG.dds.json",
             "size": 104,
             "date": 134046408197388878
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_LLC/texture.LLC/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_LLC_VTSM/texture.LLC/texture.cfg",
             "size": 49,
             "date": 134046408197383886
         },
@@ -18981,27 +18981,27 @@
             "date": 134365180413102382
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC/aircraft.cfg",
-            "size": 952,
-            "date": 134046408190249180
+            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC_VTSM/aircraft.cfg",
+            "size": 956,
+            "date": 134366047494866986
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC/model.MON/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC_VTSM/model.MON/model.cfg",
             "size": 66,
             "date": 134046408190249180
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC/texture.MON/FAIB_A320_CFM_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC_VTSM/texture.MON/FAIB_A320_CFM_T.png.dds",
             "size": 5592560,
             "date": 134046408190244182
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC/texture.MON/FAIB_A320_CFM_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC_VTSM/texture.MON/FAIB_A320_CFM_T.png.dds.json",
             "size": 104,
             "date": 134046408190089192
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC/texture.MON/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_MON_NC_VTSM/texture.MON/texture.cfg",
             "size": 49,
             "date": 134046408190084190
         },
@@ -20056,27 +20056,27 @@
             "date": 134046408149182376
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_SHU/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_SHU_VTSM/aircraft.cfg",
             "size": 952,
             "date": 134046408149172348
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_SHU/model.SHU/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_SHU_VTSM/model.SHU/model.cfg",
             "size": 63,
             "date": 134046408149112348
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_SHU/texture.SHU/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_SHU_VTSM/texture.SHU/FAIB_A320_CFM_T.PNG.dds",
             "size": 22369796,
             "date": 134046408149087346
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_SHU/texture.SHU/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_SHU_VTSM/texture.SHU/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408147377348
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_SHU/texture.SHU/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_SHU_VTSM/texture.SHU/texture.cfg",
             "size": 49,
             "date": 134046408147372350
         },
@@ -20381,52 +20381,52 @@
             "date": 134046408133567746
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TCX/aircraft.cfg",
-            "size": 971,
-            "date": 134046408133557746
+            "path": "SimObjects/Airplanes/FSLTL_A320_TCX_VTSM/aircraft.cfg",
+            "size": 972,
+            "date": 134366039686224504
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TCX/model.TCX/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TCX_VTSM/model.TCX/model.cfg",
             "size": 63,
             "date": 134046408133557746
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TCX/texture.TCX/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TCX_VTSM/texture.TCX/FAIB_A320_CFM_T.PNG.dds",
             "size": 22369796,
             "date": 134046408133522744
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TCX/texture.TCX/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TCX_VTSM/texture.TCX/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408131909860
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TCX/texture.TCX/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TCX_VTSM/texture.TCX/texture.cfg",
             "size": 49,
             "date": 134046408131909860
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TEF_VA/aircraft.cfg",
             "size": 947,
             "date": 134046408131897476
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TEF_VA/model.TEF/model.cfg",
             "size": 66,
             "date": 134046408131862466
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TEF/texture.TEF/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TEF_VA/texture.TEF/FAIB_A320_CFM_T.PNG.dds",
             "size": 5592580,
             "date": 134046408131852462
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TEF/texture.TEF/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TEF_VA/texture.TEF/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408130754768
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046408130749772
         },
@@ -21446,27 +21446,27 @@
             "date": 134258788427439902
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_XSN_VA/aircraft.cfg",
             "size": 950,
             "date": 134046408088182922
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_XSN_VA/model.XSN/model.cfg",
             "size": 66,
             "date": 134046408088177924
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_XSN/texture.XSN/FAIB_A320_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A320_XSN_VA/texture.XSN/FAIB_A320_CFM_T.PNG.dds",
             "size": 4194432,
             "date": 134258788427509940
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_XSN/texture.XSN/FAIB_A320_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A320_XSN_VA/texture.XSN/FAIB_A320_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046408087807928
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A320_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A320_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046408087807928
         },
@@ -22666,27 +22666,27 @@
             "date": 134046408028616226
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_AWE/aircraft.cfg",
-            "size": 953,
-            "date": 134046408028606234
+            "path": "SimObjects/Airplanes/FSLTL_A321_AWE_VTSM/aircraft.cfg",
+            "size": 958,
+            "date": 134366026808795220
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_AWE/model.AWE/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_AWE_VTSM/model.AWE/model.cfg",
             "size": 63,
             "date": 134046408028601232
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_AWE/texture.AWE/FAIB_A321_IAE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_AWE_VTSM/texture.AWE/FAIB_A321_IAE_T.PNG.dds",
             "size": 22369796,
             "date": 134046408028596230
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_AWE/texture.AWE/FAIB_A321_IAE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_AWE_VTSM/texture.AWE/FAIB_A321_IAE_T.PNG.dds.json",
             "size": 104,
             "date": 134046408027722654
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_AWE/texture.AWE/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_AWE_VTSM/texture.AWE/texture.cfg",
             "size": 49,
             "date": 134046408027717648
         },
@@ -22766,27 +22766,27 @@
             "date": 134046408018408052
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_BER/aircraft.cfg",
-            "size": 943,
-            "date": 134046408018398056
+            "path": "SimObjects/Airplanes/FSLTL_A321_BER_VTSM/aircraft.cfg",
+            "size": 950,
+            "date": 134366044306389768
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_BER/model.BER/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_BER_VTSM/model.BER/model.cfg",
             "size": 65,
             "date": 134046408018398056
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_BER/texture.BER/FAIB_A321_CFM_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_BER_VTSM/texture.BER/FAIB_A321_CFM_T.png.dds",
             "size": 5592560,
             "date": 134046408018393046
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_BER/texture.BER/FAIB_A321_CFM_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_BER_VTSM/texture.BER/FAIB_A321_CFM_T.png.dds.json",
             "size": 104,
             "date": 134046408017842942
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_BER/texture.BER/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_BER_VTSM/texture.BER/texture.cfg",
             "size": 47,
             "date": 134046408017837944
         },
@@ -24461,27 +24461,27 @@
             "date": 134046407946865140
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_MON/aircraft.cfg",
-            "size": 949,
-            "date": 134046407946860180
+            "path": "SimObjects/Airplanes/FSLTL_A321_MON_VTSM/aircraft.cfg",
+            "size": 956,
+            "date": 134366047605638102
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_MON/model.MON/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_MON_VTSM/model.MON/model.cfg",
             "size": 66,
             "date": 134046407946790140
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_MON/texture.MON/FAIB_A321S_IAE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_MON_VTSM/texture.MON/FAIB_A321S_IAE_T.PNG.dds",
             "size": 5592560,
             "date": 134046407946785148
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_MON/texture.MON/FAIB_A321S_IAE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_MON_VTSM/texture.MON/FAIB_A321S_IAE_T.PNG.dds.json",
             "size": 104,
             "date": 134046407946420024
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_MON/texture.MON/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_MON_VTSM/texture.MON/texture.cfg",
             "size": 49,
             "date": 134046407946415008
         },
@@ -25161,52 +25161,52 @@
             "date": 134046407921264474
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TCX/aircraft.cfg",
-            "size": 980,
-            "date": 134046407921254472
+            "path": "SimObjects/Airplanes/FSLTL_A321_TCX_VTSM/aircraft.cfg",
+            "size": 987,
+            "date": 134366039932905278
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TCX/model.TCX/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TCX_VTSM/model.TCX/model.cfg",
             "size": 66,
             "date": 134046407921254472
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TCX/texture.TCX/FAIB_A321S_CFM_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TCX_VTSM/texture.TCX/FAIB_A321S_CFM_T.png.dds",
             "size": 5592560,
             "date": 134046407921244474
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TCX/texture.TCX/FAIB_A321S_CFM_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TCX_VTSM/texture.TCX/FAIB_A321S_CFM_T.png.dds.json",
             "size": 104,
             "date": 134046407920810032
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TCX/texture.TCX/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TCX_VTSM/texture.TCX/texture.cfg",
             "size": 92,
             "date": 134046407920805026
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TEF_VA/aircraft.cfg",
             "size": 947,
             "date": 134046407920790036
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TEF_VA/model.TEF/model.cfg",
             "size": 66,
             "date": 134046407920745032
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TEF/texture.TEF/FAIB_A321S_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TEF_VA/texture.TEF/FAIB_A321S_CFM_T.PNG.dds",
             "size": 5592580,
             "date": 134046407920740044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TEF/texture.TEF/FAIB_A321S_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TEF_VA/texture.TEF/FAIB_A321S_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046407919734624
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046407919729608
         },
@@ -25706,27 +25706,27 @@
             "date": 134258788431107042
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_XSN_VA/aircraft.cfg",
             "size": 950,
             "date": 134046407885953516
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_XSN_VA/model.XSN/model.cfg",
             "size": 66,
             "date": 134046407885953516
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_XSN/texture.XSN/FAIB_A321S_CFM_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A321_XSN_VA/texture.XSN/FAIB_A321S_CFM_T.PNG.dds",
             "size": 4194432,
             "date": 134258788431161776
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_XSN/texture.XSN/FAIB_A321S_CFM_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A321_XSN_VA/texture.XSN/FAIB_A321S_CFM_T.PNG.dds.json",
             "size": 104,
             "date": 134046407885304522
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A321_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A321_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046407885299520
         },
@@ -26526,27 +26526,27 @@
             "date": 134046407857776768
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_BER/aircraft.cfg",
-            "size": 923,
-            "date": 134046407857766766
+            "path": "SimObjects/Airplanes/FSLTL_A332_BER_VTSM/aircraft.cfg",
+            "size": 928,
+            "date": 134366045518281130
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_BER/model.BER/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_BER_VTSM/model.BER/model.cfg",
             "size": 60,
             "date": 134046407857766766
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_BER/texture.BER/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_BER_VTSM/texture.BER/texture.cfg",
             "size": 49,
             "date": 134046407857756794
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_BER/texture.BER/TFS_A332_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A332_BER_VTSM/texture.BER/TFS_A332_RR_T.PNG.dds",
             "size": 22369796,
             "date": 134046407857751758
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_BER/texture.BER/TFS_A332_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A332_BER_VTSM/texture.BER/TFS_A332_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046407856041154
         },
@@ -27486,27 +27486,27 @@
             "date": 134046407816119644
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_MON/aircraft.cfg",
-            "size": 927,
-            "date": 134046407816109642
+            "path": "SimObjects/Airplanes/FSLTL_A332_MON_VTSM/aircraft.cfg",
+            "size": 937,
+            "date": 134366047732803836
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_MON/model.MON/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_MON_VTSM/model.MON/model.cfg",
             "size": 60,
             "date": 134046407816109642
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_MON/texture.MON/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_MON_VTSM/texture.MON/texture.cfg",
             "size": 49,
             "date": 134046407816099650
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_MON/texture.MON/TFS_A332_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A332_MON_VTSM/texture.MON/TFS_A332_RR_T.PNG.dds",
             "size": 22369796,
             "date": 134046407816094644
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_MON/texture.MON/TFS_A332_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A332_MON_VTSM/texture.MON/TFS_A332_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046407814239652
         },
@@ -28086,27 +28086,27 @@
             "date": 134258788433574732
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_XSN_VA/aircraft.cfg",
             "size": 918,
             "date": 134046407790169520
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_XSN_VA/model.XSN/model.cfg",
             "size": 60,
             "date": 134046407790164520
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A332_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046407790164520
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_XSN/texture.XSN/TFS_A332_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A332_XSN_VA/texture.XSN/TFS_A332_RR_T.PNG.dds",
             "size": 4194432,
             "date": 134258788433688116
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A332_XSN/texture.XSN/TFS_A332_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A332_XSN_VA/texture.XSN/TFS_A332_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046407789964520
         },
@@ -28791,27 +28791,27 @@
             "date": 134046407749408088
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_BBB/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_BBB_VA/aircraft.cfg",
             "size": 930,
             "date": 134063398500055826
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_BBB/model.BBB/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_BBB_VA/model.BBB/model.cfg",
             "size": 60,
             "date": 134063398500055826
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_BBB/texture.BBB/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_BBB_VA/texture.BBB/texture.cfg",
             "size": 49,
             "date": 134063398500100784
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_BBB/texture.BBB/TFS_A333_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A333_BBB_VA/texture.BBB/TFS_A333_RR_T.PNG.dds",
             "size": 1398256,
             "date": 134063398500095822
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_BBB/texture.BBB/TFS_A333_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A333_BBB_VA/texture.BBB/TFS_A333_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134063398500100784
         },
@@ -30042,8 +30042,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A333_MAU/aircraft.cfg",
-            "size": 934,
-            "date": 134046407688572642
+            "size": 925,
+            "date": 134366050395964708
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_A333_MAU/model.MAU/model.cfg",
@@ -30716,27 +30716,27 @@
             "date": 134046407626982502
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_TEF_VA/aircraft.cfg",
             "size": 915,
             "date": 134046407626977496
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_TEF_VA/model.TEF/model.cfg",
             "size": 60,
             "date": 134046407626917510
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046407626912496
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_TEF/texture.TEF/TFS_A333_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A333_TEF_VA/texture.TEF/TFS_A333_RR_T.PNG.dds",
             "size": 5592580,
             "date": 134046407626907540
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_TEF/texture.TEF/TFS_A333_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A333_TEF_VA/texture.TEF/TFS_A333_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046407626307306
         },
@@ -31051,27 +31051,27 @@
             "date": 134258788443082068
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_XSN_VA/aircraft.cfg",
             "size": 918,
             "date": 134046407607812306
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_XSN_VA/model.XSN/model.cfg",
             "size": 60,
             "date": 134046407607807290
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A333_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046407607802286
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_XSN/texture.XSN/TFS_A333_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A333_XSN_VA/texture.XSN/TFS_A333_RR_T.PNG.dds",
             "size": 4194432,
             "date": 134258788443174170
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A333_XSN/texture.XSN/TFS_A333_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A333_XSN_VA/texture.XSN/TFS_A333_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046407607136500
         },
@@ -31456,27 +31456,27 @@
             "date": 134046407581214076
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_CPA/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_CPA_VTSM/aircraft.cfg",
             "size": 952,
             "date": 134046407581209074
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_CPA/model.CPA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_CPA_VTSM/model.CPA/model.cfg",
             "size": 54,
             "date": 134046407581204076
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_CPA/texture.CPA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_CPA_VTSM/texture.CPA/texture.cfg",
             "size": 49,
             "date": 134046407581199070
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_CPA/texture.CPA/TFS_A343_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A343_CPA_VTSM/texture.CPA/TFS_A343_T.PNG.dds",
             "size": 22369796,
             "date": 134046407581194078
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_CPA/texture.CPA/TFS_A343_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A343_CPA_VTSM/texture.CPA/TFS_A343_T.PNG.dds.json",
             "size": 104,
             "date": 134046407580522104
         },
@@ -31731,27 +31731,27 @@
             "date": 134046407576118978
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_MAU/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_MAU_VTSM/aircraft.cfg",
             "size": 940,
             "date": 134046407576108974
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_MAU/model.MAU/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_MAU_VTSM/model.MAU/model.cfg",
             "size": 54,
             "date": 134046407576103972
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_MAU/texture.MAU/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_MAU_VTSM/texture.MAU/texture.cfg",
             "size": 49,
             "date": 134046407576098968
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_MAU/texture.MAU/TFS_A343_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A343_MAU_VTSM/texture.MAU/TFS_A343_T.PNG.dds",
             "size": 22369796,
             "date": 134046407576058974
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_MAU/texture.MAU/TFS_A343_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A343_MAU_VTSM/texture.MAU/TFS_A343_T.PNG.dds.json",
             "size": 104,
             "date": 134046407575293962
         },
@@ -31981,27 +31981,27 @@
             "date": 134046407567599864
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_VIR/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_VIR_VTSM/aircraft.cfg",
             "size": 938,
             "date": 134046407567594826
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_VIR/model.VIR/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_VIR_VTSM/model.VIR/model.cfg",
             "size": 54,
             "date": 134046407567588772
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_VIR/texture.VIR/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A343_VIR_VTSM/texture.VIR/texture.cfg",
             "size": 49,
             "date": 134046407567578034
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_VIR/texture.VIR/TFS_A343_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A343_VIR_VTSM/texture.VIR/TFS_A343_T.PNG.dds",
             "size": 16777344,
             "date": 134046407567568036
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A343_VIR/texture.VIR/TFS_A343_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A343_VIR_VTSM/texture.VIR/TFS_A343_T.PNG.dds.json",
             "size": 104,
             "date": 134046407567233002
         },
@@ -32261,27 +32261,27 @@
             "date": 134258788443980984
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_CPA/aircraft.cfg",
-            "size": 933,
-            "date": 134046407561034780
+            "path": "SimObjects/Airplanes/FSLTL_A346_CPA_VTSM/aircraft.cfg",
+            "size": 950,
+            "date": 134366051668748932
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_CPA/model.CPA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_CPA_VTSM/model.CPA/model.cfg",
             "size": 54,
             "date": 134046407561029736
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_CPA/texture.CPA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_CPA_VTSM/texture.CPA/texture.cfg",
             "size": 49,
             "date": 134046407561019742
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_CPA/texture.CPA/TFS_A346_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A346_CPA_VTSM/texture.CPA/TFS_A346_T.PNG.dds",
             "size": 22369796,
             "date": 134046407561009744
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_CPA/texture.CPA/TFS_A346_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_CPA_VTSM/texture.CPA/TFS_A346_T.PNG.dds.json",
             "size": 104,
             "date": 134046407559710880
         },
@@ -32386,27 +32386,27 @@
             "date": 134295562027476712
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_IBE/aircraft.cfg",
-            "size": 932,
-            "date": 134046407556645344
+            "path": "SimObjects/Airplanes/FSLTL_A346_IBE_VTSM/aircraft.cfg",
+            "size": 933,
+            "date": 134366052404859212
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_IBE/model.IBE/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_IBE_VTSM/model.IBE/model.cfg",
             "size": 54,
             "date": 134046407556645344
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_IBE/texture.IBE/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_IBE_VTSM/texture.IBE/texture.cfg",
             "size": 49,
             "date": 134046407556640346
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_IBE/texture.IBE/TFS_A346_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A346_IBE_VTSM/texture.IBE/TFS_A346_T.PNG.dds",
             "size": 22369796,
             "date": 134046407556635344
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_IBE/texture.IBE/TFS_A346_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_IBE_VTSM/texture.IBE/TFS_A346_T.PNG.dds.json",
             "size": 104,
             "date": 134046407556320346
         },
@@ -32596,37 +32596,37 @@
             "date": 134046407548178238
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/aircraft.cfg",
-            "size": 924,
-            "date": 134046407548173242
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/aircraft.cfg",
+            "size": 934,
+            "date": 134366053102663488
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/model.VIR/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/model.VIR/model.cfg",
             "size": 54,
             "date": 134046407548168252
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/texture.VIR/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/texture.VIR/texture.cfg",
             "size": 49,
             "date": 134046407548163244
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/texture.VIR/TFS_A346_M.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/texture.VIR/TFS_A346_M.PNG.DDS",
             "size": 16777344,
             "date": 134046407548153260
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/texture.VIR/TFS_A346_M.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/texture.VIR/TFS_A346_M.PNG.DDS.json",
             "size": 166,
             "date": 134046407546126504
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/texture.VIR/TFS_A346_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/texture.VIR/TFS_A346_T.PNG.dds",
             "size": 22369796,
             "date": 134046407546061522
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_VIR/texture.VIR/TFS_A346_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_VIR_VTSM/texture.VIR/TFS_A346_T.PNG.dds.json",
             "size": 104,
             "date": 134046407531857636
         },
@@ -35066,27 +35066,27 @@
             "date": 134258788449553050
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A359_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A359_XSN_VA/aircraft.cfg",
             "size": 921,
             "date": 134046407430565052
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A359_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A359_XSN_VA/model.XSN/model.cfg",
             "size": 59,
             "date": 134046407430560058
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A359_XSN/texture.XSN/FSPXA350900_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A359_XSN_VA/texture.XSN/FSPXA350900_T.PNG.dds",
             "size": 4194432,
             "date": 134258788449803066
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A359_XSN/texture.XSN/FSPXA350900_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A359_XSN_VA/texture.XSN/FSPXA350900_T.PNG.dds.json",
             "size": 104,
             "date": 134046407429694998
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A359_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A359_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046407429694998
         },
@@ -51121,27 +51121,27 @@
             "date": 134258788453093276
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO_VTSM/aircraft.cfg",
             "size": 928,
             "date": 134046406798891100
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO/model.OAO/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO_VTSM/model.OAO/model.cfg",
             "size": 60,
             "date": 134046406798841102
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO/texture.OAO/OSP_ATR_42_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO_VTSM/texture.OAO/OSP_ATR_42_500_T.PNG.dds",
             "size": 22369796,
             "date": 134046406798826104
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO/texture.OAO/OSP_ATR_42_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO_VTSM/texture.OAO/OSP_ATR_42_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406798321058
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO/texture.OAO/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT46_OAO_VTSM/texture.OAO/texture.cfg",
             "size": 49,
             "date": 134046406798314950
         },
@@ -52586,52 +52586,52 @@
             "date": 134046406763578220
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL_VTSM/aircraft.cfg",
             "size": 916,
             "date": 134046406763568220
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL/model.OAL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL_VTSM/model.OAL/model.cfg",
             "size": 56,
             "date": 134046406763523274
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL/texture.OAL/OSP_ATR_72_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL_VTSM/texture.OAL/OSP_ATR_72_500_T.PNG.dds",
             "size": 22369776,
             "date": 134046406763513226
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL/texture.OAL/OSP_ATR_72_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL_VTSM/texture.OAL/OSP_ATR_72_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406763113246
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL/texture.OAL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAL_VTSM/texture.OAL/texture.cfg",
             "size": 49,
             "date": 134046406763113246
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO_VTSM/aircraft.cfg",
             "size": 937,
             "date": 134046406763098218
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO/model.OAO/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO_VTSM/model.OAO/model.cfg",
             "size": 56,
             "date": 134046406763043232
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO/texture.OAO/OSP_ATR_72_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO_VTSM/texture.OAO/OSP_ATR_72_500_T.PNG.dds",
             "size": 22369796,
             "date": 134046406763033214
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO/texture.OAO/OSP_ATR_72_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO_VTSM/texture.OAO/OSP_ATR_72_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406761059244
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO/texture.OAO/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_OAO_VTSM/texture.OAO/texture.cfg",
             "size": 49,
             "date": 134046406761059244
         },
@@ -52961,27 +52961,27 @@
             "date": 134344491399437112
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN_VA/aircraft.cfg",
             "size": 912,
             "date": 134046406751439840
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN_VA/model.XSN/model.cfg",
             "size": 56,
             "date": 134046406751394406
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN/texture.XSN/OSP_ATR_72_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN_VA/texture.XSN/OSP_ATR_72_500_T.PNG.dds",
             "size": 4194432,
             "date": 134258788454081238
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN/texture.XSN/OSP_ATR_72_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN_VA/texture.XSN/OSP_ATR_72_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406750656814
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT75_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046406750656814
         },
@@ -53151,27 +53151,27 @@
             "date": 134046406729900670
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV/aircraft.cfg",
-            "size": 918,
-            "date": 134046406729895688
+            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV_VTSM/aircraft.cfg",
+            "size": 919,
+            "date": 134366056425058120
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV/model.ABV/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV_VTSM/model.ABV/model.cfg",
             "size": 56,
             "date": 134046406729840676
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV/texture.ABV/OSP_ATR_72_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV_VTSM/texture.ABV/OSP_ATR_72_500_T.PNG.dds",
             "size": 22369796,
             "date": 134046406729835668
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV/texture.ABV/OSP_ATR_72_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV_VTSM/texture.ABV/OSP_ATR_72_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406729150668
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV/texture.ABV/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_ABV_VTSM/texture.ABV/texture.cfg",
             "size": 49,
             "date": 134046406729145658
         },
@@ -55161,27 +55161,27 @@
             "date": 134345303501514382
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA_VTSM/aircraft.cfg",
             "size": 911,
             "date": 134046406638868738
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA/model.UTA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA_VTSM/model.UTA/model.cfg",
             "size": 56,
             "date": 134046406638813762
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA/texture.UTA/OSP_ATR_72_500_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA_VTSM/texture.UTA/OSP_ATR_72_500_T.PNG.dds",
             "size": 22369796,
             "date": 134046406638783714
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA/texture.UTA/OSP_ATR_72_500_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA_VTSM/texture.UTA/OSP_ATR_72_500_T.PNG.dds.json",
             "size": 104,
             "date": 134046406636284792
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA/texture.UTA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_AT76_UTA_VTSM/texture.UTA/texture.cfg",
             "size": 49,
             "date": 134046406636284792
         },
@@ -57351,27 +57351,27 @@
             "date": 134046406447981694
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW_VTSM/aircraft.cfg",
             "size": 946,
             "date": 134046406446871698
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW/model.ABW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW_VTSM/model.ABW/model.cfg",
             "size": 66,
             "date": 134046406446861694
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW/texture.ABW/FAIB_737_700_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW_VTSM/texture.ABW/FAIB_737_700_T.PNG.dds",
             "size": 5592560,
             "date": 134046406446856684
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW/texture.ABW/FAIB_737_700_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW_VTSM/texture.ABW/FAIB_737_700_T.PNG.dds.json",
             "size": 104,
             "date": 134046406442995484
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW/texture.ABW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737F_ABW_VTSM/texture.ABW/texture.cfg",
             "size": 50,
             "date": 134046406442990492
         },
@@ -57451,27 +57451,27 @@
             "date": 134046406437470448
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_AAN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_AAN_VA/aircraft.cfg",
             "size": 934,
             "date": 134046406559915626
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_AAN/model.AAN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_AAN_VA/model.AAN/model.cfg",
             "size": 64,
             "date": 134046406559910650
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_AAN/texture.AAN/FAIB_737_700_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B737_AAN_VA/texture.AAN/FAIB_737_700_T.PNG.DDS",
             "size": 5592560,
             "date": 134046406559895638
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_AAN/texture.AAN/FAIB_737_700_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B737_AAN_VA/texture.AAN/FAIB_737_700_T.PNG.DDS.json",
             "size": 104,
             "date": 134046406559301086
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_AAN/texture.AAN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_AAN_VA/texture.AAN/texture.cfg",
             "size": 49,
             "date": 134046406559296084
         },
@@ -57726,27 +57726,27 @@
             "date": 134046406549858162
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BER/aircraft.cfg",
-            "size": 920,
-            "date": 134046406549843166
+            "path": "SimObjects/Airplanes/FSLTL_B737_BER_VTSM/aircraft.cfg",
+            "size": 925,
+            "date": 134366045725888798
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BER/model.BER/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BER_VTSM/model.BER/model.cfg",
             "size": 64,
             "date": 134046406549838172
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BER/texture.BER/FAIB_737_700_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BER_VTSM/texture.BER/FAIB_737_700_T.PNG.dds",
             "size": 5592580,
             "date": 134046406549828178
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BER/texture.BER/FAIB_737_700_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BER_VTSM/texture.BER/FAIB_737_700_T.PNG.dds.json",
             "size": 104,
             "date": 134046406549308154
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BER/texture.BER/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BER_VTSM/texture.BER/texture.cfg",
             "size": 49,
             "date": 134046406549303158
         },
@@ -57851,27 +57851,27 @@
             "date": 134046406544259042
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BRU/aircraft.cfg",
-            "size": 915,
-            "date": 134046406544245796
+            "path": "SimObjects/Airplanes/FSLTL_B737_BRU_VTSM/aircraft.cfg",
+            "size": 925,
+            "date": 134366082912247738
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BRU/model.BRU/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BRU_VTSM/model.BRU/model.cfg",
             "size": 64,
             "date": 134046406544240784
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BRU/texture.BRU/FAIB_737_700_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BRU_VTSM/texture.BRU/FAIB_737_700_T.PNG.dds",
             "size": 22369796,
             "date": 134046406544235780
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BRU/texture.BRU/FAIB_737_700_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BRU_VTSM/texture.BRU/FAIB_737_700_T.PNG.dds.json",
             "size": 104,
             "date": 134046406543510780
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_BRU/texture.BRU/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_BRU_VTSM/texture.BRU/texture.cfg",
             "size": 49,
             "date": 134046406543505852
         },
@@ -58601,27 +58601,27 @@
             "date": 134046406513325400
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_LLC/aircraft.cfg",
-            "size": 945,
-            "date": 134046406513320404
+            "path": "SimObjects/Airplanes/FSLTL_B737_LLC_VTSM/aircraft.cfg",
+            "size": 946,
+            "date": 134366038295696446
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_LLC/model.LLC/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_LLC_VTSM/model.LLC/model.cfg",
             "size": 64,
             "date": 134046406513315362
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_LLC/texture.LLC/FAIB_737_700_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B737_LLC_VTSM/texture.LLC/FAIB_737_700_T.PNG.dds",
             "size": 22369796,
             "date": 134046406513302910
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_LLC/texture.LLC/FAIB_737_700_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B737_LLC_VTSM/texture.LLC/FAIB_737_700_T.PNG.dds.json",
             "size": 104,
             "date": 134046406511495330
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_LLC/texture.LLC/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B737_LLC_VTSM/texture.LLC/texture.cfg",
             "size": 49,
             "date": 134046406511490302
         },
@@ -59276,31 +59276,6 @@
             "date": 134046406477427078
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B737_TYA/aircraft.cfg",
-            "size": 948,
-            "date": 134258788459610850
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B737_TYA/model.TYA/model.cfg",
-            "size": 64,
-            "date": 134046406477417114
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B737_TYA/texture.TYA/FAIB_737_700_T.PNG.dds",
-            "size": 22369796,
-            "date": 134046406477407128
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B737_TYA/texture.TYA/FAIB_737_700_T.PNG.dds.json",
-            "size": 104,
-            "date": 134046406475193872
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B737_TYA/texture.TYA/texture.cfg",
-            "size": 49,
-            "date": 134046406475188878
-        },
-        {
             "path": "SimObjects/Airplanes/FSLTL_B737_UAL_NC/aircraft.cfg",
             "size": 905,
             "date": 134064079124374090
@@ -59926,27 +59901,27 @@
             "date": 134046405989311652
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW_VTSM/aircraft.cfg",
             "size": 960,
             "date": 134258788459680858
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW/model.ABW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW_VTSM/model.ABW/model.cfg",
             "size": 66,
             "date": 134070526249394388
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW/texture.ABW/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW_VTSM/texture.ABW/FAIB_737_800_T.PNG.dds",
             "size": 22369796,
             "date": 134258788460735912
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW/texture.ABW/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW_VTSM/texture.ABW/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134070526250765500
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW/texture.ABW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_ABW_VTSM/texture.ABW/texture.cfg",
             "size": 50,
             "date": 134070526250795496
         },
@@ -60251,27 +60226,27 @@
             "date": 134046405973297258
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF_VA/aircraft.cfg",
             "size": 930,
             "date": 134046405973287754
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF/model.FBF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF_VA/model.FBF/model.cfg",
             "size": 66,
             "date": 134046405973249150
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF/texture.FBF/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF_VA/texture.FBF/FAIB_737_800_T.PNG.dds",
             "size": 5592560,
             "date": 134046405973244150
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF/texture.FBF/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF_VA/texture.FBF/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046405972784836
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF/texture.FBF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738F_FBF_VA/texture.FBF/texture.cfg",
             "size": 50,
             "date": 134046405972779842
         },
@@ -61336,27 +61311,27 @@
             "date": 134046406418082378
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ_VTSM/aircraft.cfg",
             "size": 937,
             "date": 134337245252179568
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ/model.ANZ/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ_VTSM/model.ANZ/model.cfg",
             "size": 64,
             "date": 134063398508253614
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ/texture.ANZ/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ_VTSM/texture.ANZ/FAIB_737_800_T.PNG.dds",
             "size": 4194432,
             "date": 134063398508493608
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ/texture.ANZ/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ_VTSM/texture.ANZ/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134063398508493608
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ/texture.ANZ/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_ANZ_VTSM/texture.ANZ/texture.cfg",
             "size": 49,
             "date": 134063398508493608
         },
@@ -61661,52 +61636,52 @@
             "date": 134046406409657050
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAL/aircraft.cfg",
-            "size": 933,
-            "date": 134046406409645738
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAL_VTSM/aircraft.cfg",
+            "size": 934,
+            "date": 134366063851500420
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAL/model.BAL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAL_VTSM/model.BAL/model.cfg",
             "size": 64,
             "date": 134046406409640734
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAL/texture.BAL/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAL_VTSM/texture.BAL/FAIB_737_800_T.PNG.dds",
             "size": 22369796,
             "date": 134046406409635728
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAL/texture.BAL/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAL_VTSM/texture.BAL/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046406404965150
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAL/texture.BAL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAL_VTSM/texture.BAL/texture.cfg",
             "size": 49,
             "date": 134046406404960150
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAW/aircraft.cfg",
-            "size": 949,
-            "date": 134046406404950150
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAW_VTSM/aircraft.cfg",
+            "size": 956,
+            "date": 134366066069254388
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAW/model.BAW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAW_VTSM/model.BAW/model.cfg",
             "size": 69,
             "date": 134046406404950150
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAW/texture.BAW/FAIB_737_800_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAW_VTSM/texture.BAW/FAIB_737_800_T.png.dds",
             "size": 22369776,
             "date": 134046406404920142
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAW/texture.BAW/FAIB_737_800_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAW_VTSM/texture.BAW/FAIB_737_800_T.png.dds.json",
             "size": 104,
             "date": 134046406402530842
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BAW/texture.BAW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BAW_VTSM/texture.BAW/texture.cfg",
             "size": 49,
             "date": 134046406402525854
         },
@@ -61761,27 +61736,27 @@
             "date": 134046406401115878
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BER/aircraft.cfg",
-            "size": 920,
-            "date": 134046406401105852
+            "path": "SimObjects/Airplanes/FSLTL_B738_BER_VTSM/aircraft.cfg",
+            "size": 925,
+            "date": 134366045923515648
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BER/model.BER/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BER_VTSM/model.BER/model.cfg",
             "size": 69,
             "date": 134046406401100840
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BER/texture.BER/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BER_VTSM/texture.BER/FAIB_737_800_T.PNG.dds",
             "size": 5592580,
             "date": 134046406401090846
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BER/texture.BER/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BER_VTSM/texture.BER/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046406400875844
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_BER/texture.BER/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_BER_VTSM/texture.BER/texture.cfg",
             "size": 49,
             "date": 134046406400870850
         },
@@ -65056,27 +65031,27 @@
             "date": 134046406220598986
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_MON/aircraft.cfg",
-            "size": 928,
-            "date": 134046406220583990
+            "path": "SimObjects/Airplanes/FSLTL_B738_MON_VTSM/aircraft.cfg",
+            "size": 938,
+            "date": 134366047887105412
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_MON/model.MON/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_MON_VTSM/model.MON/model.cfg",
             "size": 64,
             "date": 134046406220583990
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_MON/texture.MON/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_MON_VTSM/texture.MON/FAIB_737_800_T.PNG.dds",
             "size": 5592580,
             "date": 134046406220568996
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_MON/texture.MON/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_MON_VTSM/texture.MON/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046406217696312
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_MON/texture.MON/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_MON_VTSM/texture.MON/texture.cfg",
             "size": 49,
             "date": 134046406217696312
         },
@@ -65231,52 +65206,52 @@
             "date": 134046406207055044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX/aircraft.cfg",
-            "size": 929,
-            "date": 134046406207045028
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_VTSM/aircraft.cfg",
+            "size": 937,
+            "date": 134366074119927102
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX/model.NAX/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_VTSM/model.NAX/model.cfg",
             "size": 64,
             "date": 134046406206995034
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX/texture.NAX/FAIB_737_800_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_VTSM/texture.NAX/FAIB_737_800_T.png.dds",
             "size": 22369776,
             "date": 134046406206985040
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX/texture.NAX/FAIB_737_800_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_VTSM/texture.NAX/FAIB_737_800_T.png.dds.json",
             "size": 104,
             "date": 134046406206740020
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX/texture.NAX/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_VTSM/texture.NAX/texture.cfg",
             "size": 49,
             "date": 134046406206740020
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE/aircraft.cfg",
-            "size": 978,
-            "date": 134046406206730020
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE_VTSM/aircraft.cfg",
+            "size": 974,
+            "date": 134366074449294196
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE/model.NAX/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE_VTSM/model.NAX/model.cfg",
             "size": 69,
             "date": 134046406206680018
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE/texture.NAX/FAIB_737_800_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE_VTSM/texture.NAX/FAIB_737_800_T.png.dds",
             "size": 22369776,
             "date": 134046406206670022
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE/texture.NAX/FAIB_737_800_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE_VTSM/texture.NAX/FAIB_737_800_T.png.dds.json",
             "size": 104,
             "date": 134046406205970036
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE/texture.NAX/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_NAX_WHITE_VTSM/texture.NAX/texture.cfg",
             "size": 49,
             "date": 134046406205965034
         },
@@ -67331,27 +67306,27 @@
             "date": 134070523319797762
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_TEF_VA/aircraft.cfg",
             "size": 916,
             "date": 134046406095069294
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_TEF_VA/model.TEF/model.cfg",
             "size": 64,
             "date": 134046406095069294
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_TEF/texture.TEF/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_TEF_VA/texture.TEF/FAIB_737_800_T.PNG.dds",
             "size": 4194432,
             "date": 134063398515074718
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_TEF/texture.TEF/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_TEF_VA/texture.TEF/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046406094324278
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046406094324278
         },
@@ -68441,27 +68416,27 @@
             "date": 134258788472808792
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_XSN_VA/aircraft.cfg",
             "size": 919,
             "date": 134046406005980244
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_XSN_VA/model.XSN/model.cfg",
             "size": 64,
             "date": 134046406005975244
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_XSN/texture.XSN/FAIB_737_800_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B738_XSN_VA/texture.XSN/FAIB_737_800_T.PNG.dds",
             "size": 4194432,
             "date": 134258788472993798
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_XSN/texture.XSN/FAIB_737_800_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B738_XSN_VA/texture.XSN/FAIB_737_800_T.PNG.dds.json",
             "size": 104,
             "date": 134046406005125250
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B738_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B738_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046406005120246
         },
@@ -69426,27 +69401,27 @@
             "date": 134046405898326044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B739_TEF/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B739_TEF_VA/aircraft.cfg",
             "size": 916,
             "date": 134046405898321044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B739_TEF/model.TEF/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B739_TEF_VA/model.TEF/model.cfg",
             "size": 69,
             "date": 134046405898286042
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B739_TEF/texture.TEF/FAIB_737_900_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B739_TEF_VA/texture.TEF/FAIB_737_900_T.PNG.dds",
             "size": 5592580,
             "date": 134046405898226044
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B739_TEF/texture.TEF/FAIB_737_900_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B739_TEF_VA/texture.TEF/FAIB_737_900_T.PNG.dds.json",
             "size": 104,
             "date": 134046405897056046
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B739_TEF/texture.TEF/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B739_TEF_VA/texture.TEF/texture.cfg",
             "size": 49,
             "date": 134046405897056046
         },
@@ -70166,27 +70141,27 @@
             "date": 134046405841104830
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW/aircraft.cfg",
-            "size": 964,
-            "date": 134046405841099842
+            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW_VTSM/aircraft.cfg",
+            "size": 973,
+            "date": 134366061003569932
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW/model.ABW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW_VTSM/model.ABW/model.cfg",
             "size": 65,
             "date": 134046405841059794
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW/texture.ABW/FAIB_B7474F_GE_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW_VTSM/texture.ABW/FAIB_B7474F_GE_T.PNG.DDS",
             "size": 22369776,
             "date": 134046405841053184
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW/texture.ABW/FAIB_B7474F_GE_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW_VTSM/texture.ABW/FAIB_B7474F_GE_T.PNG.DDS.json",
             "size": 119,
             "date": 134046405840818188
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW/texture.ABW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744F_ABW_VTSM/texture.ABW/texture.cfg",
             "size": 50,
             "date": 134046405840813188
         },
@@ -71026,27 +71001,27 @@
             "date": 134063398516734752
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_BAW/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_BAW_VTSM/aircraft.cfg",
             "size": 940,
             "date": 134046405864933038
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_BAW/model.BAW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_BAW_VTSM/model.BAW/model.cfg",
             "size": 61,
             "date": 134046405864891818
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_BAW/texture.BAW/FAIB_B744_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B744_BAW_VTSM/texture.BAW/FAIB_B744_RR_T.PNG.dds",
             "size": 22369796,
             "date": 134046405864881816
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_BAW/texture.BAW/FAIB_B744_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B744_BAW_VTSM/texture.BAW/FAIB_B744_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046405863997458
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_BAW/texture.BAW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_BAW_VTSM/texture.BAW/texture.cfg",
             "size": 49,
             "date": 134046405863997458
         },
@@ -71176,27 +71151,27 @@
             "date": 134046405860038526
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_VIR/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_VIR_VTSM/aircraft.cfg",
             "size": 937,
             "date": 134046405860028492
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_VIR/model.VIR/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_VIR_VTSM/model.VIR/model.cfg",
             "size": 61,
             "date": 134046405859987062
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_VIR/texture.VIR/FAIB_B744_GE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B744_VIR_VTSM/texture.VIR/FAIB_B744_GE_T.PNG.dds",
             "size": 22369796,
             "date": 134046405859928802
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_VIR/texture.VIR/FAIB_B744_GE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B744_VIR_VTSM/texture.VIR/FAIB_B744_GE_T.PNG.dds.json",
             "size": 104,
             "date": 134046405858638806
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B744_VIR/texture.VIR/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B744_VIR_VTSM/texture.VIR/texture.cfg",
             "size": 49,
             "date": 134046405858638806
         },
@@ -71511,27 +71486,27 @@
             "date": 134046405753690670
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN_VA/aircraft.cfg",
             "size": 932,
             "date": 134046405753680682
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN/model.AAN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN_VA/model.AAN/model.cfg",
             "size": 62,
             "date": 134046405753675696
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN/texture.AAN/FAIB_B7478F_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN_VA/texture.AAN/FAIB_B7478F_T.PNG.DDS",
             "size": 5592580,
             "date": 134046405753665674
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN/texture.AAN/FAIB_B7478F_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN_VA/texture.AAN/FAIB_B7478F_T.PNG.DDS.json",
             "size": 104,
             "date": 134046405752394754
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN/texture.AAN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748F_AAN_VA/texture.AAN/texture.cfg",
             "size": 50,
             "date": 134046405752394754
         },
@@ -71836,52 +71811,52 @@
             "date": 134046405732072386
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_AAN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_AAN_VA/aircraft.cfg",
             "size": 934,
             "date": 134046405794084976
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_AAN/model.AAN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_AAN_VA/model.AAN/model.cfg",
             "size": 60,
             "date": 134046405794079976
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_AAN/texture.AAN/FAIB_B7478_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B748_AAN_VA/texture.AAN/FAIB_B7478_T.PNG.DDS",
             "size": 5592580,
             "date": 134046405794069974
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_AAN/texture.AAN/FAIB_B7478_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B748_AAN_VA/texture.AAN/FAIB_B7478_T.PNG.DDS.json",
             "size": 104,
             "date": 134046405793149926
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_AAN/texture.AAN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_AAN_VA/texture.AAN/texture.cfg",
             "size": 49,
             "date": 134046405793144942
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_BAW/aircraft.cfg",
-            "size": 931,
-            "date": 134046405793134934
+            "path": "SimObjects/Airplanes/FSLTL_B748_BAW_VTSM/aircraft.cfg",
+            "size": 937,
+            "date": 134366065112504674
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_BAW/model.BAW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_BAW_VTSM/model.BAW/model.cfg",
             "size": 60,
             "date": 134046405793129928
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_BAW/texture.BAW/FAIB_B7478_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B748_BAW_VTSM/texture.BAW/FAIB_B7478_T.png.dds",
             "size": 22369796,
             "date": 134046405793099928
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_BAW/texture.BAW/FAIB_B7478_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B748_BAW_VTSM/texture.BAW/FAIB_B7478_T.png.dds.json",
             "size": 104,
             "date": 134046405790710478
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_BAW/texture.BAW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_BAW_VTSM/texture.BAW/texture.cfg",
             "size": 49,
             "date": 134046405790705444
         },
@@ -72356,27 +72331,27 @@
             "date": 134046405763289930
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_XSN_VA/aircraft.cfg",
             "size": 919,
             "date": 134046405763279922
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_XSN_VA/model.XSN/model.cfg",
             "size": 60,
             "date": 134046405763259940
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_XSN/texture.XSN/FAIB_B7478_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B748_XSN_VA/texture.XSN/FAIB_B7478_T.PNG.dds",
             "size": 4194432,
             "date": 134258788474178278
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_XSN/texture.XSN/FAIB_B7478_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B748_XSN_VA/texture.XSN/FAIB_B7478_T.PNG.dds.json",
             "size": 104,
             "date": 134046405762324922
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B748_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B748_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046405762324922
         },
@@ -73876,27 +73851,27 @@
             "date": 134046405717518744
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_AFL/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_AFL_VTSM/aircraft.cfg",
             "size": 927,
             "date": 134046405717508762
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_AFL/model.AFL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_AFL_VTSM/model.AFL/model.cfg",
             "size": 63,
             "date": 134046405717508762
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_AFL/texture.AFL/FAIB_B7673_GEC_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B763_AFL_VTSM/texture.AFL/FAIB_B7673_GEC_T.PNG.dds",
             "size": 16777344,
             "date": 134046405717498744
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_AFL/texture.AFL/FAIB_B7673_GEC_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B763_AFL_VTSM/texture.AFL/FAIB_B7673_GEC_T.PNG.dds.json",
             "size": 104,
             "date": 134046405716394902
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_AFL/texture.AFL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_AFL_VTSM/texture.AFL/texture.cfg",
             "size": 49,
             "date": 134046405716389838
         },
@@ -74051,52 +74026,52 @@
             "date": 134046405705023520
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAL/aircraft.cfg",
-            "size": 933,
-            "date": 134046405705015464
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAL_VTSM/aircraft.cfg",
+            "size": 934,
+            "date": 134366063995200936
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAL/model.BAL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAL_VTSM/model.BAL/model.cfg",
             "size": 63,
             "date": 134046405705010464
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAL/texture.BAL/FAIB_B7673_GEC_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAL_VTSM/texture.BAL/FAIB_B7673_GEC_T.PNG.dds",
             "size": 22369776,
             "date": 134046405705005464
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAL/texture.BAL/FAIB_B7673_GEC_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAL_VTSM/texture.BAL/FAIB_B7673_GEC_T.PNG.dds.json",
             "size": 104,
             "date": 134046405700788594
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAL/texture.BAL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAL_VTSM/texture.BAL/texture.cfg",
             "size": 49,
             "date": 134046405700783582
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAW/aircraft.cfg",
-            "size": 931,
-            "date": 134046405700773584
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAW_VTSM/aircraft.cfg",
+            "size": 938,
+            "date": 134366066707598736
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAW/model.BAW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAW_VTSM/model.BAW/model.cfg",
             "size": 62,
             "date": 134046405700688582
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAW/texture.BAW/FAIB_B7673_RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAW_VTSM/texture.BAW/FAIB_B7673_RR_T.PNG.dds",
             "size": 5592560,
             "date": 134046405700678582
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAW/texture.BAW/FAIB_B7673_RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAW_VTSM/texture.BAW/FAIB_B7673_RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046405700158584
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_BAW/texture.BAW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_BAW_VTSM/texture.BAW/texture.cfg",
             "size": 49,
             "date": 134046405700158584
         },
@@ -74401,27 +74376,27 @@
             "date": 134046405679179210
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_KLM/aircraft.cfg",
-            "size": 928,
-            "date": 134046405679174212
+            "path": "SimObjects/Airplanes/FSLTL_B763_KLM_VTSM/aircraft.cfg",
+            "size": 929,
+            "date": 134366067577925568
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_KLM/model.KLM/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_KLM_VTSM/model.KLM/model.cfg",
             "size": 63,
             "date": 134046405679169212
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_KLM/texture.KLM/FAIB_B7673_GEC_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B763_KLM_VTSM/texture.KLM/FAIB_B7673_GEC_T.PNG.dds",
             "size": 5592560,
             "date": 134046405679164210
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_KLM/texture.KLM/FAIB_B7673_GEC_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B763_KLM_VTSM/texture.KLM/FAIB_B7673_GEC_T.PNG.dds.json",
             "size": 104,
             "date": 134046405678001496
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_KLM/texture.KLM/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_KLM_VTSM/texture.KLM/texture.cfg",
             "size": 49,
             "date": 134046405678001496
         },
@@ -74736,27 +74711,27 @@
             "date": 134046405627043460
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_TWA/aircraft.cfg",
-            "size": 926,
-            "date": 134046405627033422
+            "path": "SimObjects/Airplanes/FSLTL_B763_TWA_VTSM/aircraft.cfg",
+            "size": 927,
+            "date": 134366068656626828
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_TWA/model.TWA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_TWA_VTSM/model.TWA/model.cfg",
             "size": 62,
             "date": 134046405627022788
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_TWA/texture.TWA/FAIB_B7673_PW_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B763_TWA_VTSM/texture.TWA/FAIB_B7673_PW_T.PNG.dds",
             "size": 22369796,
             "date": 134046405627002778
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_TWA/texture.TWA/FAIB_B7673_PW_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B763_TWA_VTSM/texture.TWA/FAIB_B7673_PW_T.PNG.dds.json",
             "size": 104,
             "date": 134046405625398252
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B763_TWA/texture.TWA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B763_TWA_VTSM/texture.TWA/texture.cfg",
             "size": 49,
             "date": 134046405625398252
         },
@@ -75596,27 +75571,27 @@
             "date": 134046405508321676
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B772_IAE/aircraft.cfg",
-            "size": 898,
-            "date": 134046405508311684
+            "path": "SimObjects/Airplanes/FSLTL_B772_IAE_VTSM/aircraft.cfg",
+            "size": 899,
+            "date": 134366069393458158
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B772_IAE/model.IAE/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B772_IAE_VTSM/model.IAE/model.cfg",
             "size": 64,
             "date": 134046405508306670
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B772_IAE/texture.IAE/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B772_IAE_VTSM/texture.IAE/texture.cfg",
             "size": 49,
             "date": 134046405508301694
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B772_IAE/texture.IAE/TFS_B772RR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B772_IAE_VTSM/texture.IAE/TFS_B772RR_T.PNG.dds",
             "size": 22369796,
             "date": 134046405508276672
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B772_IAE/texture.IAE/TFS_B772RR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B772_IAE_VTSM/texture.IAE/TFS_B772RR_T.PNG.dds.json",
             "size": 104,
             "date": 134046405506738692
         },
@@ -76436,27 +76411,27 @@
             "date": 134046405450367364
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW/aircraft.cfg",
-            "size": 926,
-            "date": 134046405450352366
+            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW_VTSM/aircraft.cfg",
+            "size": 944,
+            "date": 134366061344975442
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW/model.ABW/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW_VTSM/model.ABW/model.cfg",
             "size": 67,
             "date": 134046405450215752
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW/texture.ABW/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW_VTSM/texture.ABW/texture.cfg",
             "size": 50,
             "date": 134046405450210750
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW/texture.ABW/TFS_B772LRF_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW_VTSM/texture.ABW/TFS_B772LRF_T.PNG.dds",
             "size": 22369796,
             "date": 134046405450205750
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW/texture.ABW/TFS_B772LRF_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B77LF_ABW_VTSM/texture.ABW/TFS_B772LRF_T.PNG.dds.json",
             "size": 104,
             "date": 134046405444832832
         },
@@ -78111,27 +78086,27 @@
             "date": 134258788480609438
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN_VA/aircraft.cfg",
             "size": 918,
             "date": 134046405457253418
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN_VA/model.XSN/model.cfg",
             "size": 60,
             "date": 134046405457201640
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046405457196524
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN/texture.XSN/TFS_B772LR_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN_VA/texture.XSN/TFS_B772LR_T.PNG.dds",
             "size": 4194432,
             "date": 134258788480734450
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN/texture.XSN/TFS_B772LR_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B77L_XSN_VA/texture.XSN/TFS_B772LR_T.PNG.dds.json",
             "size": 104,
             "date": 134046405456427234
         },
@@ -79016,27 +78991,27 @@
             "date": 134046405365598624
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH_VTSM/aircraft.cfg",
             "size": 935,
             "date": 134046405365588622
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH/model.DLH/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH_VTSM/model.DLH/model.cfg",
             "size": 54,
             "date": 134270726460213538
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH/texture.DLH/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH_VTSM/texture.DLH/texture.cfg",
             "size": 49,
             "date": 134046405365583622
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH/texture.DLH/TFS_B77W_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH_VTSM/texture.DLH/TFS_B77W_T.PNG.DDS",
             "size": 22369796,
             "date": 134046405365578626
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH/texture.DLH/TFS_B77W_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_DLH_VTSM/texture.DLH/TFS_B77W_T.PNG.DDS.json",
             "size": 104,
             "date": 134046405365328624
         },
@@ -80496,27 +80471,27 @@
             "date": 134183651050242202
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ/aircraft.cfg",
-            "size": 931,
-            "date": 134046405291433802
+            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ_VTSM/aircraft.cfg",
+            "size": 940,
+            "date": 134366071006101162
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ/model.VOZ/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ_VTSM/model.VOZ/model.cfg",
             "size": 54,
             "date": 134270726462048700
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ/texture.VOZ/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ_VTSM/texture.VOZ/texture.cfg",
             "size": 49,
             "date": 134046405291418800
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ/texture.VOZ/TFS_B77W_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ_VTSM/texture.VOZ/TFS_B77W_T.PNG.DDS",
             "size": 22369796,
             "date": 134046405291413804
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ/texture.VOZ/TFS_B77W_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B77W_VOZ_VTSM/texture.VOZ/TFS_B77W_T.PNG.DDS.json",
             "size": 104,
             "date": 134046405289943648
         },
@@ -80826,27 +80801,27 @@
             "date": 134046405278698690
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B788_AFL/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B788_AFL_VTSM/aircraft.cfg",
             "size": 928,
             "date": 134046405278688684
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B788_AFL/model.AFL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B788_AFL_VTSM/model.AFL/model.cfg",
             "size": 58,
             "date": 134046405278688684
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B788_AFL/texture.AFL/FSPXB787_8GE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B788_AFL_VTSM/texture.AFL/FSPXB787_8GE_T.PNG.dds",
             "size": 22369796,
             "date": 134046405278673682
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B788_AFL/texture.AFL/FSPXB787_8GE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B788_AFL_VTSM/texture.AFL/FSPXB787_8GE_T.PNG.dds.json",
             "size": 104,
             "date": 134046405278012726
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B788_AFL/texture.AFL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B788_AFL_VTSM/texture.AFL/texture.cfg",
             "size": 49,
             "date": 134046405278012726
         },
@@ -82131,27 +82106,27 @@
             "date": 134046405218078856
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AAN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AAN_VA/aircraft.cfg",
             "size": 916,
             "date": 134046405218068858
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AAN/model.AAN/model.CFG",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AAN_VA/model.AAN/model.CFG",
             "size": 61,
             "date": 134046405218063858
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AAN/texture.AAN/FSPXB787_9GE_T.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AAN_VA/texture.AAN/FSPXB787_9GE_T.PNG.DDS",
             "size": 5592580,
             "date": 134046405218058858
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AAN/texture.AAN/FSPXB787_9GE_T.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AAN_VA/texture.AAN/FSPXB787_9GE_T.PNG.DDS.json",
             "size": 104,
             "date": 134046405216843276
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AAN/texture.AAN/texture.CFG",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AAN_VA/texture.AAN/texture.CFG",
             "size": 49,
             "date": 134046405216843276
         },
@@ -82231,27 +82206,27 @@
             "date": 134046405212971172
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AFL/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AFL_VTSM/aircraft.cfg",
             "size": 928,
             "date": 134046405212961162
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AFL/model.AFL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AFL_VTSM/model.AFL/model.cfg",
             "size": 61,
             "date": 134046405212961162
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AFL/texture.AFL/FSPXB787_9GE_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AFL_VTSM/texture.AFL/FSPXB787_9GE_T.png.dds",
             "size": 22369796,
             "date": 134046405212951170
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AFL/texture.AFL/FSPXB787_9GE_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AFL_VTSM/texture.AFL/FSPXB787_9GE_T.png.dds.json",
             "size": 104,
             "date": 134046405211376200
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_AFL/texture.AFL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_AFL_VTSM/texture.AFL/texture.cfg",
             "size": 49,
             "date": 134046405211371204
         },
@@ -83506,27 +83481,27 @@
             "date": 134258788485305192
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE/aircraft.cfg",
-            "size": 944,
-            "date": 134046405130951890
+            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE_VTSM/aircraft.cfg",
+            "size": 959,
+            "date": 134366074858705778
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE/model.NAX/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE_VTSM/model.NAX/model.cfg",
             "size": 61,
             "date": 134046405130891890
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE/texture.NAX/FSPXB787_9RR_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE_VTSM/texture.NAX/FSPXB787_9RR_T.png.dds",
             "size": 4194432,
             "date": 134046405130886890
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE/texture.NAX/FSPXB787_9RR_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE_VTSM/texture.NAX/FSPXB787_9RR_T.png.dds.json",
             "size": 104,
             "date": 134046405130821900
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE/texture.NAX/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NAX_FREDDIE_VTSM/texture.NAX/texture.cfg",
             "size": 49,
             "date": 134046405130816900
         },
@@ -83581,27 +83556,27 @@
             "date": 134046405129981892
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NLH/aircraft.cfg",
-            "size": 950,
-            "date": 134046405129966890
+            "path": "SimObjects/Airplanes/FSLTL_B789_NLH_VTSM/aircraft.cfg",
+            "size": 953,
+            "date": 134366075601184604
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NLH/model.NLH/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NLH_VTSM/model.NLH/model.cfg",
             "size": 61,
             "date": 134046405129886892
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NLH/texture.NLH/FSPXB787_9RR_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NLH_VTSM/texture.NLH/FSPXB787_9RR_T.png.dds",
             "size": 4194432,
             "date": 134046405129881900
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NLH/texture.NLH/FSPXB787_9RR_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NLH_VTSM/texture.NLH/FSPXB787_9RR_T.png.dds.json",
             "size": 104,
             "date": 134046405129826910
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NLH/texture.NLH/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NLH_VTSM/texture.NLH/texture.cfg",
             "size": 49,
             "date": 134046405129821902
         },
@@ -83631,27 +83606,27 @@
             "date": 134046405128514038
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NRS/aircraft.cfg",
-            "size": 947,
-            "date": 134046405128504006
+            "path": "SimObjects/Airplanes/FSLTL_B789_NRS_VTSM/aircraft.cfg",
+            "size": 948,
+            "date": 134366076270018156
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NRS/model.NRS/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NRS_VTSM/model.NRS/model.cfg",
             "size": 61,
             "date": 134046405128498972
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NRS/texture.NRS/FSPXB787_9RR_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NRS_VTSM/texture.NRS/FSPXB787_9RR_T.png.dds",
             "size": 5592580,
             "date": 134046405128492240
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NRS/texture.NRS/FSPXB787_9RR_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NRS_VTSM/texture.NRS/FSPXB787_9RR_T.png.dds.json",
             "size": 104,
             "date": 134046405127496334
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_B789_NRS/texture.NRS/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_B789_NRS_VTSM/texture.NRS/texture.cfg",
             "size": 49,
             "date": 134046405127496334
         },
@@ -84154,31 +84129,6 @@
             "path": "SimObjects/Airplanes/FSLTL_B789_TOM/texture.TOM/texture.CFG",
             "size": 87,
             "date": 134046405089292690
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_TZP/aircraft.cfg",
-            "size": 1090,
-            "date": 134046405089282690
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_TZP/model.TZP/model.CFG",
-            "size": 224,
-            "date": 134046405089217692
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_TZP/texture.TZP/FSPXB787_9GE_T.PNG.DDS",
-            "size": 22369796,
-            "date": 134046405089107690
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_TZP/texture.TZP/FSPXB787_9GE_T.PNG.DDS.json",
-            "size": 119,
-            "date": 134046405086785118
-        },
-        {
-            "path": "SimObjects/Airplanes/FSLTL_B789_TZP/texture.TZP/texture.CFG",
-            "size": 87,
-            "date": 134046405086785118
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_B789_UAL_NC/aircraft.cfg",
@@ -86356,37 +86306,37 @@
             "date": 134046404993544266
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/aircraft.cfg",
             "size": 928,
-            "date": 134046404993534072
+            "date": 134366082517119182
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/model.BRU/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/model.BRU/model.cfg",
             "size": 64,
             "date": 134046404993483868
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/texture.BRU/CRJ_700_1_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/texture.BRU/CRJ_700_1_T.PNG.dds",
             "size": 5592580,
             "date": 134046404993473874
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/texture.BRU/CRJ_700_1_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/texture.BRU/CRJ_700_1_T.PNG.dds.json",
             "size": 104,
             "date": 134046404992860330
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/texture.BRU/CRJ_700_2_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/texture.BRU/CRJ_700_2_T.PNG.dds",
             "size": 5592580,
             "date": 134046404992855328
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/texture.BRU/CRJ_700_2_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/texture.BRU/CRJ_700_2_T.PNG.dds.json",
             "size": 104,
             "date": 134046404992740328
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU/texture.BRU/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_CRJ7_BRU_VTSM/texture.BRU/texture.cfg",
             "size": 49,
             "date": 134046404992735328
         },
@@ -89336,27 +89286,27 @@
             "date": 134046404882745576
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN_VA/aircraft.cfg",
             "size": 926,
             "date": 134046404882695578
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN_VA/model.XSN/model.cfg",
             "size": 60,
             "date": 134046404882650542
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN_VA/texture.XSN/texture.cfg",
             "size": 49,
             "date": 134046404882535530
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN/texture.XSN/TFS_DASH8_Q400_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN_VA/texture.XSN/TFS_DASH8_Q400_T.PNG.dds",
             "size": 4194432,
             "date": 134258788487360258
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN/texture.XSN/TFS_DASH8_Q400_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_DH8D_XSN_VA/texture.XSN/TFS_DASH8_Q400_T.PNG.dds.json",
             "size": 104,
             "date": 134046404882005538
         },
@@ -89717,8 +89667,8 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170_BMA/aircraft.cfg",
-            "size": 908,
-            "date": 134046404869316768
+            "size": 910,
+            "date": 134366037217180136
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E170_BMA/model.BMA/model.cfg",
@@ -92396,27 +92346,27 @@
             "date": 134258788536883112
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA/aircraft.cfg",
-            "size": 961,
-            "date": 134046404722648016
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA_VTSM/aircraft.cfg",
+            "size": 959,
+            "date": 134366031879110634
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA/model.AZA/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA_VTSM/model.AZA/model.cfg",
             "size": 61,
             "date": 134046404722643002
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA/texture.AZA/FSPXAI_MD11GE_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA_VTSM/texture.AZA/FSPXAI_MD11GE_T.png.dds",
             "size": 4194432,
             "date": 134046404722638022
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA/texture.AZA/FSPXAI_MD11GE_T.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA_VTSM/texture.AZA/FSPXAI_MD11GE_T.png.dds.json",
             "size": 104,
             "date": 134046404722442874
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA/texture.AZA/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_AZA_VTSM/texture.AZA/texture.cfg",
             "size": 50,
             "date": 134046404722442874
         },
@@ -92596,27 +92546,27 @@
             "date": 134046404713849526
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH/aircraft.cfg",
-            "size": 960,
-            "date": 134046404713839512
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH_VTSM/aircraft.cfg",
+            "size": 961,
+            "date": 134366083872414032
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH/model.MPH/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH_VTSM/model.MPH/model.cfg",
             "size": 61,
             "date": 134046404713669518
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH/texture.MPH/FSPXAI_MD11GE_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH_VTSM/texture.MPH/FSPXAI_MD11GE_T.PNG.dds",
             "size": 22369796,
             "date": 134046404713654518
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH/texture.MPH/FSPXAI_MD11GE_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH_VTSM/texture.MPH/FSPXAI_MD11GE_T.PNG.dds.json",
             "size": 104,
             "date": 134046404708169736
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH/texture.MPH/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_MPH_VTSM/texture.MPH/texture.cfg",
             "size": 50,
             "date": 134046404708169736
         },
@@ -92971,27 +92921,27 @@
             "date": 134258788537398278
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN/aircraft.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN_VA/aircraft.cfg",
             "size": 934,
             "date": 134046404689384322
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN/model.XSN/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN_VA/model.XSN/model.cfg",
             "size": 61,
             "date": 134046404689334288
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN/texture.XSN/FSPXAI_MD11GE_T.png.dds",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN_VA/texture.XSN/FSPXAI_MD11GE_T.png.dds",
             "size": 4194432,
             "date": 134258788537518328
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN/texture.XSN/FSPXAI_MD11GE_t.png.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN_VA/texture.XSN/FSPXAI_MD11GE_t.png.dds.json",
             "size": 104,
             "date": 134046404687073334
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN/texture.XSN/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_MD11F_XSN_VA/texture.XSN/texture.cfg",
             "size": 50,
             "date": 134046404687073334
         },
@@ -93891,37 +93841,37 @@
             "date": 134046404569412280
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/aircraft.cfg",
-            "size": 921,
-            "date": 134046404569345708
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/aircraft.cfg",
+            "size": 932,
+            "date": 134366072322445128
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/model.AFL/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/model.AFL/model.cfg",
             "size": 56,
             "date": 134046404569340692
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/texture.AFL/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/texture.AFL/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS",
             "size": 22369796,
             "date": 134046404569330712
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/texture.AFL/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/texture.AFL/FSLTL_SSJ_ENGINE_BASE_COLOR.PNG.DDS.json",
             "size": 104,
             "date": 134046404568983948
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/texture.AFL/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/texture.AFL/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS",
             "size": 22369796,
             "date": 134046404568973938
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/texture.AFL/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/texture.AFL/FSLTL_SSJ_FUSE_BASE_COLOR.PNG.DDS.json",
             "size": 104,
             "date": 134046404565442814
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL/texture.AFL/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_SU95_AFL_VTSM/texture.AFL/texture.cfg",
             "size": 49,
             "date": 134046404565442814
         },
