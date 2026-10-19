@@ -167,7 +167,7 @@
 			<OFFSET>1200</OFFSET>
 		</UseTemplate>
 		<UseTemplate Name="FSLTL_Wheel_Roll_Center">
-        		<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_14</ANIM_NAME>
+        		<ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_14</ANIM_NAME>
         		<WHEEL_RADIUS>1.143</WHEEL_RADIUS> <!-- in meters -->
 		</UseTemplate>
 		<UseTemplate Name="FSLTL_Wheel_Roll_Main">

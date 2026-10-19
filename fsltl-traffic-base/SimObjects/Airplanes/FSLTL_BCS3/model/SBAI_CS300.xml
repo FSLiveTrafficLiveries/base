@@ -128,7 +128,7 @@
         <DISTANCE>5.0</DISTANCE>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Main">
-        <ANIM_NAME>custom_anim_RIGHT_WHEEL_ROTATION_ANGLE_03</ANIM_NAME>
+        <ANIM_NAME>custom_anim_LEFT_WHEEL_ROTATION_ANGLE_03</ANIM_NAME>
         <WHEEL_RADIUS>1.15</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>-5.0</DISTANCE>
       </UseTemplate>
