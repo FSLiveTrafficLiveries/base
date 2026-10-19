@@ -130,6 +130,14 @@
 <ModelMatchRule CallsignPrefix="CBG" TypeCode="E195" ModelName="FSLTL_E190_Guangxi" /> 
 <ModelMatchRule CallsignPrefix="CBG" TypeCode="E290" ModelName="FSLTL_E190_Guangxi" /> 
 <ModelMatchRule CallsignPrefix="CBG" TypeCode="E295" ModelName="FSLTL_E190_Guangxi" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A19N" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A20N" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A32N" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A318" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A319" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A320" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
+<ModelMatchRule CallsignPrefix="CHH" TypeCode="A321" ModelName="FSLTL_FAIB_A21N_Hainan-Airlines" /> 
 <ModelMatchRule CallsignPrefix="CHH" TypeCode="A332" ModelName="FSLTL_TFS_A332_Hainan" /> 
 <ModelMatchRule CallsignPrefix="CHH" TypeCode="A333" ModelName="FSLTL_TFS_A333_Hainan" /> 
 <ModelMatchRule CallsignPrefix="CHH" TypeCode="A338" ModelName="FSLTL_TFS_A332_Hainan" /> 
@@ -437,7 +445,7 @@
 <ModelMatchRule CallsignPrefix="AIC" TypeCode="B773" ModelName="FSLTL_TFS_B77W_AIC-Air India" /> 
 <ModelMatchRule CallsignPrefix="AIC" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_Airindia" /> 
 <ModelMatchRule CallsignPrefix="AIC" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_AIC-Air India" /> 
-<ModelMatchRule CallsignPrefix="AIC" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Air-India" /> 
+<ModelMatchRule CallsignPrefix="AIC" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Air-India//FSLTL_FSPXAI_B788_Air-India_NC" /> 
 <ModelMatchRule CallsignPrefix="AIC" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_Air-India//FSLTL_FSPXAI_B789_AIC-AirIndia_Vistara-livery" /> 
 <ModelMatchRule CallsignPrefix="AIC" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_Air-India//FSLTL_FSPXAI_B789_AIC-AirIndia_Vistara-livery" /> 
 <ModelMatchRule CallsignPrefix="AIQ" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Thai_Asia" /> 
@@ -1046,6 +1054,13 @@
 <ModelMatchRule CallsignPrefix="CFG" TypeCode="B762" ModelName="FSLTL_FAIB_B763_Condor_Historical" /> 
 <ModelMatchRule CallsignPrefix="CFG" TypeCode="B763" ModelName="FSLTL_FAIB_B763_Condor_Historical" /> 
 <ModelMatchRule CallsignPrefix="CFG" TypeCode="B764" ModelName="FSLTL_FAIB_B763_Condor_Historical" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E170" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E75S" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E75L" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E190" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E195" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E290" ModelName="FSLTL_E190_Condor" /> 
+<ModelMatchRule CallsignPrefix="CFG" TypeCode="E295" ModelName="FSLTL_E190_Condor" /> 
 <ModelMatchRule CallsignPrefix="CGZ" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Colorful" /> 
 <ModelMatchRule CallsignPrefix="CGZ" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Colorful" /> 
 <ModelMatchRule CallsignPrefix="CGZ" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Colorful" /> 
@@ -1928,10 +1943,10 @@
 <ModelMatchRule CallsignPrefix="KLM" TypeCode="E195" ModelName="FSLTL_E190_KLM" /> 
 <ModelMatchRule CallsignPrefix="KLM" TypeCode="E290" ModelName="FSLTL_E190_KLM" /> 
 <ModelMatchRule CallsignPrefix="KLM" TypeCode="E295" ModelName="FSLTL_E190_KLM" /> 
-<ModelMatchRule CallsignPrefix="KMM" TypeCode="A19N" ModelName="FSLTL_A20N_KM-Malta-Airlines" /> 
-<ModelMatchRule CallsignPrefix="KMM" TypeCode="A20N" ModelName="FSLTL_A20N_KM-Malta-Airlines" /> 
-<ModelMatchRule CallsignPrefix="KMM" TypeCode="A32N" ModelName="FSLTL_A20N_KM-Malta-Airlines" /> 
-<ModelMatchRule CallsignPrefix="KMM" TypeCode="A21N" ModelName="FSLTL_A20N_KM-Malta-Airlines" /> 
+<ModelMatchRule CallsignPrefix="KMM" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_KM-Malta-Airlines" /> 
+<ModelMatchRule CallsignPrefix="KMM" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_KM-Malta-Airlines" /> 
+<ModelMatchRule CallsignPrefix="KMM" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_KM-Malta-Airlines" /> 
+<ModelMatchRule CallsignPrefix="KMM" TypeCode="A21N" ModelName="FSLTL_FAIB_A20N_KM-Malta-Airlines" /> 
 <ModelMatchRule CallsignPrefix="KMM" TypeCode="A318" ModelName="FSLTL_A320_KM-Malta-Airlines" /> 
 <ModelMatchRule CallsignPrefix="KMM" TypeCode="A319" ModelName="FSLTL_A320_KM-Malta-Airlines" /> 
 <ModelMatchRule CallsignPrefix="KMM" TypeCode="A320" ModelName="FSLTL_A320_KM-Malta-Airlines" /> 
@@ -1955,6 +1970,9 @@
 <ModelMatchRule CallsignPrefix="KZR" TypeCode="B762" ModelName="FSLTL_FAIB_B763_Astanaline" /> 
 <ModelMatchRule CallsignPrefix="KZR" TypeCode="B763" ModelName="FSLTL_FAIB_B763_Astanaline" /> 
 <ModelMatchRule CallsignPrefix="KZR" TypeCode="B764" ModelName="FSLTL_FAIB_B763_Astanaline" /> 
+<ModelMatchRule CallsignPrefix="KZR" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_Air-Astana" /> 
+<ModelMatchRule CallsignPrefix="KZR" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_Air-Astana" /> 
+<ModelMatchRule CallsignPrefix="KZR" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_Air-Astana" /> 
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_LAN-LATAM Chile" /> 
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_LAN-LATAM Chile" /> 
 <ModelMatchRule CallsignPrefix="LAN" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_LAN-LATAM Chile" /> 
@@ -2205,6 +2223,35 @@
 <ModelMatchRule CallsignPrefix="MSR" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_MSR-Egyptair" /> 
 <ModelMatchRule CallsignPrefix="MSR" TypeCode="BCS1" ModelName="FSLTL_BCS3_MSR-Egyptair_Historical" /> 
 <ModelMatchRule CallsignPrefix="MSR" TypeCode="BCS3" ModelName="FSLTL_BCS3_MSR-Egyptair_Historical" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A21N" ModelName="FSLTL_FAIB_A321_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A332" ModelName="FSLTL_TFS_A333_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A333" ModelName="FSLTL_TFS_A333_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A338" ModelName="FSLTL_TFS_A333_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A339" ModelName="FSLTL_TFS_A333_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A359" ModelName="FSLTL_FSPXAI_A359_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A35K" ModelName="FSLTL_FSPXAI_A359_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="A388" ModelName="FSLTL_TFS_A388_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B732" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B733" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B734" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B735" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B736" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B737" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B738" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B739" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B772" ModelName="FSLTL_TFS_B77W_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Muenchen-Airways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="MUC" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Muenchen-Airways_Fictional" /> 
 <ModelMatchRule CallsignPrefix="MXB" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Mockingbird_Fictional" /> 
 <ModelMatchRule CallsignPrefix="MXB" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Mockingbird_Fictional" /> 
 <ModelMatchRule CallsignPrefix="MXB" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Mockingbird_Fictional" /> 
@@ -2370,6 +2417,38 @@
 <ModelMatchRule CallsignPrefix="OMS" TypeCode="A319" ModelName="FSLTL_FAIB_A20N_Mazoon" /> 
 <ModelMatchRule CallsignPrefix="OMS" TypeCode="A320" ModelName="FSLTL_FAIB_A20N_Mazoon" /> 
 <ModelMatchRule CallsignPrefix="OMS" TypeCode="A321" ModelName="FSLTL_FAIB_A21N_Mazoon" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A332" ModelName="FSLTL_TFS_A332_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A333" ModelName="FSLTL_TFS_A333_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A338" ModelName="FSLTL_TFS_A332_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A339" ModelName="FSLTL_TFS_A333_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A359" ModelName="FSLTL_FSPXAI_A359_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="A35K" ModelName="FSLTL_FSPXAI_A359_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B738" ModelName="FSLTL_FAIB_B738_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B739" ModelName="FSLTL_FAIB_B739_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B39M" ModelName="FSLTL_FAIB_B739_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B772" ModelName="FSLTL_TFS_B772_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B77L" ModelName="FSLTL_TFS_B77LF_Medium5_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_Medium5_Fictional" /> 
+<ModelMatchRule CallsignPrefix="OVO" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11F_Medium5_Cargo_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PFF" TypeCode="A19N" ModelName="FSLTL_A20N_PAFFSair_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PFF" TypeCode="A20N" ModelName="FSLTL_A20N_PAFFSair_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PFF" TypeCode="A32N" ModelName="FSLTL_A20N_PAFFSair_Fictional" /> 
@@ -2487,6 +2566,13 @@
 <ModelMatchRule CallsignPrefix="RJA" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Royal-Jordanian_NC//FSLTL_FSPXAI_B788_Royal-Jordanian_OC_JY-BAB//FSLTL_FSPXAI_B788_Royal-Jordanian_OC_JY-BAE" /> 
 <ModelMatchRule CallsignPrefix="RJA" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_Royal-Jordanian_NC" /> 
 <ModelMatchRule CallsignPrefix="RJA" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_Royal-Jordanian_NC" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E170" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E75S" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E75L" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E190" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E195" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E290" ModelName="FSLTL_E290_Royal-Jordanian" /> 
+<ModelMatchRule CallsignPrefix="RJA" TypeCode="E295" ModelName="FSLTL_E290_Royal-Jordanian" /> 
 <ModelMatchRule CallsignPrefix="RZO" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_Air_Azores" /> 
 <ModelMatchRule CallsignPrefix="RZO" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Air_Azores" /> 
 <ModelMatchRule CallsignPrefix="RZO" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Air_Azores" /> 
@@ -2603,6 +2689,30 @@
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_Sky-Express_Historical//FSLTL_OSP_AT76_Air_Crete" /> 
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_Sky-Express_Historical" /> 
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Air_Crete" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A21N" ModelName="FSLTL_FAIB_A321_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="A321" ModelName="FSLTL_FAIB_A321_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B732" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B733" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B734" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B735" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B736" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B737" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B738" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B739" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B772" ModelName="FSLTL_TFS_B77LF_SkyAlliance_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B773" ModelName="FSLTL_TFS_B77LF_SkyAlliance_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B77L" ModelName="FSLTL_TFS_B77LF_SkyAlliance_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="B77W" ModelName="FSLTL_TFS_B77LF_SkyAlliance_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="BCS1" ModelName="FSLTL_SBAI_BCS3_SkyAlliance_Fictional" /> 
+<ModelMatchRule CallsignPrefix="SKA" TypeCode="BCS3" ModelName="FSLTL_SBAI_BCS3_SkyAlliance_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SKU" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_SKU-AEROSKY" /> 
 <ModelMatchRule CallsignPrefix="SKU" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_SKU-AEROSKY" /> 
 <ModelMatchRule CallsignPrefix="SKU" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_SKU-AEROSKY" /> 
@@ -2762,6 +2872,13 @@
 <ModelMatchRule CallsignPrefix="TGW" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Scooter" /> 
 <ModelMatchRule CallsignPrefix="TGW" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_TGW-Scoot" /> 
 <ModelMatchRule CallsignPrefix="TGW" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_TGW-Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E170" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E75S" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E75L" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E190" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E195" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E290" ModelName="FSLTL_E290_Scoot" /> 
+<ModelMatchRule CallsignPrefix="TGW" TypeCode="E295" ModelName="FSLTL_E290_Scoot" /> 
 <ModelMatchRule CallsignPrefix="TKJ" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_AJet" /> 
 <ModelMatchRule CallsignPrefix="TKJ" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_AJet" /> 
 <ModelMatchRule CallsignPrefix="TKJ" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_AJet" /> 
@@ -2892,15 +3009,15 @@
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B739" ModelName="FSLTL_FAIB_B738_UKV-Fly UK_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_UKV-Fly UK_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_UKV-Fly UK_Fictional" /> 
-<ModelMatchRule CallsignPrefix="UKV" TypeCode="B742" ModelName="FSLTL_FAIB_B744_Fly_UK Cargo_Fictional" /> 
-<ModelMatchRule CallsignPrefix="UKV" TypeCode="B744" ModelName="FSLTL_FAIB_B744_Fly_UK Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKV" TypeCode="B742" ModelName="FSLTL_FAIB_B748_Skyways_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKV" TypeCode="B744" ModelName="FSLTL_FAIB_B748_Skyways_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B748" ModelName="FSLTL_FAIB_B748_Skyways_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B762" ModelName="FSLTL_FAIB_B763_UKV-Fly UK_Aurora_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B763" ModelName="FSLTL_FAIB_B763_UKV-Fly UK_Aurora_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B764" ModelName="FSLTL_FAIB_B763_UKV-Fly UK_Aurora_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B772" ModelName="FSLTL_TFS_B772_UKV-Fly UK_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B773" ModelName="FSLTL_TFS_B772_UKV-Fly UK_Fictional" /> 
-<ModelMatchRule CallsignPrefix="UKV" FlightNumberRange="7000-7999" TypeCode="B77L" ModelName="FSLTL_TFS_B77LF_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKV" TypeCode="B77L" ModelName="FSLTL_TFS_B772_UKV-Fly UK_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B77W" ModelName="FSLTL_TFS_B772_UKV-Fly UK_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B788" ModelName="FSLTL_FSPXAI_B788_Skyways_Fictional" /> 
 <ModelMatchRule CallsignPrefix="UKV" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_UKV-Fly UK_Fictional" /> 
@@ -3685,10 +3802,10 @@
 <ModelMatchRule CallsignPrefix="EUK" TypeCode="A333" ModelName="FSLTL_TFS_A333_EUK-Aer Lingus UK" /> 
 <ModelMatchRule CallsignPrefix="EUK" TypeCode="A338" ModelName="FSLTL_TFS_A333_EUK-Aer Lingus UK" /> 
 <ModelMatchRule CallsignPrefix="EUK" TypeCode="A339" ModelName="FSLTL_TFS_A333_EUK-Aer Lingus UK" /> 
-<ModelMatchRule CallsignPrefix="EXS" TypeCode="A19N" ModelName="FSLTL_FAIB_A21N_Channex" /> 
-<ModelMatchRule CallsignPrefix="EXS" TypeCode="A20N" ModelName="FSLTL_FAIB_A21N_Channex" /> 
-<ModelMatchRule CallsignPrefix="EXS" TypeCode="A32N" ModelName="FSLTL_FAIB_A21N_Channex" /> 
-<ModelMatchRule CallsignPrefix="EXS" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Channex" /> 
+<ModelMatchRule CallsignPrefix="EXS" TypeCode="A19N" ModelName="FSLTL_FAIB_A21N_Channex//FSLTL_FAIB_A21N_Jet2.Com_Silver" /> 
+<ModelMatchRule CallsignPrefix="EXS" TypeCode="A20N" ModelName="FSLTL_FAIB_A21N_Channex//FSLTL_FAIB_A21N_Jet2.Com_Silver" /> 
+<ModelMatchRule CallsignPrefix="EXS" TypeCode="A32N" ModelName="FSLTL_FAIB_A21N_Channex//FSLTL_FAIB_A21N_Jet2.Com_Silver" /> 
+<ModelMatchRule CallsignPrefix="EXS" TypeCode="A21N" ModelName="FSLTL_FAIB_A21N_Channex//FSLTL_FAIB_A21N_Jet2.Com_Silver" /> 
 <ModelMatchRule CallsignPrefix="EXS" TypeCode="A318" ModelName="FSLTL A321 EXS Jet2 Holidays" /> 
 <ModelMatchRule CallsignPrefix="EXS" TypeCode="A319" ModelName="FSLTL A321 EXS Jet2 Holidays" /> 
 <ModelMatchRule CallsignPrefix="EXS" TypeCode="A320" ModelName="FSLTL A321 EXS Jet2 Holidays" /> 
@@ -4691,6 +4808,42 @@
 <ModelMatchRule CallsignPrefix="AIA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Amelia" /> 
 <ModelMatchRule CallsignPrefix="AIA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Amelia_Historical" /> 
 <ModelMatchRule CallsignPrefix="AIA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Amelia_Historical" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A332" ModelName="FSLTL_TFS_A333_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A333" ModelName="FSLTL_TFS_A333_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A338" ModelName="FSLTL_TFS_A333_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A339" ModelName="FSLTL_TFS_A333_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A342" ModelName="FSLTL_TFS_A346_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A343" ModelName="FSLTL_TFS_A346_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A345" ModelName="FSLTL_TFS_A346_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A346" ModelName="FSLTL_TFS_A346_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A359" ModelName="FSLTL_FSPXAI_A359_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="A35K" ModelName="FSLTL_FSPXAI_A359_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B738" ModelName="FSLTL_FAIB_B738_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B739" ModelName="FSLTL_FAIB_B739_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B39M" ModelName="FSLTL_FAIB_B739_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B772" ModelName="FSLTL_TFS_B772_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B77L" ModelName="FSLTL_TFS_B772_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B788" ModelName="FSLTL_FSPXAI_B789_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B789" ModelName="FSLTL_FSPXAI_B789_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="B78X" ModelName="FSLTL_FSPXAI_B789_Alpaca-Airlines_Fictional" /> 
+<ModelMatchRule CallsignPrefix="ALA" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11F_Alpaca-Airlines_Cargo_Fictional" /> 
 <ModelMatchRule CallsignPrefix="ARE" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_ARE-LATAM Colombia" /> 
 <ModelMatchRule CallsignPrefix="ARE" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_ARE-LATAM Colombia" /> 
 <ModelMatchRule CallsignPrefix="ARE" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_ARE-LATAM Colombia" /> 
@@ -4816,12 +4969,12 @@
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="DH8C" ModelName="FSLTL_DH8D_CTN-Croatia" /> 
 <ModelMatchRule CallsignPrefix="CTN" TypeCode="DH8D" ModelName="FSLTL_DH8D_CTN-Croatia" /> 
 <ModelMatchRule CallsignPrefix="CZN" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
-<ModelMatchRule CallsignPrefix="CZN" TypeCode="A20N" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
-<ModelMatchRule CallsignPrefix="CZN" TypeCode="A32N" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CZN" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Cruizing_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CZN" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Cruizing_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CZN" TypeCode="A21N" ModelName="FSLTL_FAIB_A321_Cruizing-Air_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CZN" TypeCode="A318" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CZN" TypeCode="A319" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
-<ModelMatchRule CallsignPrefix="CZN" TypeCode="A320" ModelName="FSLTL_FAIB_A319_Cruizing-Air_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CZN" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Cruizing_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CZN" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Cruizing-Air_Fictional" /> 
 <ModelMatchRule CallsignPrefix="FIE" TypeCode="A19N" ModelName="FSLTL_A319_FIE_FLYONE-Armenia_Historical" /> 
 <ModelMatchRule CallsignPrefix="FIE" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_FIE-FLYONE Armenia" /> 
@@ -5042,6 +5195,13 @@
 <ModelMatchRule CallsignPrefix="MMA" TypeCode="AT72" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
 <ModelMatchRule CallsignPrefix="MMA" TypeCode="AT75" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
 <ModelMatchRule CallsignPrefix="MMA" TypeCode="AT76" ModelName="FSLTL_OSP_AT76_Myanmar-Airways-International" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E170" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E75S" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E75L" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E190" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E195" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E290" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
+<ModelMatchRule CallsignPrefix="MMA" TypeCode="E295" ModelName="FSLTL_E190_Myanmar-Airways-International_Historical" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Polaris-Aviation_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Polaris-Aviation_Fictional" /> 
 <ModelMatchRule CallsignPrefix="PLX" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Polaris-Aviation_Fictional" /> 
@@ -6184,6 +6344,39 @@
 <ModelMatchRule CallsignPrefix="VAW" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Fly2Sky_CFM//FSLTL_FAIB_A320_Fly2Sky_IAE" /> 
 <ModelMatchRule CallsignPrefix="VAW" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Fly2Sky_CFM//FSLTL_FAIB_A320_Fly2Sky_IAE" /> 
 <ModelMatchRule CallsignPrefix="VAW" TypeCode="A321" ModelName="FSLTL_FAIB_A321_Fly2Sky" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A332" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A333" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A338" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="A339" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B738" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B739" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B38M" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B39M" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B772" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E170" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E75S" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E75L" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E190" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E195" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E290" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VOZ" TypeCode="E295" ModelName="FSLTL_E290_Virgin-Australia" /> 
 <ModelMatchRule CallsignPrefix="VSP" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_VASP_Fictional" /> 
 <ModelMatchRule CallsignPrefix="VSP" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_VASP_Fictional" /> 
 <ModelMatchRule CallsignPrefix="VSP" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_VASP_Fictional" /> 
@@ -6255,6 +6448,10 @@
 <ModelMatchRule CallsignPrefix="JNA" TypeCode="B739" ModelName="FSLTL_FAIB_B738_JNA-Jin Air" /> 
 <ModelMatchRule CallsignPrefix="JNA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_JNA-Jin Air" /> 
 <ModelMatchRule CallsignPrefix="JNA" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_JNA-Jin Air" /> 
+<ModelMatchRule CallsignPrefix="PVG" TypeCode="A332" ModelName="FSLTL_TFS_A333F_Privilege-Style_Cargo" /> 
+<ModelMatchRule CallsignPrefix="PVG" TypeCode="A333" ModelName="FSLTL_TFS_A333F_Privilege-Style_Cargo" /> 
+<ModelMatchRule CallsignPrefix="PVG" TypeCode="A338" ModelName="FSLTL_TFS_A333F_Privilege-Style_Cargo" /> 
+<ModelMatchRule CallsignPrefix="PVG" TypeCode="A339" ModelName="FSLTL_TFS_A333F_Privilege-Style_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SJO" TypeCode="B732" ModelName="FSLTL_B738_SJO" /> 
 <ModelMatchRule CallsignPrefix="SJO" TypeCode="B733" ModelName="FSLTL_B738_SJO" /> 
 <ModelMatchRule CallsignPrefix="SJO" TypeCode="B734" ModelName="FSLTL_B738_SJO" /> 
@@ -7867,6 +8064,10 @@
 <ModelMatchRule CallsignPrefix="TAY" TypeCode="B742" ModelName="FSLTL_FAIB_B744_ASL Airlines Belgium TAY_Cargo" /> 
 <ModelMatchRule CallsignPrefix="TAY" TypeCode="B744" ModelName="FSLTL_FAIB_B744_ASL Airlines Belgium TAY_Cargo" /> 
 <ModelMatchRule CallsignPrefix="TAY" TypeCode="B748" ModelName="FSLTL_FAIB_B744_ASL Airlines Belgium TAY_Cargo" /> 
+<ModelMatchRule CallsignPrefix="TAY" TypeCode="B772" ModelName="FSLTL_TFS_B77LF_ASL-Airlines-Belgium_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAY" TypeCode="B773" ModelName="FSLTL_TFS_B77LF_ASL-Airlines-Belgium_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAY" TypeCode="B77L" ModelName="FSLTL_TFS_B77LF_ASL-Airlines-Belgium_Cargo_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAY" TypeCode="B77W" ModelName="FSLTL_TFS_B77LF_ASL-Airlines-Belgium_Cargo_Historical" /> 
 <ModelMatchRule CallsignPrefix="AWK" TypeCode="B732" ModelName="FSLTL_FAIB_B734F_Airwork_Cargo//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAT//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAK" /> 
 <ModelMatchRule CallsignPrefix="AWK" TypeCode="B733" ModelName="FSLTL_FAIB_B734F_Airwork_Cargo//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAT//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAK" /> 
 <ModelMatchRule CallsignPrefix="AWK" TypeCode="B734" ModelName="FSLTL_FAIB_B734F_Airwork_Cargo//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAT//FSLTL_FAIB_B734F_Airwork_Parcelair_Cargo_ZK-PAK" /> 
@@ -7893,10 +8094,10 @@
 <ModelMatchRule CallsignPrefix="MSA" TypeCode="B735" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
 <ModelMatchRule CallsignPrefix="MSA" TypeCode="B736" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
 <ModelMatchRule CallsignPrefix="MSA" TypeCode="B737" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="MSA" TypeCode="B738" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="MSA" TypeCode="B739" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="MSA" TypeCode="B38M" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
-<ModelMatchRule CallsignPrefix="MSA" TypeCode="B39M" ModelName="FSLTL_FAIB_B734F_Poste-Air-Cargo_Cargo" /> 
+<ModelMatchRule CallsignPrefix="MSA" TypeCode="B738" ModelName="FSLTL_FAIB_B738F_Poste-Air-Cargo_Cargo" /> 
+<ModelMatchRule CallsignPrefix="MSA" TypeCode="B739" ModelName="FSLTL_FAIB_B738F_Poste-Air-Cargo_Cargo" /> 
+<ModelMatchRule CallsignPrefix="MSA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738F_Poste-Air-Cargo_Cargo" /> 
+<ModelMatchRule CallsignPrefix="MSA" TypeCode="B39M" ModelName="FSLTL_FAIB_B738F_Poste-Air-Cargo_Cargo" /> 
 <ModelMatchRule CallsignPrefix="XKY" TypeCode="B732" ModelName="FSLTL_FAIB_B734F_Skyway-Airlines_Cargo" /> 
 <ModelMatchRule CallsignPrefix="XKY" TypeCode="B733" ModelName="FSLTL_FAIB_B734F_Skyway-Airlines_Cargo" /> 
 <ModelMatchRule CallsignPrefix="XKY" TypeCode="B734" ModelName="FSLTL_FAIB_B734F_Skyway-Airlines_Cargo" /> 
@@ -8345,20 +8546,6 @@
 <ModelMatchRule CallsignPrefix="TSO" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Transaero_Historical" /> 
 <ModelMatchRule CallsignPrefix="TSO" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Transaero_Historical" /> 
 <ModelMatchRule CallsignPrefix="TSO" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Transaero_Historical" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B738" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B739" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B38M" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B39M" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B772" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VOZ" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
 <ModelMatchRule CallsignPrefix="VXP" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Avelo" /> 
 <ModelMatchRule CallsignPrefix="VXP" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Avelo" /> 
 <ModelMatchRule CallsignPrefix="VXP" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Avelo" /> 
@@ -8496,6 +8683,23 @@
 <ModelMatchRule CallsignPrefix="SWQ" TypeCode="B739" ModelName="FSLTL_FAIB_B738F_Swiftflight_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SWQ" TypeCode="B38M" ModelName="FSLTL_FAIB_B738F_Swiftflight_Cargo" /> 
 <ModelMatchRule CallsignPrefix="SWQ" TypeCode="B39M" ModelName="FSLTL_FAIB_B738F_Swiftflight_Cargo" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B732" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B733" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B734" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B735" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B736" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B737" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B738" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B739" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B38M" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B39M" ModelName="FSLTL_FAIB_B738F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B742" ModelName="FSLTL_FAIB_B744_Fly_UK Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B744" ModelName="FSLTL_FAIB_B744_Fly_UK Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B748" ModelName="FSLTL_FAIB_B748F_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B772" ModelName="FSLTL_TFS_B77LF_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B773" ModelName="FSLTL_TFS_B77LF_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B77L" ModelName="FSLTL_TFS_B77LF_Fly-UK_Cargo_Fictional" /> 
+<ModelMatchRule CallsignPrefix="UKC" TypeCode="B77W" ModelName="FSLTL_TFS_B77LF_Fly-UK_Cargo_Fictional" /> 
 <ModelMatchRule CallsignPrefix="VAS" TypeCode="B732" ModelName="FSLTL_FAIB_B738F_ATRAN-Aviatrans_Cargo_Historical" /> 
 <ModelMatchRule CallsignPrefix="VAS" TypeCode="B733" ModelName="FSLTL_FAIB_B738F_ATRAN-Aviatrans_Cargo_Historical" /> 
 <ModelMatchRule CallsignPrefix="VAS" TypeCode="B734" ModelName="FSLTL_FAIB_B738F_ATRAN-Aviatrans_Cargo_Historical" /> 
@@ -9413,6 +9617,9 @@
 <ModelMatchRule CallsignPrefix="RUN" TypeCode="B742" ModelName="FSLTL_FAIB_B744_RUN-Air ACT_Cargo" /> 
 <ModelMatchRule CallsignPrefix="RUN" TypeCode="B744" ModelName="FSLTL_FAIB_B744_RUN-Air ACT_Cargo" /> 
 <ModelMatchRule CallsignPrefix="RUN" TypeCode="B748" ModelName="FSLTL_FAIB_B744_RUN-Air ACT_Cargo" /> 
+<ModelMatchRule CallsignPrefix="CVY" TypeCode="B742" ModelName="FSLTL_FAIB_B744_Team-Covey_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CVY" TypeCode="B744" ModelName="FSLTL_FAIB_B744_Team-Covey_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CVY" TypeCode="B748" ModelName="FSLTL_FAIB_B744_Team-Covey_Fictional" /> 
 <ModelMatchRule CallsignPrefix="NCA" TypeCode="B742" ModelName="FSLTL_FAIB_B748_Nippon_Cargo" /> 
 <ModelMatchRule CallsignPrefix="NCA" TypeCode="B744" ModelName="FSLTL_FAIB_B748_Nippon_Cargo" /> 
 <ModelMatchRule CallsignPrefix="NCA" TypeCode="B748" ModelName="FSLTL_FAIB_B748_Nippon_Cargo" /> 
@@ -9656,13 +9863,13 @@
 <ModelMatchRule CallsignPrefix="WIF" TypeCode="DH8B" ModelName="FSLTL_DH8C_WIF-Wideroe" /> 
 <ModelMatchRule CallsignPrefix="WIF" TypeCode="DH8C" ModelName="FSLTL_DH8C_WIF-Wideroe" /> 
 <ModelMatchRule CallsignPrefix="WIF" TypeCode="DH8D" ModelName="FSLTL_DH8D_WIF-Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E170" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E75S" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E75L" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E190" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E195" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E290" ModelName="FSLTL_E190_Wideroe" /> 
-<ModelMatchRule CallsignPrefix="WIF" TypeCode="E295" ModelName="FSLTL_E190_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E170" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E75S" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E75L" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E190" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E195" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E290" ModelName="FSLTL_E290_Wideroe" /> 
+<ModelMatchRule CallsignPrefix="WIF" TypeCode="E295" ModelName="FSLTL_E290_Wideroe" /> 
 <ModelMatchRule CallsignPrefix="FXI" TypeCode="DH8B" ModelName="FSLTL_TFS_DH8D_ICE-Icelandair_NCPink" /> 
 <ModelMatchRule CallsignPrefix="FXI" TypeCode="DH8C" ModelName="FSLTL_TFS_DH8D_ICE-Icelandair_NCPink" /> 
 <ModelMatchRule CallsignPrefix="FXI" TypeCode="DH8D" ModelName="FSLTL_TFS_DH8D_ICE-Icelandair_NCPink" /> 
@@ -9716,6 +9923,13 @@
 <ModelMatchRule CallsignPrefix="WEN" TypeCode="DH8B" ModelName="FSLTL_TFS_DH8D_WEN-WestJet Encore" /> 
 <ModelMatchRule CallsignPrefix="WEN" TypeCode="DH8C" ModelName="FSLTL_TFS_DH8D_WEN-WestJet Encore" /> 
 <ModelMatchRule CallsignPrefix="WEN" TypeCode="DH8D" ModelName="FSLTL_TFS_DH8D_WEN-WestJet Encore" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E170" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E75S" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E75L" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E190" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E195" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E290" ModelName="FSLTL_E290_Air-Kiribati" /> 
+<ModelMatchRule CallsignPrefix="AKL" TypeCode="E295" ModelName="FSLTL_E290_Air-Kiribati" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E170" ModelName="FSLTL_E170_ENY_AmericanEagle" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E75S" ModelName="FSLTL_E170_ENY_AmericanEagle" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E75L" ModelName="FSLTL_E170_ENY_AmericanEagle" /> 
@@ -9804,9 +10018,9 @@
 <ModelMatchRule CallsignPrefix="OAW" TypeCode="E75S" ModelName="FSLTL_E190_Helvetic" /> 
 <ModelMatchRule CallsignPrefix="OAW" TypeCode="E75L" ModelName="FSLTL_E190_Helvetic" /> 
 <ModelMatchRule CallsignPrefix="OAW" TypeCode="E190" ModelName="FSLTL_E190_Helvetic" /> 
-<ModelMatchRule CallsignPrefix="OAW" TypeCode="E195" ModelName="FSLTL_E190_Helvetic" /> 
-<ModelMatchRule CallsignPrefix="OAW" TypeCode="E290" ModelName="FSLTL_E190_Helvetic" /> 
-<ModelMatchRule CallsignPrefix="OAW" TypeCode="E295" ModelName="FSLTL_E190_Helvetic" /> 
+<ModelMatchRule CallsignPrefix="OAW" TypeCode="E195" ModelName="FSLTL_E290_Helvetic-Airways" /> 
+<ModelMatchRule CallsignPrefix="OAW" TypeCode="E290" ModelName="FSLTL_E290_Helvetic-Airways" /> 
+<ModelMatchRule CallsignPrefix="OAW" TypeCode="E295" ModelName="FSLTL_E290_Helvetic-Airways" /> 
 <ModelMatchRule CallsignPrefix="SLI" TypeCode="E170" ModelName="FSLTL_E190_Costera" /> 
 <ModelMatchRule CallsignPrefix="SLI" TypeCode="E75S" ModelName="FSLTL_E190_Costera" /> 
 <ModelMatchRule CallsignPrefix="SLI" TypeCode="E75L" ModelName="FSLTL_E190_Costera" /> 
@@ -9821,6 +10035,27 @@
 <ModelMatchRule CallsignPrefix="UTY" TypeCode="E195" ModelName="FSLTL_E190_Alliance" /> 
 <ModelMatchRule CallsignPrefix="UTY" TypeCode="E290" ModelName="FSLTL_E190_Alliance" /> 
 <ModelMatchRule CallsignPrefix="UTY" TypeCode="E295" ModelName="FSLTL_E190_Alliance" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E170" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E75S" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E75L" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E190" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E195" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E290" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="VJH" TypeCode="E295" ModelName="FSLTL_E190_VistaJet_Germany" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E170" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E75S" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E75L" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E190" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E195" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E290" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="MXA" TypeCode="E295" ModelName="FSLTL_E290_Mexicana" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E170" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E75S" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E75L" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E190" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E195" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E290" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="PLS" TypeCode="E295" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
 <ModelMatchRule CallsignPrefix="RCF" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11F_Aeroflot-Cargo_Cargo_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSQ" TypeCode="SF34" ModelName="FSLTL_SF34F_Chasqui_Cargo" /> 
 <ModelMatchRule CallsignPrefix="PCO" TypeCode="SF34" ModelName="FSLTL_SF34_Pasco//FSLTL_SF34_Pasco_Westjet_Link" /> 
@@ -10250,6 +10485,39 @@
 <ModelMatchRule CallsignPrefix="EK" TypeCode="B773" ModelName="FSLTL_B77W_UAE//FSLTL_TFS_B77W_Emirates_NC" /> 
 <ModelMatchRule CallsignPrefix="EK" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_UAE-Emirates_Cargo//FSLTL_TFS_B77L_Emirates" /> 
 <ModelMatchRule CallsignPrefix="EK" TypeCode="B77W" ModelName="FSLTL_B77W_UAE//FSLTL_TFS_B77W_Emirates_NC" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A19N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A20N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A32N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A21N" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A318" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A319" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A320" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A321" ModelName="FSLTL_FAIB_A320_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A332" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A333" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A338" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="A339" ModelName="FSLTL_TFS_A332_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Velocity" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B738" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B739" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B38M" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B39M" ModelName="FSLTL_B738_Virgin Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B772" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E170" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E75S" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E75L" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E190" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E195" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E290" ModelName="FSLTL_E290_Virgin-Australia" /> 
+<ModelMatchRule CallsignPrefix="VA" TypeCode="E295" ModelName="FSLTL_E290_Virgin-Australia" /> 
 <ModelMatchRule CallsignPrefix="MH" TypeCode="A332" ModelName="FSLTL_TFS_A332_MASCargo_Cargo_9M-MUA//FSLTL_TFS_A332_MASCargo_Cargo_9M-MUB//FSLTL_TFS_A332_MASCargo_Cargo_9M-MUD//FSLTL_TFS_A332_Malaysian" /> 
 <ModelMatchRule CallsignPrefix="MH" TypeCode="A333" ModelName="FSLTL_TFS_A333_MAS-Malaysia" /> 
 <ModelMatchRule CallsignPrefix="MH" TypeCode="A338" ModelName="FSLTL_TFS_A332_MASCargo_Cargo_9M-MUA//FSLTL_TFS_A332_MASCargo_Cargo_9M-MUB//FSLTL_TFS_A332_MASCargo_Cargo_9M-MUD//FSLTL_TFS_A332_Malaysian" /> 
@@ -10313,20 +10581,6 @@
 <ModelMatchRule CallsignPrefix="SQ" TypeCode="B788" ModelName="FSLTL_UTT_B78X_Singapore-Airlines" /> 
 <ModelMatchRule CallsignPrefix="SQ" TypeCode="B789" ModelName="FSLTL_UTT_B78X_Singapore-Airlines" /> 
 <ModelMatchRule CallsignPrefix="SQ" TypeCode="B78X" ModelName="FSLTL_UTT_B78X_Singapore-Airlines" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B732" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B733" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B734" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B735" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B736" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B737" ModelName="FSLTL_FAIB_B737_Velocity" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B738" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B739" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B38M" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B39M" ModelName="FSLTL_B738_Virgin Australia" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B772" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B773" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
-<ModelMatchRule CallsignPrefix="VA" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Virgin-Australia_Historical" /> 
 <ModelMatchRule CallsignPrefix="ZL" TypeCode="B732" ModelName="FSLTL_FAIB_B738_REX Airlines//FSLTL_FAIB_B738_Rex" /> 
 <ModelMatchRule CallsignPrefix="ZL" TypeCode="B733" ModelName="FSLTL_FAIB_B738_REX Airlines//FSLTL_FAIB_B738_Rex" /> 
 <ModelMatchRule CallsignPrefix="ZL" TypeCode="B734" ModelName="FSLTL_FAIB_B738_REX Airlines//FSLTL_FAIB_B738_Rex" /> 
