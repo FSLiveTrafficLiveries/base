@@ -4471,7 +4471,7 @@
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A342" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A343" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A345" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
-<ModelMatchRule CallsignPrefix="DLH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC//FSLTL_TFS_A346_Lufthansa_OC" /> 
+<ModelMatchRule CallsignPrefix="DLH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC_Historical//FSLTL_TFS_A346_Lufthansa_OC_Historical" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A359" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A35K" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="DLH" TypeCode="A388" ModelName="FSLTL_A388_DLH-Lufthansa NC//FSLTL_A388_DLH-Lufthansa OC" /> 
@@ -4553,7 +4553,7 @@
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A342" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A343" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A345" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
-<ModelMatchRule CallsignPrefix="CLH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC//FSLTL_TFS_A346_Lufthansa_OC" /> 
+<ModelMatchRule CallsignPrefix="CLH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC_Historical//FSLTL_TFS_A346_Lufthansa_OC_Historical" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A359" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A35K" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="CLH" TypeCode="A388" ModelName="FSLTL_A388_DLH-Lufthansa NC//FSLTL_A388_DLH-Lufthansa OC" /> 
@@ -45835,7 +45835,7 @@
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A342" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A343" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A345" ModelName="FSLTL_TFS_A343_Lufthansa_NC" /> 
-<ModelMatchRule CallsignPrefix="LH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC//FSLTL_TFS_A346_Lufthansa_OC" /> 
+<ModelMatchRule CallsignPrefix="LH" TypeCode="A346" ModelName="FSLTL_TFS_A346_Lufthansa_NC_Historical//FSLTL_TFS_A346_Lufthansa_OC_Historical" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A359" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A35K" ModelName="FSLTL_A359_DLH-Lufthansa" /> 
 <ModelMatchRule CallsignPrefix="LH" TypeCode="A388" ModelName="FSLTL_A388_DLH-Lufthansa NC//FSLTL_A388_DLH-Lufthansa OC" /> 

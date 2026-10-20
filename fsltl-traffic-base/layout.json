@@ -32966,52 +32966,52 @@
             "date": 134046407559710880
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC/aircraft.cfg",
-            "size": 926,
-            "date": 134046407559705886
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC_VTSM/aircraft.cfg",
+            "size": 937,
+            "date": 134369455238932128
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC/model.DLH/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC_VTSM/model.DLH/model.cfg",
             "size": 54,
             "date": 134046407559700846
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC/texture.DLH/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC_VTSM/texture.DLH/texture.cfg",
             "size": 49,
             "date": 134046407559694758
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC/texture.DLH/TFS_A346_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC_VTSM/texture.DLH/TFS_A346_T.PNG.dds",
             "size": 22369796,
             "date": 134046407559689758
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC/texture.DLH/TFS_A346_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_NC_VTSM/texture.DLH/TFS_A346_T.PNG.dds.json",
             "size": 104,
             "date": 134046407559364772
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC/aircraft.cfg",
-            "size": 926,
-            "date": 134046407559354764
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC_VTSM/aircraft.cfg",
+            "size": 937,
+            "date": 134369455400461418
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC/model.DLH/model.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC_VTSM/model.DLH/model.cfg",
             "size": 54,
             "date": 134046407559354764
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC/texture.DLH/texture.cfg",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC_VTSM/texture.DLH/texture.cfg",
             "size": 49,
             "date": 134046407559349768
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC/texture.DLH/TFS_A346_T.PNG.dds",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC_VTSM/texture.DLH/TFS_A346_T.PNG.dds",
             "size": 22369796,
             "date": 134046407559334758
         },
         {
-            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC/texture.DLH/TFS_A346_T.PNG.dds.json",
+            "path": "SimObjects/Airplanes/FSLTL_A346_DLH_OC_VTSM/texture.DLH/TFS_A346_T.PNG.dds.json",
             "size": 104,
             "date": 134046407556653664
         },
