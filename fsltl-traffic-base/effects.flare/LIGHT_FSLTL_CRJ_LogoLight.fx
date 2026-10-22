@@ -20,7 +20,7 @@ Drag=0.0, 0.0
 X Particle Velocity=0.0, 0.0
 Y Particle Velocity=0.0, 0.0
 Z Particle Velocity=0.0, 0.0
-X Rotation=20.0, 20.0
+X Rotation=0.0, 0.0
 Y Rotation=0.0, 0.0
 Z Rotation=0.0, 0.0
 X Offset=0.0, 0.0
@@ -62,14 +62,14 @@ Y Scale Goal=0.0
 Z Scale Goal=0.0
 NearEndFade= 1
 NearFade= 1
-MinProjSize=0.2
+MinProjSize=0.1
 
 [LightAttributes.0]
 Type=spot
 Size=0.05
 Range=14
 Intensity=10
-Softness=0.0
+Softness=1
 SpotInner=0
 SpotOuter=30
 Volumetric=1
