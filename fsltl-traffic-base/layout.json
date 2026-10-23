@@ -652,8 +652,8 @@
         },
         {
             "path": "Effects/LIGHT_FSLTL_E170_NavRed.fx",
-            "size": 2357,
-            "date": 134258788537673710
+            "size": 2365,
+            "date": 134371991794596450
         },
         {
             "path": "Effects/LIGHT_FSLTL_E170_NavWhite.fx",
@@ -682,13 +682,13 @@
         },
         {
             "path": "Effects/LIGHT_FSLTL_E175_Logo.fx",
-            "size": 1278,
-            "date": 134368685367883678
+            "size": 1277,
+            "date": 134371933842782624
         },
         {
             "path": "Effects/LIGHT_FSLTL_E175_Strobe.fx",
-            "size": 2390,
-            "date": 134368688033318140
+            "size": 2389,
+            "date": 134371996218625178
         },
         {
             "path": "Effects/LIGHT_FSLTL_Landing+.fx",
@@ -94193,7 +94193,7 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/flight_model.cfg",
             "size": 22290,
-            "date": 134371053832824954
+            "date": 134372094234614132
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/systems.cfg",
@@ -94207,13 +94207,13 @@
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/model/FSLTL_E75L_LOD0.bin",
-            "size": 454396,
-            "date": 134371065198868578
+            "size": 513760,
+            "date": 134372094781926284
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/model/FSLTL_E75L_LOD0.gltf",
-            "size": 120888,
-            "date": 134371065198878564
+            "size": 121019,
+            "date": 134372094781936280
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/model/model.CFG",
@@ -94238,62 +94238,62 @@
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/FSLTL_E75L_M.PNG.DDS",
             "size": 11184952,
-            "date": 134371063911838088
+            "date": 134372093479679494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/FSLTL_E75L_M.PNG.DDS.json",
             "size": 166,
-            "date": 134371063911838088
+            "date": 134372093479679494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/FSLTL_E75L_T.PNG.DDS",
             "size": 11184952,
-            "date": 134371063911843086
+            "date": 134372093479684494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/FSLTL_E75L_T.PNG.DDS.json",
             "size": 102,
-            "date": 134371063911843086
+            "date": 134372093479684494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS",
             "size": 349680,
-            "date": 134371063911858086
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_BASECOLORTEX_.PNG.DDS.json",
             "size": 119,
-            "date": 134371063911858086
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS",
             "size": 1398256,
-            "date": 134371063911848084
+            "date": 134372093479684494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_EMISSIVETEX_.PNG.DDS.json",
             "size": 119,
-            "date": 134371063911848084
+            "date": 134372093479684494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS",
             "size": 87536,
-            "date": 134371063911853094
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_NORMALTEX_.PNG.DDS.json",
             "size": 177,
-            "date": 134371063911853094
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS",
             "size": 174904,
-            "date": 134371063911858086
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_E75L/texture/PORTHOLE_1638_OCCLUSIONROUGHNESSMETALLICTEX_.PNG.DDS.json",
             "size": 166,
-            "date": 134371063911858086
+            "date": 134372093479689494
         },
         {
             "path": "SimObjects/Airplanes/FSLTL_Generic_Medium/ai.cfg",
