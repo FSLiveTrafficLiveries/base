@@ -2836,6 +2836,10 @@
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A333" ModelName="FSLTL_TFS_A332_Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A338" ModelName="FSLTL_TFS_A332_Tunisair" /> 
 <ModelMatchRule CallsignPrefix="TAR" TypeCode="A339" ModelName="FSLTL_TFS_A332_Tunisair" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A300" ModelName="FSLTL_TFS_A306_Tunisair_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A30B" ModelName="FSLTL_TFS_A306_Tunisair_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A306" ModelName="FSLTL_TFS_A306_Tunisair_Historical" /> 
+<ModelMatchRule CallsignPrefix="TAR" TypeCode="A3ST" ModelName="FSLTL_TFS_A306_Tunisair_Historical" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_Aero-Jet_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_Aero-Jet_Fictional" /> 
 <ModelMatchRule CallsignPrefix="TEJ" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_Aero-Jet_Fictional" /> 
@@ -3916,7 +3920,7 @@
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B39M" ModelName="FSLTL_FAIB_B739_KAL-Korean Air" /> 
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B742" ModelName="FSLTL_FAIB_B744_Korean Air Lines KAL_Cargo" /> 
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B744" ModelName="FSLTL_FAIB_B744_Korean Air Lines KAL_Cargo" /> 
-<ModelMatchRule CallsignPrefix="KAL" TypeCode="B748" ModelName="FSLTL_FAIB_B748_KAL-Korean Airlines" /> 
+<ModelMatchRule CallsignPrefix="KAL" TypeCode="B748" ModelName="FSLTL_FAIB_B748_Korean-Air" /> 
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B772" ModelName="FSLTL_TFS_B77L_KAL-Korean Air Lines_Cargo_LRF" /> 
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B773" ModelName="FSLTL_TFS_B77W_KAL-Korean Air" /> 
 <ModelMatchRule CallsignPrefix="KAL" TypeCode="B77L" ModelName="FSLTL_TFS_B77L_KAL-Korean Air Lines_Cargo_LRF" /> 
@@ -6779,9 +6783,9 @@
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_Belarus-Avia_Fictional" /> 
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_Belarus-Avia_Fictional" /> 
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="CRJX" ModelName="FSLTL_CRJ7_Belarus-Avia_Fictional" /> 
-<ModelMatchRule CallsignPrefix="BRU" TypeCode="E170" ModelName="FSLTL_E170_Belavia" /> 
-<ModelMatchRule CallsignPrefix="BRU" TypeCode="E75S" ModelName="FSLTL_E170_Belavia" /> 
-<ModelMatchRule CallsignPrefix="BRU" TypeCode="E75L" ModelName="FSLTL_E170_Belavia" /> 
+<ModelMatchRule CallsignPrefix="BRU" TypeCode="E170" ModelName="FSLTL_E75L_Belavia" /> 
+<ModelMatchRule CallsignPrefix="BRU" TypeCode="E75S" ModelName="FSLTL_E75L_Belavia" /> 
+<ModelMatchRule CallsignPrefix="BRU" TypeCode="E75L" ModelName="FSLTL_E75L_Belavia" /> 
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="E190" ModelName="FSLTL_E190_Belavia" /> 
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="E195" ModelName="FSLTL_E190_Belavia" /> 
 <ModelMatchRule CallsignPrefix="BRU" TypeCode="E290" ModelName="FSLTL_E190_Belavia" /> 
@@ -6986,8 +6990,8 @@
 <ModelMatchRule CallsignPrefix="CET" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_Skyhawk_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CET" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_Skyhawk_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CET" TypeCode="E170" ModelName="FSLTL_E170_Cetan_Fictional" /> 
-<ModelMatchRule CallsignPrefix="CET" TypeCode="E75S" ModelName="FSLTL_E170_Cetan_Fictional" /> 
-<ModelMatchRule CallsignPrefix="CET" TypeCode="E75L" ModelName="FSLTL_E170_Cetan_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CET" TypeCode="E75S" ModelName="FSLTL_E75L_Cetan_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CET" TypeCode="E75L" ModelName="FSLTL_E75L_Cetan_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CET" TypeCode="E190" ModelName="FSLTL_E190_Cetan_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CET" TypeCode="E195" ModelName="FSLTL_E190_Cetan_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CET" TypeCode="E290" ModelName="FSLTL_E190_Cetan_Fictional" /> 
@@ -8050,6 +8054,16 @@
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B739" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B38M" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
 <ModelMatchRule CallsignPrefix="BRO" TypeCode="B39M" ModelName="FSLTL_FAIB_B737_2-Excel-Aviation" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B732" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B733" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B734" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B735" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B736" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B737" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B738" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B739" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B38M" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
+<ModelMatchRule CallsignPrefix="KAJ" TypeCode="B39M" ModelName="FSLTL_FAIB_B733_Karthago-Airlines_Historical" /> 
 <ModelMatchRule CallsignPrefix="KLJ" TypeCode="B732" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
 <ModelMatchRule CallsignPrefix="KLJ" TypeCode="B733" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
 <ModelMatchRule CallsignPrefix="KLJ" TypeCode="B734" ModelName="FSLTL_FAIB_B733_Klasjet" /> 
@@ -8929,6 +8943,16 @@
 <ModelMatchRule CallsignPrefix="BSK" TypeCode="B739" ModelName="FSLTL_FAIB_B738_BSK-Miami Air International" /> 
 <ModelMatchRule CallsignPrefix="BSK" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_BSK-Miami Air International" /> 
 <ModelMatchRule CallsignPrefix="BSK" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_BSK-Miami Air International" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B732" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B733" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B734" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B735" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B736" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B737" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B738" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B739" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
+<ModelMatchRule CallsignPrefix="CAN" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_CANfly_Fictional" /> 
 <ModelMatchRule CallsignPrefix="CAW" TypeCode="B732" ModelName="FSLTL_FAIB_B738_CAW-Comair" /> 
 <ModelMatchRule CallsignPrefix="CAW" TypeCode="B733" ModelName="FSLTL_FAIB_B738_CAW-Comair" /> 
 <ModelMatchRule CallsignPrefix="CAW" TypeCode="B734" ModelName="FSLTL_FAIB_B738_CAW-Comair" /> 
@@ -9377,9 +9401,9 @@
 <ModelMatchRule CallsignPrefix="PAA" TypeCode="B739" ModelName="FSLTL_FAIB_B738_PAA-Pan_American" /> 
 <ModelMatchRule CallsignPrefix="PAA" TypeCode="B38M" ModelName="FSLTL_FAIB_B738_PAA-Pan_American" /> 
 <ModelMatchRule CallsignPrefix="PAA" TypeCode="B39M" ModelName="FSLTL_FAIB_B738_PAA-Pan_American" /> 
-<ModelMatchRule CallsignPrefix="PAA" TypeCode="B742" ModelName="FSLTL_FAIB_B748_Pan_American" /> 
-<ModelMatchRule CallsignPrefix="PAA" TypeCode="B744" ModelName="FSLTL_FAIB_B748_Pan_American" /> 
-<ModelMatchRule CallsignPrefix="PAA" TypeCode="B748" ModelName="FSLTL_FAIB_B748_Pan_American" /> 
+<ModelMatchRule CallsignPrefix="PAA" TypeCode="B742" ModelName="FSLTL_FAIB_B744_Pan-American-World-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="PAA" TypeCode="B744" ModelName="FSLTL_FAIB_B744_Pan-American-World-Airways_Historical" /> 
+<ModelMatchRule CallsignPrefix="PAA" TypeCode="B748" ModelName="FSLTL_FAIB_B744_Pan-American-World-Airways_Historical" /> 
 <ModelMatchRule CallsignPrefix="PBD" TypeCode="B732" ModelName="FSLTL_FAIB_B738_PBD-Pobeda_SSW" /> 
 <ModelMatchRule CallsignPrefix="PBD" TypeCode="B733" ModelName="FSLTL_FAIB_B738_PBD-Pobeda_SSW" /> 
 <ModelMatchRule CallsignPrefix="PBD" TypeCode="B734" ModelName="FSLTL_FAIB_B738_PBD-Pobeda_SSW" /> 
@@ -9775,6 +9799,10 @@
 <ModelMatchRule CallsignPrefix="TWA" TypeCode="B762" ModelName="FSLTL_FAIB_B763_TWA_Historical" /> 
 <ModelMatchRule CallsignPrefix="TWA" TypeCode="B763" ModelName="FSLTL_FAIB_B763_TWA_Historical" /> 
 <ModelMatchRule CallsignPrefix="TWA" TypeCode="B764" ModelName="FSLTL_FAIB_B763_TWA_Historical" /> 
+<ModelMatchRule CallsignPrefix="MYW" TypeCode="B772" ModelName="FSLTL_TFS_B772_MyWay-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MYW" TypeCode="B773" ModelName="FSLTL_TFS_B772_MyWay-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MYW" TypeCode="B77L" ModelName="FSLTL_TFS_B772_MyWay-Airlines" /> 
+<ModelMatchRule CallsignPrefix="MYW" TypeCode="B77W" ModelName="FSLTL_TFS_B772_MyWay-Airlines" /> 
 <ModelMatchRule CallsignPrefix="RWZ" TypeCode="B772" ModelName="FSLTL_TFS_B772_RWZ-Red Wings" /> 
 <ModelMatchRule CallsignPrefix="RWZ" TypeCode="B773" ModelName="FSLTL_TFS_B772_RWZ-Red Wings" /> 
 <ModelMatchRule CallsignPrefix="RWZ" TypeCode="B77L" ModelName="FSLTL_TFS_B772_RWZ-Red Wings" /> 
@@ -10118,6 +10146,13 @@
 <ModelMatchRule CallsignPrefix="PLS" TypeCode="E195" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
 <ModelMatchRule CallsignPrefix="PLS" TypeCode="E290" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
 <ModelMatchRule CallsignPrefix="PLS" TypeCode="E295" ModelName="FSLTL_E290_Placar-Linhas-Aereas" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E170" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E75S" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E75L" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E190" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E195" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E290" ModelName="FSLTL_E75L_Star-Air" /> 
+<ModelMatchRule CallsignPrefix="SDG" TypeCode="E295" ModelName="FSLTL_E75L_Star-Air" /> 
 <ModelMatchRule CallsignPrefix="RCF" TypeCode="MD11" ModelName="FSLTL_FSPXAI_MD11F_Aeroflot-Cargo_Cargo_Historical" /> 
 <ModelMatchRule CallsignPrefix="CSQ" TypeCode="SF34" ModelName="FSLTL_SF34F_Chasqui_Cargo" /> 
 <ModelMatchRule CallsignPrefix="PCO" TypeCode="SF34" ModelName="FSLTL_SF34_Pasco//FSLTL_SF34_Pasco_Westjet_Link" /> 
