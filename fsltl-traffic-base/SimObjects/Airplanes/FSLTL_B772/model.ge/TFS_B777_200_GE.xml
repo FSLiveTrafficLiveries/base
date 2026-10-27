@@ -157,7 +157,7 @@
         <OFFSET>50</OFFSET>
       </UseTemplate>
       <UseTemplate Name="FSLTL_Wheel_Roll_Center">
-        <ANIM_NAME>tire_anim</ANIM_NAME>
+        <ANIM_NAME>custom_anim_CENTER_WHEEL_ROTATION_ANGLE_02</ANIM_NAME>
         <WHEEL_RADIUS>1.12</WHEEL_RADIUS> <!-- in meters -->
         <DISTANCE>31.5</DISTANCE>
       </UseTemplate>
