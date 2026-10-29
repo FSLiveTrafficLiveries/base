@@ -1409,18 +1409,6 @@
 <ModelMatchRule CallsignPrefix="EUS" TypeCode="B773" ModelName="FSLTL_TFS_B77W_EUS-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="EUS" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_EUS-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="EUS" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E170" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E75S" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E75L" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E190" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E195" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E290" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="EUS" TypeCode="E295" ModelName="FSLTL_E190_EUS-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="EWG" TypeCode="A19N" ModelName="FSLTL_FAIB_A319_EWG-Eurowings" /> 
 <ModelMatchRule CallsignPrefix="EWG" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_EWG-Eurowings" /> 
 <ModelMatchRule CallsignPrefix="EWG" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_EWG-Eurowings" /> 
@@ -2664,18 +2652,6 @@
 <ModelMatchRule CallsignPrefix="SCO" TypeCode="B773" ModelName="FSLTL_TFS_B77W_SCO-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SCO" TypeCode="B77L" ModelName="FSLTL_TFS_B77W_SCO-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SCO" TypeCode="B77W" ModelName="FSLTL_TFS_B77W_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="AT45" ModelName="FSLTL_OSP_AT75_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="AT46" ModelName="FSLTL_OSP_AT75_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="AT72" ModelName="FSLTL_OSP_AT75_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="AT75" ModelName="FSLTL_OSP_AT75_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="AT76" ModelName="FSLTL_OSP_AT75_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E170" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E75S" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E75L" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E190" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E195" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E290" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
-<ModelMatchRule CallsignPrefix="SCO" TypeCode="E295" ModelName="FSLTL_E190_SCO-Virtual_Fictional" /> 
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="A19N" ModelName="FSLTL_FAIB_A20N_SEH-Sky Express" /> 
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="A20N" ModelName="FSLTL_FAIB_A20N_SEH-Sky Express" /> 
 <ModelMatchRule CallsignPrefix="SEH" TypeCode="A32N" ModelName="FSLTL_FAIB_A20N_SEH-Sky Express" /> 
@@ -3489,7 +3465,7 @@
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="CRJX" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
-<ModelMatchRule CallsignPrefix="AAL" TypeCode="E170" ModelName="FSLTL_E170_ENY_AmericanEagle//FSLTL_E170_RPA_AmericanEagle//FSLTL_E170_SKW_AmericanEagle" /> 
+<ModelMatchRule CallsignPrefix="AAL" TypeCode="E170" ModelName="FSLTL_E170_ENY_American-Eagle//FSLTL_E170_RPA_American-Eagle//FSLTL_E170_AAL_American-Eagle" /> 
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="E75S" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="E75L" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="AAL" TypeCode="E190" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
@@ -9891,7 +9867,7 @@
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_SKW_DAL//FSLTL_CRJ7_SKW_UAL" /> 
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_SKW_DAL//FSLTL_CRJ7_SKW_UAL" /> 
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="CRJX" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_SKW_DAL//FSLTL_CRJ7_SKW_UAL" /> 
-<ModelMatchRule CallsignPrefix="SKW" TypeCode="E170" ModelName="FSLTL_E170_SKW_AmericanEagle//FSLTL_E170_SKW_UnitedExpress" /> 
+<ModelMatchRule CallsignPrefix="SKW" TypeCode="E170" ModelName="FSLTL_E170_SKW_UnitedExpress" /> 
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="E75S" ModelName="FSLTL_E75L_SKW_American-Airlines//FSLTL_E75L_SKW_Alaska-Airlines//FSLTL_E75L_SKW_Delta-Connection//FSLTL_E75L_SKW_United-Airlines" /> 
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="E75L" ModelName="FSLTL_E75L_SKW_American-Airlines//FSLTL_E75L_SKW_Alaska-Airlines//FSLTL_E75L_SKW_Delta-Connection//FSLTL_E75L_SKW_United-Airlines" /> 
 <ModelMatchRule CallsignPrefix="SKW" TypeCode="E190" ModelName="FSLTL_E75L_SKW_American-Airlines//FSLTL_E75L_SKW_Alaska-Airlines//FSLTL_E75L_SKW_Delta-Connection//FSLTL_E75L_SKW_United-Airlines" /> 
@@ -10019,14 +9995,14 @@
 <ModelMatchRule CallsignPrefix="AKL" TypeCode="E195" ModelName="FSLTL_E290_Air-Kiribati" /> 
 <ModelMatchRule CallsignPrefix="AKL" TypeCode="E290" ModelName="FSLTL_E290_Air-Kiribati" /> 
 <ModelMatchRule CallsignPrefix="AKL" TypeCode="E295" ModelName="FSLTL_E290_Air-Kiribati" /> 
-<ModelMatchRule CallsignPrefix="ENY" TypeCode="E170" ModelName="FSLTL_E170_ENY_AmericanEagle" /> 
+<ModelMatchRule CallsignPrefix="ENY" TypeCode="E170" ModelName="FSLTL_E170_ENY_American-Eagle" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E75S" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E75L" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E190" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E195" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E290" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="ENY" TypeCode="E295" ModelName="FSLTL_E75L_ENY_American-Airlines" /> 
-<ModelMatchRule CallsignPrefix="RPA" TypeCode="E170" ModelName="FSLTL_E170_RPA_AmericanEagle//FSLTL_E170_RPA_DeltaConnection//FSLTL_E170_RPA_UnitedExpress" /> 
+<ModelMatchRule CallsignPrefix="RPA" TypeCode="E170" ModelName="FSLTL_E170_RPA_American-Eagle//FSLTL_E170_RPA_DeltaConnection//FSLTL_E170_RPA_UnitedExpress" /> 
 <ModelMatchRule CallsignPrefix="RPA" TypeCode="E75S" ModelName="FSLTL_E75L_RPA_American-Airlines//FSLTL_E75L_RPA_Delta-Connection//FSLTL_E75L_RPA_United-Airlines" /> 
 <ModelMatchRule CallsignPrefix="RPA" TypeCode="E75L" ModelName="FSLTL_E75L_RPA_American-Airlines//FSLTL_E75L_RPA_Delta-Connection//FSLTL_E75L_RPA_United-Airlines" /> 
 <ModelMatchRule CallsignPrefix="RPA" TypeCode="E190" ModelName="FSLTL_E75L_RPA_American-Airlines//FSLTL_E75L_RPA_Delta-Connection//FSLTL_E75L_RPA_United-Airlines" /> 
@@ -10365,7 +10341,7 @@
 <ModelMatchRule CallsignPrefix="AA" TypeCode="CRJ7" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="CRJ9" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="CRJX" ModelName="FSLTL_CRJ7_SKW_AAL//FSLTL_CRJ7_JIA_AAL//FSLTL_CRJ7_AAL" /> 
-<ModelMatchRule CallsignPrefix="AA" TypeCode="E170" ModelName="FSLTL_E170_ENY_AmericanEagle//FSLTL_E170_RPA_AmericanEagle//FSLTL_E170_SKW_AmericanEagle" /> 
+<ModelMatchRule CallsignPrefix="AA" TypeCode="E170" ModelName="FSLTL_E170_ENY_American-Eagle//FSLTL_E170_RPA_American-Eagle//FSLTL_E170_AAL_American-Eagle" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="E75S" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="E75L" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
 <ModelMatchRule CallsignPrefix="AA" TypeCode="E190" ModelName="FSLTL_E75L_AAL_American-Airlines" /> 
